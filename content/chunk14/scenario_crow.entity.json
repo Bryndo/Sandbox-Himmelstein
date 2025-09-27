@@ -33,12 +33,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 8.251453
+							"z": -89.71044656215673
 						},
 						"position": {
-							"x": 24.746853,
-							"y": 80.83788,
-							"z": -16.000004
+							"x": 21.109460830688477,
+							"y": 34.83977508544922,
+							"z": -12
 						}
 					}
 				},
@@ -18155,7 +18155,7 @@
 			}
 		},
 		"feed13ab1fe88e66": {
-			"parent": "feed450a260a231b",
+			"parent": "cafe63bfb9c02047",
 			"name": "Ledge_030",
 			"factory": "[modules:/zguideledge.class].pc_entitytype",
 			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
@@ -18166,11 +18166,11 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -89.71044656215673
+							"z": -130.28324606345384
 						},
 						"position": {
-							"x": 21.109460830688477,
-							"y": 34.83977508544922,
+							"x": 19.724748611450195,
+							"y": 19.456470489501953,
 							"z": -12
 						}
 					}
@@ -18245,7 +18245,7 @@
 			}
 		},
 		"feed6b7c8cf182be": {
-			"parent": "feed450a260a231b",
+			"parent": "cafe63bfb9c02047",
 			"name": "Ledge_027",
 			"factory": "[modules:/zguideledge.class].pc_entitytype",
 			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
@@ -18256,11 +18256,11 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -89.71044656215673
+							"z": 0
 						},
 						"position": {
-							"x": 21.109460830688477,
-							"y": 34.83977508544922,
+							"x": 16.65219497680664,
+							"y": 25.935819625854492,
 							"z": -12
 						}
 					}
@@ -18268,7 +18268,7 @@
 				"m_vSize": {
 					"type": "SVector2",
 					"value": {
-						"x": 2,
+						"x": 2.799999952316284,
 						"y": 0.5731379985809326
 					}
 				},
@@ -18335,7 +18335,7 @@
 			}
 		},
 		"feedfa1af594cde5": {
-			"parent": "feed450a260a231b",
+			"parent": "cafe63bfb9c02047",
 			"name": "Ledge_049",
 			"factory": "[modules:/zguideledge.class].pc_entitytype",
 			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
@@ -18346,19 +18346,19 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -89.71044656215673
+							"z": 180
 						},
 						"position": {
-							"x": 21.109460830688477,
-							"y": 34.83977508544922,
-							"z": -12
+							"x": 32.0032844543457,
+							"y": 10.034393310546875,
+							"z": -12.000000953674316
 						}
 					}
 				},
 				"m_vSize": {
 					"type": "SVector2",
 					"value": {
-						"x": 2,
+						"x": 5.599999904632568,
 						"y": 0.5731379985809326
 					}
 				},
@@ -18425,7 +18425,7 @@
 			}
 		},
 		"feed19a147000a0c": {
-			"parent": "feed450a260a231b",
+			"parent": "cafe63bfb9c02047",
 			"name": "Ledge_031",
 			"factory": "[modules:/zguideledge.class].pc_entitytype",
 			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
@@ -18436,11 +18436,11 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -89.71044656215673
+							"z": -146.01249394042307
 						},
 						"position": {
-							"x": 21.109460830688477,
-							"y": 34.83977508544922,
+							"x": 21.304668426513672,
+							"y": 18.09676170349121,
 							"z": -12
 						}
 					}
@@ -18515,7 +18515,7 @@
 			}
 		},
 		"feed07d09dbf2f32": {
-			"parent": "feed450a260a231b",
+			"parent": "cafe63bfb9c02047",
 			"name": "Ledge_028",
 			"factory": "[modules:/zguideledge.class].pc_entitytype",
 			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
@@ -18526,11 +18526,11 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -89.71044656215673
+							"z": -179.8953216765062
 						},
 						"position": {
-							"x": 21.109460830688477,
-							"y": 34.83977508544922,
+							"x": 16.61433219909668,
+							"y": 22.053741455078125,
 							"z": -12
 						}
 					}
@@ -18538,7 +18538,7 @@
 				"m_vSize": {
 					"type": "SVector2",
 					"value": {
-						"x": 2,
+						"x": 2.799999952316284,
 						"y": 0.5731379985809326
 					}
 				},
@@ -18605,7 +18605,7 @@
 			}
 		},
 		"feed371526ff3006": {
-			"parent": "feed450a260a231b",
+			"parent": "cafe63bfb9c02047",
 			"name": "Ledge_038",
 			"factory": "[modules:/zguideledge.class].pc_entitytype",
 			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
@@ -18616,19 +18616,19 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -89.71044656215673
+							"z": 89.99998975471624
 						},
 						"position": {
-							"x": 21.109460830688477,
-							"y": 34.83977508544922,
-							"z": -12
+							"x": 14.976034164428711,
+							"y": 6.012884616851807,
+							"z": -11.999911308288574
 						}
 					}
 				},
 				"m_vSize": {
 					"type": "SVector2",
 					"value": {
-						"x": 2,
+						"x": 7.599999904632568,
 						"y": 0.5731379985809326
 					}
 				},
@@ -18695,7 +18695,7 @@
 			}
 		},
 		"feed23677ca79582": {
-			"parent": "feed450a260a231b",
+			"parent": "cafe63bfb9c02047",
 			"name": "Ledge_037",
 			"factory": "[modules:/zguideledge.class].pc_entitytype",
 			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
@@ -18706,19 +18706,19 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -89.71044656215673
+							"z": 89.99998975471624
 						},
 						"position": {
-							"x": 21.109460830688477,
-							"y": 34.83977508544922,
-							"z": -12
+							"x": 14.949444770812988,
+							"y": 17.026487350463867,
+							"z": -11.999755859375
 						}
 					}
 				},
 				"m_vSize": {
 					"type": "SVector2",
 					"value": {
-						"x": 2,
+						"x": 9.600000381469727,
 						"y": 0.5731379985809326
 					}
 				},
@@ -18785,7 +18785,7 @@
 			}
 		},
 		"feed154dda17ba0c": {
-			"parent": "feed450a260a231b",
+			"parent": "cafe63bfb9c02047",
 			"name": "Ledge_032",
 			"factory": "[modules:/zguideledge.class].pc_entitytype",
 			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
@@ -18796,11 +18796,11 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -89.71044656215673
+							"z": -158.24429430250564
 						},
 						"position": {
-							"x": 21.109460830688477,
-							"y": 34.83977508544922,
+							"x": 22.472373962402344,
+							"y": 17.477853775024414,
 							"z": -12
 						}
 					}
@@ -18808,7 +18808,7 @@
 				"m_vSize": {
 					"type": "SVector2",
 					"value": {
-						"x": 2,
+						"x": 1,
 						"y": 0.5731379985809326
 					}
 				},
@@ -18875,7 +18875,7 @@
 			}
 		},
 		"feed5f898d08429a": {
-			"parent": "feed450a260a231b",
+			"parent": "cafe63bfb9c02047",
 			"name": "Ledge_026",
 			"factory": "[modules:/zguideledge.class].pc_entitytype",
 			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
@@ -18886,11 +18886,11 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -89.71044656215673
+							"z": -59.87470974845756
 						},
 						"position": {
-							"x": 21.109460830688477,
-							"y": 34.83977508544922,
+							"x": 19.00156593322754,
+							"y": 27.490585327148438,
 							"z": -12
 						}
 					}
@@ -18898,7 +18898,7 @@
 				"m_vSize": {
 					"type": "SVector2",
 					"value": {
-						"x": 2,
+						"x": 3,
 						"y": 0.5731379985809326
 					}
 				},
@@ -18965,7 +18965,7 @@
 			}
 		},
 		"feed4c05130ed7f7": {
-			"parent": "feed450a260a231b",
+			"parent": "cafe63bfb9c02047",
 			"name": "Ledge_023",
 			"factory": "[modules:/zguideledge.class].pc_entitytype",
 			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
@@ -18979,8 +18979,8 @@
 							"z": -89.71044656215673
 						},
 						"position": {
-							"x": 21.109460830688477,
-							"y": 34.83977508544922,
+							"x": 23.06680679321289,
+							"y": 32.336971282958984,
 							"z": -12
 						}
 					}
@@ -18988,7 +18988,7 @@
 				"m_vSize": {
 					"type": "SVector2",
 					"value": {
-						"x": 2,
+						"x": 3,
 						"y": 0.5731379985809326
 					}
 				},
@@ -19055,7 +19055,7 @@
 			}
 		},
 		"feedae40b2d2ddc9": {
-			"parent": "feed450a260a231b",
+			"parent": "cafe63bfb9c02047",
 			"name": "Ledge_041",
 			"factory": "[modules:/zguideledge.class].pc_entitytype",
 			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
@@ -19066,12 +19066,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -89.71044656215673
+							"z": 180
 						},
 						"position": {
-							"x": 21.109460830688477,
-							"y": 34.83977508544922,
-							"z": -12
+							"x": 21.74755096435547,
+							"y": 8.085573196411133,
+							"z": -12.001617431640625
 						}
 					}
 				},
@@ -19145,7 +19145,7 @@
 			}
 		},
 		"feed07db2c1e60cd": {
-			"parent": "feed450a260a231b",
+			"parent": "cafe63bfb9c02047",
 			"name": "Ledge_029",
 			"factory": "[modules:/zguideledge.class].pc_entitytype",
 			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
@@ -19156,11 +19156,11 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -89.71044656215673
+							"z": -114.02772866653443
 						},
 						"position": {
-							"x": 21.109460830688477,
-							"y": 34.83977508544922,
+							"x": 18.69751739501953,
+							"y": 20.992477416992188,
 							"z": -12
 						}
 					}
@@ -19235,7 +19235,7 @@
 			}
 		},
 		"feedc8d3688e1f85": {
-			"parent": "feed450a260a231b",
+			"parent": "cafe63bfb9c02047",
 			"name": "Ledge_046",
 			"factory": "[modules:/zguideledge.class].pc_entitytype",
 			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
@@ -19246,19 +19246,19 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -89.71044656215673
+							"z": 90
 						},
 						"position": {
-							"x": 21.109460830688477,
-							"y": 34.83977508544922,
-							"z": -12
+							"x": 26.95475196838379,
+							"y": 4.994663238525391,
+							"z": -11.983048439025879
 						}
 					}
 				},
 				"m_vSize": {
 					"type": "SVector2",
 					"value": {
-						"x": 2,
+						"x": 5.599999904632568,
 						"y": 0.5731379985809326
 					}
 				},
@@ -19325,7 +19325,7 @@
 			}
 		},
 		"feeda30e0a780ba8": {
-			"parent": "feed450a260a231b",
+			"parent": "cafe63bfb9c02047",
 			"name": "Ledge_039",
 			"factory": "[modules:/zguideledge.class].pc_entitytype",
 			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
@@ -19336,19 +19336,19 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -89.71044656215673
+							"z": -179.8953216765062
 						},
 						"position": {
-							"x": 21.109460830688477,
-							"y": 34.83977508544922,
-							"z": -12
+							"x": 17.966245651245117,
+							"y": 10.043450355529785,
+							"z": -11.999945640563965
 						}
 					}
 				},
 				"m_vSize": {
 					"type": "SVector2",
 					"value": {
-						"x": 2,
+						"x": 5.599999904632568,
 						"y": 0.5731379985809326
 					}
 				},
@@ -19415,7 +19415,7 @@
 			}
 		},
 		"feedb5d3a187e2fc": {
-			"parent": "feed450a260a231b",
+			"parent": "cafe63bfb9c02047",
 			"name": "Ledge_042",
 			"factory": "[modules:/zguideledge.class].pc_entitytype",
 			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
@@ -19429,16 +19429,16 @@
 							"z": -89.71044656215673
 						},
 						"position": {
-							"x": 21.109460830688477,
-							"y": 34.83977508544922,
-							"z": -12
+							"x": 23.066287994384766,
+							"y": 4.972661018371582,
+							"z": -11.999726295471191
 						}
 					}
 				},
 				"m_vSize": {
 					"type": "SVector2",
 					"value": {
-						"x": 2,
+						"x": 5.599999904632568,
 						"y": 0.5731379985809326
 					}
 				},
@@ -19505,7 +19505,7 @@
 			}
 		},
 		"feedb12ef927531e": {
-			"parent": "feed450a260a231b",
+			"parent": "cafe63bfb9c02047",
 			"name": "Ledge_044",
 			"factory": "[modules:/zguideledge.class].pc_entitytype",
 			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
@@ -19516,19 +19516,19 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -89.71044656215673
+							"z": -90
 						},
 						"position": {
-							"x": 21.109460830688477,
-							"y": 34.83977508544922,
-							"z": -12
+							"x": 35.06684875488281,
+							"y": 5.96199369430542,
+							"z": -11.970023155212402
 						}
 					}
 				},
 				"m_vSize": {
 					"type": "SVector2",
 					"value": {
-						"x": 2,
+						"x": 7.599999904632568,
 						"y": 0.5731379985809326
 					}
 				},
@@ -19595,7 +19595,7 @@
 			}
 		},
 		"feedb8674532376c": {
-			"parent": "feed450a260a231b",
+			"parent": "cafe63bfb9c02047",
 			"name": "Ledge_045",
 			"factory": "[modules:/zguideledge.class].pc_entitytype",
 			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
@@ -19606,19 +19606,19 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -89.71044656215673
+							"z": 0
 						},
 						"position": {
-							"x": 21.109460830688477,
-							"y": 34.83977508544922,
-							"z": -12
+							"x": 31.02827262878418,
+							"y": 1.9049160480499268,
+							"z": -11.97022533416748
 						}
 					}
 				},
 				"m_vSize": {
 					"type": "SVector2",
 					"value": {
-						"x": 2,
+						"x": 7.599999904632568,
 						"y": 0.5731379985809326
 					}
 				},
@@ -19685,7 +19685,7 @@
 			}
 		},
 		"feed2175eacc0fd9": {
-			"parent": "feed450a260a231b",
+			"parent": "cafe63bfb9c02047",
 			"name": "Ledge_034",
 			"factory": "[modules:/zguideledge.class].pc_entitytype",
 			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
@@ -19696,11 +19696,11 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -89.71044656215673
+							"z": 0
 						},
 						"position": {
-							"x": 21.109460830688477,
-							"y": 34.83977508544922,
+							"x": 21.782983779907227,
+							"y": 13.914993286132812,
 							"z": -12
 						}
 					}
@@ -19775,7 +19775,7 @@
 			}
 		},
 		"feedb08ee28e9360": {
-			"parent": "feed450a260a231b",
+			"parent": "cafe63bfb9c02047",
 			"name": "Ledge_043",
 			"factory": "[modules:/zguideledge.class].pc_entitytype",
 			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
@@ -19786,19 +19786,19 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -89.71044656215673
+							"z": 0
 						},
 						"position": {
-							"x": 21.109460830688477,
-							"y": 34.83977508544922,
-							"z": -12
+							"x": 19.01473045349121,
+							"y": 1.9562596082687378,
+							"z": -11.999810218811035
 						}
 					}
 				},
 				"m_vSize": {
 					"type": "SVector2",
 					"value": {
-						"x": 2,
+						"x": 7.599999904632568,
 						"y": 0.5731379985809326
 					}
 				},
@@ -19955,7 +19955,7 @@
 			}
 		},
 		"feed5bf292160a17": {
-			"parent": "feed450a260a231b",
+			"parent": "cafe63bfb9c02047",
 			"name": "Ledge_025",
 			"factory": "[modules:/zguideledge.class].pc_entitytype",
 			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
@@ -19966,11 +19966,11 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -89.71044656215673
+							"z": -40.8955112302662
 						},
 						"position": {
-							"x": 21.109460830688477,
-							"y": 34.83977508544922,
+							"x": 20.44200325012207,
+							"y": 29.238628387451172,
 							"z": -12
 						}
 					}
@@ -20045,7 +20045,7 @@
 			}
 		},
 		"feeda879d8deb848": {
-			"parent": "feed450a260a231b",
+			"parent": "cafe63bfb9c02047",
 			"name": "Ledge_040",
 			"factory": "[modules:/zguideledge.class].pc_entitytype",
 			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
@@ -20056,12 +20056,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -89.71044656215673
+							"z": -89.99998975471624
 						},
 						"position": {
-							"x": 21.109460830688477,
-							"y": 34.83977508544922,
-							"z": -12
+							"x": 21.07486343383789,
+							"y": 8.762635231018066,
+							"z": -12.001667976379395
 						}
 					}
 				},
@@ -20135,7 +20135,7 @@
 			}
 		},
 		"feed9973c9d1b977": {
-			"parent": "feed450a260a231b",
+			"parent": "cafe63bfb9c02047",
 			"name": "Ledge_036",
 			"factory": "[modules:/zguideledge.class].pc_entitytype",
 			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
@@ -20146,19 +20146,19 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -89.71044656215673
+							"z": 0
 						},
 						"position": {
-							"x": 21.109460830688477,
-							"y": 34.83977508544922,
-							"z": -12
+							"x": 17.9543514251709,
+							"y": 11.976542472839355,
+							"z": -12.0016450881958
 						}
 					}
 				},
 				"m_vSize": {
 					"type": "SVector2",
 					"value": {
-						"x": 2,
+						"x": 5.599999904632568,
 						"y": 0.5731379985809326
 					}
 				},
@@ -20225,7 +20225,7 @@
 			}
 		},
 		"feedf68481ed3042": {
-			"parent": "feed450a260a231b",
+			"parent": "cafe63bfb9c02047",
 			"name": "Ledge_048",
 			"factory": "[modules:/zguideledge.class].pc_entitytype",
 			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
@@ -20236,12 +20236,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -89.71044656215673
+							"z": 90.06354809185743
 						},
 						"position": {
-							"x": 21.109460830688477,
-							"y": 34.83977508544922,
-							"z": -12
+							"x": 28.90106201171875,
+							"y": 8.748031616210938,
+							"z": -11.983205795288086
 						}
 					}
 				},
@@ -20315,7 +20315,7 @@
 			}
 		},
 		"feede2e9f42ab976": {
-			"parent": "feed450a260a231b",
+			"parent": "cafe63bfb9c02047",
 			"name": "Ledge_047",
 			"factory": "[modules:/zguideledge.class].pc_entitytype",
 			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
@@ -20326,12 +20326,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -89.71044656215673
+							"z": 180
 						},
 						"position": {
-							"x": 21.109460830688477,
-							"y": 34.83977508544922,
-							"z": -12
+							"x": 28.193933486938477,
+							"y": 8.08203125,
+							"z": -11.98324203491211
 						}
 					}
 				},
@@ -20405,7 +20405,7 @@
 			}
 		},
 		"feed2eccdf1150f3": {
-			"parent": "feed450a260a231b",
+			"parent": "cafe63bfb9c02047",
 			"name": "Ledge_022",
 			"factory": "[modules:/zguideledge.class].pc_entitytype",
 			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
@@ -20416,12 +20416,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -89.71044656215673
+							"z": 180
 						},
 						"position": {
-							"x": 21.109460830688477,
-							"y": 34.83977508544922,
-							"z": -12
+							"x": 21.778118133544922,
+							"y": 34.07951354980469,
+							"z": -12.000070571899414
 						}
 					}
 				},
@@ -20495,7 +20495,7 @@
 			}
 		},
 		"feed06010fdbfbb3": {
-			"parent": "feed450a260a231b",
+			"parent": "cafe63bfb9c02047",
 			"name": "Ledge_035",
 			"factory": "[modules:/zguideledge.class].pc_entitytype",
 			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
@@ -20506,11 +20506,11 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -89.71044656215673
+							"z": -89.99998975471624
 						},
 						"position": {
-							"x": 21.109460830688477,
-							"y": 34.83977508544922,
+							"x": 21.058340072631836,
+							"y": 13.217338562011719,
 							"z": -12
 						}
 					}
@@ -20585,7 +20585,7 @@
 			}
 		},
 		"feed4fb83ebd29b3": {
-			"parent": "feed450a260a231b",
+			"parent": "cafe63bfb9c02047",
 			"name": "Ledge_024",
 			"factory": "[modules:/zguideledge.class].pc_entitytype",
 			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
@@ -20596,11 +20596,11 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -89.71044656215673
+							"z": -25.80379281714444
 						},
 						"position": {
-							"x": 21.109460830688477,
-							"y": 34.83977508544922,
+							"x": 21.974687576293945,
+							"y": 30.251541137695312,
 							"z": -12
 						}
 					}
@@ -20675,7 +20675,7 @@
 			}
 		},
 		"feed1818b3d91bcf": {
-			"parent": "feed450a260a231b",
+			"parent": "cafe63bfb9c02047",
 			"name": "Ledge_033",
 			"factory": "[modules:/zguideledge.class].pc_entitytype",
 			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
@@ -20686,11 +20686,11 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -89.71044656215673
+							"z": -90
 						},
 						"position": {
-							"x": 21.109460830688477,
-							"y": 34.83977508544922,
+							"x": 23.047103881835938,
+							"y": 15.63917064666748,
 							"z": -12
 						}
 					}
@@ -20698,7 +20698,7 @@
 				"m_vSize": {
 					"type": "SVector2",
 					"value": {
-						"x": 2,
+						"x": 2.799999952316284,
 						"y": 0.5731379985809326
 					}
 				},
@@ -20855,7 +20855,7 @@
 			}
 		},
 		"feed1e819ef12eee": {
-			"parent": "feed450a260a231b",
+			"parent": "cafe63bfb9c02047",
 			"name": "Ledge_050",
 			"factory": "[modules:/zguideledge.class].pc_entitytype",
 			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
@@ -20866,19 +20866,19 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -89.71044656215673
+							"z": 0
 						},
 						"position": {
-							"x": 21.109460830688477,
-							"y": 34.83977508544922,
-							"z": -12
+							"x": 32.00051498413086,
+							"y": 11.943131446838379,
+							"z": -12.000000953674316
 						}
 					}
 				},
 				"m_vSize": {
 					"type": "SVector2",
 					"value": {
-						"x": 2,
+						"x": 5.599999904632568,
 						"y": 0.5731379985809326
 					}
 				},
