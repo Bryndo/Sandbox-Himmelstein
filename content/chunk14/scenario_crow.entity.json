@@ -42,19 +42,10 @@
 						}
 					}
 				},
-				"m_eCharacterType": {
-					"type": "ECharacterBodyType",
-					"value": "eCT_Male47"
-				},
 				"m_InitialOutfitId": {
 					"type": "ZGuid",
 					"value": "2185ed89-454d-448b-909d-069102630838"
-				},
-				"m_CharacterId": {
-					"type": "ZGuid",
-					"value": "44eba719-4d3a-4f27-9437-3f29821934b3"
-				},
-				"m_bIsInvincible": { "type": "bool", "value": true }
+				}
 			},
 			"subsets": {
 				"AudioEmitters": ["fffffffffffffffe"],
@@ -1631,13 +1622,13 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0,
-							"y": 0,
+							"x": -0.0,
+							"y": 0.0,
 							"z": -85.75275368054324
 						},
 						"position": {
 							"x": -125.5219955444336,
-							"y": 41.17418670654297,
+							"y": 29.044185638427734,
 							"z": -27.390005111694336
 						}
 					}
@@ -5768,7 +5759,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
-				}
+				},
+				"DiffuseColor": { "type": "SColorRGB", "value": "#fff1c0" }
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
@@ -5793,7 +5785,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
-				}
+				},
+				"DiffuseColor": { "type": "SColorRGB", "value": "#fff1c0" }
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
@@ -5847,7 +5840,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
-				}
+				},
+				"DiffuseColor": { "type": "SColorRGB", "value": "#fff1c0" }
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
@@ -5872,7 +5866,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
-				}
+				},
+				"DiffuseColor": { "type": "SColorRGB", "value": "#fff1c0" }
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
@@ -6022,7 +6017,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
-				}
+				},
+				"DiffuseColor": { "type": "SColorRGB", "value": "#fff1c0" }
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
@@ -6047,7 +6043,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
-				}
+				},
+				"DiffuseColor": { "type": "SColorRGB", "value": "#fff1c0" }
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
@@ -6122,7 +6119,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
-				}
+				},
+				"DiffuseColor": { "type": "SColorRGB", "value": "#fff1c0" }
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
@@ -6147,7 +6145,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
-				}
+				},
+				"DiffuseColor": { "type": "SColorRGB", "value": "#fff1c0" }
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
@@ -6172,7 +6171,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
-				}
+				},
+				"DiffuseColor": { "type": "SColorRGB", "value": "#fff1c0" }
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
@@ -6197,7 +6197,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
-				}
+				},
+				"DiffuseColor": { "type": "SColorRGB", "value": "#fff1c0" }
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
@@ -6222,7 +6223,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
-				}
+				},
+				"DiffuseColor": { "type": "SColorRGB", "value": "#fff1c0" }
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
@@ -6272,7 +6274,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
-				}
+				},
+				"DiffuseColor": { "type": "SColorRGB", "value": "#fff1c0" }
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
@@ -13944,7 +13947,7 @@
 		},
 		"cafec4a43d9b2366": {
 			"parent": "cafee919c8b2f424",
-			"name": "Backdrop_Hokkaido_Cliff_A_01",
+			"name": "Backdrop_Hokkaido_Cliff_A_02",
 			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
 			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
 			"properties": {
@@ -13952,14 +13955,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -120.75218360203192
+							"x": -0.0,
+							"y": 0.0,
+							"z": -95.87196926862714
 						},
 						"position": {
-							"x": -125.5219955444336,
-							"y": -69.16580963134766,
-							"z": -73.99000549316406
+							"x": 17.47800064086914,
+							"y": 127.25418853759766,
+							"z": -48.17000579833984
 						}
 					}
 				},
@@ -14445,10 +14448,10 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -180, "y": 0, "z": 0 },
+						"rotation": { "x": -180.0, "y": 0.0, "z": -0.0 },
 						"position": {
-							"x": 22.554927825927734,
-							"y": 38.707862854003906,
+							"x": 22.464927673339844,
+							"y": 38.53785705566406,
 							"z": -12.0600004196167
 						}
 					}
@@ -14476,10 +14479,10 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -180, "y": 0, "z": 0 },
+						"rotation": { "x": -180.0, "y": 0.0, "z": -0.0 },
 						"position": {
-							"x": 27.504926681518555,
-							"y": 38.707862854003906,
+							"x": 27.444927215576172,
+							"y": 38.53785705566406,
 							"z": -12.0600004196167
 						}
 					}
@@ -14521,17 +14524,17 @@
 		},
 		"cafe94edb51fc768": {
 			"parent": "cafe904be9f9d6b1",
-			"name": "Lamp_Spot_Light_A_00_03",
+			"name": "Lamp_Spot_Light_A_01_03",
 			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_spot_light_a_00.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_spot_light_a_00.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -180, "y": 0, "z": 0 },
+						"rotation": { "x": -180.0, "y": 0.0, "z": -0.0 },
 						"position": {
 							"x": 22.544925689697266,
-							"y": 35.687862396240234,
+							"y": 9.597864151000977,
 							"z": -12.0600004196167
 						}
 					}
@@ -14583,17 +14586,17 @@
 		},
 		"cafe362ad01eb6d9": {
 			"parent": "cafe904be9f9d6b1",
-			"name": "Lamp_Spot_Light_A_00_02",
+			"name": "Lamp_Spot_Light_A_01_02",
 			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_spot_light_a_00.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_spot_light_a_00.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -180, "y": 0, "z": 0 },
+						"rotation": { "x": -180.0, "y": 0.0, "z": -0.0 },
 						"position": {
-							"x": 27.504926681518555,
-							"y": 35.74786376953125,
+							"x": 27.374927520751953,
+							"y": 9.71786403656006,
 							"z": -12.0600004196167
 						}
 					}
@@ -17476,6 +17479,3068 @@
 			"name": "Spawn point",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafee899f6405e0a": {
+			"parent": "fffffffffffffffe",
+			"name": "Effects",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe320a23777962": {
+			"parent": "cafee899f6405e0a",
+			"name": "Bool_Snow",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"properties": { "m_bValue": { "type": "bool", "value": true } }
+		},
+		"cafe18aee0f2ac79": {
+			"parent": "cafee899f6405e0a",
+			"name": "SignalFork_Conditional_Void",
+			"factory": "[assembly:/_pro/design/logic/signalpipes.template?/signalfork_conditional_void.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/signalpipes.template?/signalfork_conditional_void.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_condition": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe320a23777962"
+				}
+			}
+		},
+		"cafe48a6501e604a": {
+			"parent": "cafe6dc2f552e159",
+			"name": "Trees",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafeb330be79fcb2": {
+			"parent": "cafe48a6501e604a",
+			"name": "pine_aleppo_9m_c_backdrop",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_c_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_c_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 21.907367808668894,
+							"y": -0.00005729581192680078,
+							"z": 115.95345305999712
+						},
+						"position": {
+							"x": -83.32649993896484,
+							"y": -98.73877716064452,
+							"z": -23.396549224853516
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6dc2f552e159",
+					"postInit": true
+				}
+			}
+		},
+		"cafeca3046777e5c": {
+			"parent": "cafe48a6501e604a",
+			"name": "pine_eastern_15m_a_backdrop",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/templates/foliage/trees_pine_eastern.template?/pine_eastern_15m_a_backdrop.entitytemplate].entitytype,[modules:/zdisablecameracollisionaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/templates/foliage/trees_pine_eastern.template?/pine_eastern_15m_a_backdrop.entitytemplate].entitytype,[modules:/zdisablecameracollisionaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 37.15844166677736
+						},
+						"position": {
+							"x": -83.84602355957031,
+							"y": -52.173580169677734,
+							"z": -8.322022438049316
+						}
+					}
+				},
+				"m_fLODScale": { "type": "float32", "value": 1 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6dc2f552e159",
+					"postInit": true
+				}
+			}
+		},
+		"cafef3eba45a6ce3": {
+			"parent": "cafe48a6501e604a",
+			"name": "pine_aleppo_9m_d_backdrop_13",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -34.1773950086313,
+							"y": -7.105228587406221,
+							"z": -64.84444801003352
+						},
+						"position": {
+							"x": -87.0845718383789,
+							"y": -54.27410125732422,
+							"z": -6.851140022277832
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6dc2f552e159",
+					"postInit": true
+				}
+			}
+		},
+		"cafe6dc2f552e159": {
+			"parent": "cafee919c8b2f424",
+			"name": "Backdrop_Hokkaido_Cliff_B_03",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 132.47376718242944
+						},
+						"position": {
+							"x": 44.78628921508789,
+							"y": 23.770904541015625,
+							"z": 11.139992713928224
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "3ac25f2657314528",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe850e0cc5d689": {
+			"parent": "cafe6dc2f552e159",
+			"name": "hokkaido_terrain_a_cliff_piece_06",
+			"factory": "[assembly:/_pro/environment/geometry/levels/hokkaido/hokkaido_terrain_a.wl2?/hokkaido_terrain_a_cliff_piece_06.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -102.04717663144304
+						},
+						"position": {
+							"x": -114.2624969482422,
+							"y": -57.68170166015625,
+							"z": -6.88663387298584
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.6000000238418579,
+						"y": 0.6000000238418579,
+						"z": 0.6000000238418579
+					}
+				},
+				"m_sVertexPaintSourceResourceId": {
+					"type": "ZString",
+					"value": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/hawk/scenario_hawk/hokkaido_terrain_a_cliff_piece_06_30d42394176b4d4f971661b2bc51e503.vertexpaint].vertexpaint"
+				},
+				"m_VertexPaintData": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/hawk/scenario_hawk/hokkaido_terrain_a_cliff_piece_06_30d42394176b4d4f971661b2bc51e503.vertexdata].pc_vertexdata",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6dc2f552e159"
+				}
+			}
+		},
+		"cafe484df2f729de": {
+			"parent": "cafe48a6501e604a",
+			"name": "pine_aleppo_9m_d_backdrop_06",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 72.73753903280986,
+							"y": -2.2662402530892223,
+							"z": 155.3298379974904
+						},
+						"position": {
+							"x": -110.16130065917967,
+							"y": -69.60958099365234,
+							"z": 20.41881942749023
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6dc2f552e159"
+				}
+			}
+		},
+		"cafed617b5d6b1d9": {
+			"parent": "cafe48a6501e604a",
+			"name": "pine_aleppo_9m_c_backdrop_02",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_c_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_c_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 72.42015318194741,
+							"y": -49.026521494726055,
+							"z": 95.6870032211592
+						},
+						"position": {
+							"x": -100.53849792480467,
+							"y": -58.99591064453125,
+							"z": 10.82822036743164
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6dc2f552e159"
+				}
+			}
+		},
+		"cafecee521dbf2bb": {
+			"parent": "cafe48a6501e604a",
+			"name": "pine_aleppo_9m_d_backdrop_03",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 33.39084015102997,
+							"y": -40.4878687053208,
+							"z": 78.23962541294402
+						},
+						"position": {
+							"x": -114.75540161132812,
+							"y": -80.58657836914062,
+							"z": 9.610401153564451
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6dc2f552e159"
+				}
+			}
+		},
+		"cafe11df39c4fe8e": {
+			"parent": "cafe48a6501e604a",
+			"name": "pine_eastern_15m_a_backdrop_04",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/templates/foliage/trees_pine_eastern.template?/pine_eastern_15m_a_backdrop.entitytemplate].entitytype,[modules:/zdisablecameracollisionaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/templates/foliage/trees_pine_eastern.template?/pine_eastern_15m_a_backdrop.entitytemplate].entitytype,[modules:/zdisablecameracollisionaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.9694876699294144,
+							"y": -2.983710696951362,
+							"z": -6.1649165575949665
+						},
+						"position": {
+							"x": -107.3292999267578,
+							"y": -85.27467346191406,
+							"z": 1.6831289529800415
+						}
+					}
+				},
+				"m_fLODScale": { "type": "float32", "value": 1 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6dc2f552e159"
+				}
+			}
+		},
+		"cafe6d4fcf7db1ed": {
+			"parent": "cafe48a6501e604a",
+			"name": "pine_eastern_15m_a_backdrop_03",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/templates/foliage/trees_pine_eastern.template?/pine_eastern_15m_a_backdrop.entitytemplate].entitytype,[modules:/zdisablecameracollisionaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/templates/foliage/trees_pine_eastern.template?/pine_eastern_15m_a_backdrop.entitytemplate].entitytype,[modules:/zdisablecameracollisionaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 3.3413208598330617,
+							"y": -0.00045836625948975454,
+							"z": 100.69896657120526
+						},
+						"position": {
+							"x": -94.36074829101564,
+							"y": -81.37911987304688,
+							"z": -15.90880012512207
+						}
+					}
+				},
+				"m_fLODScale": { "type": "float32", "value": 1 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6dc2f552e159"
+				}
+			}
+		},
+		"cafe65ee3b45742d": {
+			"parent": "cafe6dc2f552e159",
+			"name": "hokkaido_terrain_a_cliff_piece_05",
+			"factory": "[assembly:/_pro/environment/geometry/levels/hokkaido/hokkaido_terrain_a.wl2?/hokkaido_terrain_a_cliff_piece_05.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -102.04717663144304
+						},
+						"position": {
+							"x": -82.16893005371094,
+							"y": -37.756221771240234,
+							"z": -31.51300048828125
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.41999998688697815,
+						"y": 0.41999998688697815,
+						"z": 0.41999998688697815
+					}
+				},
+				"m_sVertexPaintSourceResourceId": {
+					"type": "ZString",
+					"value": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/hawk/scenario_hawk/hokkaido_terrain_a_cliff_piece_05_e721caa166984c75aefa10087c1cc758.vertexpaint].vertexpaint"
+				},
+				"m_VertexPaintData": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/hawk/scenario_hawk/hokkaido_terrain_a_cliff_piece_05_593bd24a0fe04e3fb8daca43b22d3904.vertexdata].pc_vertexdata",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6dc2f552e159"
+				}
+			}
+		},
+		"cafedd971076f7f3": {
+			"parent": "cafe48a6501e604a",
+			"name": "pine_eastern_15m_a_backdrop_01",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/templates/foliage/trees_pine_eastern.template?/pine_eastern_15m_a_backdrop.entitytemplate].entitytype,[modules:/zdisablecameracollisionaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/templates/foliage/trees_pine_eastern.template?/pine_eastern_15m_a_backdrop.entitytemplate].entitytype,[modules:/zdisablecameracollisionaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 37.15844166677736
+						},
+						"position": {
+							"x": -80.54855346679688,
+							"y": -106.70359802246094,
+							"z": -27.700090408325195
+						}
+					}
+				},
+				"m_fLODScale": { "type": "float32", "value": 1 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6dc2f552e159"
+				}
+			}
+		},
+		"cafeeab077fe3458": {
+			"parent": "cafe48a6501e604a",
+			"name": "terrain_italy_backdropplane_d21",
+			"factory": "[assembly:/_pro/environment/geometry/backdrop/terrain/terrain_italy_backdrop_a.wl2?/terrain_italy_backdropplane_d.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -79.31146494086926
+						},
+						"position": {
+							"x": -113.10099792480467,
+							"y": -58.47150039672851,
+							"z": 62.28742980957031
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6dc2f552e159"
+				}
+			}
+		},
+		"cafe449f024dbf2c": {
+			"parent": "cafe48a6501e604a",
+			"name": "pine_aleppo_9m_d_backdrop_08",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 83.5403743365867,
+							"y": -38.31210894507174,
+							"z": 95.74853223148848
+						},
+						"position": {
+							"x": -108.79010009765624,
+							"y": -55.79600143432617,
+							"z": 50.69498062133789
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6dc2f552e159"
+				}
+			}
+		},
+		"cafe8337a1a8b474": {
+			"parent": "cafe48a6501e604a",
+			"name": "pine_aleppo_9m_d_backdrop_14",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -50.82528524442016,
+							"y": 7.302104685275822,
+							"z": -74.76422712942986
+						},
+						"position": {
+							"x": -84.68234252929688,
+							"y": -58.398529052734375,
+							"z": -10.888010025024414
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6dc2f552e159"
+				}
+			}
+		},
+		"cafeed43483d78d3": {
+			"parent": "cafe48a6501e604a",
+			"name": "pine_aleppo_9m_c_backdrop_01",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_c_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_c_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 81.28073146904202,
+							"y": 4.595230342758058,
+							"z": 122.59229176167146
+						},
+						"position": {
+							"x": -98.39423370361328,
+							"y": -66.06989288330078,
+							"z": -2.9169371128082275
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6dc2f552e159"
+				}
+			}
+		},
+		"cafe82289fcb12df": {
+			"parent": "cafe6dc2f552e159",
+			"name": "hokkaido_terrain_a_cliff_piece_02",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/geometry/levels/hokkaido/hokkaido_terrain_a.wl2?/hokkaido_terrain_a_cliff_piece_02.prim].entitytype,[modules:/zhighrestextureentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zhighrestextureentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -102.0471750836845
+						},
+						"position": {
+							"x": -88.47236633300781,
+							"y": -52.079978942871094,
+							"z": -44.36238861083984
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.6000000238418579,
+						"y": 0.6000000238418579,
+						"z": 0.6000000238418579
+					}
+				},
+				"m_sVertexPaintSourceResourceId": {
+					"type": "ZString",
+					"value": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/hawk/scenario_hawk/hokkaido_terrain_a_cliff_piece_02_36e1eb1e06ce44aa98bfdcb3b5673a20.vertexpaint].vertexpaint"
+				},
+				"m_VertexPaintData": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/hawk/scenario_hawk/hokkaido_terrain_a_cliff_piece_02_7ad0727860d84821980ffe2389700351.vertexdata].pc_vertexdata",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6dc2f552e159"
+				}
+			}
+		},
+		"cafe0edfba48471a": {
+			"parent": "cafe48a6501e604a",
+			"name": "pine_aleppo_9m_d_backdrop_15",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 15.844276108459926,
+							"y": -25.15526660212477,
+							"z": 87.8502985539105
+						},
+						"position": {
+							"x": -92.05975341796876,
+							"y": -50.678070068359375,
+							"z": -2.28521990776062
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6dc2f552e159"
+				}
+			}
+		},
+		"cafe905b550042c4": {
+			"parent": "cafe48a6501e604a",
+			"name": "terrain_italy_backdropplane_d24",
+			"factory": "[assembly:/_pro/environment/geometry/backdrop/terrain/terrain_italy_backdrop_a.wl2?/terrain_italy_backdropplane_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -69.91560419139344
+						},
+						"position": {
+							"x": -127.6166000366211,
+							"y": -36.577980041503906,
+							"z": 60.51155853271485
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6dc2f552e159"
+				}
+			}
+		},
+		"cafed71c9ff22cfa": {
+			"parent": "cafe48a6501e604a",
+			"name": "pine_aleppo_9m_d_backdrop",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -11.99831721218985,
+							"y": -11.35485962455058,
+							"z": -18.06930185813267
+						},
+						"position": {
+							"x": -91.7729034423828,
+							"y": -42.58345031738281,
+							"z": -3.5488369464874268
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6dc2f552e159"
+				}
+			}
+		},
+		"cafe3f4c5cd09dc9": {
+			"parent": "cafe6dc2f552e159",
+			"name": "hokkaido_terrain_a_cliff_piece_04",
+			"factory": "[assembly:/_pro/environment/geometry/levels/hokkaido/hokkaido_terrain_a.wl2?/hokkaido_terrain_a_cliff_piece_04.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -102.0471750836845
+						},
+						"position": {
+							"x": -122.86790466308594,
+							"y": -47.71533966064453,
+							"z": 32.52116012573242
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.6000000238418579,
+						"y": 0.6000000238418579,
+						"z": 0.6000000238418579
+					}
+				},
+				"m_sVertexPaintSourceResourceId": {
+					"type": "ZString",
+					"value": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/hawk/scenario_hawk/hokkaido_terrain_a_cliff_piece_04_92bc03eebc714b7f93676b2356c4e1db.vertexpaint].vertexpaint"
+				},
+				"m_VertexPaintData": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/hawk/scenario_hawk/hokkaido_terrain_a_cliff_piece_04_92bc03eebc714b7f93676b2356c4e1db.vertexdata].pc_vertexdata",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6dc2f552e159"
+				}
+			}
+		},
+		"cafe83fa75432a3a": {
+			"parent": "cafe48a6501e604a",
+			"name": "pine_aleppo_9m_d_backdrop_05",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 41.573737723929995,
+							"y": 9.470458567316395,
+							"z": 115.9235390732043
+						},
+						"position": {
+							"x": -96.56494903564452,
+							"y": -57.438438415527344,
+							"z": 14.803130149841309
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6dc2f552e159"
+				}
+			}
+		},
+		"cafe2a28211662f6": {
+			"parent": "cafe48a6501e604a",
+			"name": "pine_aleppo_9m_d_backdrop_07",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 49.87774380982149,
+							"y": 44.9601590131046,
+							"z": 112.62615365610584
+						},
+						"position": {
+							"x": -95.7180633544922,
+							"y": -32.39311981201172,
+							"z": 4.311118125915527
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6dc2f552e159"
+				}
+			}
+		},
+		"cafe137ea5acd60e": {
+			"parent": "cafe48a6501e604a",
+			"name": "pine_aleppo_9m_d_backdrop_12",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 22.39983029964566,
+							"y": 61.60804626254968,
+							"z": -145.3786083785604
+						},
+						"position": {
+							"x": -111.07620239257812,
+							"y": -70.46346282958984,
+							"z": 65.1051025390625
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6dc2f552e159"
+				}
+			}
+		},
+		"cafef6c5632673bb": {
+			"parent": "cafe48a6501e604a",
+			"name": "terrain_italy_backdropplane_d23",
+			"factory": "[assembly:/_pro/environment/geometry/backdrop/terrain/terrain_italy_backdrop_a.wl2?/terrain_italy_backdropplane_d.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -69.91560419139344
+						},
+						"position": {
+							"x": -122.23670196533205,
+							"y": -17.17314910888672,
+							"z": 48.21417999267578
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6dc2f552e159"
+				}
+			}
+		},
+		"cafe0ad1ea5d6b69": {
+			"parent": "cafe48a6501e604a",
+			"name": "pine_aleppo_9m_d_backdrop_01",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 30.853146922919535,
+							"y": -8.044320004749368,
+							"z": 62.59579525168898
+						},
+						"position": {
+							"x": -93.42767333984376,
+							"y": -37.254188537597656,
+							"z": -2.4215779304504395
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6dc2f552e159"
+				}
+			}
+		},
+		"cafecd1fa08d29d0": {
+			"parent": "cafe48a6501e604a",
+			"name": "pine_eastern_15m_a_backdrop_05",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_eastern.template?/pine_eastern_15m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_eastern.template?/pine_eastern_15m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 154.494924226672
+						},
+						"position": {
+							"x": -110.3405990600586,
+							"y": -68.60884094238281,
+							"z": 63.44240951538086
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6dc2f552e159"
+				}
+			}
+		},
+		"cafef0fa732c4716": {
+			"parent": "cafe48a6501e604a",
+			"name": "pine_aleppo_9m_d_backdrop_04",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -54.62410094523754,
+							"y": 7.912921306415704,
+							"z": -76.40912383851969
+						},
+						"position": {
+							"x": -108.54329681396484,
+							"y": -87.43063354492188,
+							"z": -1.9868539571762085
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6dc2f552e159"
+				}
+			}
+		},
+		"cafe43d49a2bc856": {
+			"parent": "cafe48a6501e604a",
+			"name": "pine_aleppo_9m_c_backdrop_03",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_c_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_c_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -3.922889165415674,
+							"y": -23.94259547743951,
+							"z": 6.638237775227209
+						},
+						"position": {
+							"x": -100.5197982788086,
+							"y": -58.79413986206055,
+							"z": 12.85626983642578
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6dc2f552e159"
+				}
+			}
+		},
+		"cafea0dac33b3d36": {
+			"parent": "cafe48a6501e604a",
+			"name": "pine_aleppo_9m_d_backdrop_11",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 110.028987026125,
+							"y": 77.67298353950456,
+							"z": 132.84897797381015
+						},
+						"position": {
+							"x": -114.7052993774414,
+							"y": -71.34513092041016,
+							"z": 54.17211151123047
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6dc2f552e159"
+				}
+			}
+		},
+		"cafe60db09f47691": {
+			"parent": "cafe6dc2f552e159",
+			"name": "hokkaido_terrain_a_cliff_piece_03",
+			"factory": "[assembly:/_pro/environment/geometry/levels/hokkaido/hokkaido_terrain_a.wl2?/hokkaido_terrain_a_cliff_piece_03.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -129.2272433890674
+						},
+						"position": {
+							"x": -126.62350463867188,
+							"y": -62.81134414672851,
+							"z": 42.17265319824219
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.6000000238418579,
+						"y": 0.6000000238418579,
+						"z": 0.6000000238418579
+					}
+				},
+				"m_sVertexPaintSourceResourceId": {
+					"type": "ZString",
+					"value": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/hawk/scenario_hawk/hokkaido_terrain_a_cliff_piece_03_d5c720032c194c0fa0b3e7bb01bfa70b.vertexpaint].vertexpaint"
+				},
+				"m_VertexPaintData": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/hawk/scenario_hawk/hokkaido_terrain_a_cliff_piece_03_d5c720032c194c0fa0b3e7bb01bfa70b.vertexdata].pc_vertexdata",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6dc2f552e159"
+				}
+			}
+		},
+		"cafe7bdc75aeb0be": {
+			"parent": "cafe48a6501e604a",
+			"name": "pine_aleppo_9m_d_backdrop_02",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 30.85424807342007,
+							"y": -8.043156141584124,
+							"z": 28.128179132974164
+						},
+						"position": {
+							"x": -99.86060333251952,
+							"y": -67.62214660644531,
+							"z": -1.4564640522003174
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6dc2f552e159"
+				}
+			}
+		},
+		"cafeebd4573504f2": {
+			"parent": "cafe48a6501e604a",
+			"name": "pine_eastern_15m_a_backdrop_02",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/templates/foliage/trees_pine_eastern.template?/pine_eastern_15m_a_backdrop.entitytemplate].entitytype,[modules:/zdisablecameracollisionaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/templates/foliage/trees_pine_eastern.template?/pine_eastern_15m_a_backdrop.entitytemplate].entitytype,[modules:/zdisablecameracollisionaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 3.3418356622263574,
+							"y": 0,
+							"z": 100.69897522026136
+						},
+						"position": {
+							"x": -80.93299865722656,
+							"y": -83.91644287109375,
+							"z": -21.763540267944336
+						}
+					}
+				},
+				"m_fLODScale": { "type": "float32", "value": 1 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6dc2f552e159"
+				}
+			}
+		},
+		"cafe1be06ef20698": {
+			"parent": "cafe48a6501e604a",
+			"name": "pine_aleppo_9m_d_backdrop_10",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -123.47125447900105,
+							"y": 50.47603012209509,
+							"z": -15.757027699188546
+						},
+						"position": {
+							"x": -111.60810089111328,
+							"y": -66.31690979003906,
+							"z": 51.91231918334961
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6dc2f552e159"
+				}
+			}
+		},
+		"cafe0e70222da414": {
+			"parent": "cafe48a6501e604a",
+			"name": "pine_eastern_15m_a_backdrop_06",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_eastern.template?/pine_eastern_15m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_eastern.template?/pine_eastern_15m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 5.671574746914189,
+							"y": 3.2512178456982808,
+							"z": -125.70267038467722
+						},
+						"position": {
+							"x": -114.54419708251952,
+							"y": -73.90606689453125,
+							"z": 56.94068908691406
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6dc2f552e159"
+				}
+			}
+		},
+		"cafed657a1f4d2bc": {
+			"parent": "cafe48a6501e604a",
+			"name": "pine_aleppo_9m_d_backdrop_09",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 26.25505736986668,
+							"y": -15.392671604857462,
+							"z": 100.49011398138856
+						},
+						"position": {
+							"x": -101.16600036621094,
+							"y": -94.37931060791016,
+							"z": -10.497650146484377
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6dc2f552e159"
+				}
+			}
+		},
+		"cafe4020cf7f3305": {
+			"parent": "cafe61c439684673",
+			"name": "pine_eastern_15m_b_backdrop",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_eastern.template?/pine_eastern_15m_b_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_eastern.template?/pine_eastern_15m_b_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.00017264352112039978,
+							"y": 5.364531740945111,
+							"z": -53.69821759226615
+						},
+						"position": {
+							"x": -36.40378952026367,
+							"y": 19.220609664916992,
+							"z": 23.99799919128418
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65",
+					"postInit": true
+				}
+			}
+		},
+		"cafe854f7c4857f3": {
+			"parent": "cafe61c439684673",
+			"name": "terrain_italy_backdropplane_d23",
+			"factory": "[assembly:/_pro/environment/geometry/backdrop/terrain/terrain_italy_backdrop_a.wl2?/terrain_italy_backdropplane_d.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 32.14136693450248
+						},
+						"position": {
+							"x": 46.987579345703125,
+							"y": 9.576684951782228,
+							"z": 74.98361206054688
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65",
+					"postInit": true
+				}
+			}
+		},
+		"cafefcfaa9dde178": {
+			"parent": "cafe61c439684673",
+			"name": "pine_eastern_15m_a_backdrop",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_eastern.template?/pine_eastern_15m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_eastern.template?/pine_eastern_15m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -103.45891356607147
+						},
+						"position": {
+							"x": -16.523380279541016,
+							"y": 15.403169631958008,
+							"z": 90.21173095703124
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65",
+					"postInit": true
+				}
+			}
+		},
+		"cafe9a0956c56976": {
+			"parent": "cafe61c439684673",
+			"name": "pine_aleppo_9m_c_backdrop",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_c_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_c_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -10.943865740997392,
+							"y": 5.037112326882749,
+							"z": 7.8669188334896525
+						},
+						"position": {
+							"x": -24.41455078125,
+							"y": 9.887653350830078,
+							"z": 25.164400100708008
+						}
+					}
+				},
+				"m_fLODScale": { "type": "float32", "value": 0.5 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65",
+					"postInit": true
+				}
+			}
+		},
+		"cafe8e8de29430ed": {
+			"parent": "cafe61c439684673",
+			"name": "terrain_italy_backdropplane_d19",
+			"factory": "[assembly:/_pro/environment/geometry/backdrop/terrain/terrain_italy_backdrop_a.wl2?/terrain_italy_backdropplane_d.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 22.736956009823764
+						},
+						"position": {
+							"x": -1.992653012275696,
+							"y": 0.22368399798870087,
+							"z": 40.69852066040039
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65",
+					"postInit": true
+				}
+			}
+		},
+		"cafe7d4ac08c9ffb": {
+			"parent": "cafe61c439684673",
+			"name": "pine_aleppo_9m_d_backdrop_03",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 25.51638355992281,
+							"y": 9.4113797809615,
+							"z": -154.95565212782654
+						},
+						"position": {
+							"x": -18.44416046142578,
+							"y": 3.7464449405670166,
+							"z": 26.22827911376953
+						}
+					}
+				},
+				"m_fLODScale": { "type": "float32", "value": 0.5 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65",
+					"postInit": true
+				}
+			}
+		},
+		"cafe5c4a37c5d44e": {
+			"parent": "cafe06bdbb8a3f65",
+			"name": "hokkaido_terrain_a_cliff_piece_04",
+			"factory": "[assembly:/_pro/environment/geometry/levels/hokkaido/hokkaido_terrain_a.wl2?/hokkaido_terrain_a_cliff_piece_04.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": 7.133594989776611,
+							"y": 20.78931999206543,
+							"z": 66.61067962646484
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.6000000238418579,
+						"y": 0.6000000238418579,
+						"z": 0.6000000238418579
+					}
+				},
+				"m_sVertexPaintSourceResourceId": {
+					"type": "ZString",
+					"value": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/hawk/scenario_hawk/hokkaido_terrain_a_cliff_piece_04_1cbc9fcd301a4737910e2a4750b933dd.vertexpaint].vertexpaint"
+				},
+				"m_VertexPaintData": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/hawk/scenario_hawk/hokkaido_terrain_a_cliff_piece_04_1cbc9fcd301a4737910e2a4750b933dd.vertexdata].pc_vertexdata",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65",
+					"postInit": true
+				}
+			}
+		},
+		"cafed9b9e2bd381d": {
+			"parent": "cafe61c439684673",
+			"name": "pine_aleppo_9m_d_backdrop_14",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -30.173091047883304,
+							"y": -3.3887882152683733,
+							"z": 83.8065483684529
+						},
+						"position": {
+							"x": -14.79798984527588,
+							"y": 38.506710052490234,
+							"z": 98.68035888671876
+						}
+					}
+				},
+				"m_fLODScale": { "type": "float32", "value": 0.5 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65",
+					"postInit": true
+				}
+			}
+		},
+		"cafee7edf0560098": {
+			"parent": "cafe61c439684673",
+			"name": "pine_aleppo_9m_d_backdrop_13",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 33.5804007862992,
+							"y": -40.3430374241664,
+							"z": -179.6863002682275
+						},
+						"position": {
+							"x": 23.73930931091309,
+							"y": 6.172688007354736,
+							"z": 97.03275299072266
+						}
+					}
+				},
+				"m_fLODScale": { "type": "float32", "value": 0.5 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65",
+					"postInit": true
+				}
+			}
+		},
+		"cafe5e7a71fcb854": {
+			"parent": "cafe61c439684673",
+			"name": "pine_aleppo_9m_d_backdrop",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -12.541598797799058,
+							"y": -20.569106588775853,
+							"z": 81.90739476517405
+						},
+						"position": {
+							"x": 5.901692867279053,
+							"y": -9.803312301635742,
+							"z": 27.11016082763672
+						}
+					}
+				},
+				"m_fLODScale": { "type": "float32", "value": 0.5 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65",
+					"postInit": true
+				}
+			}
+		},
+		"cafe67569a88cbb5": {
+			"parent": "cafe06bdbb8a3f65",
+			"name": "hokkaido_terrain_a_cliff_piece_07",
+			"factory": "[assembly:/_pro/environment/geometry/levels/hokkaido/hokkaido_terrain_a.wl2?/hokkaido_terrain_a_cliff_piece_07.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": 50.6243896484375,
+							"y": -12.778470039367676,
+							"z": 35.82796096801758
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.6000000238418579,
+						"y": 0.6000000238418579,
+						"z": 0.6000000238418579
+					}
+				},
+				"m_sVertexPaintSourceResourceId": {
+					"type": "ZString",
+					"value": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/hawk/scenario_hawk/hokkaido_terrain_a_cliff_piece_07_30855b38faa849ff97f0ef87b35c05b5.vertexpaint].vertexpaint"
+				},
+				"m_VertexPaintData": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/hawk/scenario_hawk/hokkaido_terrain_a_cliff_piece_07_30855b38faa849ff97f0ef87b35c05b5.vertexdata].pc_vertexdata",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65",
+					"postInit": true
+				}
+			}
+		},
+		"cafe0a684b09a84c": {
+			"parent": "cafe61c439684673",
+			"name": "pine_aleppo_9m_d_backdrop_04",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 33.5804007862992,
+							"y": -40.3430374241664,
+							"z": -179.6863002682275
+						},
+						"position": {
+							"x": -9.62710952758789,
+							"y": 1.5056840181350708,
+							"z": 43.18642044067383
+						}
+					}
+				},
+				"m_fLODScale": { "type": "float32", "value": 0.5 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65",
+					"postInit": true
+				}
+			}
+		},
+		"cafef5d5908a4583": {
+			"parent": "cafe61c439684673",
+			"name": "pine_eastern_15m_a_backdrop_04",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_eastern.template?/pine_eastern_15m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_eastern.template?/pine_eastern_15m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -50.98836953008482
+						},
+						"position": {
+							"x": 50.52281188964844,
+							"y": 475.7092895507813,
+							"z": 248.83389282226565
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65",
+					"postInit": true
+				}
+			}
+		},
+		"cafebaefcfd4df36": {
+			"parent": "cafe06bdbb8a3f65",
+			"name": "hokkaido_terrain_a_cliff_piece_02",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/geometry/levels/hokkaido/hokkaido_terrain_a.wl2?/hokkaido_terrain_a_cliff_piece_02.prim].entitytype,[modules:/zhighrestextureentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zhighrestextureentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": 9.65005111694336,
+							"y": -20.247583389282227,
+							"z": -2.0628795623779297
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.6000000238418579,
+						"y": 0.6000000238418579,
+						"z": 0.6000000238418579
+					}
+				},
+				"m_sVertexPaintSourceResourceId": {
+					"type": "ZString",
+					"value": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/hawk/scenario_hawk/hokkaido_terrain_a_cliff_piece_02_36e1eb1e06ce44aa98bfdcb3b5673a20.vertexpaint].vertexpaint"
+				},
+				"m_VertexPaintData": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/hawk/scenario_hawk/hokkaido_terrain_a_cliff_piece_02_36e1eb1e06ce44aa98bfdcb3b5673a20.vertexdata].pc_vertexdata",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65",
+					"postInit": true
+				}
+			}
+		},
+		"cafe61c439684673": {
+			"parent": "cafe06bdbb8a3f65",
+			"name": "Trees",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe4395d975d1bb": {
+			"parent": "cafe61c439684673",
+			"name": "pine_eastern_15m_a_backdrop_03",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_eastern.template?/pine_eastern_15m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_eastern.template?/pine_eastern_15m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -103.45891356607147
+						},
+						"position": {
+							"x": 74.48541259765625,
+							"y": 458.1070861816406,
+							"z": 237.12120056152344
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65",
+					"postInit": true
+				}
+			}
+		},
+		"cafeb9d33400aceb": {
+			"parent": "cafe06bdbb8a3f65",
+			"name": "hokkaido_terrain_a_cliff_piece_09",
+			"factory": "[assembly:/_pro/environment/geometry/levels/hokkaido/hokkaido_terrain_a.wl2?/hokkaido_terrain_a_cliff_piece_09.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": 89.30388641357422,
+							"y": 17.98516082763672,
+							"z": 43.0666389465332
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.6000000238418579,
+						"y": 0.6000000238418579,
+						"z": 0.6000000238418579
+					}
+				},
+				"m_sVertexPaintSourceResourceId": {
+					"type": "ZString",
+					"value": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/hawk/scenario_hawk/hokkaido_terrain_a_cliff_piece_09_4e087c2f89044fdebc2b00786930f152.vertexpaint].vertexpaint"
+				},
+				"m_VertexPaintData": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/hawk/scenario_hawk/hokkaido_terrain_a_cliff_piece_09_4e087c2f89044fdebc2b00786930f152.vertexdata].pc_vertexdata",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65",
+					"postInit": true
+				}
+			}
+		},
+		"cafe22beeefa877c": {
+			"parent": "cafe61c439684673",
+			"name": "pine_eastern_15m_a_backdrop_02",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_eastern.template?/pine_eastern_15m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_eastern.template?/pine_eastern_15m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -103.45891356607147
+						},
+						"position": {
+							"x": 69.25540161132812,
+							"y": -1.9470210075378416,
+							"z": 76.63739013671875
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65",
+					"postInit": true
+				}
+			}
+		},
+		"cafeecc0eecd1082": {
+			"parent": "cafe61c439684673",
+			"name": "pine_aleppo_9m_d_backdrop_08",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 45.27217783725269,
+							"y": 0.2695203203030196,
+							"z": -175.54875033147044
+						},
+						"position": {
+							"x": 22.334230422973633,
+							"y": -16.982120513916016,
+							"z": 16.916950225830078
+						}
+					}
+				},
+				"m_fLODScale": { "type": "float32", "value": 0.5 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65",
+					"postInit": true
+				}
+			}
+		},
+		"cafe9f4b43b8ca6e": {
+			"parent": "cafe61c439684673",
+			"name": "pine_aleppo_9m_d_backdrop_01",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 30.858099151213363,
+							"y": -8.041540758816742,
+							"z": 164.64386410142646
+						},
+						"position": {
+							"x": 10.646559715270996,
+							"y": -8.188631057739258,
+							"z": 27.5389404296875
+						}
+					}
+				},
+				"m_fLODScale": { "type": "float32", "value": 0.5 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65",
+					"postInit": true
+				}
+			}
+		},
+		"cafede9e629cb0b6": {
+			"parent": "cafe61c439684673",
+			"name": "pine_eastern_7m_a_backdrop",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/templates/foliage/trees_pine_eastern.template?/pine_eastern_7m_a_backdrop.entitytemplate].entitytype,[modules:/zdisablecameracollisionaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/templates/foliage/trees_pine_eastern.template?/pine_eastern_7m_a_backdrop.entitytemplate].entitytype,[modules:/zdisablecameracollisionaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -1.0097043063166955,
+							"y": 0.5300507809555932,
+							"z": -55.39160830704707
+						},
+						"position": {
+							"x": -29.303119659423828,
+							"y": 12.561690330505373,
+							"z": 29.168209075927734
+						}
+					}
+				},
+				"m_fLODScale": { "type": "float32", "value": 1 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65",
+					"postInit": true
+				}
+			}
+		},
+		"cafef5bc37f9dd54": {
+			"parent": "cafe06bdbb8a3f65",
+			"name": "Rock_Collection_A_Set_B",
+			"factory": "[assembly:/_pro/environment/templates/props/rocks/rocks_sandstone_a.template?/rock_collection_a_set_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/rocks/rocks_sandstone_a.template?/rock_collection_a_set_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -70.1984652962688,
+							"y": -13.120221749070517,
+							"z": 3.554055874802463
+						},
+						"position": {
+							"x": 41.484920501708984,
+							"y": 4.582022190093994,
+							"z": 76.30319213867188
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 3.200000047683716,
+						"y": 3.200000047683716,
+						"z": 3.200000047683716
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65",
+					"postInit": true
+				}
+			}
+		},
+		"cafe168d5893ee30": {
+			"parent": "cafe61c439684673",
+			"name": "terrain_italy_backdropplane_d21",
+			"factory": "[assembly:/_pro/environment/geometry/backdrop/terrain/terrain_italy_backdrop_a.wl2?/terrain_italy_backdropplane_d.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 22.736956009823764
+						},
+						"position": {
+							"x": -5.424465179443359,
+							"y": 13.483209609985352,
+							"z": 89.0567626953125
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65",
+					"postInit": true
+				}
+			}
+		},
+		"cafedadaa480cf9c": {
+			"parent": "cafe61c439684673",
+			"name": "pine_aleppo_9m_d_backdrop_07",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 50.35489605883673,
+							"y": 54.716037833704526,
+							"z": -125.1876059043294
+						},
+						"position": {
+							"x": 12.96755027770996,
+							"y": -6.401786804199219,
+							"z": 32.76491928100586
+						}
+					}
+				},
+				"m_fLODScale": { "type": "float32", "value": 0.5 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65",
+					"postInit": true
+				}
+			}
+		},
+		"cafee81be9df4a78": {
+			"parent": "cafe61c439684673",
+			"name": "pine_eastern_7m_b_backdrop",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/templates/foliage/trees_pine_eastern.template?/pine_eastern_7m_b_backdrop.entitytemplate].entitytype,[modules:/zdisablecameracollisionaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/templates/foliage/trees_pine_eastern.template?/pine_eastern_7m_b_backdrop.entitytemplate].entitytype,[modules:/zdisablecameracollisionaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -1.1025114226315609,
+							"y": -0.29799689930877876,
+							"z": -14.159284999465802
+						},
+						"position": {
+							"x": -39.03116989135742,
+							"y": 20.1294002532959,
+							"z": 27.42266082763672
+						}
+					}
+				},
+				"m_fLODScale": { "type": "float32", "value": 1 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65",
+					"postInit": true
+				}
+			}
+		},
+		"cafe995df0c8d7ba": {
+			"parent": "cafe61c439684673",
+			"name": "pine_aleppo_9m_d_backdrop_11",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -15.381456334783008,
+							"y": -37.299855856933696,
+							"z": 58.96937464162959
+						},
+						"position": {
+							"x": 26.516740798950195,
+							"y": -13.905790328979492,
+							"z": 29.903369903564453
+						}
+					}
+				},
+				"m_fLODScale": { "type": "float32", "value": 0.5 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65",
+					"postInit": true
+				}
+			}
+		},
+		"cafec6dd335300a7": {
+			"parent": "cafe61c439684673",
+			"name": "pine_eastern_7m_b_backdrop_01",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/templates/foliage/trees_pine_eastern.template?/pine_eastern_7m_b_backdrop.entitytemplate].entitytype,[modules:/zdisablecameracollisionaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/templates/foliage/trees_pine_eastern.template?/pine_eastern_7m_b_backdrop.entitytemplate].entitytype,[modules:/zdisablecameracollisionaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.05587426275739184,
+							"y": 1.13006073645951,
+							"z": -117.29628238215604
+						},
+						"position": {
+							"x": -34.830841064453125,
+							"y": 15.825130462646484,
+							"z": 28.643590927124023
+						}
+					}
+				},
+				"m_fLODScale": { "type": "float32", "value": 1 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65",
+					"postInit": true
+				}
+			}
+		},
+		"cafeb81cf7d6db2b": {
+			"parent": "cafe61c439684673",
+			"name": "pine_aleppo_9m_d_backdrop_05",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 63.55610914968697,
+							"y": 9.4733055694369,
+							"z": -142.0330922747109
+						},
+						"position": {
+							"x": -6.311740875244141,
+							"y": -0.92985200881958,
+							"z": 41.63125991821289
+						}
+					}
+				},
+				"m_fLODScale": { "type": "float32", "value": 0.5 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65",
+					"postInit": true
+				}
+			}
+		},
+		"cafe13b36af61a7d": {
+			"parent": "cafe06bdbb8a3f65",
+			"name": "hokkaido_terrain_a_cliff_piece_06",
+			"factory": "[assembly:/_pro/environment/geometry/levels/hokkaido/hokkaido_terrain_a.wl2?/hokkaido_terrain_a_cliff_piece_06.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": -4.4098429679870605,
+							"y": 14.453439712524414,
+							"z": 19.88287925720215
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.6000000238418579,
+						"y": 0.6000000238418579,
+						"z": 0.6000000238418579
+					}
+				},
+				"m_sVertexPaintSourceResourceId": {
+					"type": "ZString",
+					"value": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/hawk/scenario_hawk/hokkaido_terrain_a_cliff_piece_06_a25da11188ca4f978961f10dd1687b3d.vertexpaint].vertexpaint"
+				},
+				"m_VertexPaintData": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/hawk/scenario_hawk/hokkaido_terrain_a_cliff_piece_06_a25da11188ca4f978961f10dd1687b3d.vertexdata].pc_vertexdata",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65",
+					"postInit": true
+				}
+			}
+		},
+		"cafe24e5d6b8d2eb": {
+			"parent": "cafe06bdbb8a3f65",
+			"name": "Rock_Collection_A_Set_A_01",
+			"factory": "[assembly:/_pro/environment/templates/props/rocks/rocks_sandstone_a.template?/rock_collection_a_set_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/rocks/rocks_sandstone_a.template?/rock_collection_a_set_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 13.912258247498231,
+							"y": 31.981103747598837,
+							"z": -72.55613097363111
+						},
+						"position": {
+							"x": 41.11030960083008,
+							"y": 5.928071022033691,
+							"z": 78.07433319091797
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 3.200000047683716,
+						"y": 3.200000047683716,
+						"z": 3.200000047683716
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65",
+					"postInit": true
+				}
+			}
+		},
+		"cafec0df71ef6d4e": {
+			"parent": "cafe61c439684673",
+			"name": "pine_aleppo_9m_d_backdrop_10",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 9.43696883842399,
+							"y": -33.519607934615514,
+							"z": 130.55502043364282
+						},
+						"position": {
+							"x": 27.86581039428711,
+							"y": -19.400060653686523,
+							"z": 16.504060745239258
+						}
+					}
+				},
+				"m_fLODScale": { "type": "float32", "value": 0.5 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65",
+					"postInit": true
+				}
+			}
+		},
+		"cafe6e536919ccae": {
+			"parent": "cafe06bdbb8a3f65",
+			"name": "Rock_Collection_A_Set_A",
+			"factory": "[assembly:/_pro/environment/templates/props/rocks/rocks_sandstone_a.template?/rock_collection_a_set_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/rocks/rocks_sandstone_a.template?/rock_collection_a_set_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 10.041462241490764,
+							"y": 27.7832161370799,
+							"z": -27.535715265780517
+						},
+						"position": {
+							"x": 45.59833908081055,
+							"y": 3.275684118270874,
+							"z": 79.1953125
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 3.200000047683716,
+						"y": 3.200000047683716,
+						"z": 3.200000047683716
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65",
+					"postInit": true
+				}
+			}
+		},
+		"cafe06bdbb8a3f65": {
+			"parent": "cafee919c8b2f424",
+			"name": "Backdrop_Hokkaido_Cliff_A_01",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -120.75218360203192
+						},
+						"position": {
+							"x": -125.5219955444336,
+							"y": -69.16580963134766,
+							"z": -73.99000549316406
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "3ac25f2657314528",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafeae003160344c": {
+			"parent": "cafe61c439684673",
+			"name": "pine_aleppo_9m_d_backdrop_06",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 63.555771652915546,
+							"y": 9.4735332515368,
+							"z": -142.03311337893143
+						},
+						"position": {
+							"x": -12.4298095703125,
+							"y": 6.3370361328125,
+							"z": 42.74129104614258
+						}
+					}
+				},
+				"m_fLODScale": { "type": "float32", "value": 0.5 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65"
+				}
+			}
+		},
+		"cafe6056eb6da70c": {
+			"parent": "cafe61c439684673",
+			"name": "terrain_italy_backdropplane_d22",
+			"factory": "[assembly:/_pro/environment/geometry/backdrop/terrain/terrain_italy_backdrop_a.wl2?/terrain_italy_backdropplane_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 32.14136693450248
+						},
+						"position": {
+							"x": 55.244041442871094,
+							"y": 2.157327890396118,
+							"z": 74.90972900390625
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65"
+				}
+			}
+		},
+		"cafe497814089129": {
+			"parent": "cafe06bdbb8a3f65",
+			"name": "hokkaido_terrain_a_cliff_piece_03",
+			"factory": "[assembly:/_pro/environment/geometry/levels/hokkaido/hokkaido_terrain_a.wl2?/hokkaido_terrain_a_cliff_piece_03.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -7.600547724623457
+						},
+						"position": {
+							"x": -6.514259338378906,
+							"y": 36.0278205871582,
+							"z": 81.45206451416016
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.6000000238418579,
+						"y": 0.6000000238418579,
+						"z": 0.6000000238418579
+					}
+				},
+				"m_sVertexPaintSourceResourceId": {
+					"type": "ZString",
+					"value": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/hawk/scenario_hawk/hokkaido_terrain_a_cliff_piece_03_c7a6ae7926c1453f898c2458c3cde9e8.vertexpaint].vertexpaint"
+				},
+				"m_VertexPaintData": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/hawk/scenario_hawk/hokkaido_terrain_a_cliff_piece_03_c7a6ae7926c1453f898c2458c3cde9e8.vertexdata].pc_vertexdata",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65"
+				}
+			}
+		},
+		"cafe6474f78960c0": {
+			"parent": "cafe61c439684673",
+			"name": "terrain_italy_backdropplane_d25",
+			"factory": "[assembly:/_pro/environment/geometry/backdrop/terrain/terrain_italy_backdrop_a.wl2?/terrain_italy_backdropplane_d.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 22.736956009823764
+						},
+						"position": {
+							"x": 9.273330688476564,
+							"y": 7.323696136474609,
+							"z": 93.27220153808594
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1, "y": 1, "z": 0.6932939887046814 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65"
+				}
+			}
+		},
+		"cafecb6cea8a5eb0": {
+			"parent": "cafe61c439684673",
+			"name": "pine_aleppo_9m_d_backdrop_12",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 26.84407198849941,
+							"y": 35.969107626673384,
+							"z": -74.25792520160228
+						},
+						"position": {
+							"x": -29.81804084777832,
+							"y": 14.900799751281738,
+							"z": 26.750429153442383
+						}
+					}
+				},
+				"m_fLODScale": { "type": "float32", "value": 0.5 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65"
+				}
+			}
+		},
+		"cafed1523c109e7b": {
+			"parent": "cafe61c439684673",
+			"name": "pine_aleppo_9m_d_backdrop_09",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 45.27140769900668,
+							"y": 0.2745626161260563,
+							"z": -175.55490248739014
+						},
+						"position": {
+							"x": 32.148651123046875,
+							"y": -19.889299392700195,
+							"z": 15.63234043121338
+						}
+					}
+				},
+				"m_fLODScale": { "type": "float32", "value": 0.5 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65"
+				}
+			}
+		},
+		"cafe669abf5d4201": {
+			"parent": "cafe61c439684673",
+			"name": "pine_eastern_15m_a_backdrop_01",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_eastern.template?/pine_eastern_15m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_eastern.template?/pine_eastern_15m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 5.658324666188545,
+							"y": 3.2843881822060985,
+							"z": -23.65679439735385
+						},
+						"position": {
+							"x": -20.21809959411621,
+							"y": 18.11738967895508,
+							"z": 83.7100830078125
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65"
+				}
+			}
+		},
+		"cafedeadd30ae20e": {
+			"parent": "cafe06bdbb8a3f65",
+			"name": "hokkaido_terrain_a_cliff_piece_08",
+			"factory": "[assembly:/_pro/environment/geometry/levels/hokkaido/hokkaido_terrain_a.wl2?/hokkaido_terrain_a_cliff_piece_08.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": 51.76013946533203,
+							"y": 1.7387419939041138,
+							"z": 69.25495910644531
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.6000000238418579,
+						"y": 0.6000000238418579,
+						"z": 0.6000000238418579
+					}
+				},
+				"m_sVertexPaintSourceResourceId": {
+					"type": "ZString",
+					"value": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/hawk/scenario_hawk/hokkaido_terrain_a_cliff_piece_08_dd49abb409a64088ac52f2dd320ad874.vertexpaint].vertexpaint"
+				},
+				"m_VertexPaintData": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/hawk/scenario_hawk/hokkaido_terrain_a_cliff_piece_08_dd49abb409a64088ac52f2dd320ad874.vertexdata].pc_vertexdata",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65"
+				}
+			}
+		},
+		"cafee7cf7d36eb79": {
+			"parent": "cafe61c439684673",
+			"name": "pine_aleppo_9m_d_backdrop_02",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_aleppo.template?/pine_aleppo_9m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 34.660174723875066,
+							"y": -26.753176991696755,
+							"z": 142.68582144276775
+						},
+						"position": {
+							"x": -16.39369010925293,
+							"y": 3.3640589714050293,
+							"z": 27.242740631103516
+						}
+					}
+				},
+				"m_fLODScale": { "type": "float32", "value": 0.5 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65"
+				}
+			}
+		},
+		"cafe2e0b463bb6b6": {
+			"parent": "cafe06bdbb8a3f65",
+			"name": "hokkaido_terrain_a_cliff_piece_05",
+			"factory": "[assembly:/_pro/environment/geometry/levels/hokkaido/hokkaido_terrain_a.wl2?/hokkaido_terrain_a_cliff_piece_05.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": 21.848369598388672,
+							"y": -21.647600173950195,
+							"z": -4.74350118637085
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.41999998688697815,
+						"y": 0.41999998688697815,
+						"z": 0.41999998688697815
+					}
+				},
+				"m_sVertexPaintSourceResourceId": {
+					"type": "ZString",
+					"value": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/hawk/scenario_hawk/hokkaido_terrain_a_cliff_piece_05_e721caa166984c75aefa10087c1cc758.vertexpaint].vertexpaint"
+				},
+				"m_VertexPaintData": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/hawk/scenario_hawk/hokkaido_terrain_a_cliff_piece_05_e721caa166984c75aefa10087c1cc758.vertexdata].pc_vertexdata",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65"
+				}
+			}
+		},
+		"cafeafb698ccd002": {
+			"parent": "cafe61c439684673",
+			"name": "terrain_italy_backdropplane_d24",
+			"factory": "[assembly:/_pro/environment/geometry/backdrop/terrain/terrain_italy_backdrop_a.wl2?/terrain_italy_backdropplane_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 32.14136693450248
+						},
+						"position": {
+							"x": 19.017169952392575,
+							"y": 23.108179092407227,
+							"z": 87.28096008300781
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65"
+				}
+			}
+		},
+		"cafe03d3030a89fb": {
+			"parent": "cafe61c439684673",
+			"name": "pine_eastern_15m_a_backdrop_05",
+			"factory": "[assembly:/_pro/environment/templates/foliage/trees_pine_eastern.template?/pine_eastern_15m_a_backdrop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_pine_eastern.template?/pine_eastern_15m_a_backdrop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -143.56460288107698
+						},
+						"position": {
+							"x": 7.385718822479248,
+							"y": 3.4117660522460938,
+							"z": 88.5730972290039
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe06bdbb8a3f65"
+				}
+			}
+		},
+		"cafedc92711a8be8": {
+			"parent": "cafee899f6405e0a",
+			"name": "Snoooow",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe74b320ab6be5": {
+			"parent": "cafedc92711a8be8",
+			"name": "FX_PB_Frost_Snow_Infinite",
+			"factory": "[assembly:/_pro/effects/templates/frost/fx_frost_snow.template?/fx_pb_frost_snow_infinite.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/frost/fx_frost_snow.template?/fx_pb_frost_snow_infinite.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_fRadius": { "type": "float32", "value": 20.0 },
+				"m_vGravity": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": -0.7699999809265137
+					}
+				},
+				"m_vModulation": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.14000000059604645,
+						"y": 0.12999999523162842,
+						"z": 0.07000000029802322
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "3ac25f2657314528",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				},
+				"m_BoxCenter": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "3ac25f2657314528",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				},
+				"m_fWindMultiplier": {
+					"type": "float32",
+					"value": 0.4000000059604645
+				},
+				"m_fParticleSizeMin": { "type": "float32", "value": 3.0 },
+				"m_fTimeToLiveSecondsMax": {
+					"type": "float32",
+					"value": 4.0
+				},
+				"m_fTimeToLiveSecondsMin": {
+					"type": "float32",
+					"value": 3.0
+				},
+				"m_fParticleSizeMax": { "type": "float32", "value": 5.0 },
+				"KillBoxes": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [],
+					"postInit": true
+				},
+				"StayAtBoxes": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [],
+					"postInit": true
+				}
+			}
+		},
+		"cafe61e01bb341a2": {
+			"parent": "cafedc92711a8be8",
+			"name": "ParticleEmitterBox_InfinitySnow",
+			"factory": "[modules:/zparticleemitterboxentity.class].pc_entitytype",
+			"blueprint": "[modules:/zparticleemitterboxentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 1.6085679531097412,
+							"y": -18.926889419555664,
+							"z": -3.145056962966919
+						}
+					}
+				},
+				"m_bEnabled": { "type": "bool", "value": true },
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": { "x": 100.0, "y": 100.0, "z": 100.0 }
+				},
+				"m_fParticlesPerSecond": {
+					"type": "float32",
+					"value": 8000
+				},
+				"m_fSpeedMin": { "type": "float32", "value": -1.0 },
+				"m_fSpeedMax": { "type": "float32", "value": -1.0 },
+				"m_Tags": { "type": "ZString", "value": "InfinitySnow" },
+				"m_fParticlesPerSecondMax": {
+					"type": "float32",
+					"value": 80000.0
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "3ac25f2657314528",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				},
+				"m_bSendHaveActiveParticles": {
+					"type": "bool",
+					"value": false
+				}
+			}
+		},
+		"cafe23a76330b3d0": {
+			"parent": "cafee919c8b2f424",
+			"name": "Backdrop_Hokkaido_Cliff_B_04",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 132.47376718242944
+						},
+						"position": {
+							"x": 44.78628921508789,
+							"y": 23.770904541015625,
+							"z": 11.139992713928224
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "3ac25f2657314528",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe2bdc75d83b30": {
+			"parent": "cafe23a76330b3d0",
+			"name": "hokkaido_terrain_a_cliff_piece_06",
+			"factory": "[assembly:/_pro/environment/geometry/levels/hokkaido/hokkaido_terrain_a.wl2?/hokkaido_terrain_a_cliff_piece_06.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -102.04717663144304
+						},
+						"position": {
+							"x": -114.2624969482422,
+							"y": -57.68170166015625,
+							"z": -6.88663387298584
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.6000000238418579,
+						"y": 0.6000000238418579,
+						"z": 0.6000000238418579
+					}
+				},
+				"m_sVertexPaintSourceResourceId": {
+					"type": "ZString",
+					"value": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/hawk/scenario_hawk/hokkaido_terrain_a_cliff_piece_06_30d42394176b4d4f971661b2bc51e503.vertexpaint].vertexpaint"
+				},
+				"m_VertexPaintData": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/hawk/scenario_hawk/hokkaido_terrain_a_cliff_piece_06_30d42394176b4d4f971661b2bc51e503.vertexdata].pc_vertexdata",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe23a76330b3d0"
+				}
+			}
+		},
+		"cafedfff44a9a92e": {
+			"parent": "cafe23a76330b3d0",
+			"name": "hokkaido_terrain_a_cliff_piece_05",
+			"factory": "[assembly:/_pro/environment/geometry/levels/hokkaido/hokkaido_terrain_a.wl2?/hokkaido_terrain_a_cliff_piece_05.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -102.04717663144304
+						},
+						"position": {
+							"x": -82.16893005371094,
+							"y": -37.756221771240234,
+							"z": -31.51300048828125
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.41999998688697815,
+						"y": 0.41999998688697815,
+						"z": 0.41999998688697815
+					}
+				},
+				"m_sVertexPaintSourceResourceId": {
+					"type": "ZString",
+					"value": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/hawk/scenario_hawk/hokkaido_terrain_a_cliff_piece_05_e721caa166984c75aefa10087c1cc758.vertexpaint].vertexpaint"
+				},
+				"m_VertexPaintData": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/hawk/scenario_hawk/hokkaido_terrain_a_cliff_piece_05_593bd24a0fe04e3fb8daca43b22d3904.vertexdata].pc_vertexdata",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe23a76330b3d0"
+				}
+			}
+		},
+		"cafe8271ff3f3ae0": {
+			"parent": "cafe23a76330b3d0",
+			"name": "hokkaido_terrain_a_cliff_piece_02",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/geometry/levels/hokkaido/hokkaido_terrain_a.wl2?/hokkaido_terrain_a_cliff_piece_02.prim].entitytype,[modules:/zhighrestextureentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zhighrestextureentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -102.0471750836845
+						},
+						"position": {
+							"x": -88.47236633300781,
+							"y": -52.079978942871094,
+							"z": -44.36238861083984
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.6000000238418579,
+						"y": 0.6000000238418579,
+						"z": 0.6000000238418579
+					}
+				},
+				"m_sVertexPaintSourceResourceId": {
+					"type": "ZString",
+					"value": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/hawk/scenario_hawk/hokkaido_terrain_a_cliff_piece_02_36e1eb1e06ce44aa98bfdcb3b5673a20.vertexpaint].vertexpaint"
+				},
+				"m_VertexPaintData": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/hawk/scenario_hawk/hokkaido_terrain_a_cliff_piece_02_7ad0727860d84821980ffe2389700351.vertexdata].pc_vertexdata",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe23a76330b3d0"
+				}
+			}
+		},
+		"cafef1268650958b": {
+			"parent": "cafe23a76330b3d0",
+			"name": "hokkaido_terrain_a_cliff_piece_04",
+			"factory": "[assembly:/_pro/environment/geometry/levels/hokkaido/hokkaido_terrain_a.wl2?/hokkaido_terrain_a_cliff_piece_04.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -102.0471750836845
+						},
+						"position": {
+							"x": -122.86790466308594,
+							"y": -47.71533966064453,
+							"z": 32.52116012573242
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.6000000238418579,
+						"y": 0.6000000238418579,
+						"z": 0.6000000238418579
+					}
+				},
+				"m_sVertexPaintSourceResourceId": {
+					"type": "ZString",
+					"value": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/hawk/scenario_hawk/hokkaido_terrain_a_cliff_piece_04_92bc03eebc714b7f93676b2356c4e1db.vertexpaint].vertexpaint"
+				},
+				"m_VertexPaintData": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/hawk/scenario_hawk/hokkaido_terrain_a_cliff_piece_04_92bc03eebc714b7f93676b2356c4e1db.vertexdata].pc_vertexdata",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe23a76330b3d0"
+				}
+			}
+		},
+		"cafe338eb3840b7e": {
+			"parent": "cafe23a76330b3d0",
+			"name": "hokkaido_terrain_a_cliff_piece_03",
+			"factory": "[assembly:/_pro/environment/geometry/levels/hokkaido/hokkaido_terrain_a.wl2?/hokkaido_terrain_a_cliff_piece_03.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -129.2272433890674
+						},
+						"position": {
+							"x": -126.62350463867188,
+							"y": -62.81134414672851,
+							"z": 42.17265319824219
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.6000000238418579,
+						"y": 0.6000000238418579,
+						"z": 0.6000000238418579
+					}
+				},
+				"m_sVertexPaintSourceResourceId": {
+					"type": "ZString",
+					"value": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/hawk/scenario_hawk/hokkaido_terrain_a_cliff_piece_03_d5c720032c194c0fa0b3e7bb01bfa70b.vertexpaint].vertexpaint"
+				},
+				"m_VertexPaintData": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/hawk/scenario_hawk/hokkaido_terrain_a_cliff_piece_03_d5c720032c194c0fa0b3e7bb01bfa70b.vertexdata].pc_vertexdata",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe23a76330b3d0"
+				}
+			}
+		},
+		"cafeecfe270eb434": {
+			"parent": "cafe904be9f9d6b1",
+			"name": "Lamp_Spot_Light_A_01_00",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_spot_light_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_spot_light_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -180.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 27.35492515563965,
+							"y": 12.557863235473633,
+							"z": -12.0600004196167
+						}
+					}
+				},
+				"DiffusePower": { "type": "float32", "value": 400 },
+				"SpotCastShadows": { "type": "bool", "value": true },
+				"On": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "3ac25f2657314528",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffe4bb"
+				},
+				"Flickering": { "type": "bool", "value": false },
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.018453292548656464, "y": 8 }
+				},
+				"m_eRoomLightFlow": {
+					"type": "ILightEntity.ERoomLightFlow",
+					"value": "LOCAL"
+				},
+				"GlowPower": { "type": "float32", "value": 3000 },
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 1, "y": 7 }
+				},
+				"m_fWrappedDiffuse": { "type": "float32", "value": 0 },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC"
+				}
+			}
+		},
+		"cafefbfda57f2620": {
+			"parent": "cafe904be9f9d6b1",
+			"name": "Lamp_Spot_Light_A_01_01",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_spot_light_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_spot_light_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -180.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 22.59492874145508,
+							"y": 12.66786289215088,
+							"z": -12.0600004196167
+						}
+					}
+				},
+				"DiffusePower": { "type": "float32", "value": 400 },
+				"SpotCastShadows": { "type": "bool", "value": true },
+				"On": { "type": "bool", "value": true },
+				"GlowPower": { "type": "float32", "value": 3000 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "3ac25f2657314528",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				},
+				"DiffuseColor": { "type": "SColorRGB", "value": "#ffe4bb" }
+			}
+		},
+		"cafe7b91d3991d63": {
+			"parent": "cafe904be9f9d6b1",
+			"name": "Lamp_Spot_Light_A_00_02",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_spot_light_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_spot_light_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -180.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 27.35492706298828,
+							"y": 35.56786346435547,
+							"z": -12.0600004196167
+						}
+					}
+				},
+				"DiffusePower": { "type": "float32", "value": 400 },
+				"SpotCastShadows": { "type": "bool", "value": true },
+				"On": { "type": "bool", "value": true },
+				"GlowPower": { "type": "float32", "value": 3000 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "3ac25f2657314528",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				},
+				"DiffuseColor": { "type": "SColorRGB", "value": "#ffe4bb" }
+			}
+		},
+		"cafe6a75262c613c": {
+			"parent": "cafe904be9f9d6b1",
+			"name": "Lamp_Spot_Light_A_00_03",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_spot_light_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_spot_light_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -180.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 22.454927444458008,
+							"y": 35.527862548828125,
+							"z": -12.0600004196167
+						}
+					}
+				},
+				"DiffusePower": { "type": "float32", "value": 400 },
+				"SpotCastShadows": { "type": "bool", "value": true },
+				"On": { "type": "bool", "value": true },
+				"GlowPower": { "type": "float32", "value": 3000 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "3ac25f2657314528",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				},
+				"DiffuseColor": { "type": "SColorRGB", "value": "#ffe4bb" }
+			}
 		}
 	},
 	"propertyOverrides": [
@@ -18016,6 +21081,14 @@
 		},
 		{
 			"ref": "0629b852d5d731d9",
+			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+		},
+		{
+			"ref": "aaa083045c7e126c",
+			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+		},
+		{
+			"ref": "2dd556cb9471a579",
 			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
 		}
 	],

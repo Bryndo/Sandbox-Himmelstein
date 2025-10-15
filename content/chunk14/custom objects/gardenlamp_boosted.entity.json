@@ -528,7 +528,7 @@
 					"type": "SVector2",
 					"value": { "x": 0.20000000298023224, "y": 0.75 }
 				},
-				"DiffusePower": { "type": "float32", "value": 200.0 },
+				"DiffusePower": { "type": "float32", "value": 500.0 },
 				"GlowPower": { "type": "float32", "value": 3000.0 },
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
@@ -543,7 +543,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "8a8f344d7a77b437",
 					"postInit": true
-				}
+				},
+				"m_fShadowFadeDistance": { "type": "float32", "value": 50 }
 			},
 			"events": {
 				"OnBroken": {

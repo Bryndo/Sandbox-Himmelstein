@@ -24,7 +24,9 @@
     "localisation": {
         "english": {
             "UI_CONTRACT_CROW_DESC": "We have finally found the final leader of the Keepers",
-            "UI_CONTRACT_CROW_TITLE": "The last Yardbird"
+            "UI_CONTRACT_CROW_TITLE": "The last Yardbird",
+            "UI_STARTING_LOCATION_CROW_CARPARK_NAME": "Hotel carpark",
+            "UI_STARTING_LOCATION_CROW_CARPARK_DESC": "47 arrived at the hotel car park"
         }
     },
     "dependencies": [
