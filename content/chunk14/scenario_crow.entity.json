@@ -9458,11 +9458,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": -176.11497 },
+						"rotation": { "x": -0.0, "y": 0, "z": 2.662637 },
 						"position": {
-							"x": 5.2683244,
-							"y": -93.17259,
-							"z": 12.917963
+							"x": 24.859642,
+							"y": 77.45557,
+							"z": -16.000004
 						}
 					}
 				},
@@ -11953,12 +11953,12 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0,
-							"y": 0,
+							"x": -0.0,
+							"y": 0.0,
 							"z": -2.6261446755933284
 						},
 						"position": {
-							"x": -22.643707275390625,
+							"x": -30.15370750427246,
 							"y": 36.91090393066406,
 							"z": -14.000006675720217
 						}
@@ -12480,13 +12480,13 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -102.04717663144304
+							"x": -0.0,
+							"y": 0.0,
+							"z": -102.0471750836845
 						},
 						"position": {
-							"x": -122.8678970336914,
-							"y": -47.71535110473633,
+							"x": -122.85791778564452,
+							"y": -47.7158088684082,
 							"z": 39.84115982055664
 						}
 					}
@@ -14417,10 +14417,10 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -180, "y": 0, "z": 0 },
+						"rotation": { "x": -180.0, "y": 0.0, "z": -0.0 },
 						"position": {
 							"x": 23.07371711730957,
-							"y": 46.944854736328125,
+							"y": 49.65485382080078,
 							"z": -12.0600004196167
 						}
 					}
@@ -14562,10 +14562,10 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -180, "y": 0, "z": 0 },
+						"rotation": { "x": -180.0, "y": 0.0, "z": -0.0 },
 						"position": {
-							"x": 26.711668014526367,
-							"y": 46.90974044799805,
+							"x": 26.851667404174805,
+							"y": 49.64974212646485,
 							"z": -12.0600004196167
 						}
 					}
@@ -20541,6 +20541,1215 @@
 				},
 				"DiffuseColor": { "type": "SColorRGB", "value": "#ffe4bb" }
 			}
+		},
+		"cafe4349869c6462": {
+			"parent": "cafe42e9569c0eab",
+			"name": "wall lamps",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe6585d599cded": {
+			"parent": "cafe4349869c6462",
+			"name": "Lamp_Wall_Modern_Spot_Italy_A03",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 4.274561672375396,
+							"y": -1.9552870006799363,
+							"z": 13.040989389503054
+						},
+						"position": {
+							"x": 69.28890991210938,
+							"y": 41.42454528808594,
+							"z": -16.799999237060547
+						}
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"Lamp_Neck_Transform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": -88.00007519647995,
+							"z": -0.0
+						},
+						"position": {
+							"x": 0.4109509885311126,
+							"y": 0.002530901925638318,
+							"z": 0.028281960636377335
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#fae0a3"
+				},
+				"Lamp_Head_Transform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 36.00000859925199,
+							"z": -0.0
+						},
+						"position": {
+							"x": -0.00004999999873689376,
+							"y": 0.001576000009663403,
+							"z": 0.23860199749469757
+						}
+					}
+				},
+				"DiffusePower": { "type": "float32", "value": 1000 },
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 5.0
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 75.0
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "3ac25f2657314528",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafee3c382f8515e": {
+			"parent": "cafeaedace358e0e",
+			"name": "Hawk_Palace_East_Wing_A",
+			"factory": "[assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_palace_east_wing_a_edited.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_palace_east_wing_a_edited.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 42.0, "y": -62.0, "z": -5.0 }
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "3ac25f2657314528",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafeaedace358e0e": {
+			"parent": "cafe631805f36abd",
+			"name": "Rebuilt_exterior",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe154e7e0d7dce": {
+			"parent": "cafeae5a752117f7",
+			"name": "Lamp_Wall_Ornate_Palace_A_00_07",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 3.020709991455078,
+							"y": 8.145145416259766,
+							"z": 2.1348679065704346
+						}
+					}
+				},
+				"GlowPower": { "type": "float32", "value": 500.0 },
+				"DiffusePower": { "type": "float32", "value": 200.0 },
+				"LightVisible": { "type": "bool", "value": true },
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.723878026008606,
+						"y": 8.710000038146973
+					}
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 2000.0
+				},
+				"PowerCondition": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "4d4e8f9d3e610a2c",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafea931ad205973": {
+			"parent": "cafeae5a752117f7",
+			"name": "Lamp_Wall_Ornate_Palace_A_00_08",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -0.6996954063048456
+						},
+						"position": {
+							"x": -2.98099136352539,
+							"y": 8.132526397705078,
+							"z": 2.1348679065704346
+						}
+					}
+				},
+				"GlowPower": { "type": "float32", "value": 500.0 },
+				"DiffusePower": { "type": "float32", "value": 200.0 },
+				"LightVisible": { "type": "bool", "value": true },
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.723878026008606,
+						"y": 8.710000038146973
+					}
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 2000.0
+				},
+				"PowerCondition": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "4d4e8f9d3e610a2c",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe0c8980995d6a": {
+			"parent": "cafeae5a752117f7",
+			"name": "Lamp_Wall_Ornate_Palace_A_00_09",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -56.09800117861237
+						},
+						"position": {
+							"x": -15.083070755004885,
+							"y": 3.5923004150390625,
+							"z": 2.2099997997283936
+						}
+					}
+				},
+				"GlowPower": { "type": "float32", "value": 500.0 },
+				"DiffusePower": { "type": "float32", "value": 200.0 },
+				"LightVisible": { "type": "bool", "value": true },
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.723878026008606,
+						"y": 8.710000038146973
+					}
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 2000.0
+				},
+				"PowerCondition": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "4d4e8f9d3e610a2c",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe373e87494ca1": {
+			"parent": "cafeae5a752117f7",
+			"name": "Props",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafecb2589a59108": {
+			"parent": "cafebfd825597948",
+			"name": "Computer_Monitor_A_00",
+			"factory": "[assembly:/_pro/environment/templates/props/electronics/computers_a.template?/computer_monitor_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/electronics/computers_a.template?/computer_monitor_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 24.71274165756883
+						},
+						"position": {
+							"x": 1.055750012397766,
+							"y": 0.38796600699424744,
+							"z": 0.9999939799308776
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafebfd825597948",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe5fc6ef583f51": {
+			"parent": "cafebfd825597948",
+			"name": "Office_Paper_A_00",
+			"factory": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/office_paper_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/office_paper_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -146.0418662688474
+						},
+						"position": {
+							"x": 0.31197598576545715,
+							"y": -0.30837100744247437,
+							"z": 1.0056099891662598
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafebfd825597948",
+					"postInit": true
+				}
+			}
+		},
+		"cafe4ccc40be4085": {
+			"parent": "cafebfd825597948",
+			"name": "Office_Paper_E_00",
+			"factory": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/office_paper_e_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/office_paper_e_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 171.32815752886353
+						},
+						"position": {
+							"x": -0.41087400913238525,
+							"y": 0.09204699844121932,
+							"z": 1.0051100254058838
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafebfd825597948",
+					"postInit": true
+				}
+			}
+		},
+		"cafebfd825597948": {
+			"parent": "cafe373e87494ca1",
+			"name": "Desk_Office_Antique_A01",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/antique_furniture_b.template?/desk_office_antique_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/antique_furniture_b.template?/desk_office_antique_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -5.727655314371549
+						},
+						"position": {
+							"x": -0.7324447631835938,
+							"y": -6.002132415771484,
+							"z": -0.19996309280395508
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "4d4e8f9d3e610a2c",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafecd3e1a297501": {
+			"parent": "cafebfd825597948",
+			"name": "Computer_Case_A_00",
+			"factory": "[assembly:/_pro/environment/templates/props/electronics/computers_a.template?/computer_case_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/electronics/computers_a.template?/computer_case_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 85.41448000460367
+						},
+						"position": {
+							"x": -0.5391910076141357,
+							"y": -0.17639200389385223,
+							"z": 7.999999979801942e-6
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafebfd825597948"
+				}
+			},
+			"events": { "OnHit": { "TurnOff": ["cafecb2589a59108"] } },
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe249787d79139": {
+			"parent": "cafebfd825597948",
+			"name": "Computer_Mouse_A_00",
+			"factory": "[assembly:/_pro/environment/templates/props/electronics/computers_a.template?/computer_mouse_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/electronics/computers_a.template?/computer_mouse_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 172.0798992243846
+						},
+						"position": {
+							"x": 1.0274980068206787,
+							"y": -0.11852499842643738,
+							"z": 1.0057599544525146
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafebfd825597948"
+				}
+			}
+		},
+		"cafed73a72445e83": {
+			"parent": "cafebfd825597948",
+			"name": "Museum_PaperStack_A_00_10",
+			"factory": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/museum_paperstack_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/museum_paperstack_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -94.24324933926208
+						},
+						"position": {
+							"x": -1.2241380214691162,
+							"y": 0.022593000903725624,
+							"z": 1.0241529941558838
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafebfd825597948"
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafeb967cb647aa2": {
+			"parent": "cafebfd825597948",
+			"name": "Computer_Keyboard_A_00",
+			"factory": "[assembly:/_pro/environment/templates/props/electronics/computers_a.template?/computer_keyboard_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/electronics/computers_a.template?/computer_keyboard_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -154.7006206946356
+						},
+						"position": {
+							"x": 0.7679740190505981,
+							"y": -0.034147001802921295,
+							"z": 1.004601001739502
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafebfd825597948"
+				}
+			}
+		},
+		"cafe53f293ca454e": {
+			"parent": "cafebfd825597948",
+			"name": "Chair_Office_Modern_Leather_A_00",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/chair_office_modern_leather_a.template?/chair_office_modern_leather_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/chair_office_modern_leather_a.template?/chair_office_modern_leather_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -178.19648997810634
+						},
+						"position": {
+							"x": 0.10628899931907654,
+							"y": -0.38427498936653137,
+							"z": 0.0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafebfd825597948"
+				}
+			}
+		},
+		"cafef56168f539ea": {
+			"parent": "cafe373e87494ca1",
+			"name": "Painting_C_Frame_A_Size_A",
+			"factory": "[assembly:/_pro/environment/templates/props/paintings/paintings_classic_italian_a.template?/painting_d_frame_a_size_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/paintings/paintings_classic_italian_a.template?/painting_d_frame_a_size_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 89.53169654267506,
+							"y": 0.9283623012967092,
+							"z": -2.0887406772629222
+						},
+						"position": {
+							"x": 4.599063873291016,
+							"y": -11.41350555419922,
+							"z": 2.06000018119812
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "4d4e8f9d3e610a2c",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe402fa1241a4c": {
+			"parent": "cafeae5a752117f7",
+			"name": "Gameplay",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe50a91187a7d1": {
+			"parent": "cafe402fa1241a4c",
+			"name": "SetPiece_Container_Body_Chest_Wicker_A",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_body_chest_wooden_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_body_chest_wooden_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"position": {
+							"x": -1.1635589599609375,
+							"y": 1.0998320579528809,
+							"z": -0.20000100135803223
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": null,
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafeb760c69c3a49": {
+			"parent": "cafe373e87494ca1",
+			"name": "Sofa_Leather_Antique_A",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/antique_furniture_b.template?/sofa_leather_antique_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/antique_furniture_b.template?/sofa_leather_antique_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 133.1620857910393
+						},
+						"position": {
+							"x": 13.834426879882812,
+							"y": -5.202205657958984,
+							"z": 0.009999752044677734
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "4d4e8f9d3e610a2c",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe6790da0a27c1": {
+			"parent": "cafecd0f63d9ad25",
+			"name": "Mug_A_00_01",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/mug_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/mug_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 134.95746026095293
+						},
+						"position": {
+							"x": 0.03532800078392029,
+							"y": -0.4589439928531647,
+							"z": 0.9084659814834596
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafecd0f63d9ad25",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafecd0f63d9ad25": {
+			"parent": "cafe373e87494ca1",
+			"name": "Table_Ornamented_Small_Italy_B",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/antique_furniture_b.template?/table_ornamented_small_italy_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/antique_furniture_b.template?/table_ornamented_small_italy_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 90.21240986060312
+						},
+						"position": {
+							"x": -7.178740978240967,
+							"y": -6.499598026275635,
+							"z": -0.17887499928474426
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "4d4e8f9d3e610a2c",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe91d642a71994": {
+			"parent": "cafecd0f63d9ad25",
+			"name": "Coffee_Pot_Metal_Blue_Old_A",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/coffee_pot_metal_blue_old_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/coffee_pot_metal_blue_old_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 107.28746238753698
+						},
+						"position": {
+							"x": 0.43026700615882874,
+							"y": -0.16839100420475006,
+							"z": 0.7423310279846191
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafecd0f63d9ad25"
+				}
+			}
+		},
+		"cafe2b98ded5d117": {
+			"parent": "cafecd0f63d9ad25",
+			"name": "Ashtray_A_Full_00_02",
+			"factory": "[assembly:/_pro/environment/templates/props/accessories/cigarette_a.template?/ashtray_a_full_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/accessories/cigarette_a.template?/ashtray_a_full_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -42.712405125012445
+						},
+						"position": {
+							"x": 0.2733269929885864,
+							"y": 0.1078070029616356,
+							"z": 0.7423310279846191
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafecd0f63d9ad25"
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe7ecb63935a0d": {
+			"parent": "cafe373e87494ca1",
+			"name": "Chair_Leather_Antique_A01",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/antique_furniture_b.template?/chair_leather_antique_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/antique_furniture_b.template?/chair_leather_antique_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -42.16799821013743
+						},
+						"position": {
+							"x": -6.707239151000977,
+							"y": -4.781370162963867,
+							"z": -0.19996300339698792
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "4d4e8f9d3e610a2c",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe07552e378c65": {
+			"parent": "cafe373e87494ca1",
+			"name": "Library_Italy_Unit_Door_A01",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/library_italy_units_a.template?/library_italy_unit_door_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/library_italy_units_a.template?/library_italy_unit_door_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 45.68043480595322
+						},
+						"position": {
+							"x": 13.292972564697266,
+							"y": 5.394367218017578,
+							"z": 0.010000228881835938
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "4d4e8f9d3e610a2c",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafeee8083f7578e": {
+			"parent": "cafeae5a752117f7",
+			"name": "Door_DoubleDoorBig_A_Normal",
+			"factory": "[assembly:/_pro/environment/templates/architecture/doors/doors_italy_a.template?/door_doubledoorbig_a_normal.entitytemplate](sounddoorinteraction+[assembly:/templates/sound/customsoundtemplates.template?/sound_doorinteraction.entitytemplate].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/architecture/doors/doors_italy_a.template?/door_doubledoorbig_a_normal.entitytemplate](sounddoorinteraction+[assembly:/templates/sound/customsoundtemplates.template?/sound_doorinteraction.entitytemplate].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -137.88599636195664
+						},
+						"position": {
+							"x": 13.242427825927734,
+							"y": 5.2724151611328125,
+							"z": 0.010000228881835938
+						}
+					}
+				},
+				"m_rGateEntity": {
+					"type": "SEntityTemplateReference",
+					"value": null
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "4d4e8f9d3e610a2c",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafeebab70219c8f": {
+			"parent": "cafebfd825597948",
+			"name": "Lamp_Desk_Green_Classic_A",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_italy_a.template?/lamp_desk_green_classic_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_italy_a.template?/lamp_desk_green_classic_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 129.43728822797462
+						},
+						"position": {
+							"x": -1.3371750116348269,
+							"y": -1.6550999879837036,
+							"z": 0.8000336289405823
+						}
+					}
+				},
+				"LightOn": { "type": "bool", "value": true },
+				"m_bForceVisible": { "type": "bool", "value": false },
+				"m_bIsPrivate": { "type": "bool", "value": false },
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafecd0f63d9ad25",
+					"postInit": true
+				},
+				"DiffusePower": { "type": "float32", "value": 50 }
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe05e102b58273": {
+			"parent": "cafe4349869c6462",
+			"name": "Lamp_Wall_Modern_Spot_Italy_A04",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 4.274561672375396,
+							"y": -1.9552870006799363,
+							"z": 13.040989389503054
+						},
+						"position": {
+							"x": 69.28890991210938,
+							"y": 41.42454528808594,
+							"z": -16.799999237060547
+						}
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"Lamp_Neck_Transform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": -88.00007519647995,
+							"z": -0.0
+						},
+						"position": {
+							"x": 0.4109509885311126,
+							"y": 0.002530901925638318,
+							"z": 0.028281960636377335
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#fae0a3"
+				},
+				"Lamp_Head_Transform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 36.00000859925199,
+							"z": -0.0
+						},
+						"position": {
+							"x": -0.00004999999873689376,
+							"y": 0.001576000009663403,
+							"z": 0.23860199749469757
+						}
+					}
+				},
+				"DiffusePower": { "type": "float32", "value": 1000 },
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 5.0
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 75.0
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "3ac25f2657314528",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafecf476369c0a9": {
+			"parent": "cafe4349869c6462",
+			"name": "Lamp_Wall_Modern_Spot_Italy_A00",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 4.274561672375396,
+							"y": -1.9552870006799363,
+							"z": 13.040989389503054
+						},
+						"position": {
+							"x": 69.28890991210938,
+							"y": 41.42454528808594,
+							"z": -16.799999237060547
+						}
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"Lamp_Neck_Transform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": -88.00007519647995,
+							"z": -0.0
+						},
+						"position": {
+							"x": 0.4109509885311126,
+							"y": 0.002530901925638318,
+							"z": 0.028281960636377335
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#fae0a3"
+				},
+				"Lamp_Head_Transform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 36.00000859925199,
+							"z": -0.0
+						},
+						"position": {
+							"x": -0.00004999999873689376,
+							"y": 0.001576000009663403,
+							"z": 0.23860199749469757
+						}
+					}
+				},
+				"DiffusePower": { "type": "float32", "value": 1000 },
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 5.0
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 75.0
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "3ac25f2657314528",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafeac53a8ca6703": {
+			"parent": "cafe4349869c6462",
+			"name": "Lamp_Wall_Modern_Spot_Italy_A02",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 4.274581265953777,
+							"y": -1.9552442866987136,
+							"z": 13.040987105214288
+						},
+						"position": {
+							"x": 69.28890991210938,
+							"y": 41.42454528808594,
+							"z": -4.649999618530273
+						}
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"Lamp_Neck_Transform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": -88.00007519647995,
+							"z": -0.0
+						},
+						"position": {
+							"x": 0.4109509885311126,
+							"y": 0.002530901925638318,
+							"z": 0.028281960636377335
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#fae0a3"
+				},
+				"Lamp_Head_Transform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 36.00000859925199,
+							"z": -0.0
+						},
+						"position": {
+							"x": -0.00004999999873689376,
+							"y": 0.001576000009663403,
+							"z": 0.23860199749469757
+						}
+					}
+				},
+				"DiffusePower": { "type": "float32", "value": 1000 },
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 5.0
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 75.0
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "3ac25f2657314528",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe5c6d4df4e622": {
+			"parent": "cafe4349869c6462",
+			"name": "Lamp_Wall_Modern_Spot_Italy_A01",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -32.76802265324771,
+							"y": 0.9453836630591888,
+							"z": 88.5316814545473
+						},
+						"position": {
+							"x": 78.0588607788086,
+							"y": 13.492022514343262,
+							"z": -5.240000247955322
+						}
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"Lamp_Neck_Transform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": -88.00007519647995,
+							"z": -0.0
+						},
+						"position": {
+							"x": 0.4109509885311126,
+							"y": 0.002530901925638318,
+							"z": 0.028281960636377335
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#fae0a3"
+				},
+				"Lamp_Head_Transform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 36.00000859925199,
+							"z": -0.0
+						},
+						"position": {
+							"x": -0.00004999999873689376,
+							"y": 0.001576000009663403,
+							"z": 0.23860199749469757
+						}
+					}
+				},
+				"DiffusePower": { "type": "float32", "value": 1000 },
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 5.0
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 75.0
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "3ac25f2657314528",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe379247f4ffc0": {
+			"parent": "cafeae5a752117f7",
+			"name": "Lamp_Spot_Light_Small_A_00",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_spot_light_small_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_spot_light_small_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -13.16630180047003
+						},
+						"position": {
+							"x": -1.1435012817382812,
+							"y": -4.982513427734375,
+							"z": 3.919999599456787
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#f5d1ae"
+				},
+				"DiffusePower": { "type": "float32", "value": 300 },
+				"GlowPower": { "type": "float32", "value": 5000 },
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.8600000143051147,
+						"y": 5.409999847412109
+					}
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.5781199932098389,
+						"y": 1.2311819791793823
+					}
+				},
+				"m_fLightFadeDistance": { "type": "float32", "value": 50 },
+				"m_bUseDynamicShadowMap": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "4d4e8f9d3e610a2c",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
@@ -20624,38 +21833,6 @@
 		{
 			"entities": [
 				{
-					"ref": "07a68d2a1aeb500b",
-					"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
-				},
-				{
-					"ref": "ef23b9c25f0d4351",
-					"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
-				},
-				{
-					"ref": "7d14f19734af8b55",
-					"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
-				},
-				{
-					"ref": "98d3532c421a53ac",
-					"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
-				},
-				{
-					"ref": "52bb413ae356137b",
-					"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
-				},
-				{
-					"ref": "fb7a2477d07d36d6",
-					"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
-				},
-				{
-					"ref": "b29099ab06d8ecd9",
-					"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
-				},
-				{
-					"ref": "50dd1471a35aaaa8",
-					"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
-				},
-				{
 					"ref": "d042472186da0f14",
 					"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
 				},
@@ -20719,6 +21896,72 @@
 			"properties": {
 				"On": { "type": "bool", "value": true },
 				"DiffusePower": { "type": "float32", "value": 60 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "07a68d2a1aeb500b",
+					"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+				},
+				{
+					"ref": "ef23b9c25f0d4351",
+					"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+				},
+				{
+					"ref": "7d14f19734af8b55",
+					"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+				},
+				{
+					"ref": "98d3532c421a53ac",
+					"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+				},
+				{
+					"ref": "52bb413ae356137b",
+					"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+				},
+				{
+					"ref": "fb7a2477d07d36d6",
+					"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+				},
+				{
+					"ref": "b29099ab06d8ecd9",
+					"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+				},
+				{
+					"ref": "50dd1471a35aaaa8",
+					"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"On": { "type": "bool", "value": true },
+				"DiffusePower": { "type": "float32", "value": 300 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "6078add2cedff78f",
+					"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+				},
+				{
+					"ref": "a424210c2b8670df",
+					"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+				},
+				{
+					"ref": "483a21c3ecb70c08",
+					"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+				},
+				{
+					"ref": "77f2d25c872d29c9",
+					"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_InitialState": {
+					"type": "IHM5Door.EInitialState",
+					"value": "IS_CLOSED"
+				}
 			}
 		}
 	],
@@ -21089,6 +22332,54 @@
 		},
 		{
 			"ref": "2dd556cb9471a579",
+			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+		},
+		{
+			"ref": "815682efbab8a9b0",
+			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+		},
+		{
+			"ref": "24f38527fdfa843a",
+			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+		},
+		{
+			"ref": "3a70061e354a5688",
+			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+		},
+		{
+			"ref": "a70c0f2f6f558bbf",
+			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+		},
+		{
+			"ref": "b61b1964b1d3ec59",
+			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+		},
+		{
+			"ref": "711344c4b38c0550",
+			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+		},
+		{
+			"ref": "b91c9f2948679532",
+			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+		},
+		{
+			"ref": "4ba43ede767ff527",
+			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+		},
+		{
+			"ref": "b61b1964b1d3ec59",
+			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+		},
+		{
+			"ref": "b61b1964b1d3ec59",
+			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+		},
+		{
+			"ref": "b61b1964b1d3ec59",
+			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+		},
+		{
+			"ref": "b61b1964b1d3ec59",
 			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
 		}
 	],

@@ -522,7 +522,7 @@
 				"On": { "type": "bool", "value": true },
 				"DiffuseColor": {
 					"type": "SColorRGB",
-					"value": "#fff1c0"
+					"value": "#FDF3C7"
 				},
 				"m_vFarAttenuation": {
 					"type": "SVector2",

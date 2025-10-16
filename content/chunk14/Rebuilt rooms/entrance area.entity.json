@@ -297,7 +297,7 @@
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.5, "y": 1.0, "z": 1.0 }
+					"value": { "x": 1.1, "y": 1.0, "z": 1.0 }
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1692,7 +1692,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": 0.925, "y": 19.999, "z": -4.0 }
+						"position": { "x": 1.0, "y": 19.999, "z": -4.0 }
 					}
 				},
 				"m_PrimitiveScale": {
