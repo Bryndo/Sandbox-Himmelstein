@@ -2528,46 +2528,6 @@
 				}
 			}
 		},
-		"cafefdecc090aaae": {
-			"parent": "cafeaaacdc8346c4",
-			"name": "CollisionBox_018",
-			"factory": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0.378975809455846
-						},
-						"position": {
-							"x": 13.25461769104004,
-							"y": -37.15023040771485,
-							"z": -12
-						}
-					}
-				},
-				"m_vBoxSize": {
-					"type": "SVector3",
-					"value": {
-						"x": 13,
-						"y": 4.5,
-						"z": 0.9366379976272584
-					}
-				},
-				"m_bCollideHitman": {
-					"type": "bool",
-					"value": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
-			}
-		},
 		"cafeda52b536dbed": {
 			"parent": "cafea0ccd3e149b4",
 			"name": "Trees",
@@ -8583,100 +8543,6 @@
 				}
 			}
 		},
-		"cafeb189f816b479": {
-			"parent": "cafe6a7486b55fb7",
-			"name": "Ledge_04",
-			"factory": "[modules:/zguideledge.class].pc_entitytype",
-			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 89.71044656215673
-						},
-						"position": {
-							"x": 44.92436981201172,
-							"y": 39.01405334472656,
-							"z": -12.000000953674316
-						}
-					}
-				},
-				"m_vSize": {
-					"type": "SVector2",
-					"value": {
-						"x": 21.5,
-						"y": 0.5731379985809326
-					}
-				},
-				"m_bWalkable": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowDropDown": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAnchorEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromTop": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromBottom": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bBodyDumpEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bCanStandOnLedge": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAllowJumpToLedgeLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowJumpToLedgeRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bKickNPCIsAccident": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bDumpedBodyHidden": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bKickNPCEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bCanHang": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bPacifyKickedNPC": {
-					"type": "bool",
-					"value": false
-				}
-			}
-		},
 		"cafe3b6173aca4e0": {
 			"parent": "cafe7ff602fd9cd4",
 			"name": "walls",
@@ -11371,100 +11237,6 @@
 				}
 			}
 		},
-		"cafe466b71a337ca": {
-			"parent": "cafe6a7486b55fb7",
-			"name": "Ledge_00",
-			"factory": "[modules:/zguideledge.class].pc_entitytype",
-			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 89.71044656215673
-						},
-						"position": {
-							"x": 44.92436981201172,
-							"y": 39.01405334472656,
-							"z": -12.000000953674316
-						}
-					}
-				},
-				"m_vSize": {
-					"type": "SVector2",
-					"value": {
-						"x": 21.5,
-						"y": 0.5731379985809326
-					}
-				},
-				"m_bWalkable": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowDropDown": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAnchorEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromTop": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromBottom": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bCanHang": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bBodyDumpEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bCanStandOnLedge": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAllowJumpToLedgeLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowJumpToLedgeRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bKickNPCIsAccident": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bDumpedBodyHidden": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bKickNPCEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bPacifyKickedNPC": {
-					"type": "bool",
-					"value": false
-				}
-			}
-		},
 		"cafe63bfb9c02047": {
 			"parent": "cafe4e7547c4bb62",
 			"name": " Down Pools",
@@ -11565,12 +11337,6 @@
 				}
 			}
 		},
-		"cafe6a7486b55fb7": {
-			"parent": "cafe4e7547c4bb62",
-			"name": "Perimeter",
-			"factory": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
-		},
 		"cafe02f3adafc95f": {
 			"parent": "cafe63bfb9c02047",
 			"name": "Ledge_000",
@@ -11656,6 +11422,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -11936,6 +11706,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -12026,6 +11800,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -12114,6 +11892,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -12300,6 +12082,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -12388,6 +12174,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -12574,6 +12364,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -12662,6 +12456,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -12754,6 +12552,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -12842,6 +12644,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -12934,6 +12740,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -13022,6 +12832,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -13114,6 +12928,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -13202,6 +13020,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -13294,6 +13116,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -13382,6 +13208,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -17802,6 +17632,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -17890,6 +17724,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -17982,6 +17820,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -17997,19 +17839,19 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 180
+							"z": 89.99998975471624
 						},
 						"position": {
-							"x": 32.0032844543457,
-							"y": 10.034393310546877,
-							"z": -12.000000953674316
+							"x": -5.097361087799072,
+							"y": -62.96834945678711,
+							"z": -11.968244552612305
 						}
 					}
 				},
 				"m_vSize": {
 					"type": "SVector2",
 					"value": {
-						"x": 5.599999904632568,
+						"x": 1.600000023841858,
 						"y": 0.5731379985809326
 					}
 				},
@@ -18070,6 +17912,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -18162,6 +18008,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -18252,6 +18102,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -18267,19 +18121,19 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 89.99998975471624
+							"z": -89.99998975471624
 						},
 						"position": {
-							"x": 14.976034164428713,
-							"y": 6.012884616851807,
-							"z": -11.999911308288574
+							"x": 5.094141960144043,
+							"y": -37.026248931884766,
+							"z": -11.999984741210938
 						}
 					}
 				},
 				"m_vSize": {
 					"type": "SVector2",
 					"value": {
-						"x": 7.599999904632568,
+						"x": 3.4000000953674316,
 						"y": 0.5731379985809326
 					}
 				},
@@ -18340,6 +18194,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -18360,16 +18218,16 @@
 							"z": 89.99998975471624
 						},
 						"position": {
-							"x": 14.949444770812988,
-							"y": 17.026487350463867,
-							"z": -11.999755859375
+							"x": 6.935736656188965,
+							"y": -36.91751480102539,
+							"z": -11.999983787536621
 						}
 					}
 				},
 				"m_vSize": {
 					"type": "SVector2",
 					"value": {
-						"x": 9.600000381469728,
+						"x": 3.4000000953674316,
 						"y": 0.5731379985809326
 					}
 				},
@@ -18430,6 +18288,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -18522,6 +18384,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -18610,6 +18476,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -18702,6 +18572,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -18717,19 +18591,19 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 180
+							"z": 89.99998975471624
 						},
 						"position": {
-							"x": 21.74755096435547,
-							"y": 8.085573196411133,
-							"z": -12.001617431640623
+							"x": -34.0726318359375,
+							"y": -37.053611755371094,
+							"z": -11.999991416931152
 						}
 					}
 				},
 				"m_vSize": {
 					"type": "SVector2",
 					"value": {
-						"x": 2,
+						"x": 3.5999999046325684,
 						"y": 0.5731379985809326
 					}
 				},
@@ -18790,6 +18664,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -18882,6 +18760,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -18897,19 +18779,19 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 90
+							"z": 0
 						},
 						"position": {
-							"x": 26.95475196838379,
-							"y": 4.994663238525391,
-							"z": -11.98304843902588
+							"x": -25.461833953857422,
+							"y": -68.1103286743164,
+							"z": -11.975020408630371
 						}
 					}
 				},
 				"m_vSize": {
 					"type": "SVector2",
 					"value": {
-						"x": 5.599999904632568,
+						"x": 8.600000381469727,
 						"y": 0.5731379985809326
 					}
 				},
@@ -18970,6 +18852,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -18987,19 +18873,19 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -179.8953216765062
+							"z": -89.99998975471624
 						},
 						"position": {
-							"x": 17.966245651245117,
-							"y": 10.043450355529783,
-							"z": -11.999945640563965
+							"x": -14.935464859008789,
+							"y": -36.975624084472656,
+							"z": -11.999987602233887
 						}
 					}
 				},
 				"m_vSize": {
 					"type": "SVector2",
 					"value": {
-						"x": 5.599999904632568,
+						"x": 3.5999999046325684,
 						"y": 0.5731379985809326
 					}
 				},
@@ -19060,6 +18946,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -19077,12 +18967,200 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -89.71044656215673
+							"z": -179.8953216765062
 						},
 						"position": {
-							"x": 23.06628799438477,
-							"y": 4.972661018371582,
-							"z": -11.999726295471191
+							"x": -2.996870517730713,
+							"y": -34.89712905883789,
+							"z": -11.999999046325684
+						}
+					}
+				},
+				"m_vSize": {
+					"type": "SVector2",
+					"value": {
+						"x": 15.5,
+						"y": 0.5731379985809326
+					}
+				},
+				"m_bWalkable": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bMountDismountRight": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bMountDismountLeft": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bAllowDropDown": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bAnchorEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bMountableFromTop": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bMountableFromBottom": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bBodyDumpEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCanStandOnLedge": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bAllowJumpToLedgeLeft": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bAllowJumpToLedgeRight": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bKickNPCIsAccident": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bDumpedBodyHidden": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bKickNPCEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
+				}
+			}
+		},
+		"feedb12ef927531e": {
+			"parent": "cafe63bfb9c02047",
+			"name": "Ledge_044",
+			"factory": "[modules:/zguideledge.class].pc_entitytype",
+			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 180
+						},
+						"position": {
+							"x": -25.503435134887695,
+							"y": -61.94064712524414,
+							"z": -11.974757194519043
+						}
+					}
+				},
+				"m_vSize": {
+					"type": "SVector2",
+					"value": {
+						"x": 8.600000381469727,
+						"y": 0.5731379985809326
+					}
+				},
+				"m_bWalkable": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bMountDismountRight": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bMountDismountLeft": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bAllowDropDown": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bAnchorEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bMountableFromTop": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bMountableFromBottom": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bBodyDumpEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCanStandOnLedge": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bAllowJumpToLedgeLeft": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bAllowJumpToLedgeRight": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bKickNPCIsAccident": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bDumpedBodyHidden": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bKickNPCEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
+				}
+			}
+		},
+		"feedb8674532376c": {
+			"parent": "cafe63bfb9c02047",
+			"name": "Ledge_045",
+			"factory": "[modules:/zguideledge.class].pc_entitytype",
+			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.99998975471624
+						},
+						"position": {
+							"x": -30.07511329650879,
+							"y": -64.98353576660156,
+							"z": -11.97431468963623
 						}
 					}
 				},
@@ -19152,184 +19230,8 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
-				}
-			}
-		},
-		"feedb12ef927531e": {
-			"parent": "cafe63bfb9c02047",
-			"name": "Ledge_044",
-			"factory": "[modules:/zguideledge.class].pc_entitytype",
-			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -90
-						},
-						"position": {
-							"x": 35.06684875488281,
-							"y": 5.96199369430542,
-							"z": -11.970023155212402
-						}
-					}
 				},
-				"m_vSize": {
-					"type": "SVector2",
-					"value": {
-						"x": 7.599999904632568,
-						"y": 0.5731379985809326
-					}
-				},
-				"m_bWalkable": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowDropDown": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAnchorEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromTop": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromBottom": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bBodyDumpEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bCanStandOnLedge": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAllowJumpToLedgeLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowJumpToLedgeRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bKickNPCIsAccident": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bDumpedBodyHidden": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bKickNPCEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bPacifyKickedNPC": {
-					"type": "bool",
-					"value": false
-				}
-			}
-		},
-		"feedb8674532376c": {
-			"parent": "cafe63bfb9c02047",
-			"name": "Ledge_045",
-			"factory": "[modules:/zguideledge.class].pc_entitytype",
-			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 31.02827262878418,
-							"y": 1.9049160480499268,
-							"z": -11.97022533416748
-						}
-					}
-				},
-				"m_vSize": {
-					"type": "SVector2",
-					"value": {
-						"x": 7.599999904632568,
-						"y": 0.5731379985809326
-					}
-				},
-				"m_bWalkable": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowDropDown": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAnchorEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromTop": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromBottom": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bBodyDumpEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bCanStandOnLedge": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAllowJumpToLedgeLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowJumpToLedgeRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bKickNPCIsAccident": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bDumpedBodyHidden": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bKickNPCEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bPacifyKickedNPC": {
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -19422,6 +19324,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -19437,19 +19343,19 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 0
+							"z": -179.8953216765062
 						},
 						"position": {
-							"x": 19.01473045349121,
-							"y": 1.9562596082687376,
-							"z": -11.999810218811035
+							"x": -24.51474952697754,
+							"y": -34.913047790527344,
+							"z": -11.999999046325684
 						}
 					}
 				},
 				"m_vSize": {
 					"type": "SVector2",
 					"value": {
-						"x": 7.599999904632568,
+						"x": 18.5,
 						"y": 0.5731379985809326
 					}
 				},
@@ -19512,94 +19418,8 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
-				}
-			}
-		},
-		"feedfd7ce4003212": {
-			"parent": "cafe63bfb9c02047",
-			"name": "Ledge_060",
-			"factory": "[modules:/zguideledge.class].pc_entitytype",
-			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -89.71044656215673
-						},
-						"position": {
-							"x": 35.05104446411133,
-							"y": 30.95057487487793,
-							"z": -11.970006942749023
-						}
-					}
 				},
-				"m_vSize": {
-					"type": "SVector2",
-					"value": {
-						"x": 9.600000381469728,
-						"y": 0.5731379985809326
-					}
-				},
-				"m_bWalkable": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowDropDown": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAnchorEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromTop": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromBottom": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bBodyDumpEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bCanStandOnLedge": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAllowJumpToLedgeLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowJumpToLedgeRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bKickNPCIsAccident": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bDumpedBodyHidden": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bKickNPCEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bPacifyKickedNPC": {
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -19692,6 +19512,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -19707,19 +19531,19 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -89.99998975471624
+							"z": 89.99998975471624
 						},
 						"position": {
-							"x": 21.07486343383789,
-							"y": 8.762635231018066,
-							"z": -12.001667976379396
+							"x": -11.09537124633789,
+							"y": -37.00570297241211,
+							"z": -11.999987602233887
 						}
 					}
 				},
 				"m_vSize": {
 					"type": "SVector2",
 					"value": {
-						"x": 2,
+						"x": 3.5999999046325684,
 						"y": 0.5731379985809326
 					}
 				},
@@ -19780,6 +19604,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -19797,19 +19625,19 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 0
+							"z": -179.8953216765062
 						},
 						"position": {
-							"x": 17.9543514251709,
-							"y": 11.976542472839355,
-							"z": -12.0016450881958
+							"x": 13.241588592529297,
+							"y": -34.95307922363281,
+							"z": -11.999999046325684
 						}
 					}
 				},
 				"m_vSize": {
 					"type": "SVector2",
 					"value": {
-						"x": 5.599999904632568,
+						"x": 12,
 						"y": 0.5731379985809326
 					}
 				},
@@ -19870,6 +19698,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -19887,19 +19719,19 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 90.06354809185743
+							"z": -89.99998975471624
 						},
 						"position": {
-							"x": 28.90106201171875,
-							"y": 8.748031616210938,
-							"z": -11.983205795288086
+							"x": -20.944520950317383,
+							"y": -62.98548889160156,
+							"z": -11.96994686126709
 						}
 					}
 				},
 				"m_vSize": {
 					"type": "SVector2",
 					"value": {
-						"x": 2,
+						"x": 1.600000023841858,
 						"y": 0.5731379985809326
 					}
 				},
@@ -19960,6 +19792,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -19977,19 +19813,19 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 180
+							"z": -89.99998975471624
 						},
 						"position": {
-							"x": 28.193933486938477,
-							"y": 8.08203125,
-							"z": -11.98324203491211
+							"x": -20.922452926635742,
+							"y": -66.98375701904297,
+							"z": -11.970017433166504
 						}
 					}
 				},
 				"m_vSize": {
 					"type": "SVector2",
 					"value": {
-						"x": 2,
+						"x": 1.600000023841858,
 						"y": 0.5731379985809326
 					}
 				},
@@ -20050,6 +19886,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -20142,12 +19982,16 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
 		"feed06010fdbfbb3": {
 			"parent": "cafe63bfb9c02047",
-			"name": "Ledge_035-FIN",
+			"name": "Ledge_035",
 			"factory": "[modules:/zguideledge.class].pc_entitytype",
 			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
 			"properties": {
@@ -20230,6 +20074,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -20322,6 +20170,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -20412,94 +20264,8 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
-				}
-			}
-		},
-		"feed731517ed141c": {
-			"parent": "cafe63bfb9c02047",
-			"name": "Ledge_055",
-			"factory": "[modules:/zguideledge.class].pc_entitytype",
-			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 140.15936692756438
-						},
-						"position": {
-							"x": 29.51729393005371,
-							"y": 18.667404174804688,
-							"z": -12.000000953674316
-						}
-					}
 				},
-				"m_vSize": {
-					"type": "SVector2",
-					"value": {
-						"x": 2,
-						"y": 0.5731379985809326
-					}
-				},
-				"m_bWalkable": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowDropDown": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAnchorEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromTop": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromBottom": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bBodyDumpEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bCanStandOnLedge": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAllowJumpToLedgeLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowJumpToLedgeRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bKickNPCIsAccident": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bDumpedBodyHidden": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bKickNPCEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bPacifyKickedNPC": {
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -20517,19 +20283,19 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 0
+							"z": 89.99998975471624
 						},
 						"position": {
-							"x": 32.00051498413086,
-							"y": 11.94313144683838,
-							"z": -12.000000953674316
+							"x": -5.093496799468994,
+							"y": -66.99768829345703,
+							"z": -11.968244552612305
 						}
 					}
 				},
 				"m_vSize": {
 					"type": "SVector2",
 					"value": {
-						"x": 5.599999904632568,
+						"x": 1.600000023841858,
 						"y": 0.5731379985809326
 					}
 				},
@@ -20590,6 +20356,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -20607,289 +20377,19 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 28.1875057220459,
-							"y": 13.939372062683104,
-							"z": -11.970059394836426
-						}
-					}
-				},
-				"m_vSize": {
-					"type": "SVector2",
-					"value": {
-						"x": 2,
-						"y": 0.5731379985809326
-					}
-				},
-				"m_bWalkable": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowDropDown": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAnchorEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromTop": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromBottom": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bBodyDumpEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bCanStandOnLedge": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAllowJumpToLedgeLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowJumpToLedgeRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bKickNPCIsAccident": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bDumpedBodyHidden": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bKickNPCEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bPacifyKickedNPC": {
-					"type": "bool",
-					"value": false
-				}
-			}
-		},
-		"feedae40beed8241": {
-			"parent": "cafe63bfb9c02047",
-			"name": "Ledge_056",
-			"factory": "[modules:/zguideledge.class].pc_entitytype",
-			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 123.03485514193147
-						},
-						"position": {
-							"x": 30.792510986328125,
-							"y": 20.14472198486328,
-							"z": -12.000000953674316
-						}
-					}
-				},
-				"m_vSize": {
-					"type": "SVector2",
-					"value": {
-						"x": 2,
-						"y": 0.5731379985809326
-					}
-				},
-				"m_bWalkable": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowDropDown": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAnchorEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromTop": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromBottom": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bBodyDumpEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bCanStandOnLedge": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAllowJumpToLedgeLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowJumpToLedgeRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bKickNPCIsAccident": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bDumpedBodyHidden": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bKickNPCEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bPacifyKickedNPC": {
-					"type": "bool",
-					"value": false
-				}
-			}
-		},
-		"feedc89f5db82766": {
-			"parent": "cafe63bfb9c02047",
-			"name": "Ledge_057",
-			"factory": "[modules:/zguideledge.class].pc_entitytype",
-			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 112.71354523592356
-						},
-						"position": {
-							"x": 31.46822738647461,
-							"y": 21.24010467529297,
-							"z": -12.000000953674316
-						}
-					}
-				},
-				"m_vSize": {
-					"type": "SVector2",
-					"value": {
-						"x": 1.2999999523162842,
-						"y": 0.5731379985809326
-					}
-				},
-				"m_bWalkable": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowDropDown": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAnchorEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromTop": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromBottom": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bBodyDumpEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bCanStandOnLedge": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAllowJumpToLedgeLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowJumpToLedgeRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bKickNPCIsAccident": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bDumpedBodyHidden": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bKickNPCEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bPacifyKickedNPC": {
-					"type": "bool",
-					"value": false
-				}
-			}
-		},
-		"feedded8986f3c81": {
-			"parent": "cafe63bfb9c02047",
-			"name": "Ledge_058",
-			"factory": "[modules:/zguideledge.class].pc_entitytype",
-			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
 							"z": -179.8953216765062
 						},
 						"position": {
-							"x": 33.381797790527344,
-							"y": 22.0593318939209,
-							"z": -11.970026969909668
+							"x": -0.5007230043411255,
+							"y": -61.924076080322266,
+							"z": -11.974529266357422
 						}
 					}
 				},
 				"m_vSize": {
 					"type": "SVector2",
 					"value": {
-						"x": 2.799999952316284,
+						"x": 8.600000381469727,
 						"y": 0.5731379985809326
 					}
 				},
@@ -20950,6 +20450,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -20967,1182 +20471,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 90
-						},
-						"position": {
-							"x": 26.96244430541992,
-							"y": 15.654099464416504,
-							"z": -11.990191459655762
-						}
-					}
-				},
-				"m_vSize": {
-					"type": "SVector2",
-					"value": {
-						"x": 3,
-						"y": 0.5731379985809326
-					}
-				},
-				"m_bWalkable": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowDropDown": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAnchorEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromTop": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromBottom": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bBodyDumpEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bCanStandOnLedge": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAllowJumpToLedgeLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowJumpToLedgeRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bKickNPCIsAccident": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bDumpedBodyHidden": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bKickNPCEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bPacifyKickedNPC": {
-					"type": "bool",
-					"value": false
-				}
-			}
-		},
-		"feed1f9ce7cc40a3": {
-			"parent": "cafe63bfb9c02047",
-			"name": "Ledge_051",
-			"factory": "[modules:/zguideledge.class].pc_entitytype",
-			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 89.99998975471624
-						},
-						"position": {
-							"x": 28.921951293945312,
-							"y": 13.210203170776367,
-							"z": -11.96998119354248
-						}
-					}
-				},
-				"m_vSize": {
-					"type": "SVector2",
-					"value": {
-						"x": 2,
-						"y": 0.5731379985809326
-					}
-				},
-				"m_bWalkable": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowDropDown": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAnchorEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromTop": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromBottom": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bBodyDumpEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bCanStandOnLedge": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAllowJumpToLedgeLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowJumpToLedgeRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bKickNPCIsAccident": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bDumpedBodyHidden": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bKickNPCEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bPacifyKickedNPC": {
-					"type": "bool",
-					"value": false
-				}
-			}
-		},
-		"feed6189d14f43d9": {
-			"parent": "cafe63bfb9c02047",
-			"name": "Ledge_054",
-			"factory": "[modules:/zguideledge.class].pc_entitytype",
-			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 156.55227313345367
-						},
-						"position": {
-							"x": 28.008934020996097,
-							"y": 17.67790985107422,
-							"z": -12.000000953674316
-						}
-					}
-				},
-				"m_vSize": {
-					"type": "SVector2",
-					"value": {
-						"x": 2,
-						"y": 0.5731379985809326
-					}
-				},
-				"m_bWalkable": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowDropDown": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAnchorEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromTop": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromBottom": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bBodyDumpEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bCanStandOnLedge": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAllowJumpToLedgeLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowJumpToLedgeRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bKickNPCIsAccident": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bDumpedBodyHidden": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bKickNPCEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bPacifyKickedNPC": {
-					"type": "bool",
-					"value": false
-				}
-			}
-		},
-		"feed6860394c6f9d": {
-			"parent": "cafe63bfb9c02047",
-			"name": "Ledge_059",
-			"factory": "[modules:/zguideledge.class].pc_entitytype",
-			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -89.71044656215673
-						},
-						"position": {
-							"x": 35.068206787109375,
-							"y": 17.01363754272461,
-							"z": -11.969999313354492
-						}
-					}
-				},
-				"m_vSize": {
-					"type": "SVector2",
-					"value": {
-						"x": 9.600000381469728,
-						"y": 0.5731379985809326
-					}
-				},
-				"m_bWalkable": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowDropDown": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAnchorEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromTop": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromBottom": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bBodyDumpEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bCanStandOnLedge": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAllowJumpToLedgeLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowJumpToLedgeRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bKickNPCIsAccident": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bDumpedBodyHidden": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bKickNPCEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bPacifyKickedNPC": {
-					"type": "bool",
-					"value": false
-				}
-			}
-		},
-		"feedc62d4ccfd624": {
-			"parent": "cafe63bfb9c02047",
-			"name": "Ledge_072",
-			"factory": "[modules:/zguideledge.class].pc_entitytype",
-			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 39.97910690307617,
-							"y": 2.929402112960815,
-							"z": -11.991898536682127
-						}
-					}
-				},
-				"m_vSize": {
-					"type": "SVector2",
-					"value": {
-						"x": 1.600000023841858,
-						"y": 0.5731379985809326
-					}
-				},
-				"m_bWalkable": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowDropDown": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAnchorEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromTop": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromBottom": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bBodyDumpEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bCanStandOnLedge": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAllowJumpToLedgeLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowJumpToLedgeRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bKickNPCIsAccident": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bDumpedBodyHidden": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bKickNPCEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bPacifyKickedNPC": {
-					"type": "bool",
-					"value": false
-				}
-			}
-		},
-		"feed3715bc85fe22": {
-			"parent": "cafe63bfb9c02047",
-			"name": "Ledge_068",
-			"factory": "[modules:/zguideledge.class].pc_entitytype",
-			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 89.99998975471624
-						},
-						"position": {
-							"x": 28.94072723388672,
-							"y": 34.76715087890625,
-							"z": -11.99740505218506
-						}
-					}
-				},
-				"m_vSize": {
-					"type": "SVector2",
-					"value": {
-						"x": 2,
-						"y": 0.5731379985809326
-					}
-				},
-				"m_bWalkable": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowDropDown": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAnchorEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromTop": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromBottom": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bBodyDumpEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bCanStandOnLedge": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAllowJumpToLedgeLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowJumpToLedgeRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bKickNPCIsAccident": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bDumpedBodyHidden": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bKickNPCEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bPacifyKickedNPC": {
-					"type": "bool",
-					"value": false
-				}
-			}
-		},
-		"feeda414878a96c4": {
-			"parent": "cafe63bfb9c02047",
-			"name": "Ledge_071",
-			"factory": "[modules:/zguideledge.class].pc_entitytype",
-			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
 							"z": -89.99998975471624
 						},
 						"position": {
-							"x": 41.07937240600586,
-							"y": 11.514002799987791,
-							"z": -11.96629524230957
-						}
-					}
-				},
-				"m_vSize": {
-					"type": "SVector2",
-					"value": {
-						"x": 16.600000381469727,
-						"y": 0.5731379985809326
-					}
-				},
-				"m_bWalkable": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowDropDown": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAnchorEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromTop": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromBottom": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bBodyDumpEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bCanStandOnLedge": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAllowJumpToLedgeLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowJumpToLedgeRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bKickNPCIsAccident": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bDumpedBodyHidden": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bKickNPCEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bPacifyKickedNPC": {
-					"type": "bool",
-					"value": false
-				}
-			}
-		},
-		"feed87e87b278935": {
-			"parent": "cafe63bfb9c02047",
-			"name": "Ledge_065",
-			"factory": "[modules:/zguideledge.class].pc_entitytype",
-			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 20.281547669152957
-						},
-						"position": {
-							"x": 27.58953857421875,
-							"y": 30.49521827697754,
-							"z": -11.970277786254885
-						}
-					}
-				},
-				"m_vSize": {
-					"type": "SVector2",
-					"value": {
-						"x": 1,
-						"y": 0.5731379985809326
-					}
-				},
-				"m_bWalkable": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowDropDown": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAnchorEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromTop": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromBottom": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bBodyDumpEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bCanStandOnLedge": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAllowJumpToLedgeLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowJumpToLedgeRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bKickNPCIsAccident": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bDumpedBodyHidden": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bKickNPCEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bPacifyKickedNPC": {
-					"type": "bool",
-					"value": false
-				}
-			}
-		},
-		"feed861f6eb6c526": {
-			"parent": "cafe63bfb9c02047",
-			"name": "Ledge_067",
-			"factory": "[modules:/zguideledge.class].pc_entitytype",
-			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 180
-						},
-						"position": {
-							"x": 28.265480041503903,
-							"y": 34.06510925292969,
-							"z": -11.997354507446287
-						}
-					}
-				},
-				"m_vSize": {
-					"type": "SVector2",
-					"value": {
-						"x": 2,
-						"y": 0.5731379985809326
-					}
-				},
-				"m_bWalkable": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowDropDown": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAnchorEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromTop": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromBottom": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bBodyDumpEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bCanStandOnLedge": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAllowJumpToLedgeLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowJumpToLedgeRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bKickNPCIsAccident": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bDumpedBodyHidden": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bKickNPCEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bPacifyKickedNPC": {
-					"type": "bool",
-					"value": false
-				}
-			}
-		},
-		"feed5340731520d3": {
-			"parent": "cafe63bfb9c02047",
-			"name": "Ledge_070",
-			"factory": "[modules:/zguideledge.class].pc_entitytype",
-			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 90
-						},
-						"position": {
-							"x": 38.93302917480469,
-							"y": 11.466535568237305,
-							"z": -11.966291427612305
-						}
-					}
-				},
-				"m_vSize": {
-					"type": "SVector2",
-					"value": {
-						"x": 16.600000381469727,
-						"y": 0.5731379985809326
-					}
-				},
-				"m_bWalkable": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowDropDown": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAnchorEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromTop": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromBottom": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bBodyDumpEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bCanStandOnLedge": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAllowJumpToLedgeLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowJumpToLedgeRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bKickNPCIsAccident": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bDumpedBodyHidden": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bKickNPCEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bPacifyKickedNPC": {
-					"type": "bool",
-					"value": false
-				}
-			}
-		},
-		"feed58a1d38153f6": {
-			"parent": "cafe63bfb9c02047",
-			"name": "Ledge_064",
-			"factory": "[modules:/zguideledge.class].pc_entitytype",
-			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 34.57912148923551
-						},
-						"position": {
-							"x": 28.83540725708008,
-							"y": 29.815549850463867,
-							"z": -11.970340728759766
-						}
-					}
-				},
-				"m_vSize": {
-					"type": "SVector2",
-					"value": {
-						"x": 2,
-						"y": 0.5731379985809326
-					}
-				},
-				"m_bWalkable": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowDropDown": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAnchorEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromTop": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromBottom": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bBodyDumpEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bCanStandOnLedge": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAllowJumpToLedgeLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowJumpToLedgeRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bKickNPCIsAccident": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bDumpedBodyHidden": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bKickNPCEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bPacifyKickedNPC": {
-					"type": "bool",
-					"value": false
-				}
-			}
-		},
-		"feeddbf7c7ed26f4": {
-			"parent": "cafe63bfb9c02047",
-			"name": "Ledge_073",
-			"factory": "[modules:/zguideledge.class].pc_entitytype",
-			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -179.8953216765062
-						},
-						"position": {
-							"x": 40.008445739746094,
-							"y": 20.069747924804688,
-							"z": -11.99197769165039
-						}
-					}
-				},
-				"m_vSize": {
-					"type": "SVector2",
-					"value": {
-						"x": 1.600000023841858,
-						"y": 0.5731379985809326
-					}
-				},
-				"m_bWalkable": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowDropDown": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAnchorEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromTop": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromBottom": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bBodyDumpEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bCanStandOnLedge": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAllowJumpToLedgeLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowJumpToLedgeRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bKickNPCIsAccident": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bDumpedBodyHidden": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bKickNPCEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bPacifyKickedNPC": {
-					"type": "bool",
-					"value": false
-				}
-			}
-		},
-		"feed7d6a5c4446f1": {
-			"parent": "cafe63bfb9c02047",
-			"name": "Ledge_062",
-			"factory": "[modules:/zguideledge.class].pc_entitytype",
-			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 62.97086389176895
-						},
-						"position": {
-							"x": 31.24368476867676,
-							"y": 27.066789627075195,
-							"z": -11.970004081726074
-						}
-					}
-				},
-				"m_vSize": {
-					"type": "SVector2",
-					"value": {
-						"x": 2,
-						"y": 0.5731379985809326
-					}
-				},
-				"m_bWalkable": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowDropDown": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAnchorEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromTop": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromBottom": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bBodyDumpEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bCanStandOnLedge": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAllowJumpToLedgeLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowJumpToLedgeRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bKickNPCIsAccident": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bDumpedBodyHidden": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bKickNPCEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bPacifyKickedNPC": {
-					"type": "bool",
-					"value": false
-				}
-			}
-		},
-		"feed46216bd50853": {
-			"parent": "cafe63bfb9c02047",
-			"name": "Ledge_069",
-			"factory": "[modules:/zguideledge.class].pc_entitytype",
-			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 180
-						},
-						"position": {
-							"x": 32.030670166015625,
-							"y": 36.05318069458008,
-							"z": -12
+							"x": 4.071086883544922,
+							"y": -65.01979064941406,
+							"z": -11.97247314453125
 						}
 					}
 				},
@@ -22212,192 +20546,16 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
-				}
-			}
-		},
-		"feed12a874a61d03": {
-			"parent": "cafe63bfb9c02047",
-			"name": "Ledge_063",
-			"factory": "[modules:/zguideledge.class].pc_entitytype",
-			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 50.622323126383804
-						},
-						"position": {
-							"x": 30.213088989257812,
-							"y": 28.626596450805664,
-							"z": -11.970130920410156
-						}
-					}
 				},
-				"m_vSize": {
-					"type": "SVector2",
-					"value": {
-						"x": 2,
-						"y": 0.5731379985809326
-					}
-				},
-				"m_bWalkable": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowDropDown": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAnchorEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromTop": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromBottom": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bBodyDumpEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bCanStandOnLedge": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAllowJumpToLedgeLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowJumpToLedgeRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bKickNPCIsAccident": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bDumpedBodyHidden": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bKickNPCEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bPacifyKickedNPC": {
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
 			}
 		},
-		"feed588d32317d37": {
+		"feed1f9ce7cc40a3": {
 			"parent": "cafe63bfb9c02047",
-			"name": "Ledge_066",
-			"factory": "[modules:/zguideledge.class].pc_entitytype",
-			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 90
-						},
-						"position": {
-							"x": 26.937664031982425,
-							"y": 32.365848541259766,
-							"z": -11.99740505218506
-						}
-					}
-				},
-				"m_vSize": {
-					"type": "SVector2",
-					"value": {
-						"x": 2.799999952316284,
-						"y": 0.5731379985809326
-					}
-				},
-				"m_bWalkable": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bMountDismountLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowDropDown": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAnchorEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromTop": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bMountableFromBottom": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bBodyDumpEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bCanStandOnLedge": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAllowJumpToLedgeLeft": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bAllowJumpToLedgeRight": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bKickNPCIsAccident": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bDumpedBodyHidden": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bKickNPCEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bPacifyKickedNPC": {
-					"type": "bool",
-					"value": false
-				}
-			}
-		},
-		"feed6b57275f3d77": {
-			"parent": "cafe63bfb9c02047",
-			"name": "Ledge_061",
+			"name": "Ledge_051",
 			"factory": "[modules:/zguideledge.class].pc_entitytype",
 			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
 			"properties": {
@@ -22410,16 +20568,16 @@
 							"z": 0
 						},
 						"position": {
-							"x": 33.35822296142578,
-							"y": 25.92970848083496,
-							"z": -11.970175743103027
+							"x": -0.5046757459640503,
+							"y": -68.0632553100586,
+							"z": -11.975378036499023
 						}
 					}
 				},
 				"m_vSize": {
 					"type": "SVector2",
 					"value": {
-						"x": 2.799999952316284,
+						"x": 8.600000381469727,
 						"y": 0.5731379985809326
 					}
 				},
@@ -22480,6 +20638,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -27476,6 +25638,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -27754,6 +25920,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -27844,6 +26014,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -27932,6 +26106,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -28118,6 +26296,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -28206,6 +26388,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -28392,6 +26578,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -28480,6 +26670,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -28572,6 +26766,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -28660,6 +26858,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -28752,6 +26954,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -28840,6 +27046,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -28932,6 +27142,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -29020,6 +27234,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -29112,6 +27330,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -29200,6 +27422,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -29292,6 +27518,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -29380,6 +27610,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -29472,6 +27706,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -29560,6 +27798,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -29652,6 +27894,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -29740,6 +27986,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -29832,6 +28082,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -29920,6 +28174,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -30012,6 +28270,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -30100,6 +28362,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -30192,6 +28458,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -30280,6 +28550,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -30372,6 +28646,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -30460,6 +28738,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -30552,6 +28834,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -30640,6 +28926,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -30732,6 +29022,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -30820,6 +29114,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -30912,6 +29210,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -31000,6 +29302,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -31092,6 +29398,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -31180,6 +29490,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -31272,6 +29586,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -31360,6 +29678,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -31452,6 +29774,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -31540,6 +29866,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -31632,6 +29962,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -31720,6 +30054,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -31812,6 +30150,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -31900,6 +30242,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -31992,6 +30338,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -32080,6 +30430,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -32172,6 +30526,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -32260,6 +30618,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -32352,6 +30714,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -32440,6 +30806,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -32532,6 +30902,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -32620,6 +30994,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -32712,6 +31090,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -32800,6 +31182,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -32892,6 +31278,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -32980,6 +31370,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -33072,6 +31466,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -33160,6 +31558,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -33252,6 +31654,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -33340,6 +31746,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -33432,6 +31842,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -33520,6 +31934,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -33612,6 +32030,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -33700,6 +32122,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
@@ -33792,6 +32218,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -33882,6 +32312,10 @@
 				"m_bPacifyKickedNPC": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -33970,6 +32404,10 @@
 					"value": true
 				},
 				"m_bPacifyKickedNPC": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
 					"type": "bool",
 					"value": false
 				}
