@@ -33,12 +33,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 0
+							"z": -180
 						},
 						"position": {
-							"x": 6.918949127197266,
-							"y": -12.065470695495605,
-							"z": -14.000000953674316
+							"x": 49.46674346923828,
+							"y": -70.25213623046875,
+							"z": -1.0000020265579224
 						}
 					}
 				},
@@ -32410,6 +32410,3914 @@
 				"m_bCanHang": {
 					"type": "bool",
 					"value": false
+				}
+			}
+		},
+		"feedcd283821e863": {
+			"parent": "fffffffffffffffe",
+			"name": "Stairs part 3",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feedbd4f08b0cc12": {
+			"parent": "fffffffffffffffe",
+			"name": "Stairs part 2",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feed3c7f6936f92f": {
+			"parent": "fffffffffffffffe",
+			"name": "Stairs part 1",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feedabdbf163f341": {
+			"parent": "feed3c7f6936f92f",
+			"name": "palace_int_wood_handrail_a_01_5",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 66.93782806396484,
+							"y": -11.154504776000977,
+							"z": -4.586001396179199
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed781f4dacf170": {
+			"parent": "feed3c7f6936f92f",
+			"name": "palace_int_wood_handrail_a_01_3",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 64.3740005493164,
+							"y": -25.06584358215332,
+							"z": -4.585999965667725
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feedf690e194931d": {
+			"parent": "feed3c7f6936f92f",
+			"name": "palace_int_wood_handrail_a_01_10",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 66.9186019897461,
+							"y": -25.06586265563965,
+							"z": -0.5796005129814148
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed2d8f1746403d": {
+			"parent": "feed3c7f6936f92f",
+			"name": "palace_int_wood_handrail_a_01_1",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 66.92438507080078,
+							"y": -39.093162536621094,
+							"z": -4.585691452026367
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feedae67061273b8": {
+			"parent": "feed3c7f6936f92f",
+			"name": "palace_int_wood_handrail_a_01_6",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 64.3740005493164,
+							"y": -11.154156684875488,
+							"z": -4.585999965667725
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feedf4ed247fd3ec": {
+			"parent": "feed3c7f6936f92f",
+			"name": "palace_int_wood_handrail_a_01_9",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 64.3740005493164,
+							"y": -25.06584358215332,
+							"z": -0.5799999833106995
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed591189338662": {
+			"parent": "feed3c7f6936f92f",
+			"name": "palace_int_wood_handrail_a_01_4",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 66.9186019897461,
+							"y": -25.06586265563965,
+							"z": -4.585999965667725
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed96b523b99ea1": {
+			"parent": "feed3c7f6936f92f",
+			"name": "palace_int_wood_handrail_a_01_2",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 64.3740005493164,
+							"y": -39.168724060058594,
+							"z": -4.58568000793457
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feedd2801ba8a137": {
+			"parent": "feed3c7f6936f92f",
+			"name": "palace_int_wood_handrail_a_01_8",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 64.37405395507812,
+							"y": -39.13690185546875,
+							"z": -0.5799999833106995
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feedc07602f76cb6": {
+			"parent": "feed3c7f6936f92f",
+			"name": "palace_int_wood_handrail_a_01_7",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 66.92438507080078,
+							"y": -39.093162536621094,
+							"z": -0.5799999833106995
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed7fa804eec8af": {
+			"parent": "feedbd4f08b0cc12",
+			"name": "palace_int_wood_handrail_pillar_a_04",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.93147195533706
+						},
+						"position": {
+							"x": 66.93936920166016,
+							"y": -11.225676536560059,
+							"z": -5
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feed567f4c849e5b": {
+			"parent": "feedbd4f08b0cc12",
+			"name": "palace_int_wood_handrail_pillar_a_06",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.92087063248528
+						},
+						"position": {
+							"x": 64.33499145507812,
+							"y": -11.225676536560059,
+							"z": -5
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feed99b2d9fdef66": {
+			"parent": "feedbd4f08b0cc12",
+			"name": "palace_int_wood_handrail_pillar_a_07",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.94404708809589
+						},
+						"position": {
+							"x": 67.01821899414062,
+							"y": -39.13119125366211,
+							"z": -1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feed0b9f5b98bdd8": {
+			"parent": "feedbd4f08b0cc12",
+			"name": "palace_int_wood_handrail_pillar_a_01",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.96043531900548
+						},
+						"position": {
+							"x": 66.9388198852539,
+							"y": -39.18870162963867,
+							"z": -5
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feed3648b289186c": {
+			"parent": "feedbd4f08b0cc12",
+			"name": "palace_int_wood_handrail_pillar_a_08",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.93147195533706
+						},
+						"position": {
+							"x": 64.33499145507812,
+							"y": -39.131099700927734,
+							"z": -1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feed71a6b286692b": {
+			"parent": "feedbd4f08b0cc12",
+			"name": "palace_int_wood_handrail_pillar_a_05",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.93147195533706
+						},
+						"position": {
+							"x": 64.33499145507812,
+							"y": -25.118999481201172,
+							"z": -5.008999824523926
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feed5632bff74764": {
+			"parent": "feedbd4f08b0cc12",
+			"name": "palace_int_wood_handrail_pillar_a_09",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.93147195533706
+						},
+						"position": {
+							"x": 66.99745178222656,
+							"y": -24.995338439941406,
+							"z": -1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feed4b0d71b892d4": {
+			"parent": "feedbd4f08b0cc12",
+			"name": "palace_int_wood_handrail_pillar_a_02",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.94404708809589
+						},
+						"position": {
+							"x": 64.33499145507812,
+							"y": -39.18899917602539,
+							"z": -5
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feedc525d372fc39": {
+			"parent": "feed9722e9ba792c",
+			"name": "palace_int_wood_handrail_pillar_a_16",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.92087063248528
+						},
+						"position": {
+							"x": 67.0260009765625,
+							"y": -18.97687339782715,
+							"z": 3
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.600000023841858,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feede3e866928f42": {
+			"parent": "feedbd4f08b0cc12",
+			"name": "palace_int_wood_handrail_pillar_a_03",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.94404708809589
+						},
+						"position": {
+							"x": 66.9212417602539,
+							"y": -25.118846893310547,
+							"z": -5.008996963500977
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feed983adc6317c9": {
+			"parent": "feedcd283821e863",
+			"name": "palace_int_wood_handrail_4x1_a_04",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.92087063248528
+						},
+						"position": {
+							"x": 67.09044647216797,
+							"y": -10.069340705871582,
+							"z": 3
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1.2000000476837158
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feeda729d9fa4f47": {
+			"parent": "feed983adc6317c9",
+			"name": "palace_int_wood_handrail_4x1_a_05",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 67.10636901855469,
+							"y": -7.307000160217285,
+							"z": 3
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.675000011920929,
+						"y": 1,
+						"z": 1.2000000476837158
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feedd21221682b16": {
+			"parent": "feedcd283821e863",
+			"name": "palace_int_wood_handrail_4x1_a_07",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.91153067230061
+						},
+						"position": {
+							"x": 67.09044647216797,
+							"y": -38.102359771728516,
+							"z": 3
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.675000011920929,
+						"y": 1,
+						"z": 1.2000000476837158
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feedf0ec91bf3434": {
+			"parent": "feedd21221682b16",
+			"name": "palace_int_wood_handrail_4x1_a_09",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 67.10616302490234,
+							"y": -33.11649703979492,
+							"z": 3
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.675000011920929,
+						"y": 1,
+						"z": 1.2000000476837158
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feedf10b1a3e3742": {
+			"parent": "feedcd283821e863",
+			"name": "palace_int_wood_handrail_4x1_a_17",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 134.99999517032686
+						},
+						"position": {
+							"x": 54.50538635253906,
+							"y": -66.34185028076172,
+							"z": -0.9987908601760864
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.7200000286102295,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed3fb33169b000": {
+			"parent": "feedcd283821e863",
+			"name": "palace_int_wood_handrail_4x1_a_01",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.92087063248528
+						},
+						"position": {
+							"x": 67.09239959716797,
+							"y": -24.08599853515625,
+							"z": 3
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1.2000000476837158
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed664eeae8e2f5": {
+			"parent": "feed3fb33169b000",
+			"name": "palace_int_wood_handrail_4x1_a_03",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 67.10614776611328,
+							"y": -18.971508026123047,
+							"z": 3.000999927520752
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.675000011920929,
+						"y": 1,
+						"z": 1.2000000476837158
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feedc441f9abfef7": {
+			"parent": "feed983adc6317c9",
+			"name": "palace_int_wood_handrail_4x1_a_06",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 67.10614776611328,
+							"y": -4.953742504119873,
+							"z": 3.000999927520752
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.675000011920929,
+						"y": 1,
+						"z": 1.2000000476837158
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feede2552ecff0ec": {
+			"parent": "feedd21221682b16",
+			"name": "palace_int_wood_handrail_4x1_a_08",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 67.10636901855469,
+							"y": -35.47019958496094,
+							"z": 3
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.675000011920929,
+						"y": 1,
+						"z": 1.2000000476837158
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed7a3ecba59fcf": {
+			"parent": "feed3fb33169b000",
+			"name": "palace_int_wood_handrail_4x1_a_02",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 67.10636901855469,
+							"y": -21.307355880737305,
+							"z": 3
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.675000011920929,
+						"y": 1,
+						"z": 1.2000000476837158
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feedfa7caa274ee7": {
+			"parent": "feed3c7f6936f92f",
+			"name": "palace_int_wood_handrail_a_01_11",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 66.93782806396484,
+							"y": -11.154504776000977,
+							"z": -0.5799999833106995
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed1fe28387d493": {
+			"parent": "feed3c7f6936f92f",
+			"name": "palace_int_wood_handrail_a_01_16",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 64.26185607910156,
+							"y": -11.154156684875488,
+							"z": -0.699999988079071
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed9722e9ba792c": {
+			"parent": "feedbd4f08b0cc12",
+			"name": "palace_int_wood_handrail_pillar_a_13",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.93147195533706
+						},
+						"position": {
+							"x": 64.41792297363281,
+							"y": -24.126079559326172,
+							"z": 2.984565496444702
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feed5e0b8fd10c04": {
+			"parent": "feedbd4f08b0cc12",
+			"name": "palace_int_wood_handrail_pillar_a_11",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.94404708809589
+						},
+						"position": {
+							"x": 64.33499145507812,
+							"y": -25.001155853271484,
+							"z": -1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feed5c53befb6b04": {
+			"parent": "feedd178a8f7764a",
+			"name": "palace_int_wood_handrail_pillar_a_20",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.93147195533706
+						},
+						"position": {
+							"x": 64.36800384521484,
+							"y": -5.105869293212891,
+							"z": 3.002000093460083
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feeddda2782955b2": {
+			"parent": "feedd178a8f7764a",
+			"name": "palace_int_wood_handrail_pillar_a_18",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.93147195533706
+						},
+						"position": {
+							"x": 67.100341796875,
+							"y": -10.064997673034668,
+							"z": 3.002000093460083
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feedfce2c37d3327": {
+			"parent": "feedd178a8f7764a",
+			"name": "palace_int_wood_handrail_pillar_a_19",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.93147195533706
+						},
+						"position": {
+							"x": 67.02571868896484,
+							"y": -5.105825424194336,
+							"z": 3.0019967555999756
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.600000023841858,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feeda3df41d4097e": {
+			"parent": "feed9722e9ba792c",
+			"name": "palace_int_wood_handrail_pillar_a_14",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.93147195533706
+						},
+						"position": {
+							"x": 64.41015625,
+							"y": -18.979999542236328,
+							"z": 3
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feed41c03655d1f8": {
+			"parent": "feedbd4f08b0cc12",
+			"name": "palace_int_wood_handrail_pillar_a_12",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.92087063248528
+						},
+						"position": {
+							"x": 64.33499145507812,
+							"y": -11.225676536560059,
+							"z": -1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feedc446d635f09d": {
+			"parent": "feed9722e9ba792c",
+			"name": "palace_int_wood_handrail_pillar_a_15",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.92087063248528
+						},
+						"position": {
+							"x": 67.12145233154297,
+							"y": -24.099828720092773,
+							"z": 3
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feedd178a8f7764a": {
+			"parent": "feedbd4f08b0cc12",
+			"name": "palace_int_wood_handrail_pillar_a_17",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.93147195533706
+						},
+						"position": {
+							"x": 64.42658996582031,
+							"y": -10.065143585205078,
+							"z": 3.002000093460083
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feeddb80aac17b90": {
+			"parent": "feedbd4f08b0cc12",
+			"name": "palace_int_wood_handrail_pillar_a_10",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.92087063248528
+						},
+						"position": {
+							"x": 67.02376556396484,
+							"y": -11.225677490234375,
+							"z": -1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feed935e9f87ea8c": {
+			"parent": "feed3c7f6936f92f",
+			"name": "palace_int_wood_handrail_a_01_15",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 64.26185607910156,
+							"y": -11.154156684875488,
+							"z": -0.699999988079071
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed5e497835647c": {
+			"parent": "feed3c7f6936f92f",
+			"name": "palace_int_wood_handrail_a_01_13",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -44.99999517032684
+						},
+						"position": {
+							"x": 54.31399917602539,
+							"y": -70.24369049072266,
+							"z": -4.789999961853027
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed59c42960a536": {
+			"parent": "feed3c7f6936f92f",
+			"name": "palace_int_wood_handrail_a_01_14",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -44.99999517032684
+						},
+						"position": {
+							"x": 52.483863830566406,
+							"y": -68.55126953125,
+							"z": -4.789993762969971
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feedb45828f677d7": {
+			"parent": "feed3c7f6936f92f",
+			"name": "palace_int_wood_handrail_a_01_12",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 64.3740005493164,
+							"y": -11.154156684875488,
+							"z": -0.5799999833106995
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed3477a675f645": {
+			"parent": "feed730eb1515ed0",
+			"name": "palace_int_wood_handrail_4x1_a_13",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 67.1085205078125,
+							"y": -33.07795715332031,
+							"z": -1
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1.2000000476837158
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feedc47263d29a61": {
+			"parent": "feed58468a836aef",
+			"name": "palace_int_wood_handrail_4x1_a_15",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 67.10661315917969,
+							"y": -5.20880126953125,
+							"z": -1
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1.2000000476837158
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed8d040e798907": {
+			"parent": "feed8c9b8b28f840",
+			"name": "palace_int_wood_handrail_4x1_a_11",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 67.10612487792969,
+							"y": -19.019916534423828,
+							"z": -1
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1.2000000476837158
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed58468a836aef": {
+			"parent": "feedcd283821e863",
+			"name": "palace_int_wood_handrail_4x1_a_14",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 67.10631561279297,
+							"y": -8.200456619262695,
+							"z": -1
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1.2000000476837158
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed8c9b8b28f840": {
+			"parent": "feedcd283821e863",
+			"name": "palace_int_wood_handrail_4x1_a_10",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 67.10631561279297,
+							"y": -22.005924224853516,
+							"z": -1.0001516342163086
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1.2000000476837158
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed730eb1515ed0": {
+			"parent": "feedcd283821e863",
+			"name": "palace_int_wood_handrail_4x1_a_12",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 67.10631561279297,
+							"y": -36.0655517578125,
+							"z": -1
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1.2000000476837158
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feedfc86dd242034": {
+			"parent": "feedcd283821e863",
+			"name": "palace_int_wood_handrail_4x1_a_18",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 134.99999517032686
+						},
+						"position": {
+							"x": 56.61005783081055,
+							"y": -64.23737335205078,
+							"z": -0.9988594651222229
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feede6d93ca3084b": {
+			"parent": "feedcd283821e863",
+			"name": "palace_int_wood_handrail_4x1_a_16",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 45
+						},
+						"position": {
+							"x": 52.474979400634766,
+							"y": -68.45552062988281,
+							"z": -0.9989633560180664
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.699999988079071,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed16621c937613": {
+			"parent": "feedcd283821e863",
+			"name": "palace_int_wood_handrail_4x1_a_19",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90.02859059097072
+						},
+						"position": {
+							"x": 3.00046706199646,
+							"y": 6.293352127075195,
+							"z": 0
+						},
+						"scale": {
+							"x": 0.9999998913730632,
+							"y": 0.9999998913730632,
+							"z": 1
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feedee60b3d38ba1": {
+			"parent": "feed16621c937613",
+			"name": "palace_int_wood_handrail_4x1_a_20",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90.02859059097072
+						},
+						"position": {
+							"x": 3.00046706199646,
+							"y": 6.293352127075195,
+							"z": 0
+						},
+						"scale": {
+							"x": 0.9999998913730632,
+							"y": 0.9999998913730632,
+							"z": 1
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed03312ba9e203": {
+			"parent": "feedbd4f08b0cc12",
+			"name": "palace_int_wood_handrail_pillar_a_13",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.93147195533706
+						},
+						"position": {
+							"x": 64.408203125,
+							"y": -38.12200164794922,
+							"z": 3
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feedd045ceaca455": {
+			"parent": "feed03312ba9e203",
+			"name": "palace_int_wood_handrail_pillar_a_16",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.92087063248528
+						},
+						"position": {
+							"x": 64.37159729003906,
+							"y": -33.050331115722656,
+							"z": 3
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feedfab52baf4dc0": {
+			"parent": "feed03312ba9e203",
+			"name": "palace_int_wood_handrail_pillar_a_14",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.93147195533706
+						},
+						"position": {
+							"x": 67.12100219726562,
+							"y": -38.12233352661133,
+							"z": 3.000009536743164
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feedf3fd8e64a07f": {
+			"parent": "feed03312ba9e203",
+			"name": "palace_int_wood_handrail_pillar_a_15",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.92087063248528
+						},
+						"position": {
+							"x": 67.0260009765625,
+							"y": -32.97700119018555,
+							"z": 3
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.600000023841858,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feed22d18d84e98a": {
+			"parent": "feed03757d720a26",
+			"name": "Lamp_Wall_Ornate_Palace_A_00_02",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 69.79910278320312,
+							"y": -9.398336410522461,
+							"z": -2.5950000286102295
+						}
+					}
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"LightVisible": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.723878026008606,
+						"y": 8.710000038146973
+					}
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 2000
+				},
+				"PowerCondition": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					],
+					"postInit": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedfce3e4cae30a": {
+			"parent": "feed03757d720a26",
+			"name": "Lamp_Wall_Ornate_Palace_A_00_07",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 69.79703521728516,
+							"y": -37.39832305908203,
+							"z": -2.5950000286102295
+						}
+					}
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"LightVisible": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.723878026008606,
+						"y": 8.710000038146973
+					}
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 2000
+				},
+				"PowerCondition": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					],
+					"postInit": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed363d33e034b0": {
+			"parent": "feed03757d720a26",
+			"name": "Lamp_Wall_Ornate_Palace_A_00_04",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 69.79443359375,
+							"y": -18.142436981201172,
+							"z": -2.5950000286102295
+						}
+					}
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"LightVisible": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.723878026008606,
+						"y": 8.710000038146973
+					}
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 2000
+				},
+				"PowerCondition": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					],
+					"postInit": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed4ef507048b0f": {
+			"parent": "feed03757d720a26",
+			"name": "Lamp_Wall_Ornate_Palace_A_00_01",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 69.79518127441406,
+							"y": -4.142216205596924,
+							"z": -2.5950000286102295
+						}
+					}
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"LightVisible": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.723878026008606,
+						"y": 8.710000038146973
+					}
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 2000
+				},
+				"PowerCondition": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					],
+					"postInit": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed764a04c2ac43": {
+			"parent": "feed03757d720a26",
+			"name": "Lamp_Wall_Ornate_Palace_A_00_05",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 69.79376220703125,
+							"y": -23.398263931274414,
+							"z": -2.5950000286102295
+						}
+					}
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"LightVisible": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.723878026008606,
+						"y": 8.710000038146973
+					}
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 2000
+				},
+				"PowerCondition": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					],
+					"postInit": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedfba6a41605ad": {
+			"parent": "feed03757d720a26",
+			"name": "Lamp_Wall_Ornate_Palace_A_00_09",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 69.7903060913086,
+							"y": -31.96623992919922,
+							"z": -2.5950000286102295
+						}
+					}
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"LightVisible": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.723878026008606,
+						"y": 8.710000038146973
+					}
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 2000
+				},
+				"PowerCondition": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					],
+					"postInit": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed03757d720a26": {
+			"parent": "feed6d5cc07e18c6",
+			"name": "Floor 1",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feed6d5cc07e18c6": {
+			"parent": "fffffffffffffffe",
+			"name": "Lamps",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feedae846ca00282": {
+			"parent": "feed03757d720a26",
+			"name": "Lamp_Wall_Ornate_Palace_A_00_03",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 69.79934692382812,
+							"y": -13.513246536254883,
+							"z": -2.5950000286102295
+						}
+					}
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"LightVisible": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.723878026008606,
+						"y": 8.710000038146973
+					}
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 2000
+				},
+				"PowerCondition": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					],
+					"postInit": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed5daa40723a70": {
+			"parent": "feed03757d720a26",
+			"name": "Lamp_Wall_Ornate_Palace_A_00_06",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 69.79360961914062,
+							"y": -27.587663650512695,
+							"z": -2.5950000286102295
+						}
+					}
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"LightVisible": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.723878026008606,
+						"y": 8.710000038146973
+					}
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 2000
+				},
+				"PowerCondition": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					],
+					"postInit": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedc137458eba4a": {
+			"parent": "feed03757d720a26",
+			"name": "Lamp_Wall_Ornate_Palace_A_00_08",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 69.79701232910156,
+							"y": -41.68086242675781,
+							"z": -2.5950000286102295
+						}
+					}
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"LightVisible": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.723878026008606,
+						"y": 8.710000038146973
+					}
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 2000
+				},
+				"PowerCondition": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					],
+					"postInit": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feededc05e6352e3": {
+			"parent": "feed6d5cc07e18c6",
+			"name": "Floor 2",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feed2abc591b4c7b": {
+			"parent": "feededc05e6352e3",
+			"name": "Lamp_Wall_Ornate_Palace_A_00_02",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 69.79910278320312,
+							"y": -9.398336410522461,
+							"z": 1.4053061
+						}
+					}
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"LightVisible": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.723878026008606,
+						"y": 8.710000038146973
+					}
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 2000
+				},
+				"PowerCondition": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					],
+					"postInit": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed06ebabd50c21": {
+			"parent": "feededc05e6352e3",
+			"name": "Lamp_Wall_Ornate_Palace_A_00_07",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 69.79703521728516,
+							"y": -37.39832305908203,
+							"z": 1.4053061
+						}
+					}
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"LightVisible": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.723878026008606,
+						"y": 8.710000038146973
+					}
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 2000
+				},
+				"PowerCondition": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					],
+					"postInit": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedbfdc25675f3f": {
+			"parent": "feededc05e6352e3",
+			"name": "Lamp_Wall_Ornate_Palace_A_00_04",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 69.79443359375,
+							"y": -18.142436981201172,
+							"z": 1.4053061
+						}
+					}
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"LightVisible": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.723878026008606,
+						"y": 8.710000038146973
+					}
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 2000
+				},
+				"PowerCondition": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					],
+					"postInit": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed36c5463a6471": {
+			"parent": "feededc05e6352e3",
+			"name": "Lamp_Wall_Ornate_Palace_A_00_01",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 69.79518127441406,
+							"y": -4.142216205596924,
+							"z": 1.4053061
+						}
+					}
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"LightVisible": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.723878026008606,
+						"y": 8.710000038146973
+					}
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 2000
+				},
+				"PowerCondition": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					],
+					"postInit": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedaa7b77a3730c": {
+			"parent": "feededc05e6352e3",
+			"name": "Lamp_Wall_Ornate_Palace_A_00_05",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 69.79376220703125,
+							"y": -23.398263931274414,
+							"z": 1.4053061
+						}
+					}
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"LightVisible": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.723878026008606,
+						"y": 8.710000038146973
+					}
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 2000
+				},
+				"PowerCondition": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					],
+					"postInit": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedfd475eb98018": {
+			"parent": "feededc05e6352e3",
+			"name": "Lamp_Wall_Ornate_Palace_A_00_09",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 69.7903060913086,
+							"y": -31.96623992919922,
+							"z": 1.4053061
+						}
+					}
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"LightVisible": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.723878026008606,
+						"y": 8.710000038146973
+					}
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 2000
+				},
+				"PowerCondition": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					],
+					"postInit": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed318a2cb2a720": {
+			"parent": "feededc05e6352e3",
+			"name": "Lamp_Wall_Ornate_Palace_A_00_03",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 69.79934692382812,
+							"y": -13.513246536254883,
+							"z": 1.4053061
+						}
+					}
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"LightVisible": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.723878026008606,
+						"y": 8.710000038146973
+					}
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 2000
+				},
+				"PowerCondition": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					],
+					"postInit": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feeddf77aeed246e": {
+			"parent": "feededc05e6352e3",
+			"name": "Lamp_Wall_Ornate_Palace_A_00_06",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 69.79360961914062,
+							"y": -27.587663650512695,
+							"z": 1.4053061
+						}
+					}
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"LightVisible": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.723878026008606,
+						"y": 8.710000038146973
+					}
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 2000
+				},
+				"PowerCondition": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					],
+					"postInit": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed58d92d462c03": {
+			"parent": "feededc05e6352e3",
+			"name": "Lamp_Wall_Ornate_Palace_A_00_08",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 69.79701232910156,
+							"y": -41.68086242675781,
+							"z": 1.4053061
+						}
+					}
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"LightVisible": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.723878026008606,
+						"y": 8.710000038146973
+					}
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 2000
+				},
+				"PowerCondition": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					],
+					"postInit": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedf4db13dad027": {
+			"parent": "feed6d5cc07e18c6",
+			"name": "Floor 3",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feedcbf9c9bf59e2": {
+			"parent": "feedf4db13dad027",
+			"name": "Lamp_Wall_Ornate_Palace_A_00_02",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 69.79910278320312,
+							"y": -9.398336410522461,
+							"z": 5.4790792
+						}
+					}
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"LightVisible": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.723878026008606,
+						"y": 8.710000038146973
+					}
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 2000
+				},
+				"PowerCondition": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					],
+					"postInit": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed2c1d39bab942": {
+			"parent": "feedf4db13dad027",
+			"name": "Lamp_Wall_Ornate_Palace_A_00_07",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 69.79703521728516,
+							"y": -37.39832305908203,
+							"z": 5.4790792
+						}
+					}
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"LightVisible": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.723878026008606,
+						"y": 8.710000038146973
+					}
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 2000
+				},
+				"PowerCondition": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					],
+					"postInit": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed6476d9ddbcd5": {
+			"parent": "feedf4db13dad027",
+			"name": "Lamp_Wall_Ornate_Palace_A_00_04",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 69.79443359375,
+							"y": -18.142436981201172,
+							"z": 5.4790792
+						}
+					}
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"LightVisible": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.723878026008606,
+						"y": 8.710000038146973
+					}
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 2000
+				},
+				"PowerCondition": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					],
+					"postInit": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed473d7e7a4b0d": {
+			"parent": "feedf4db13dad027",
+			"name": "Lamp_Wall_Ornate_Palace_A_00_01",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 69.79518127441406,
+							"y": -4.142216205596924,
+							"z": 5.4790792
+						}
+					}
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"LightVisible": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.723878026008606,
+						"y": 8.710000038146973
+					}
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 2000
+				},
+				"PowerCondition": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					],
+					"postInit": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedffe1f97025e1": {
+			"parent": "feedf4db13dad027",
+			"name": "Lamp_Wall_Ornate_Palace_A_00_05",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 69.79376220703125,
+							"y": -23.398263931274414,
+							"z": 5.4790792
+						}
+					}
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"LightVisible": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.723878026008606,
+						"y": 8.710000038146973
+					}
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 2000
+				},
+				"PowerCondition": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					],
+					"postInit": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed53761d3e53a7": {
+			"parent": "feedf4db13dad027",
+			"name": "Lamp_Wall_Ornate_Palace_A_00_09",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 69.7903060913086,
+							"y": -31.96623992919922,
+							"z": 5.4790792
+						}
+					}
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"LightVisible": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.723878026008606,
+						"y": 8.710000038146973
+					}
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 2000
+				},
+				"PowerCondition": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					],
+					"postInit": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed26b375bbe5fa": {
+			"parent": "feedf4db13dad027",
+			"name": "Lamp_Wall_Ornate_Palace_A_00_03",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 69.79934692382812,
+							"y": -13.513246536254883,
+							"z": 5.4790792
+						}
+					}
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"LightVisible": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.723878026008606,
+						"y": 8.710000038146973
+					}
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 2000
+				},
+				"PowerCondition": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					],
+					"postInit": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed91eb8597bce3": {
+			"parent": "feedf4db13dad027",
+			"name": "Lamp_Wall_Ornate_Palace_A_00_06",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 69.79360961914062,
+							"y": -27.587663650512695,
+							"z": 5.4790792
+						}
+					}
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"LightVisible": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.723878026008606,
+						"y": 8.710000038146973
+					}
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 2000
+				},
+				"PowerCondition": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					],
+					"postInit": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed514f413dc237": {
+			"parent": "feedf4db13dad027",
+			"name": "Lamp_Wall_Ornate_Palace_A_00_08",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_palace_a.template?/lamp_wall_ornate_palace_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 69.79701232910156,
+							"y": -41.68086242675781,
+							"z": 5.4790792
+						}
+					}
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"LightVisible": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.723878026008606,
+						"y": 8.710000038146973
+					}
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 2000
+				},
+				"PowerCondition": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					],
+					"postInit": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feeded66bb972398": {
+			"parent": "feed567f4c849e5b",
+			"name": "palace_int_wood_handrail_pillar_a_06",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.92087063248528
+						},
+						"position": {
+							"x": 67.02195739746094,
+							"y": -5.077987194061279,
+							"z": -1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.600000023841858,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feed3bb69bc75881": {
+			"parent": "feed567f4c849e5b",
+			"name": "palace_int_wood_handrail_pillar_a_06",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.92087063248528
+						},
+						"position": {
+							"x": 64.37203979492188,
+							"y": -5.075118064880371,
+							"z": -1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.600000023841858,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feed14bbca349f5e": {
+			"parent": "feed41c03655d1f8",
+			"name": "palace_int_wood_handrail_pillar_a_12",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.92087063248528
+						},
+						"position": {
+							"x": 64.36882019042969,
+							"y": -18.867904663085938,
+							"z": -1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feeddba65a0ed329": {
+			"parent": "feed41c03655d1f8",
+			"name": "palace_int_wood_handrail_pillar_a_12",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.92087063248528
+						},
+						"position": {
+							"x": 64.39945983886719,
+							"y": -33.028987884521484,
+							"z": -1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.600000023841858,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feede35dadbd9ebd": {
+			"parent": "feed41c03655d1f8",
+			"name": "palace_int_wood_handrail_pillar_a_12",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.92087063248528
+						},
+						"position": {
+							"x": 67.01274871826172,
+							"y": -32.94389343261719,
+							"z": -1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.600000023841858,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feed01d6d27d9558": {
+			"parent": "feed41c03655d1f8",
+			"name": "palace_int_wood_handrail_pillar_a_12",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.92087063248528
+						},
+						"position": {
+							"x": 67.00682830810547,
+							"y": -18.908117294311523,
+							"z": -1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.600000023841858,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
 				}
 			}
 		}
