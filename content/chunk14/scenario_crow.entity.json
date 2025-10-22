@@ -36320,6 +36320,291 @@
 					}
 				}
 			}
+		},
+		"feede14a2e3ca982": {
+			"parent": "cafe648da14b521a",
+			"name": "Hawk_Palace_Interior_2nd_Floor_Room_C",
+			"factory": "[assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_palace_interior_2nd_floor_room_c_modded.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_palace_interior_2nd_floor_room_c_modded.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -8,
+							"y": 1,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "c211e13f9d8500be",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"feed697359594e39": {
+			"parent": "cafe648da14b521a",
+			"name": "Hawk_Palace_Interior_3rd_Floor_Room_C",
+			"factory": "[assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_palace_interior_3rd_floor_room_c_modded.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_palace_interior_3rd_floor_room_c_modded.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -8,
+							"y": 1,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "1a45e1dd26bdaadc",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"feed2b495cea014f": {
+			"parent": "feed1045ffe91d3b",
+			"name": "Hawk_Palace_Interior_2nd_Floor_Room_E",
+			"factory": "[assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_palace_interior_2nd_floor_room_e_modded.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_palace_interior_2nd_floor_room_e_modded.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 11,
+							"y": 5,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "22bc5600d62d4f9d",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"feedabac2e206001": {
+			"parent": "cafe648da14b521a",
+			"name": "Hawk_Palace_Interior_1st_Floor_Room_E",
+			"factory": "[assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_palace_interior_1st_floor_room_e_modded.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_palace_interior_1st_floor_room_e_modded.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 11,
+							"y": 5,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "f5b96c71fe78fa8e",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"feed81ea172717e8": {
+			"parent": "cafe648da14b521a",
+			"name": "Hawk_Palace_Interior_3rd_Floor_Room_E",
+			"factory": "[assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_palace_interior_3rd_floor_room_e_modded.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_palace_interior_3rd_floor_room_e_modded.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 11,
+							"y": 5,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "ef814f37ffc66dd1",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"feed1045ffe91d3b": {
+			"parent": "cafe648da14b521a",
+			"name": "2nd floor room E",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feedfac3c2de0ab7": {
+			"parent": "fffffffffffffffe",
+			"name": "Gate_310_320_01",
+			"factory": "[modules:/zgateentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgateentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 90,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 65.74859619140625,
+							"y": -7.533562183380127,
+							"z": 3
+						}
+					}
+				},
+				"m_vPortalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 2.9678099155426025,
+						"y": 5,
+						"z": 5.100599765777588
+					}
+				},
+				"m_bAutoClientRooms": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bFlipLeftNormal": {
+					"type": "bool",
+					"value": true
+				},
+				"m_RoomLeft": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "ef814f37ffc66dd1",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					},
+					"postInit": true
+				},
+				"m_RoomRight": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "22bc5600d62d4f9d",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					},
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"Gates": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed29ef61f21a5b": {
+			"parent": "fffffffffffffffe",
+			"name": "Gate_300_310_01",
+			"factory": "[modules:/zgateentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgateentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 90,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 65.74859619140625,
+							"y": -7.533562183380127,
+							"z": 3
+						}
+					}
+				},
+				"m_vPortalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 2.9678099155426025,
+						"y": 5,
+						"z": 5.100599765777588
+					}
+				},
+				"m_bAutoClientRooms": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bFlipLeftNormal": {
+					"type": "bool",
+					"value": true
+				},
+				"m_RoomLeft": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "22bc5600d62d4f9d",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					},
+					"postInit": true
+				},
+				"m_RoomRight": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "f5b96c71fe78fa8e",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"Gates": [
+					"fffffffffffffffe"
+				]
+			}
 		}
 	},
 	"propertyOverrides": [
@@ -36587,6 +36872,34 @@
 		}
 	],
 	"overrideDeletes": [
+			{
+			"ref": "12dcb1499aba52cf",
+			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+		},
+			{
+			"ref": "59f644f0931c63d4",
+			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+		},
+		{
+			"ref": "62580739ab26b95a",
+			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+		},
+		{
+			"ref": "d1d5031b40231a0d",
+			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+		},
+		{
+			"ref": "e69193a4f876306c",
+			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+		},
+		{
+			"ref": "3ec5fb29d982fadb",
+			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+		},
+		{
+			"ref": "c0780267056f503b",
+			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+		},
 		{
 			"ref": "bdbabcaaa2f790f1",
 			"externalScene": "[assembly:/_pro/scenes/missions/hawk/singleplayer_hawk.brick].pc_entitytype"

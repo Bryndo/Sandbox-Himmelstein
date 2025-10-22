@@ -1,0 +1,15 @@
+
+007382D2E5EBDCB2.TEMP, [assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_palace_interior_2nd_floor_room_c_modded.entitytemplate].pc_entitytype
+0011E22267542FA8.TBLU, [assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_palace_interior_2nd_floor_room_c_modded.entitytemplate].pc_entityblueprint
+
+00C09A96107C6C4B.TEMP, [assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_palace_interior_3rd_floor_room_c_modded.entitytemplate].pc_entitytype
+00B62DD43AD0B33E.TBLU, [assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_palace_interior_3rd_floor_room_c_modded.entitytemplate].pc_entityblueprint
+
+00B01D5E05ED15A7.TEMP, [assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_palace_interior_2nd_floor_room_e_modded.entitytemplate].pc_entitytype
+0026FE9D209A7B0D.TBLU, [assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_palace_interior_2nd_floor_room_e_modded.entitytemplate].pc_entityblueprint
+
+00D216BBE4B360C5.TEMP, [assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_palace_interior_1st_floor_room_e_modded.entitytemplate].pc_entitytype
+002C63AA24113CF6.TBLU, [assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_palace_interior_1st_floor_room_e_modded.entitytemplate].pc_entityblueprint
+
+0035E39142644648.TEMP, [assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_palace_interior_3rd_floor_room_e_modded.entitytemplate].pc_entitytype
+008A39C9B9F71938.TBLU, [assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_palace_interior_3rd_floor_room_e_modded.entitytemplate].pc_entityblueprint
