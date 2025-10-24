@@ -20,6 +20,11 @@
 008FA88D75717F60.PRIM, [assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/palace_int_wall_4x8_a_modded.prim].pc_prim
 008EFEC71DEE7BAF.ALOC, [assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/palace_int_wall_4x8_a_modded.prim].pc_coll
 
+00EF1C626CB7A8D2.PRIM, [assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/ornament_only.prim].pc_prim
+00A7E52C6A0B6D4C.ALOC, [assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/ornament_only.prim].pc_coll
 
 0068FF738EB2CF6C.TEMP, [assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_palace_main_a_modded.entitytemplate].pc_entitytype
 006E85B7234D4DA9.TBLU, [assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_palace_main_a_modded.entitytemplate].pc_entityblueprint
+
+009D569977ABE2F0.TEMP, [assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_windowframe_4x4_b_no_rail.entitytemplate].pc_entitytype
+00252CF056638D04.TBLU, [assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_windowframe_4x4_b_no_rail.entitytemplate].pc_entityblueprint

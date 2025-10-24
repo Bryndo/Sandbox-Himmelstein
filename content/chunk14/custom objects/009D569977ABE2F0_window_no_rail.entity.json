@@ -1,0 +1,104 @@
+{
+	"tempHash": "009D569977ABE2F0",
+	"tbluHash": "00252CF056638D04",
+	"rootEntity": "b98f750cc41596f6",
+	"entities": {
+		"ab38044f1906d0da": {
+			"parent": "b98f750cc41596f6",
+			"name": "Window_Palace_Medium_A_00",
+			"factory": "[assembly:/_pro/environment/templates/architecture/windows/windows_classical_big.template?/window_palace_medium_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/architecture/windows/windows_classical_big.template?/window_palace_medium_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -2,
+							"y": 0.05000000074505806,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "b98f750cc41596f6",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"b98f750cc41596f6"
+				]
+			}
+		},
+		"b98f750cc41596f6": {
+			"parent": null,
+			"name": "palace_ext_windowframe_4x4_b",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/palace_ext_doorframe_4x4_b.prim].entitytype,[modules:/zexplosionblockeraspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zexplosionblockeraspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 4,
+							"y": -60,
+							"z": 17
+						}
+					}
+				}
+			}
+		}
+	},
+	"propertyOverrides": [
+
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+
+	],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{
+			"resource": "[assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/palace_ext_doorframe_4x4_b.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/palace_ext_doorframe_4x4_b.prim].pc_coll",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/palace_ext_balustrade_railing_3x1_a.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/palace_ext_balustrade_railing_3x1_a.prim].pc_coll",
+			"flag": "5F"
+		}
+	],
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
+}

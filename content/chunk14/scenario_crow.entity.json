@@ -33,12 +33,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -180
+							"z": -44.99996377745281
 						},
 						"position": {
-							"x": 49.46674346923828,
-							"y": -70.25213623046875,
-							"z": -1.0000020265579224
+							"x": 45.50983810424805,
+							"y": -51.49021911621094,
+							"z": -1
 						}
 					}
 				},
@@ -38908,6 +38908,211 @@
 					"fffffffffffffffe"
 				]
 			}
+		},
+		"feed367b1902fb2e": {
+			"parent": "feed0cb66a103903",
+			"name": "Library_Italy_Unit_Door_A02",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/library_italy_units_a.template?/library_italy_unit_door_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/library_italy_units_a.template?/library_italy_unit_door_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 45.68043241996444
+						},
+						"position": {
+							"x": 13.292972564697266,
+							"y": 5.394367218017578,
+							"z": 4.010000228881836
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "4d4e8f9d3e610a2c",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"feeddb8516c6eaa3": {
+			"parent": "feed0cb66a103903",
+			"name": "Library_Italy_Unit_Door_A03",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/library_italy_units_a.template?/library_italy_unit_door_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/library_italy_units_a.template?/library_italy_unit_door_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -44.99999517032684
+						},
+						"position": {
+							"x": -12.597166061401367,
+							"y": 5.944255828857422,
+							"z": 4
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "4d4e8f9d3e610a2c",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"feed00bfa9160340": {
+			"parent": "feed367b1902fb2e",
+			"name": "Door_DoubleDoorBig_A_Normal",
+			"factory": "[assembly:/_pro/environment/templates/architecture/doors/doors_italy_a.template?/door_doubledoorbig_a_normal.entitytemplate](sounddoorinteraction+[assembly:/templates/sound/customsoundtemplates.template?/sound_doorinteraction.entitytemplate].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/architecture/doors/doors_italy_a.template?/door_doubledoorbig_a_normal.entitytemplate](sounddoorinteraction+[assembly:/templates/sound/customsoundtemplates.template?/sound_doorinteraction.entitytemplate].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 45.68043480595322
+						},
+						"position": {
+							"x": 13.351766586303711,
+							"y": 5.511833190917969,
+							"z": 4.009951114654541
+						}
+					}
+				},
+				"m_rGateEntity": {
+					"type": "SEntityTemplateReference",
+					"value": null
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "4d4e8f9d3e610a2c",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed0af32e0c9e60": {
+			"parent": "feeddb8516c6eaa3",
+			"name": "Door_DoubleDoorBig_A_Normal",
+			"factory": "[assembly:/_pro/environment/templates/architecture/doors/doors_italy_a.template?/door_doubledoorbig_a_normal.entitytemplate](sounddoorinteraction+[assembly:/templates/sound/customsoundtemplates.template?/sound_doorinteraction.entitytemplate].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/architecture/doors/doors_italy_a.template?/door_doubledoorbig_a_normal.entitytemplate](sounddoorinteraction+[assembly:/templates/sound/customsoundtemplates.template?/sound_doorinteraction.entitytemplate].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -44.99999517032684
+						},
+						"position": {
+							"x": -12.85110092163086,
+							"y": 6.082633972167969,
+							"z": 4
+						}
+					}
+				},
+				"m_rGateEntity": {
+					"type": "SEntityTemplateReference",
+					"value": null
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "4d4e8f9d3e610a2c",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedc1b534c0b44c": {
+			"parent": "feed0cb66a103903",
+			"name": "SC_Door_Palace_Balcony_Double_B_00_08",
+			"factory": "[assembly:/_pro/design/setpieces/unique/setpiece_sniperchallenge_unique.template?/sc_door_palace_balcony_double_b_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/unique/setpiece_sniperchallenge_unique.template?/sc_door_palace_balcony_double_b_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -44.99996377745281
+						},
+						"position": {
+							"x": 45.50983810424805,
+							"y": -51.49021911621094,
+							"z": -1
+						}
+					}
+				},
+				"m_InitialState": {
+					"type": "IHM5Door.EInitialState",
+					"value": "IS_OPEN_OUT"
+				},
+				"m_bAutoClose": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "3ac25f2657314528",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				},
+				"m_OpenDir": {
+					"type": "IHM5Door.EOpenDir",
+					"value": "OD_TOWARS"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
 		}
 	},
 	"propertyOverrides": [
@@ -39613,6 +39818,10 @@
 		},
 		{
 			"ref": "8df01e2a48024392",
+			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+		},
+		{
+			"ref": "924fffea4fc6f54a",
 			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
 		}
 	],

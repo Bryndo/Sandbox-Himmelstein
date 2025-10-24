@@ -1,0 +1,33 @@
+{
+    "hash_value": "00EF1C626CB7A8D2",
+    "hash_offset": 13747242,
+    "hash_size": 2147487385,
+    "hash_resource_type": "PRIM",
+    "hash_reference_table_size": 49,
+    "hash_reference_table_dummy": 0,
+    "hash_size_final": 6864,
+    "hash_size_in_memory": 4294967295,
+    "hash_size_in_video_memory": 4294967295,
+    "hash_reference_data": [
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/wall/blackmarble_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/trim/trims_baroque_stone_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/wall/whitemarble_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/wall/doorframe_stone_a01.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/trim/trims_baroque_goldcarving_a.mi].pc_mi",
+            "flag": "5F"
+        }
+    ]
+}
