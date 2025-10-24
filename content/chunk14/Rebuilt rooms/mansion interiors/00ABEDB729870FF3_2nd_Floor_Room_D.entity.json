@@ -3469,7 +3469,7 @@
 		},
 		"feedcef0878cdc21": {
 			"parent": "fa07a3d7dfdd65ca",
-			"name": "palace_int_wall_4x8_a_ORNAMENT",
+			"name": "palace_int_wall_4x8_a_wall_little",
 			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x8_a.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x8_a.entitytemplate].pc_entityblueprint",
 			"properties": {
@@ -3479,12 +3479,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -135.0000120741824
+							"z": -135.00000965934552
 						},
 						"position": {
-							"x": -12.2911376953125,
-							"y": 26.52012062072754,
-							"z": -0.012470364570617676
+							"x": -12.252296447753906,
+							"y": 26.542308807373047,
+							"z": -0.15211844444274902
 						}
 					}
 				},
@@ -3499,14 +3499,14 @@
 				"m_ResourceID": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "00EF1C626CB7A8D2",
+						"resource": "00619342DAA57234",
 						"flag": "5F"
 					}
 				},
 				"m_CollisionResourceID": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "00A7E52C6A0B6D4C",
+						"resource": "00193E43E10FDDAA",
 						"flag": "5F"
 					}
 				},
@@ -3675,9 +3675,9 @@
 							"z": 0
 						},
 						"position": {
-							"x": 6.812463760375977,
-							"y": -0.33565330505371094,
-							"z": -0.0019363164901733398
+							"x": 6.768959045410156,
+							"y": -0.3375568389892578,
+							"z": -0.0019267797470092773
 						}
 					}
 				},
@@ -3805,6 +3805,106 @@
 					"type": "ZRuntimeResourceID",
 					"value": {
 						"resource": "00A7E52C6A0B6D4C",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "13455b98394159de",
+					"postInit": true
+				}
+			}
+		},
+		"feed87c87ef3dc31": {
+			"parent": "fa07a3d7dfdd65ca",
+			"name": "palace_int_wall_4x8_a_ORNAMENT",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x8_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x8_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -135.0000120741824
+						},
+						"position": {
+							"x": -12.2911376953125,
+							"y": 26.52012062072754,
+							"z": -0.012470364570617676
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.6650000214576721,
+						"y": 1,
+						"z": 1.034999966621399
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00EF1C626CB7A8D2",
+						"flag": "5F"
+					}
+				},
+				"m_CollisionResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00A7E52C6A0B6D4C",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "13455b98394159de",
+					"postInit": true
+				}
+			}
+		},
+		"feedbef604db9fc0": {
+			"parent": "fa07a3d7dfdd65ca",
+			"name": "palace_int_wall_4x8_a_wall_little",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x8_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x8_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -135.0000120741824
+						},
+						"position": {
+							"x": -2.368671417236328,
+							"y": 16.61669158935547,
+							"z": -0.1520099937915802
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.6650000214576721,
+						"y": 1,
+						"z": 1.034999966621399
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00619342DAA57234",
+						"flag": "5F"
+					}
+				},
+				"m_CollisionResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00193E43E10FDDAA",
 						"flag": "5F"
 					}
 				},

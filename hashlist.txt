@@ -23,6 +23,9 @@
 00EF1C626CB7A8D2.PRIM, [assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/ornament_only.prim].pc_prim
 00A7E52C6A0B6D4C.ALOC, [assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/ornament_only.prim].pc_coll
 
+00619342DAA57234.PRIM, [assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/little_marble_wall.prim].pc_prim
+00193E43E10FDDAA.ALOC, [assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/little_marble_wall.prim].pc_coll
+
 0068FF738EB2CF6C.TEMP, [assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_palace_main_a_modded.entitytemplate].pc_entitytype
 006E85B7234D4DA9.TBLU, [assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_palace_main_a_modded.entitytemplate].pc_entityblueprint
 
