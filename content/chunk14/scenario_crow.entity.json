@@ -32414,19 +32414,19 @@
 			}
 		},
 		"feedcd283821e863": {
-			"parent": "fffffffffffffffe",
+			"parent": "feed9be3c80dde2f",
 			"name": "Stairs part 3",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"feedbd4f08b0cc12": {
-			"parent": "fffffffffffffffe",
+			"parent": "feed9be3c80dde2f",
 			"name": "Stairs part 2",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"feed3c7f6936f92f": {
-			"parent": "fffffffffffffffe",
+			"parent": "feed9be3c80dde2f",
 			"name": "Stairs part 1",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
@@ -36478,7 +36478,7 @@
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"feedfac3c2de0ab7": {
-			"parent": "fffffffffffffffe",
+			"parent": "cafe648da14b521a",
 			"name": "Gate_310_320_01",
 			"factory": "[modules:/zgateentity.class].pc_entitytype",
 			"blueprint": "[modules:/zgateentity.class].pc_entityblueprint",
@@ -36489,12 +36489,12 @@
 						"rotation": {
 							"x": 90,
 							"y": 0,
-							"z": 0
+							"z": 90
 						},
 						"position": {
-							"x": 65.74859619140625,
-							"y": -7.533562183380127,
-							"z": 3
+							"x": 30.330408096313477,
+							"y": -68.5456314086914,
+							"z": 3.001995801925659
 						}
 					}
 				},
@@ -36503,7 +36503,7 @@
 					"value": {
 						"x": 2.9678099155426025,
 						"y": 5,
-						"z": 5.100599765777588
+						"z": 7
 					}
 				},
 				"m_bAutoClientRooms": {
@@ -36543,7 +36543,7 @@
 			}
 		},
 		"feed29ef61f21a5b": {
-			"parent": "fffffffffffffffe",
+			"parent": "cafe648da14b521a",
 			"name": "Gate_300_310_01",
 			"factory": "[modules:/zgateentity.class].pc_entitytype",
 			"blueprint": "[modules:/zgateentity.class].pc_entityblueprint",
@@ -36554,12 +36554,12 @@
 						"rotation": {
 							"x": 90,
 							"y": 0,
-							"z": 0
+							"z": 90
 						},
 						"position": {
-							"x": 65.74859619140625,
-							"y": -7.533562183380127,
-							"z": 3
+							"x": 29.846189498901367,
+							"y": -68.5479965209961,
+							"z": -0.9980462193489075
 						}
 					}
 				},
@@ -36602,6 +36602,2309 @@
 			},
 			"subsets": {
 				"Gates": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feeded88e9dbeef8": {
+			"parent": "fffffffffffffffe",
+			"name": "Stairs part",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feed9be3c80dde2f": {
+			"parent": "feeded88e9dbeef8",
+			"name": "Right wing",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feed08e2b2245389": {
+			"parent": "feeded88e9dbeef8",
+			"name": "Left wing",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feed697950671454": {
+			"parent": "feed08e2b2245389",
+			"name": "Stairs part 3",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feed3d27151d9733": {
+			"parent": "feed08e2b2245389",
+			"name": "Stairs part 2",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feeda96f1f59805e": {
+			"parent": "feed08e2b2245389",
+			"name": "Stairs part 1",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feed71e44851ef70": {
+			"parent": "feed697950671454",
+			"name": "palace_int_wood_handrail_4x1_a_04",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.92087063248528
+						},
+						"position": {
+							"x": 67.09044647216797,
+							"y": -10.069340705871582,
+							"z": 3
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1.2000000476837158
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feedad4c7d6d6d41": {
+			"parent": "feed697950671454",
+			"name": "palace_int_wood_handrail_4x1_a_07",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.91153067230061
+						},
+						"position": {
+							"x": 67.09044647216797,
+							"y": -38.102359771728516,
+							"z": 3
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.675000011920929,
+						"y": 1,
+						"z": 1.2000000476837158
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feedf8a17d986ded": {
+			"parent": "feed697950671454",
+			"name": "palace_int_wood_handrail_4x1_a_17",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 134.99999517032686
+						},
+						"position": {
+							"x": 54.50538635253906,
+							"y": -66.34185028076172,
+							"z": -0.9987908601760864
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.7200000286102295,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed0e16278b9226": {
+			"parent": "feed697950671454",
+			"name": "palace_int_wood_handrail_4x1_a_01",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.92087063248528
+						},
+						"position": {
+							"x": 67.09239959716797,
+							"y": -24.08599853515625,
+							"z": 3
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1.2000000476837158
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed26e9225b9e5e": {
+			"parent": "feed697950671454",
+			"name": "palace_int_wood_handrail_4x1_a_14",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 67.10631561279297,
+							"y": -8.200456619262695,
+							"z": -1
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1.2000000476837158
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feedf18b714af4e8": {
+			"parent": "feed697950671454",
+			"name": "palace_int_wood_handrail_4x1_a_10",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 67.10631561279297,
+							"y": -22.005924224853516,
+							"z": -1.0001516342163086
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1.2000000476837158
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed1ba7ae88143e": {
+			"parent": "feed697950671454",
+			"name": "palace_int_wood_handrail_4x1_a_12",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 67.10631561279297,
+							"y": -36.0655517578125,
+							"z": -1
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1.2000000476837158
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feedb2b0b7887013": {
+			"parent": "feed697950671454",
+			"name": "palace_int_wood_handrail_4x1_a_18",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 134.99999517032686
+						},
+						"position": {
+							"x": 56.61005783081055,
+							"y": -64.23737335205078,
+							"z": -0.9988594651222229
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed43f3188c74e4": {
+			"parent": "feed697950671454",
+			"name": "palace_int_wood_handrail_4x1_a_16",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 45
+						},
+						"position": {
+							"x": 52.474979400634766,
+							"y": -68.45552062988281,
+							"z": -0.9989633560180664
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.699999988079071,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed0ab854daf493": {
+			"parent": "feed697950671454",
+			"name": "palace_int_wood_handrail_4x1_a_19",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90.02859059097072
+						},
+						"position": {
+							"x": 3.00046706199646,
+							"y": 6.293352127075195,
+							"z": 0
+						},
+						"scale": {
+							"x": 0.9999998913730632,
+							"y": 0.9999998913730632,
+							"z": 1
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feede9fda671f5bd": {
+			"parent": "feed71e44851ef70",
+			"name": "palace_int_wood_handrail_4x1_a_05",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 67.10636901855469,
+							"y": -7.307000160217285,
+							"z": 3
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.675000011920929,
+						"y": 1,
+						"z": 1.2000000476837158
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed012fdccafcfb": {
+			"parent": "feed71e44851ef70",
+			"name": "palace_int_wood_handrail_4x1_a_06",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 67.10614776611328,
+							"y": -4.953742504119873,
+							"z": 3.000999927520752
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.675000011920929,
+						"y": 1,
+						"z": 1.2000000476837158
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed6b610613fe66": {
+			"parent": "feedad4c7d6d6d41",
+			"name": "palace_int_wood_handrail_4x1_a_09",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 67.10616302490234,
+							"y": -33.11649703979492,
+							"z": 3
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.675000011920929,
+						"y": 1,
+						"z": 1.2000000476837158
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feeddc5776c199c4": {
+			"parent": "feedad4c7d6d6d41",
+			"name": "palace_int_wood_handrail_4x1_a_08",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 67.10636901855469,
+							"y": -35.47019958496094,
+							"z": 3
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.675000011920929,
+						"y": 1,
+						"z": 1.2000000476837158
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed44c043e039db": {
+			"parent": "feed0e16278b9226",
+			"name": "palace_int_wood_handrail_4x1_a_03",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 67.10614776611328,
+							"y": -18.971508026123047,
+							"z": 3.000999927520752
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.675000011920929,
+						"y": 1,
+						"z": 1.2000000476837158
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed3377878eef5b": {
+			"parent": "feed0e16278b9226",
+			"name": "palace_int_wood_handrail_4x1_a_02",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 67.10636901855469,
+							"y": -21.307355880737305,
+							"z": 3
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.675000011920929,
+						"y": 1,
+						"z": 1.2000000476837158
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed8354727d780b": {
+			"parent": "feed26e9225b9e5e",
+			"name": "palace_int_wood_handrail_4x1_a_15",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 67.10661315917969,
+							"y": -5.20880126953125,
+							"z": -1
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1.2000000476837158
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed2fcf33e28eb4": {
+			"parent": "feedf18b714af4e8",
+			"name": "palace_int_wood_handrail_4x1_a_11",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 67.10612487792969,
+							"y": -19.019916534423828,
+							"z": -1
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1.2000000476837158
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed0ad73ff58a06": {
+			"parent": "feed1ba7ae88143e",
+			"name": "palace_int_wood_handrail_4x1_a_13",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 67.1085205078125,
+							"y": -33.07795715332031,
+							"z": -1
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1.2000000476837158
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed4b507b035b11": {
+			"parent": "feed0ab854daf493",
+			"name": "palace_int_wood_handrail_4x1_a_20",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90.02859059097072
+						},
+						"position": {
+							"x": 3.00046706199646,
+							"y": 6.293352127075195,
+							"z": 0
+						},
+						"scale": {
+							"x": 0.9999998913730632,
+							"y": 0.9999998913730632,
+							"z": 1
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed43292510beec": {
+			"parent": "feed3d27151d9733",
+			"name": "palace_int_wood_handrail_pillar_a_04",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.93147195533706
+						},
+						"position": {
+							"x": 66.93936920166016,
+							"y": -11.225676536560059,
+							"z": -5
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feedc55322444363": {
+			"parent": "feed3d27151d9733",
+			"name": "palace_int_wood_handrail_pillar_a_06",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.92087063248528
+						},
+						"position": {
+							"x": 64.33499145507812,
+							"y": -11.225676536560059,
+							"z": -5
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feed503beac9370d": {
+			"parent": "feed3d27151d9733",
+			"name": "palace_int_wood_handrail_pillar_a_07",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.94404708809589
+						},
+						"position": {
+							"x": 67.01821899414062,
+							"y": -39.13119125366211,
+							"z": -1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feed1d2ab5fab0ec": {
+			"parent": "feed3d27151d9733",
+			"name": "palace_int_wood_handrail_pillar_a_01",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.96043531900548
+						},
+						"position": {
+							"x": 66.9388198852539,
+							"y": -39.18870162963867,
+							"z": -5
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feed01cce8f3e844": {
+			"parent": "feed3d27151d9733",
+			"name": "palace_int_wood_handrail_pillar_a_08",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.93147195533706
+						},
+						"position": {
+							"x": 64.33499145507812,
+							"y": -39.131099700927734,
+							"z": -1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feedc3f2f9b7c29c": {
+			"parent": "feed3d27151d9733",
+			"name": "palace_int_wood_handrail_pillar_a_05",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.93147195533706
+						},
+						"position": {
+							"x": 64.33499145507812,
+							"y": -25.118999481201172,
+							"z": -5.008999824523926
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feed88f81bd2c60c": {
+			"parent": "feed3d27151d9733",
+			"name": "palace_int_wood_handrail_pillar_a_09",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.93147195533706
+						},
+						"position": {
+							"x": 66.99745178222656,
+							"y": -24.995338439941406,
+							"z": -1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feed94cd7f144256": {
+			"parent": "feed3d27151d9733",
+			"name": "palace_int_wood_handrail_pillar_a_02",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.94404708809589
+						},
+						"position": {
+							"x": 64.33499145507812,
+							"y": -39.18899917602539,
+							"z": -5
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feedffdf6a64440b": {
+			"parent": "feed3d27151d9733",
+			"name": "palace_int_wood_handrail_pillar_a_03",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.94404708809589
+						},
+						"position": {
+							"x": 66.9212417602539,
+							"y": -25.118846893310547,
+							"z": -5.008996963500977
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feed2dfe70a355db": {
+			"parent": "feed3d27151d9733",
+			"name": "palace_int_wood_handrail_pillar_a_13",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.93147195533706
+						},
+						"position": {
+							"x": 64.41792297363281,
+							"y": -24.126079559326172,
+							"z": 2.984565496444702
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feed6c9a778a210d": {
+			"parent": "feed3d27151d9733",
+			"name": "palace_int_wood_handrail_pillar_a_11",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.94404708809589
+						},
+						"position": {
+							"x": 64.33499145507812,
+							"y": -25.001155853271484,
+							"z": -1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feed94d36754c803": {
+			"parent": "feed3d27151d9733",
+			"name": "palace_int_wood_handrail_pillar_a_12",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.92087063248528
+						},
+						"position": {
+							"x": 64.33499145507812,
+							"y": -11.225676536560059,
+							"z": -1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feedab54f18fb91f": {
+			"parent": "feed3d27151d9733",
+			"name": "palace_int_wood_handrail_pillar_a_17",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.93147195533706
+						},
+						"position": {
+							"x": 64.42658996582031,
+							"y": -10.065143585205078,
+							"z": 3.002000093460083
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feedbdbf3dd8f44e": {
+			"parent": "feed3d27151d9733",
+			"name": "palace_int_wood_handrail_pillar_a_10",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.92087063248528
+						},
+						"position": {
+							"x": 67.02376556396484,
+							"y": -11.225677490234375,
+							"z": -1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feed8270a42d3b0f": {
+			"parent": "feed3d27151d9733",
+			"name": "palace_int_wood_handrail_pillar_a_13",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.93147195533706
+						},
+						"position": {
+							"x": 64.408203125,
+							"y": -38.12200164794922,
+							"z": 3
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feedc519450d31dd": {
+			"parent": "feedc55322444363",
+			"name": "palace_int_wood_handrail_pillar_a_06",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.92087063248528
+						},
+						"position": {
+							"x": 67.02195739746094,
+							"y": -5.077987194061279,
+							"z": -1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.600000023841858,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feeda96b7987f12a": {
+			"parent": "feedc55322444363",
+			"name": "palace_int_wood_handrail_pillar_a_06",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.92087063248528
+						},
+						"position": {
+							"x": 64.37203979492188,
+							"y": -5.075118064880371,
+							"z": -1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.600000023841858,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feedeaac7a5a1830": {
+			"parent": "feed2dfe70a355db",
+			"name": "palace_int_wood_handrail_pillar_a_16",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.92087063248528
+						},
+						"position": {
+							"x": 67.0260009765625,
+							"y": -18.97687339782715,
+							"z": 3
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.600000023841858,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feed6f002d90084d": {
+			"parent": "feed2dfe70a355db",
+			"name": "palace_int_wood_handrail_pillar_a_14",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.93147195533706
+						},
+						"position": {
+							"x": 64.41015625,
+							"y": -18.979999542236328,
+							"z": 3
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feed238759cef578": {
+			"parent": "feed2dfe70a355db",
+			"name": "palace_int_wood_handrail_pillar_a_15",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.92087063248528
+						},
+						"position": {
+							"x": 67.12145233154297,
+							"y": -24.099828720092773,
+							"z": 3
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feed8c78eb352c91": {
+			"parent": "feed94d36754c803",
+			"name": "palace_int_wood_handrail_pillar_a_12",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.92087063248528
+						},
+						"position": {
+							"x": 64.36882019042969,
+							"y": -18.867904663085938,
+							"z": -1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feedb7dd2dfe06df": {
+			"parent": "feed94d36754c803",
+			"name": "palace_int_wood_handrail_pillar_a_12",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.92087063248528
+						},
+						"position": {
+							"x": 64.39945983886719,
+							"y": -33.028987884521484,
+							"z": -1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.600000023841858,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feed2c7398891e1a": {
+			"parent": "feed94d36754c803",
+			"name": "palace_int_wood_handrail_pillar_a_12",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.92087063248528
+						},
+						"position": {
+							"x": 67.01274871826172,
+							"y": -32.94389343261719,
+							"z": -1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.600000023841858,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feed29a97d9232d4": {
+			"parent": "feed94d36754c803",
+			"name": "palace_int_wood_handrail_pillar_a_12",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.92087063248528
+						},
+						"position": {
+							"x": 67.00682830810547,
+							"y": -18.908117294311523,
+							"z": -1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.600000023841858,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feed52bd155507bc": {
+			"parent": "feedab54f18fb91f",
+			"name": "palace_int_wood_handrail_pillar_a_20",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.93147195533706
+						},
+						"position": {
+							"x": 64.36800384521484,
+							"y": -5.105869293212891,
+							"z": 3.002000093460083
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feedeb78e8f43485": {
+			"parent": "feedab54f18fb91f",
+			"name": "palace_int_wood_handrail_pillar_a_18",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.93147195533706
+						},
+						"position": {
+							"x": 67.100341796875,
+							"y": -10.064997673034668,
+							"z": 3.002000093460083
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feed874032776102": {
+			"parent": "feedab54f18fb91f",
+			"name": "palace_int_wood_handrail_pillar_a_19",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.93147195533706
+						},
+						"position": {
+							"x": 67.02571868896484,
+							"y": -5.105825424194336,
+							"z": 3.0019967555999756
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.600000023841858,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feedfbbd195bbeb3": {
+			"parent": "feed8270a42d3b0f",
+			"name": "palace_int_wood_handrail_pillar_a_16",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.92087063248528
+						},
+						"position": {
+							"x": 64.37159729003906,
+							"y": -33.050331115722656,
+							"z": 3
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feedfdaed0eb3acf": {
+			"parent": "feed8270a42d3b0f",
+			"name": "palace_int_wood_handrail_pillar_a_14",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.93147195533706
+						},
+						"position": {
+							"x": 67.12100219726562,
+							"y": -38.12233352661133,
+							"z": 3.000009536743164
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feed583757bc191f": {
+			"parent": "feed8270a42d3b0f",
+			"name": "palace_int_wood_handrail_pillar_a_15",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_pillar_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.92087063248528
+						},
+						"position": {
+							"x": 67.0260009765625,
+							"y": -32.97700119018555,
+							"z": 3
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.600000023841858,
+						"y": 1.2000000476837158,
+						"z": 1.2000000476837158
+					}
+				}
+			}
+		},
+		"feedf290fb9bb567": {
+			"parent": "feeda96f1f59805e",
+			"name": "palace_int_wood_handrail_a_01_5",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 66.93782806396484,
+							"y": -11.154504776000977,
+							"z": -4.586001396179199
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feedf548763adbdd": {
+			"parent": "feeda96f1f59805e",
+			"name": "palace_int_wood_handrail_a_01_3",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 64.3740005493164,
+							"y": -25.06584358215332,
+							"z": -4.585999965667725
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed134fd36ebaa7": {
+			"parent": "feeda96f1f59805e",
+			"name": "palace_int_wood_handrail_a_01_10",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 66.9186019897461,
+							"y": -25.06586265563965,
+							"z": -0.5796005129814148
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feeda6ad03b67623": {
+			"parent": "feeda96f1f59805e",
+			"name": "palace_int_wood_handrail_a_01_1",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 66.92438507080078,
+							"y": -39.093162536621094,
+							"z": -4.585691452026367
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed2720f75a789d": {
+			"parent": "feeda96f1f59805e",
+			"name": "palace_int_wood_handrail_a_01_6",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 64.3740005493164,
+							"y": -11.154156684875488,
+							"z": -4.585999965667725
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed97585043c6ad": {
+			"parent": "feeda96f1f59805e",
+			"name": "palace_int_wood_handrail_a_01_9",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 64.3740005493164,
+							"y": -25.06584358215332,
+							"z": -0.5799999833106995
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed65dc0d7e069e": {
+			"parent": "feeda96f1f59805e",
+			"name": "palace_int_wood_handrail_a_01_4",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 66.9186019897461,
+							"y": -25.06586265563965,
+							"z": -4.585999965667725
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed990acd47c974": {
+			"parent": "feeda96f1f59805e",
+			"name": "palace_int_wood_handrail_a_01_2",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 64.3740005493164,
+							"y": -39.168724060058594,
+							"z": -4.58568000793457
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feedcf928f4912d9": {
+			"parent": "feeda96f1f59805e",
+			"name": "palace_int_wood_handrail_a_01_8",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 64.37405395507812,
+							"y": -39.13690185546875,
+							"z": -0.5799999833106995
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feedd686324090e8": {
+			"parent": "feeda96f1f59805e",
+			"name": "palace_int_wood_handrail_a_01_7",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 66.92438507080078,
+							"y": -39.093162536621094,
+							"z": -0.5799999833106995
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed843b3bb030c0": {
+			"parent": "feeda96f1f59805e",
+			"name": "palace_int_wood_handrail_a_01_11",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 66.93782806396484,
+							"y": -11.154504776000977,
+							"z": -0.5799999833106995
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed23e5c8b0f251": {
+			"parent": "feeda96f1f59805e",
+			"name": "palace_int_wood_handrail_a_01_16",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 64.26185607910156,
+							"y": -11.154156684875488,
+							"z": -0.699999988079071
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feedab5337f7e727": {
+			"parent": "feeda96f1f59805e",
+			"name": "palace_int_wood_handrail_a_01_15",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 64.26185607910156,
+							"y": -11.154156684875488,
+							"z": -0.699999988079071
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feedaddda7aad870": {
+			"parent": "feeda96f1f59805e",
+			"name": "palace_int_wood_handrail_a_01_13",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -44.99999517032684
+						},
+						"position": {
+							"x": 54.31399917602539,
+							"y": -70.24369049072266,
+							"z": -4.789999961853027
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed43a720d0d42c": {
+			"parent": "feeda96f1f59805e",
+			"name": "palace_int_wood_handrail_a_01_14",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -44.99999517032684
+						},
+						"position": {
+							"x": 52.483863830566406,
+							"y": -68.55126953125,
+							"z": -4.789993762969971
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed0fd0499427c3": {
+			"parent": "feeda96f1f59805e",
+			"name": "palace_int_wood_handrail_a_01_12",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wood_handrail_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 64.3740005493164,
+							"y": -11.154156684875488,
+							"z": -0.5799999833106995
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed0cb66a103903": {
+			"parent": "cafe648da14b521a",
+			"name": "Hawk_Palace_Interior_2nd_Floor_Room_D",
+			"factory": "[assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_palace_interior_2nd_floor_room_d_modded.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_palace_interior_2nd_floor_room_d_modded.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 1.9581049680709839,
+							"y": 8.669594764709473,
+							"z": 0
+						},
+						"scale": {
+							"x": 0.9999997615814351,
+							"y": 0.9999997615814351,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "76fe2fe6a8031ef0",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"feedd6ca69a65498": {
+			"parent": "cafeaedace358e0e",
+			"name": "Hawk_Palace_Main_A",
+			"factory": "[assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_palace_main_a_modded.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_palace_main_a_modded.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -45
+						},
+						"position": {
+							"x": 46.63739013671875,
+							"y": -49.80607986450195,
+							"z": -5
+						},
+						"scale": {
+							"x": 1.0000006401211365,
+							"y": 1.0000006401211365,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "3ac25f2657314528",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
 					"fffffffffffffffe"
 				]
 			}
@@ -36872,11 +39175,11 @@
 		}
 	],
 	"overrideDeletes": [
-			{
+		{
 			"ref": "12dcb1499aba52cf",
 			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
 		},
-			{
+		{
 			"ref": "59f644f0931c63d4",
 			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
 		},
@@ -37305,15 +39608,11 @@
 			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
 		},
 		{
-			"ref": "b61b1964b1d3ec59",
+			"ref": "d74dc7ddfff9e8c0",
 			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
 		},
 		{
-			"ref": "b61b1964b1d3ec59",
-			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
-		},
-		{
-			"ref": "b61b1964b1d3ec59",
+			"ref": "8df01e2a48024392",
 			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
 		}
 	],

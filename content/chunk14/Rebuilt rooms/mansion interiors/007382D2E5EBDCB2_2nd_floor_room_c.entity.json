@@ -1,2517 +1,2503 @@
 {
-    "tempHash": "007382D2E5EBDCB2",
-    "tbluHash": "0011E22267542FA8",
-    "rootEntity": "e75018558fd669d1",
-    "entities": {
-        "912779ed50abfa84": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_doorframe_4x4_a_11",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_doorframe_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_doorframe_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": -90
-                        },
-                        "position": {
-                            "x": -7.999989032745361,
-                            "y": -1.999961018562317,
-                            "z": 0
-                        }
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "1d650456940cf35c": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_ceiling_4x4_a_10",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": -3.999638080596924,
-                            "y": -2.9999969005584717,
-                            "z": 4
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 1,
-                        "y": 1,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "df2aad540e79a00c": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_doorframe_4x4_a_06",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_doorframe_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_doorframe_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": -180
-                        },
-                        "position": {
-                            "x": -6.999996185302734,
-                            "y": -10.999919891357422,
-                            "z": 0
-                        }
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "200d37a96b275c1c": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_doorframe_4x4_a",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_doorframe_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_doorframe_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 179.97203966235674
-                        },
-                        "position": {
-                            "x": -2.9999899864196777,
-                            "y": 1.0000100135803223,
-                            "z": 0
-                        },
-                        "scale": {
-                            "x": 1.0000002381439907,
-                            "y": 1.0000002381439907,
-                            "z": 1
-                        }
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "aaccdf46c4b53d86": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_doorframe_4x4_a_01",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_doorframe_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_doorframe_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 179.97203966235674
-                        },
-                        "position": {
-                            "x": 1.0000040531158447,
-                            "y": 1.0000100135803223,
-                            "z": 0
-                        },
-                        "scale": {
-                            "x": 1.0000002381439907,
-                            "y": 1.0000002381439907,
-                            "z": 1
-                        }
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "7998650b85456f03": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_ceiling_4x4_a_15",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": -3.9990649223327637,
-                            "y": -16.999940872192383,
-                            "z": 4
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 1,
-                        "y": 0.75,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "5a592de6b04691d4": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_ceiling_4x4_a_16",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": 6.000003814697266,
-                            "y": -13.999970436096191,
-                            "z": 4
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 0.75,
-                        "y": 0.75,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "4338f26a50555613": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_wall_cornerin_1x4_a",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_cornerin_1x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_cornerin_1x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": 5.999989032745361,
-                            "y": -10,
-                            "z": 0
-                        }
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "b199fe3ec7ba84be": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_floor_4x4_b_40",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": -3.9994161128997803,
-                            "y": -16.999950408935547,
-                            "z": 0
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 1,
-                        "y": 0.75,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "4de56a0e660f7bd4": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_wall_4x4_a_02",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": -180
-                        },
-                        "position": {
-                            "x": -2.9999918937683105,
-                            "y": -10.999970436096191,
-                            "z": 0
-                        }
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "3b59ece06f54fe4e": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_ceiling_4x4_a_19",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": -4.998717784881592,
-                            "y": -13.99940013885498,
-                            "z": 4
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 0.75,
-                        "y": 0.75,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "cfd8b531d4ca9d2e": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_wall_cornerin_1x4_a_07",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_cornerin_1x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_cornerin_1x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": -180
-                        },
-                        "position": {
-                            "x": -7.999996185302734,
-                            "y": -11.999970436096191,
-                            "z": 0
-                        }
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "739a7a1a6f9a62ef": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_wall_cornerin_1x4_a_06",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_cornerin_1x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_cornerin_1x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": 6.000003814697266,
-                            "y": -15.999979972839355,
-                            "z": 0
-                        }
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "003cd283a7d18519": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_doorframe_4x4_a_08",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_doorframe_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_doorframe_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": -90.0280176338454
-                        },
-                        "position": {
-                            "x": 6.000003814697266,
-                            "y": -11.999970436096191,
-                            "z": 0
-                        },
-                        "scale": {
-                            "x": 1.0000002391209983,
-                            "y": 1.0000002391209983,
-                            "z": 1
-                        }
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "bf9e77a0ab42535b": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_wall_2x4_a_01",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_2x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_2x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": -89.99994270422063
-                        },
-                        "position": {
-                            "x": 6.0000081062316895,
-                            "y": -3.999972105026245,
-                            "z": 0
-                        },
-                        "scale": {
-                            "x": 1.000000000001,
-                            "y": 1.000000000001,
-                            "z": 1
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 1,
-                        "y": 1,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "3fb7fa37eaf6bfec": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_floor_4x4_b_34",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": 6.000027179718018,
-                            "y": -3.0000479221343994,
-                            "z": 0
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 1,
-                        "y": 1,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "116bd84ee3d0a89f": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_floor_4x4_b_35",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": -3.9999890327453613,
-                            "y": -2.9999969005584717,
-                            "z": 0
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 1,
-                        "y": 1,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "3db49d22b91d62f9": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_doorframe_4x4_a_03",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_doorframe_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_doorframe_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": -90.0280176338454
-                        },
-                        "position": {
-                            "x": 6.0000081062316895,
-                            "y": -5.999971866607666,
-                            "z": 0
-                        },
-                        "scale": {
-                            "x": 1.0000002391209983,
-                            "y": 1.0000002391209983,
-                            "z": 1
-                        }
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "572a62246ee7cbc4": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_wall_4x4_a_08",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": 0.999409019947052,
-                            "y": -16.99995994567871,
-                            "z": 0
-                        }
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "ca1b896842906e5d": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_ceiling_4x4_a_07",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": -0.9999499917030334,
-                            "y": -2.9999890327453613,
-                            "z": 4
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 0.75,
-                        "y": 1,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "403b88509fc01ff7": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_wall_cornerin_1x4_a_05",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_cornerin_1x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_cornerin_1x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": -90.02796033764326
-                        },
-                        "position": {
-                            "x": 5.000003814697266,
-                            "y": -10.999970436096191,
-                            "z": 0
-                        },
-                        "scale": {
-                            "x": 1.0000002381439907,
-                            "y": 1.0000002381439907,
-                            "z": 1
-                        }
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "b59a318daa3c885b": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_doorframe_4x4_a_02",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_doorframe_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_doorframe_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 179.97203966235674
-                        },
-                        "position": {
-                            "x": -6.999989986419678,
-                            "y": 1.0000139474868774,
-                            "z": 0
-                        },
-                        "scale": {
-                            "x": 1.0000002381439907,
-                            "y": 1.0000002381439907,
-                            "z": 1
-                        }
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "801448bc6800a755": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_wall_cornerin_1x4_a_02",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_cornerin_1x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_cornerin_1x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 90
-                        },
-                        "position": {
-                            "x": -6.999996185302734,
-                            "y": -10.999970436096191,
-                            "z": 0
-                        }
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "eae9b4bbc52a3050": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_ceiling_4x4_a_12",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": 6.000075817108154,
-                            "y": -16.999969482421875,
-                            "z": 4
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 1,
-                        "y": 0.75,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "a429488bc17e08e1": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_stairs_3x2_a_01",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_stairs_3x2_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_stairs_3x2_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": -90.0198243381278
-                        },
-                        "position": {
-                            "x": -0.0003239999932702631,
-                            "y": -10.999959945678711,
-                            "z": 2
-                        },
-                        "scale": {
-                            "x": 1.0000001197159905,
-                            "y": 1.0000001197159905,
-                            "z": 1
-                        }
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "d9fdd34f0ca9a402": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_doorframe_4x4_a_09",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 89.99977081688253
-                        },
-                        "position": {
-                            "x": -7.9999918937683105,
-                            "y": -15.999970436096191,
-                            "z": 0
-                        },
-                        "scale": {
-                            "x": 1.000000000016,
-                            "y": 1.000000000016,
-                            "z": 1
-                        }
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "082c27fa1049b4de": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_floor_4x4_b_27",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": 6,
-                            "y": -6.9999799728393555,
-                            "z": 0
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 1,
-                        "y": 1,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "70bfe3c88d0075e5": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_ceiling_4x4_a_14",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": -1.0000760555267334,
-                            "y": -17.00057029724121,
-                            "z": 4
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 0.75,
-                        "y": 0.75,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "18dc02c87b41c101": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_wall_cornerin_1x4_a_01",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_cornerin_1x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_cornerin_1x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": -90.02796033764326
-                        },
-                        "position": {
-                            "x": 5.000010013580322,
-                            "y": 1.0000100135803223,
-                            "z": 0
-                        },
-                        "scale": {
-                            "x": 1.0000002381439907,
-                            "y": 1.0000002381439907,
-                            "z": 1
-                        }
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "6b1764b4c599b99d": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_wall_4x4_a_09",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": 5.000003814697266,
-                            "y": -16.999980926513672,
-                            "z": 0
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 1,
-                        "y": 1,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "b1ec6c85dad65798": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_floor_4x4_b_39",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": -1.000156044960022,
-                            "y": -17.00004005432129,
-                            "z": 0
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 0.75,
-                        "y": 0.75,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "3a13766693263c7c": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_doorframe_4x4_a_10",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_doorframe_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_doorframe_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 90
-                        },
-                        "position": {
-                            "x": -7.9999918937683105,
-                            "y": -5.9999680519104,
-                            "z": 0
-                        }
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "09737d74c113a4b5": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_wall_2x4_a_03",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_2x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_2x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 89.99977081688253
-                        },
-                        "position": {
-                            "x": -7.999989986419678,
-                            "y": -1.9999899864196777,
-                            "z": 0
-                        },
-                        "scale": {
-                            "x": 1.000000000016,
-                            "y": 1.000000000016,
-                            "z": 1
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 1,
-                        "y": 1,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "04ddbbf7a9960ab4": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_ceiling_4x4_a_13",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": 2.0000150203704834,
-                            "y": -17.00048065185547,
-                            "z": 4
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 0.75,
-                        "y": 0.75,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "909d5728770b239b": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_wall_4x4_a_03",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": -180
-                        },
-                        "position": {
-                            "x": 0.9997220039367676,
-                            "y": -10.999959945678711,
-                            "z": 0
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 1,
-                        "y": 1,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "27d74fee1bf03ddd": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_floor_4x4_b_32",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": -1.0000269412994385,
-                            "y": -2.9999959468841553,
-                            "z": 0
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 0.75,
-                        "y": 1,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "ab8260450dd891ab": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_ceiling_4x4_a_09",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": 6.000258922576904,
-                            "y": -3.0000410079956055,
-                            "z": 4
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 1,
-                        "y": 1,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "85b440b72ece2507": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_floor_4x4_b_42",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": -0.01976704358638215
-                        },
-                        "position": {
-                            "x": -8,
-                            "y": -16.995479583740234,
-                            "z": 0
-                        },
-                        "scale": {
-                            "x": 1.0000001190250052,
-                            "y": 1.0000001190250052,
-                            "z": 1
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 1,
-                        "y": 1.3006500005722046,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "4df1b97e006e41e8": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_ceiling_4x4_a_04",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": -1.0000989437103271,
-                            "y": -11.00059986114502,
-                            "z": 4
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 0.75,
-                        "y": 1,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "b8a29adc5344a2ea": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_floor_4x4_b_37",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": 6.000003814697266,
-                            "y": -16.999980926513672,
-                            "z": 0
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 1,
-                        "y": 0.75,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1",
-                    "postInit": true
-                }
-            }
-        },
-        "e75018558fd669d1": {
-            "parent": null,
-            "name": "Hawk_Palace_Interior_2nd_Floor_Room_C",
-            "factory": "[modules:/zcompositeentity.class].pc_entitytype",
-            "blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": -90.02796033764326
-                        },
-                        "position": {
-                            "x": -124.99320220947266,
-                            "y": -75.0009765625,
-                            "z": 61
-                        },
-                        "scale": {
-                            "x": 1.0000002381439907,
-                            "y": 1.0000002381439907,
-                            "z": 1
-                        }
-                    }
-                }
-            }
-        },
-        "0121c61c162a696a": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_floor_4x4_b_28",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": 1.9999279975891113,
-                            "y": -10.999959945678711,
-                            "z": 0
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 0.75,
-                        "y": 1,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1"
-                }
-            }
-        },
-        "0f436cf862ef9700": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_floor_4x4_b_25",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": -1.00006902217865,
-                            "y": -6.999967098236084,
-                            "z": 0
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 0.75,
-                        "y": 1,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1"
-                }
-            }
-        },
-        "2eac84c002ccb2ca": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_ceiling_4x4_a_11",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": -3.999901056289673,
-                            "y": -11.000510215759277,
-                            "z": 4
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 1,
-                        "y": 1,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1"
-                }
-            }
-        },
-        "1436d17d4fe7c74a": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_floor_4x4_b_36",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": -3.9999959468841553,
-                            "y": -10.999970436096191,
-                            "z": 0
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 1,
-                        "y": 1,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1"
-                }
-            }
-        },
-        "2ac39606f19f6542": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_floor_4x4_b_30",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": 5.999919891357422,
-                            "y": -10.999990463256836,
-                            "z": 0
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 1,
-                        "y": 1,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1"
-                }
-            }
-        },
-        "08b433628d022104": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_floor_4x4_b_38",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": 1.9999430179595947,
-                            "y": -16.999940872192383,
-                            "z": 0
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 0.75,
-                        "y": 0.75,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1"
-                }
-            }
-        },
-        "95b813abeec6dfbb": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_wall_cornerin_1x4_a_03",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_cornerin_1x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_cornerin_1x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 90
-                        },
-                        "position": {
-                            "x": -6.9999918937683105,
-                            "y": -16.999969482421875,
-                            "z": 0
-                        }
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1"
-                }
-            }
-        },
-        "14c684f76618ed06": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_floor_4x4_b_41",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": 6.000003814697266,
-                            "y": -13.999970436096191,
-                            "z": 0
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 0.75,
-                        "y": 0.75,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1"
-                }
-            }
-        },
-        "fc9e7978966e7a6b": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_floor_4x4_b_26",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": 2.0000040531158447,
-                            "y": -6.999966144561768,
-                            "z": 0
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 0.75,
-                        "y": 1,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1"
-                }
-            }
-        },
-        "f531a60a9fb8635f": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_ceiling_4x4_a_03",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": 2,
-                            "y": -10.999970436096191,
-                            "z": 4
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 0.75,
-                        "y": 1,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1"
-                }
-            }
-        },
-        "04a6e60e4bd5e2bb": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_wall_4x4_a",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 89.99977081688253
-                        },
-                        "position": {
-                            "x": -7.9999918937683105,
-                            "y": -9.999968528747559,
-                            "z": 0
-                        },
-                        "scale": {
-                            "x": 1.000000000016,
-                            "y": 1.000000000016,
-                            "z": 1
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 1,
-                        "y": 1,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1"
-                }
-            }
-        },
-        "555488f7da7839b1": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_floor_4x4_b_29",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": -1.0001749992370605,
-                            "y": -11.000060081481934,
-                            "z": 0
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 0.75,
-                        "y": 1,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1"
-                }
-            }
-        },
-        "8f59ec3059e31338": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_wall_4x4_a_10",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": -2.9999918937683105,
-                            "y": -16.999969482421875,
-                            "z": 0
-                        }
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1"
-                }
-            }
-        },
-        "cd48d74a27906064": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_ceiling_4x4_a_02",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": 6.000075817108154,
-                            "y": -6.999972820281982,
-                            "z": 4
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 1,
-                        "y": 1,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1"
-                }
-            }
-        },
-        "5829e3dd83c6d227": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_ceiling_4x4_a_01",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": 2.0003550052642822,
-                            "y": -6.999980926513672,
-                            "z": 4
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 0.75,
-                        "y": 1,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1"
-                }
-            }
-        },
-        "a666e84bc55e847c": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_wall_cornerin_1x4_a_04",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_cornerin_1x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_cornerin_1x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 179.97203966235674
-                        },
-                        "position": {
-                            "x": -7.999989986419678,
-                            "y": 0.000009999999747378752,
-                            "z": 0
-                        },
-                        "scale": {
-                            "x": 1.0000002381439907,
-                            "y": 1.0000002381439907,
-                            "z": 1
-                        }
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1"
-                }
-            }
-        },
-        "9e0af8136190f9ae": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_ceiling_4x4_a_06",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": -3.999640941619873,
-                            "y": -6.999982833862305,
-                            "z": 4
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 1,
-                        "y": 1,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1"
-                }
-            }
-        },
-        "c14148d7cdba1215": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_wall_4x4_a_06",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": 4.999961853027344,
-                            "y": -11,
-                            "z": 0
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 1,
-                        "y": 1,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1"
-                }
-            }
-        },
-        "e05221884a3807df": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_wall_4x4_a_12",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": -0.027960337643270574
-                        },
-                        "position": {
-                            "x": -8.109851837158203,
-                            "y": -17.0008602142334,
-                            "z": 0
-                        },
-                        "scale": {
-                            "x": 1.0000002381439907,
-                            "y": 1.0000002381439907,
-                            "z": 1
-                        }
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1"
-                }
-            }
-        },
-        "2c02d21ddd296647": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_floor_4x4_b_33",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": 1.998500943183899,
-                            "y": -2.999490976333618,
-                            "z": 0
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 0.75,
-                        "y": 1,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1"
-                }
-            }
-        },
-        "4c8df70910c40ccd": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_stairs_3x2_a",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_stairs_3x2_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_stairs_3x2_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": -90.0198243381278
-                        },
-                        "position": {
-                            "x": -2.9999918937683105,
-                            "y": -10.999970436096191,
-                            "z": 0
-                        },
-                        "scale": {
-                            "x": 1.0000001197159905,
-                            "y": 1.0000001197159905,
-                            "z": 1
-                        }
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1"
-                }
-            }
-        },
-        "9a64396d4bfbe4de": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_ceiling_4x4_a",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": -0.9999960064888,
-                            "y": -6.999967098236084,
-                            "z": 4
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 0.75,
-                        "y": 1,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1"
-                }
-            }
-        },
-        "abfd0429a47ca8c5": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_ceiling_4x4_a_05",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": 6,
-                            "y": -11,
-                            "z": 4
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 1,
-                        "y": 1,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1"
-                }
-            }
-        },
-        "d0c62d7c4d1d82e9": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_ceiling_4x4_a_18",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": -2,
-                            "y": -14.000040054321289,
-                            "z": 4
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 0.75,
-                        "y": 0.75,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1"
-                }
-            }
-        },
-        "6f937820c8713840": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_floor_4x4_b_31",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": -0.027960337643270574
-                        },
-                        "position": {
-                            "x": -4.000239849090576,
-                            "y": -6.999959945678711,
-                            "z": 0
-                        },
-                        "scale": {
-                            "x": 1.0000002381439907,
-                            "y": 1.0000002381439907,
-                            "z": 1
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 1.0308799743652344,
-                        "y": 1,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1"
-                }
-            }
-        },
-        "23ec3bd28ea1a5d3": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_wall_4x4_a_11",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": -89.99994270422063
-                        },
-                        "position": {
-                            "x": 6.0000081062316895,
-                            "y": 0.000003000000106112566,
-                            "z": 0
-                        },
-                        "scale": {
-                            "x": 1.000000000001,
-                            "y": 1.000000000001,
-                            "z": 1
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 1,
-                        "y": 1,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1"
-                }
-            }
-        },
-        "e4735a3fb6416c79": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_wall_4x4_a_07",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": 1.0000040531158447,
-                            "y": -10.999970436096191,
-                            "z": 0
-                        }
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1"
-                }
-            }
-        },
-        "2f10b5a51f0eadec": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_floor_4x4_b_43",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": -2,
-                            "y": -14.000040054321289,
-                            "z": 0
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 0.75,
-                        "y": 0.75,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1"
-                }
-            }
-        },
-        "2305e4a513e52108": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_ceiling_4x4_a_08",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": 1.9985769987106323,
-                            "y": -2.999484062194824,
-                            "z": 4
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 0.75,
-                        "y": 1,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1"
-                }
-            }
-        },
-        "0f411a1792fa8728": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_doorframe_4x4_a_05",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_doorframe_4x4_a.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_doorframe_4x4_a.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": -2.9999918937683105,
-                            "y": -10.999970436096191,
-                            "z": 0
-                        }
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1"
-                }
-            }
-        },
-        "e258869610ae5a07": {
-            "parent": "e75018558fd669d1",
-            "name": "palace_int_floor_4x4_b_44",
-            "factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
-            "blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": -5,
-                            "y": -14.000040054321289,
-                            "z": 0
-                        }
-                    }
-                },
-                "m_PrimitiveScale": {
-                    "type": "SVector3",
-                    "value": {
-                        "x": 0.75,
-                        "y": 0.75,
-                        "z": 1
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": "e75018558fd669d1"
-                }
-            }
-        }
-    },
-    "propertyOverrides": [],
-    "overrideDeletes": [],
-    "pinConnectionOverrides": [],
-    "pinConnectionOverrideDeletes": [],
-    "externalScenes": [],
-    "subType": "template",
-    "quickEntityVersion": 3.1,
-    "extraFactoryDependencies": [
-        {
-            "resource": "[assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/palace_int_doorframe_4x4_a.prim].pc_prim",
-            "flag": "5F"
-        },
-        {
-            "resource": "[assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/palace_int_doorframe_4x4_a.prim].pc_coll",
-            "flag": "5F"
-        },
-        {
-            "resource": "[assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/palace_int_ceiling_4x4_a.prim].pc_prim",
-            "flag": "5F"
-        },
-        {
-            "resource": "[assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/palace_int_ceiling_4x4_a.prim].pc_coll",
-            "flag": "5F"
-        },
-        {
-            "resource": "[assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/palace_int_floor_4x4_b.prim].pc_prim",
-            "flag": "5F"
-        },
-        {
-            "resource": "[assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/palace_int_floor_4x4_b.prim].pc_coll",
-            "flag": "5F"
-        },
-        {
-            "resource": "[assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/palace_int_wall_cornerin_1x4_a.prim].pc_prim",
-            "flag": "5F"
-        },
-        {
-            "resource": "[assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/palace_int_wall_cornerin_1x4_a.prim].pc_coll",
-            "flag": "5F"
-        },
-        {
-            "resource": "[assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/palace_int_wall_4x4_a.prim].pc_prim",
-            "flag": "5F"
-        },
-        {
-            "resource": "[assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/palace_int_wall_4x4_a.prim].pc_coll",
-            "flag": "5F"
-        },
-        {
-            "resource": "[assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/palace_int_wall_2x4_a.prim].pc_prim",
-            "flag": "5F"
-        },
-        {
-            "resource": "[assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/palace_int_wall_2x4_a.prim].pc_coll",
-            "flag": "5F"
-        },
-        {
-            "resource": "[assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/palace_int_stairs_3x1_a.prim].pc_prim",
-            "flag": "5F"
-        },
-        {
-            "resource": "[assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/palace_int_stairs_3x1_a.prim].pc_coll",
-            "flag": "5F"
-        }
-    ],
-    "extraBlueprintDependencies": [],
-    "comments": []
+	"tempHash": "007382D2E5EBDCB2",
+	"tbluHash": "0011E22267542FA8",
+	"rootEntity": "e75018558fd669d1",
+	"entities": {
+		"1d650456940cf35c": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_ceiling_4x4_a_10",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -3.999638080596924,
+							"y": -2.9999969005584717,
+							"z": 4
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"df2aad540e79a00c": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_doorframe_4x4_a_06",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_doorframe_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_doorframe_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": -6.999996185302734,
+							"y": -10.999919891357422,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"200d37a96b275c1c": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_doorframe_4x4_a",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_doorframe_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_doorframe_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 179.97203966235674
+						},
+						"position": {
+							"x": -2.9999899864196777,
+							"y": 1.0000100135803223,
+							"z": 0
+						},
+						"scale": {
+							"x": 1.0000002381439907,
+							"y": 1.0000002381439907,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"aaccdf46c4b53d86": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_doorframe_4x4_a_01",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_doorframe_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_doorframe_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 179.97203966235674
+						},
+						"position": {
+							"x": 1.0000040531158447,
+							"y": 1.0000100135803223,
+							"z": 0
+						},
+						"scale": {
+							"x": 1.0000002381439907,
+							"y": 1.0000002381439907,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"7998650b85456f03": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_ceiling_4x4_a_15",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -3.9990649223327637,
+							"y": -16.999940872192383,
+							"z": 4
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 0.75,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"5a592de6b04691d4": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_ceiling_4x4_a_16",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 6.000003814697266,
+							"y": -13.999970436096191,
+							"z": 4
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 0.75,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"4338f26a50555613": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_wall_cornerin_1x4_a",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_cornerin_1x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_cornerin_1x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 5.999989032745361,
+							"y": -10,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"b199fe3ec7ba84be": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_floor_4x4_b_40",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -3.9994161128997803,
+							"y": -16.999950408935547,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 0.75,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"4de56a0e660f7bd4": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_wall_4x4_a_02",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": -2.9999918937683105,
+							"y": -10.999970436096191,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"3b59ece06f54fe4e": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_ceiling_4x4_a_19",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -4.998717784881592,
+							"y": -13.99940013885498,
+							"z": 4
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 0.75,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"cfd8b531d4ca9d2e": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_wall_cornerin_1x4_a_07",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_cornerin_1x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_cornerin_1x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": -7.999996185302734,
+							"y": -11.999970436096191,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"739a7a1a6f9a62ef": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_wall_cornerin_1x4_a_06",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_cornerin_1x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_cornerin_1x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 6.000003814697266,
+							"y": -15.999979972839355,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"003cd283a7d18519": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_doorframe_4x4_a_08",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_doorframe_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_doorframe_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90.0280176338454
+						},
+						"position": {
+							"x": 6.000003814697266,
+							"y": -11.999970436096191,
+							"z": 0
+						},
+						"scale": {
+							"x": 1.0000002391209983,
+							"y": 1.0000002391209983,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"bf9e77a0ab42535b": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_wall_2x4_a_01",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_2x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_2x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.99994270422063
+						},
+						"position": {
+							"x": 6.0000081062316895,
+							"y": -3.999972105026245,
+							"z": 0
+						},
+						"scale": {
+							"x": 1.000000000001,
+							"y": 1.000000000001,
+							"z": 1
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"3fb7fa37eaf6bfec": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_floor_4x4_b_34",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 6.000027179718018,
+							"y": -3.0000479221343994,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"116bd84ee3d0a89f": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_floor_4x4_b_35",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -3.9999890327453613,
+							"y": -2.9999969005584717,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"3db49d22b91d62f9": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_doorframe_4x4_a_03",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_doorframe_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_doorframe_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90.0280176338454
+						},
+						"position": {
+							"x": 6.0000081062316895,
+							"y": -5.999971866607666,
+							"z": 0
+						},
+						"scale": {
+							"x": 1.0000002391209983,
+							"y": 1.0000002391209983,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"572a62246ee7cbc4": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_wall_4x4_a_08",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.999409019947052,
+							"y": -16.99995994567871,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"ca1b896842906e5d": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_ceiling_4x4_a_07",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.9999499917030334,
+							"y": -2.9999890327453613,
+							"z": 4
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"403b88509fc01ff7": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_wall_cornerin_1x4_a_05",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_cornerin_1x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_cornerin_1x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90.02796033764326
+						},
+						"position": {
+							"x": 5.000003814697266,
+							"y": -10.999970436096191,
+							"z": 0
+						},
+						"scale": {
+							"x": 1.0000002381439907,
+							"y": 1.0000002381439907,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"b59a318daa3c885b": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_doorframe_4x4_a_02",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_doorframe_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_doorframe_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 179.97203966235674
+						},
+						"position": {
+							"x": -6.999989986419678,
+							"y": 1.0000139474868774,
+							"z": 0
+						},
+						"scale": {
+							"x": 1.0000002381439907,
+							"y": 1.0000002381439907,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"801448bc6800a755": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_wall_cornerin_1x4_a_02",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_cornerin_1x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_cornerin_1x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": -6.999996185302734,
+							"y": -10.999970436096191,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"eae9b4bbc52a3050": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_ceiling_4x4_a_12",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 6.000075817108154,
+							"y": -16.999969482421875,
+							"z": 4
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 0.75,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"a429488bc17e08e1": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_stairs_3x2_a_01",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_stairs_3x2_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_stairs_3x2_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90.0198243381278
+						},
+						"position": {
+							"x": -0.0003239999932702631,
+							"y": -10.999959945678711,
+							"z": 2
+						},
+						"scale": {
+							"x": 1.0000001197159905,
+							"y": 1.0000001197159905,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"d9fdd34f0ca9a402": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_doorframe_4x4_a_09",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.99977081688253
+						},
+						"position": {
+							"x": -7.9999918937683105,
+							"y": -15.999970436096191,
+							"z": 0
+						},
+						"scale": {
+							"x": 1.000000000016,
+							"y": 1.000000000016,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"082c27fa1049b4de": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_floor_4x4_b_27",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 6,
+							"y": -6.9999799728393555,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"70bfe3c88d0075e5": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_ceiling_4x4_a_14",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -1.0000760555267334,
+							"y": -17.00057029724121,
+							"z": 4
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 0.75,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"18dc02c87b41c101": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_wall_cornerin_1x4_a_01",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_cornerin_1x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_cornerin_1x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90.02796033764326
+						},
+						"position": {
+							"x": 5.000010013580322,
+							"y": 1.0000100135803223,
+							"z": 0
+						},
+						"scale": {
+							"x": 1.0000002381439907,
+							"y": 1.0000002381439907,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"6b1764b4c599b99d": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_wall_4x4_a_09",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 5.000003814697266,
+							"y": -16.999980926513672,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"b1ec6c85dad65798": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_floor_4x4_b_39",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -1.000156044960022,
+							"y": -17.00004005432129,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 0.75,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"3a13766693263c7c": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_doorframe_4x4_a_10",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_doorframe_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_doorframe_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": -7.9999918937683105,
+							"y": -5.9999680519104,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"09737d74c113a4b5": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_wall_2x4_a_03",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_2x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_2x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.99977081688253
+						},
+						"position": {
+							"x": -7.999989986419678,
+							"y": -1.9999899864196777,
+							"z": 0
+						},
+						"scale": {
+							"x": 1.000000000016,
+							"y": 1.000000000016,
+							"z": 1
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"04ddbbf7a9960ab4": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_ceiling_4x4_a_13",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 2.0000150203704834,
+							"y": -17.00048065185547,
+							"z": 4
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 0.75,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"909d5728770b239b": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_wall_4x4_a_03",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": 0.9997220039367676,
+							"y": -10.999959945678711,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"27d74fee1bf03ddd": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_floor_4x4_b_32",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -1.0000269412994385,
+							"y": -2.9999959468841553,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"ab8260450dd891ab": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_ceiling_4x4_a_09",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 6.000258922576904,
+							"y": -3.0000410079956055,
+							"z": 4
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"85b440b72ece2507": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_floor_4x4_b_42",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.01976704358638215
+						},
+						"position": {
+							"x": -8,
+							"y": -16.995479583740234,
+							"z": 0
+						},
+						"scale": {
+							"x": 1.0000001190250052,
+							"y": 1.0000001190250052,
+							"z": 1
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1.3006500005722046,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"4df1b97e006e41e8": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_ceiling_4x4_a_04",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -1.0000989437103271,
+							"y": -11.00059986114502,
+							"z": 4
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"b8a29adc5344a2ea": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_floor_4x4_b_37",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 6.000003814697266,
+							"y": -16.999980926513672,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 0.75,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1",
+					"postInit": true
+				}
+			}
+		},
+		"e75018558fd669d1": {
+			"parent": null,
+			"name": "Hawk_Palace_Interior_2nd_Floor_Room_C",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90.02796033764326
+						},
+						"position": {
+							"x": -124.99320220947266,
+							"y": -75.0009765625,
+							"z": 61
+						},
+						"scale": {
+							"x": 1.0000002381439907,
+							"y": 1.0000002381439907,
+							"z": 1
+						}
+					}
+				}
+			}
+		},
+		"0121c61c162a696a": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_floor_4x4_b_28",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 1.9999279975891113,
+							"y": -10.999959945678711,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1"
+				}
+			}
+		},
+		"0f436cf862ef9700": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_floor_4x4_b_25",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -1.00006902217865,
+							"y": -6.999967098236084,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1"
+				}
+			}
+		},
+		"2eac84c002ccb2ca": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_ceiling_4x4_a_11",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -3.999901056289673,
+							"y": -11.000510215759277,
+							"z": 4
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1"
+				}
+			}
+		},
+		"1436d17d4fe7c74a": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_floor_4x4_b_36",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -3.9999959468841553,
+							"y": -10.999970436096191,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1"
+				}
+			}
+		},
+		"2ac39606f19f6542": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_floor_4x4_b_30",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 5.999919891357422,
+							"y": -10.999990463256836,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1"
+				}
+			}
+		},
+		"08b433628d022104": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_floor_4x4_b_38",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 1.9999430179595947,
+							"y": -16.999940872192383,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 0.75,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1"
+				}
+			}
+		},
+		"95b813abeec6dfbb": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_wall_cornerin_1x4_a_03",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_cornerin_1x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_cornerin_1x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": -6.9999918937683105,
+							"y": -16.999969482421875,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1"
+				}
+			}
+		},
+		"14c684f76618ed06": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_floor_4x4_b_41",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 6.000003814697266,
+							"y": -13.999970436096191,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 0.75,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1"
+				}
+			}
+		},
+		"fc9e7978966e7a6b": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_floor_4x4_b_26",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 2.0000040531158447,
+							"y": -6.999966144561768,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1"
+				}
+			}
+		},
+		"f531a60a9fb8635f": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_ceiling_4x4_a_03",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 2,
+							"y": -10.999970436096191,
+							"z": 4
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1"
+				}
+			}
+		},
+		"04a6e60e4bd5e2bb": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_wall_4x4_a",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.99977081688253
+						},
+						"position": {
+							"x": -7.9999918937683105,
+							"y": -9.999968528747559,
+							"z": 0
+						},
+						"scale": {
+							"x": 1.000000000016,
+							"y": 1.000000000016,
+							"z": 1
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1"
+				}
+			}
+		},
+		"555488f7da7839b1": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_floor_4x4_b_29",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -1.0001749992370605,
+							"y": -11.000060081481934,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1"
+				}
+			}
+		},
+		"8f59ec3059e31338": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_wall_4x4_a_10",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -2.9999918937683105,
+							"y": -16.999969482421875,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1"
+				}
+			}
+		},
+		"cd48d74a27906064": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_ceiling_4x4_a_02",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 6.000075817108154,
+							"y": -6.999972820281982,
+							"z": 4
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1"
+				}
+			}
+		},
+		"5829e3dd83c6d227": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_ceiling_4x4_a_01",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 2.0003550052642822,
+							"y": -6.999980926513672,
+							"z": 4
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1"
+				}
+			}
+		},
+		"a666e84bc55e847c": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_wall_cornerin_1x4_a_04",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_cornerin_1x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_cornerin_1x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 179.97203966235674
+						},
+						"position": {
+							"x": -7.999989986419678,
+							"y": 0.000009999999747378752,
+							"z": 0
+						},
+						"scale": {
+							"x": 1.0000002381439907,
+							"y": 1.0000002381439907,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1"
+				}
+			}
+		},
+		"9e0af8136190f9ae": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_ceiling_4x4_a_06",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -3.999640941619873,
+							"y": -6.999982833862305,
+							"z": 4
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1"
+				}
+			}
+		},
+		"c14148d7cdba1215": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_wall_4x4_a_06",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 4.999961853027344,
+							"y": -11,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1"
+				}
+			}
+		},
+		"e05221884a3807df": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_wall_4x4_a_12",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.027960337643270574
+						},
+						"position": {
+							"x": -8.109851837158203,
+							"y": -17.0008602142334,
+							"z": 0
+						},
+						"scale": {
+							"x": 1.0000002381439907,
+							"y": 1.0000002381439907,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1"
+				}
+			}
+		},
+		"2c02d21ddd296647": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_floor_4x4_b_33",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 1.998500943183899,
+							"y": -2.999490976333618,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1"
+				}
+			}
+		},
+		"4c8df70910c40ccd": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_stairs_3x2_a",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_stairs_3x2_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_stairs_3x2_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90.0198243381278
+						},
+						"position": {
+							"x": -2.9999918937683105,
+							"y": -10.999970436096191,
+							"z": 0
+						},
+						"scale": {
+							"x": 1.0000001197159905,
+							"y": 1.0000001197159905,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1"
+				}
+			}
+		},
+		"9a64396d4bfbe4de": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_ceiling_4x4_a",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.9999960064888,
+							"y": -6.999967098236084,
+							"z": 4
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1"
+				}
+			}
+		},
+		"abfd0429a47ca8c5": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_ceiling_4x4_a_05",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 6,
+							"y": -11,
+							"z": 4
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1"
+				}
+			}
+		},
+		"d0c62d7c4d1d82e9": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_ceiling_4x4_a_18",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -2,
+							"y": -14.000040054321289,
+							"z": 4
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 0.75,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1"
+				}
+			}
+		},
+		"6f937820c8713840": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_floor_4x4_b_31",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.027960337643270574
+						},
+						"position": {
+							"x": -4.000239849090576,
+							"y": -6.999959945678711,
+							"z": 0
+						},
+						"scale": {
+							"x": 1.0000002381439907,
+							"y": 1.0000002381439907,
+							"z": 1
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.0308799743652344,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1"
+				}
+			}
+		},
+		"23ec3bd28ea1a5d3": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_wall_4x4_a_11",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.99994270422063
+						},
+						"position": {
+							"x": 6.0000081062316895,
+							"y": 0.000003000000106112566,
+							"z": 0
+						},
+						"scale": {
+							"x": 1.000000000001,
+							"y": 1.000000000001,
+							"z": 1
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1"
+				}
+			}
+		},
+		"e4735a3fb6416c79": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_wall_4x4_a_07",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_wall_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 1.0000040531158447,
+							"y": -10.999970436096191,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1"
+				}
+			}
+		},
+		"2f10b5a51f0eadec": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_floor_4x4_b_43",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -2,
+							"y": -14.000040054321289,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 0.75,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1"
+				}
+			}
+		},
+		"2305e4a513e52108": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_ceiling_4x4_a_08",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_ceiling_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 1.9985769987106323,
+							"y": -2.999484062194824,
+							"z": 4
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1"
+				}
+			}
+		},
+		"0f411a1792fa8728": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_doorframe_4x4_a_05",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_doorframe_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_doorframe_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -2.9999918937683105,
+							"y": -10.999970436096191,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1"
+				}
+			}
+		},
+		"e258869610ae5a07": {
+			"parent": "e75018558fd669d1",
+			"name": "palace_int_floor_4x4_b_44",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_int_floor_4x4_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -5,
+							"y": -14.000040054321289,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 0.75,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e75018558fd669d1"
+				}
+			}
+		}
+	},
+	"propertyOverrides": [
+
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+
+	],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{
+			"resource": "[assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/palace_int_doorframe_4x4_a.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/palace_int_doorframe_4x4_a.prim].pc_coll",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/palace_int_ceiling_4x4_a.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/palace_int_ceiling_4x4_a.prim].pc_coll",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/palace_int_floor_4x4_b.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/palace_int_floor_4x4_b.prim].pc_coll",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/palace_int_wall_cornerin_1x4_a.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/palace_int_wall_cornerin_1x4_a.prim].pc_coll",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/palace_int_wall_4x4_a.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/palace_int_wall_4x4_a.prim].pc_coll",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/palace_int_wall_2x4_a.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/palace_int_wall_2x4_a.prim].pc_coll",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/palace_int_stairs_3x1_a.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/kits/palace/palace_a.wl2?/palace_int_stairs_3x1_a.prim].pc_coll",
+			"flag": "5F"
+		}
+	],
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
 }
