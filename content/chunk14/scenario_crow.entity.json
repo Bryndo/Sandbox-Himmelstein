@@ -36,9 +36,9 @@
 							"z": -44.99996377745281
 						},
 						"position": {
-							"x": 45.50983810424805,
-							"y": -51.49021911621094,
-							"z": -1
+							"x": 48.828243255615234,
+							"y": -49.17182540893555,
+							"z": 7
 						}
 					}
 				},
@@ -58561,9 +58561,9 @@
 							"z": -44.99999517032684
 						},
 						"position": {
-							"x": 57.05638122558594,
-							"y": -65.66984558105469,
-							"z": 7.015529155731201
+							"x": 56.93810272216797,
+							"y": -65.79852294921875,
+							"z": 7
 						}
 					}
 				},
@@ -58585,6 +58585,150 @@
 					"type": "ZSpatialEntity.ERoomBehaviour",
 					"value": "ROOM_DYNAMIC"
 				}
+			}
+		},
+		"feedab44672ba894": {
+			"parent": "fffffffffffffffe",
+			"name": "Door_Single_Basement_Bangkok_A_00",
+			"factory": "[assembly:/_pro/environment/templates/architecture/doors/doors_miami_a.template?/door_single_underground_miami_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/architecture/doors/doors_miami_a.template?/door_single_underground_miami_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -135.0000120741824
+						},
+						"position": {
+							"x": 57.94186019897461,
+							"y": -64.67189025878906,
+							"z": 7.171580791473389
+						}
+					}
+				},
+				"Color_Door": {
+					"type": "SColorRGB",
+					"value": "#e8e8e8"
+				},
+				"Color_Frame": {
+					"type": "SColorRGB",
+					"value": "#7a7a7a"
+				},
+				"Employee_Only_Back": {
+					"type": "bool",
+					"value": false
+				},
+				"Employye_Only_Front": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bIsLocked": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed055cd3812810": {
+			"parent": "fffffffffffffffe",
+			"name": "Lamp_Bunker_C_01",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/facility_indoor_a.template?/lamp_bunker_c.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/facility_indoor_a.template?/lamp_bunker_c.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -89.99999316981042,
+							"y": 0.0000034150949921173528,
+							"z": 44.999997585163314
+						},
+						"position": {
+							"x": 58.66579818725586,
+							"y": -65.75971984863281,
+							"z": 9
+						}
+					}
+				},
+				"LightOn": {
+					"type": "bool",
+					"value": true
+				},
+				"PowerCondition": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					],
+					"postInit": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed080aba8a9877": {
+			"parent": "fffffffffffffffe",
+			"name": "Lamp_Strip_Light_A_00_02",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 44.99999517032684
+						},
+						"position": {
+							"x": 60.11590576171875,
+							"y": -62.287620544433594,
+							"z": 11.001960754394531
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#e8ebff"
+				},
+				"SpotFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 1.567471981048584,
+						"y": 6.28000020980835
+					}
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.6918150186538696,
+						"y": 0.8245949745178223
+					}
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 50
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
 			}
 		}
 	},
