@@ -3,18 +3,23 @@
     "id": "Bryn.Himmelstein",
     "name": "Himmelstein freeroam",
     "description": "Adds a freeroam Himmelstein",
-    "authors": ["Bryn"],
+    "authors": [
+        "Bryn"
+    ],
     "frameworkVersion": "2.33.26",
     "version": "0.5.0",
-    "blobsFolders": ["blobs"],
-    "contentFolders": ["content"],
-
+    "blobsFolders": [
+        "blobs"
+    ],
+    "contentFolders": [
+        "content"
+    ],
     "packagedefinition": [
-		{
-			"type": "entity",
-			"partition": "hawk",
-			"path": "[assembly:/_pro/scenes/missions/hawk/scenario_crow.brick].entitytype"
-		},
+        {
+            "type": "entity",
+            "partition": "hawk",
+            "path": "[assembly:/_pro/scenes/missions/hawk/scenario_crow.brick].entitytype"
+        },
         {
             "type": "entity",
             "partition": "hawk",
@@ -347,7 +352,6 @@
             "toChunk": 14,
             "Comment": "bulldog painting a"
         },
-
         {
             "runtimeID": "00CBADEEE5F230EE",
             "toChunk": 14,
@@ -449,6 +453,11 @@
             "Comment": "cafe stool shisha"
         },
         {
+            "runtimeID": "0092B807AE402C07",
+            "toChunk": 14,
+            "Comment": "berlin hut"
+        },
+        {
             "runtimeID": "00B58741EEE4DC0A",
             "toChunk": 14,
             "Comment": ""
@@ -493,8 +502,5 @@
             "toChunk": 14,
             "Comment": ""
         }
-        
     ]
-
-        
 }

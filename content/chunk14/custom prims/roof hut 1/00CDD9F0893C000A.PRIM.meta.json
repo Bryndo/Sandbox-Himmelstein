@@ -1,0 +1,61 @@
+{
+    "hash_value": "00CDD9F0893C000A",
+    "hash_offset": 68132777,
+    "hash_size": 2147505656,
+    "hash_resource_type": "PRIM",
+    "hash_reference_table_size": 112,
+    "hash_reference_table_dummy": 0,
+    "hash_size_final": 49632,
+    "hash_size_in_memory": 4294967295,
+    "hash_size_in_video_memory": 4294967295,
+    "hash_reference_data": [
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/dirt/dirt_decal_a_silo_wall.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/trim/trims_metal_colorado_a_drain_pipes.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/dirt/decal_dirt_wood_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/dirt/decal_dirt_facade_b.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/dirt_algae_rust_decal_outside_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/metal/steel_stainless_patterned_floor_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/wall/columbia_new_brickconcreate_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/decal_concrete_pillar.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/metal/fox_metal_painted_peeledoff_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/ceiling/bitumen_roofing_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/dirt_buildings_outside_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/dirt/dirt_metal_a.mi].pc_mi",
+            "flag": "5F"
+        }
+    ]
+}

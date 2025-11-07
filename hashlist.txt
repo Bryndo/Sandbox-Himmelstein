@@ -31,3 +31,14 @@
 
 009D569977ABE2F0.TEMP, [assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_windowframe_4x4_b_no_rail.entitytemplate].pc_entitytype
 00252CF056638D04.TBLU, [assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_windowframe_4x4_b_no_rail.entitytemplate].pc_entityblueprint
+
+00CE393F2290FC0A.TEMP, [assembly:/_pro/environment/geometry/roof_hut.prim].pc_entitytype
+003D8207EB256E09.TBLU, [assembly:/_pro/environment/geometry/roof_hut.prim].pc_entityblueprint
+00CDD9F0893C000A.PRIM, [assembly:/_pro/environment/geometry/roof_hut.prim].pc_prim
+00E3584F497E63A0.ALOC, [assembly:/_pro/environment/geometry/roof_hut.prim].pc_coll
+00AA251F88FB4F2A.PRIM, [assembly:/_pro/environment/geometry/roof_hut_wall.prim].pc_prim
+00BE102DC6574C8F.ALOC, [assembly:/_pro/environment/geometry/roof_hut_wall.prim].pc_coll
+00ABEE5AC3E51C4D.PRIM, [assembly:/_pro/environment/geometry/roof_hut_no_door_hole.prim].pc_prim
+00C33AD6A9554022.ALOC, [assembly:/_pro/environment/geometry/roof_hut_no_door_hole.prim].pc_coll
+000EB53B01590CFA.PRIM, [assembly:/_pro/environment/geometry/roof_hut_door.prim].pc_prim
+003E3E1AA198B0EC.ALOC, [assembly:/_pro/environment/geometry/roof_hut_door.prim].pc_coll
