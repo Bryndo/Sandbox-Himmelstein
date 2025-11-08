@@ -58765,9 +58765,69 @@
 					"fffffffffffffffe"
 				]
 			}
+		},
+		"feeddc203e711a05": {
+			"parent": "cafeaedace358e0e",
+			"name": "Hawk_Palace_Backside_C",
+			"factory": "[assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_palace_backside_c_modded.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_palace_backside_c_modded.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": 56,
+							"y": -95,
+							"z": -18
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "3ac25f2657314528",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
 		}
 	},
 	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "1e13ebf49fbb5f85",
+					"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": 73.607,
+							"y": -61.843,
+							"z": -5
+						}
+					}
+				}
+			}
+		},
 		{
 			"entities": [
 				{
@@ -59522,6 +59582,10 @@
 		},
 		{
 			"ref": "f0ed07fe562ab25e",
+			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+		},
+		{
+			"ref": "9fdd0338eacabdc1",
 			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
 		}
 	],
