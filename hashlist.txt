@@ -42,3 +42,6 @@
 00C33AD6A9554022.ALOC, [assembly:/_pro/environment/geometry/roof_hut_no_door_hole.prim].pc_coll
 000EB53B01590CFA.PRIM, [assembly:/_pro/environment/geometry/roof_hut_door.prim].pc_prim
 003E3E1AA198B0EC.ALOC, [assembly:/_pro/environment/geometry/roof_hut_door.prim].pc_coll
+
+005B889897B4798D.TEMP, [assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_garden_centre_a_modded.entitytemplate].pc_entitytype
+0073BEDCA8B8CA9C.TBLU, [assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_garden_centre_a_modded.entitytemplate].pc_entityblueprint

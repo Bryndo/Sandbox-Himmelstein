@@ -12,8 +12,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": -5.0, "y": 6.0, "z": 0.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": -5,
+							"y": 6,
+							"z": 0
+						}
 					}
 				},
 				"m_eidParent": {
@@ -32,20 +40,24 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": -0.9807400107383728,
 							"y": -12.999939918518066,
-							"z": 8.0
+							"z": 8
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
 					"value": {
-						"x": 2.0,
+						"x": 2,
 						"y": 0.6499999761581421,
-						"z": 1.0
+						"z": 1
 					}
 				},
 				"m_eidParent": {
@@ -64,17 +76,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.055952911904113965
+						},
 						"position": {
-							"x": -11.992679595947266,
-							"y": -4.996596813201904,
-							"z": 8.0
+							"x": -11.953754425048828,
+							"y": -5.477156162261963,
+							"z": 8.020000457763672
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1.0499999523162842,
+						"y": 1.2000000476837158,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -93,11 +113,15 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -0.01976704358638215
 						},
-						"position": { "x": -6.0, "y": -2.0, "z": 0.0 }
+						"position": {
+							"x": -6,
+							"y": -2,
+							"z": 0
+						}
 					}
 				},
 				"m_eidParent": {
@@ -106,7 +130,11 @@
 					"postInit": true
 				}
 			},
-			"subsets": { "AudioEmitters": ["4893300960f4c138"] }
+			"subsets": {
+				"AudioEmitters": [
+					"4893300960f4c138"
+				]
+			}
 		},
 		"d644fb130bc8cae6": {
 			"parent": "8a37939bb615efe8",
@@ -117,13 +145,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
-						"position": { "x": 9.5, "y": -8.5, "z": 0.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": 9.5,
+							"y": -8.5,
+							"z": 0
+						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -142,20 +182,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -0.00005729618322251652
 						},
 						"position": {
 							"x": 5.000010967254639,
-							"y": -4.403550065035233e-6,
-							"z": 0.0
+							"y": -0.000004403550065035233,
+							"z": 0
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -174,14 +218,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -89.99994270673496
 						},
 						"position": {
 							"x": -1.0017249584197998,
 							"y": -4.999650001525879,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
@@ -201,17 +245,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": 1.5000079870224,
 							"y": -11.800000190734863,
-							"z": 8.0
+							"z": 8
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.699999988079071, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 0.699999988079071,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -229,11 +281,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
 						"position": {
-							"x": -14.999890327453612,
+							"x": -14.999890327453613,
 							"y": -3.000020980834961,
-							"z": -4.0
+							"z": -4.000999927520752
 						}
 					}
 				},
@@ -253,13 +309,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": 3.0, "y": 0.0, "z": 0.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 3,
+							"y": 0,
+							"z": 0
+						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -278,14 +346,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -90.00813600088921
 						},
 						"position": {
 							"x": 6.00380277633667,
 							"y": -0.998615026473999,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
@@ -306,20 +374,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": 179.98023295641363
 						},
 						"position": {
 							"x": -0.9999619722366332,
-							"y": -15.0,
-							"z": 0.0
+							"y": -15,
+							"z": 0
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -337,11 +409,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
 						"position": {
 							"x": -14.998860359191896,
 							"y": -14.99958038330078,
-							"z": -5.0
+							"z": -5
 						}
 					}
 				},
@@ -361,17 +437,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -4.000010967254639,
 							"y": 4.0000529289245605,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.5, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 0.5,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -389,11 +473,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": -16.999900817871094,
 							"y": -8.000020027160645,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
@@ -414,14 +502,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": 89.99999999999616
 						},
 						"position": {
 							"x": -0.9999567866325378,
 							"y": -7.000033855438232,
-							"z": -4.0
+							"z": -4
 						}
 					}
 				},
@@ -431,7 +519,11 @@
 					"postInit": true
 				}
 			},
-			"subsets": { "AudioEmitters": ["4893300960f4c138"] }
+			"subsets": {
+				"AudioEmitters": [
+					"4893300960f4c138"
+				]
+			}
 		},
 		"1fa16aaf84a9112a": {
 			"parent": "627f6fc0cdc99227",
@@ -443,20 +535,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": 89.99999999999616
 						},
 						"position": {
 							"x": 0.15006859600543976,
 							"y": 1.200402021408081,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.699999988079071, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 0.699999988079071,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -474,17 +570,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": 0.3499999940395355,
 							"y": -1.7000000476837158,
-							"z": 8.0
+							"z": 8
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -502,17 +606,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -11.999979972839355,
 							"y": 4.000057220458984,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.75, "y": 0.5, "z": 1.0 }
+					"value": {
+						"x": 0.75,
+						"y": 0.5,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -530,11 +642,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": -0.9999960064888,
-							"y": -11.0,
-							"z": 4.0
+							"y": -11,
+							"z": 4
 						}
 					}
 				},
@@ -544,7 +660,11 @@
 					"postInit": true
 				}
 			},
-			"subsets": { "AudioEmitters": ["4893300960f4c138"] }
+			"subsets": {
+				"AudioEmitters": [
+					"4893300960f4c138"
+				]
+			}
 		},
 		"251f126d820d8915": {
 			"parent": "5ed7bee1a177bf82",
@@ -555,11 +675,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
 						"position": {
 							"x": -15.999879837036133,
 							"y": -1.75,
-							"z": 8.0
+							"z": 8
 						}
 					}
 				},
@@ -567,8 +691,8 @@
 					"type": "SVector3",
 					"value": {
 						"x": 1.0750000476837158,
-						"y": 1.0,
-						"z": 1.0
+						"y": 1,
+						"z": 1
 					}
 				},
 				"m_eidParent": {
@@ -587,13 +711,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
-						"position": { "x": 9.5, "y": -10.5, "z": 0.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": 9.5,
+							"y": -10.5,
+							"z": 0
+						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -612,14 +748,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -3.842110055207929e-12
 						},
 						"position": {
 							"x": -8.99999713897705,
 							"y": 6.0000901222229,
-							"z": 4.0
+							"z": 4
 						}
 					}
 				},
@@ -640,14 +776,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": 89.99999999999616
 						},
 						"position": {
 							"x": -1.0000079870224,
-							"y": -15.0,
-							"z": 0.0
+							"y": -15,
+							"z": 0
 						}
 					}
 				},
@@ -657,7 +793,11 @@
 					"postInit": true
 				}
 			},
-			"subsets": { "AudioEmitters": ["4893300960f4c138"] }
+			"subsets": {
+				"AudioEmitters": [
+					"4893300960f4c138"
+				]
+			}
 		},
 		"08186a398b65124b": {
 			"parent": "4893300960f4c138",
@@ -669,20 +809,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -3.842110055207929e-12
 						},
 						"position": {
-							"x": -12.0,
+							"x": -12,
 							"y": 4.000059127807617,
-							"z": 4.0
+							"z": 4
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.5, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 0.5,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -701,16 +845,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
-							"z": -0.01976704358638215
+							"x": 0,
+							"y": 0,
+							"z": -0.055952911904113965
 						},
-						"position": { "x": -2.0, "y": -3.0, "z": 8.0 }
+						"position": {
+							"x": -2.0332717895507812,
+							"y": -2.837674856185913,
+							"z": 8.020000457763672
+						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.5, "y": 0.5, "z": 1.0 }
+					"value": {
+						"x": 0.5,
+						"y": 0.5,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -728,11 +880,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": -0.9999690055847168,
 							"y": -7.000014781951904,
-							"z": 4.0
+							"z": 4
 						}
 					}
 				},
@@ -742,7 +898,11 @@
 					"postInit": true
 				}
 			},
-			"subsets": { "AudioEmitters": ["4893300960f4c138"] }
+			"subsets": {
+				"AudioEmitters": [
+					"4893300960f4c138"
+				]
+			}
 		},
 		"f770bf77d6fcbd2f": {
 			"parent": "4893300960f4c138",
@@ -753,13 +913,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": 7.0, "y": -19.0, "z": 9.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": 6.883613586425781,
+							"y": -18.862899780273438,
+							"z": 9
+						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.5, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 0.5,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -778,20 +950,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -89.99948433796615
 						},
 						"position": {
 							"x": 0.35004299879074097,
 							"y": -4.300034046173096,
-							"z": 8.0
+							"z": 8
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.75, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -809,11 +985,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
 						"position": {
 							"x": -14.999890327453612,
 							"y": -23.000019073486328,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
@@ -833,17 +1013,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": -13.999890327453612,
 							"y": -20.000019073486328,
-							"z": 4.0
+							"z": 4
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.5, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 0.5,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -861,7 +1049,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -15.999890327453612,
 							"y": -0.00002300000051036477,
@@ -886,14 +1078,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": 90.00028647935932
 						},
 						"position": {
 							"x": 0.15005970001220703,
 							"y": 6.873071193695068,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
@@ -914,20 +1106,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -0.01976704358638215
 						},
 						"position": {
 							"x": -13.999890327453612,
 							"y": -0.00002300000051036477,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -946,14 +1142,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": 89.99999999999616
 						},
 						"position": {
 							"x": 0.150061696767807,
 							"y": 4.000421047210693,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
@@ -961,8 +1157,8 @@
 					"type": "SVector3",
 					"value": {
 						"x": 0.7250000238418579,
-						"y": 1.0,
-						"z": 1.0
+						"y": 1,
+						"z": 1
 					}
 				},
 				"m_eidParent": {
@@ -982,8 +1178,8 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -90.00080214092414
 						},
 						"position": {
@@ -993,7 +1189,10 @@
 						}
 					}
 				},
-				"m_fLODOffset": { "type": "float32", "value": 100.0 },
+				"m_fLODOffset": {
+					"type": "float32",
+					"value": 100
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "627f6fc0cdc99227",
@@ -1010,13 +1209,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
-						"position": { "x": -13.0, "y": -2.0, "z": 0.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": -13,
+							"y": -2,
+							"z": 0
+						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.5, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 0.5,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1035,14 +1246,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -3.842110055207929e-12
 						},
 						"position": {
 							"x": -1.9999959468841553,
 							"y": -2.0000040531158447,
-							"z": -4.0
+							"z": -4
 						}
 					}
 				},
@@ -1052,7 +1263,11 @@
 					"postInit": true
 				}
 			},
-			"subsets": { "AudioEmitters": ["4893300960f4c138"] }
+			"subsets": {
+				"AudioEmitters": [
+					"4893300960f4c138"
+				]
+			}
 		},
 		"ad78266710e6b486": {
 			"parent": "4893300960f4c138",
@@ -1063,8 +1278,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
-						"position": { "x": -18.0, "y": 4.0, "z": 0.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": -18,
+							"y": 4,
+							"z": 0
+						}
 					}
 				},
 				"m_eidParent": {
@@ -1084,22 +1307,22 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": 89.99999999999616
 						},
 						"position": {
 							"x": -0.9999961256980896,
 							"y": -3.0000040531158447,
-							"z": -4.0
+							"z": -4
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
 					"value": {
-						"x": 1.0,
-						"y": 1.0,
+						"x": 1,
+						"y": 1,
 						"z": 0.9990000128746032
 					}
 				},
@@ -1119,13 +1342,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -15.0, "y": 4.0, "z": 0.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -15,
+							"y": 4,
+							"z": 0
+						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.75, "y": 0.5, "z": 1.0 }
+					"value": {
+						"x": 0.75,
+						"y": 0.5,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1144,20 +1379,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -89.99180670372992
 						},
 						"position": {
 							"x": -4.499323844909668,
 							"y": -4.499969005584717,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1175,13 +1414,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
-						"position": { "x": -4.0, "y": 7.0, "z": 0.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": -4,
+							"y": 7,
+							"z": 0
+						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1199,17 +1450,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": -5.980698108673096,
 							"y": -19.999980926513672,
-							"z": 8.0
+							"z": 8
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.5, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 0.5,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1228,20 +1487,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -89.99959892953792
 						},
 						"position": {
 							"x": 1.600100040435791,
 							"y": -5.24627685546875,
-							"z": 8.0
+							"z": 8
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.75, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 0.75,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1260,14 +1523,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -3.842110055207929e-12
 						},
 						"position": {
-							"x": -17.0,
+							"x": -17,
 							"y": 5.999996185302734,
-							"z": 4.0
+							"z": 4
 						}
 					}
 				},
@@ -1288,20 +1551,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -3.842110055207929e-12
 						},
 						"position": {
 							"x": -19.000009536743164,
 							"y": 6.000010967254639,
-							"z": 4.0
+							"z": 4
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1320,14 +1587,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -0.01976704358638215
 						},
 						"position": {
 							"x": -13.999890327453612,
 							"y": -2.000020980834961,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
@@ -1347,11 +1614,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": -4.497008800506592,
 							"y": 7.000243186950684,
-							"z": 4.0
+							"z": 4
 						}
 					}
 				},
@@ -1359,8 +1630,8 @@
 					"type": "SVector3",
 					"value": {
 						"x": 1.0428500175476074,
-						"y": 1.0,
-						"z": 1.0
+						"y": 1,
+						"z": 1
 					}
 				},
 				"m_eidParent": {
@@ -1379,13 +1650,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
-						"position": { "x": -17.0, "y": -6.0, "z": 0.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": -17,
+							"y": -6,
+							"z": 0
+						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.5, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 0.5,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1403,8 +1686,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": -4.5, "y": -10.5, "z": 0.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -4.5,
+							"y": -10.5,
+							"z": 0
+						}
 					}
 				},
 				"m_eidParent": {
@@ -1423,7 +1714,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -19.70758056640625,
 							"y": -0.7524070143699646,
@@ -1456,16 +1751,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -0.01976704358638215
 						},
-						"position": { "x": -6.0, "y": 0.0, "z": 0.0 }
+						"position": {
+							"x": -6,
+							"y": 0,
+							"z": 0
+						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1483,17 +1786,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
 						"position": {
 							"x": -15.999710083007812,
 							"y": -9.999995231628418,
-							"z": 8.0
+							"z": 8
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1511,11 +1822,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
 						"position": {
-							"x": -14.999890327453612,
+							"x": -14.999890327453613,
 							"y": -3.0000159740448,
-							"z": 4.0
+							"z": 3.999000072479248
 						}
 					}
 				},
@@ -1536,14 +1851,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -0.01976704358638215
 						},
 						"position": {
 							"x": -9.99990463256836,
 							"y": -2.0000059604644775,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
@@ -1553,7 +1868,11 @@
 					"postInit": true
 				}
 			},
-			"subsets": { "AudioEmitters": ["4893300960f4c138"] }
+			"subsets": {
+				"AudioEmitters": [
+					"4893300960f4c138"
+				]
+			}
 		},
 		"1ca533aab968dcf6": {
 			"parent": "5ed7bee1a177bf82",
@@ -1565,20 +1884,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
-							"z": -89.99948433796615
+							"x": 0,
+							"y": 0,
+							"z": -89.99950481125568
 						},
 						"position": {
-							"x": -16.156349182128906,
-							"y": -1.7072449922561646,
-							"z": 7.999123096466064
+							"x": -20.09780502319336,
+							"y": -3.706749677658081,
+							"z": 8.020088195800781
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1596,17 +1919,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
-							"x": 0.0,
-							"y": -3.000153064727783,
-							"z": 2.0
+							"x": 0,
+							"y": -3,
+							"z": 2
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.5, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 0.5,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1623,7 +1954,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -19.760940551757812,
 							"y": 5.846305847167969,
@@ -1656,14 +1991,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": 89.99999999999616
 						},
 						"position": {
 							"x": -0.9999622106552124,
 							"y": -14.999990463256836,
-							"z": -4.0
+							"z": -4
 						}
 					}
 				},
@@ -1673,7 +2008,11 @@
 					"postInit": true
 				}
 			},
-			"subsets": { "AudioEmitters": ["4893300960f4c138"] }
+			"subsets": {
+				"AudioEmitters": [
+					"4893300960f4c138"
+				]
+			}
 		},
 		"2c9c34682b32de31": {
 			"parent": "5ed7bee1a177bf82",
@@ -1685,20 +2024,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -0.01976704358638215
 						},
 						"position": {
 							"x": -5.0001068115234375,
 							"y": -1.99993896484375,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.5, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 0.5,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1716,11 +2059,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
 						"position": {
-							"x": -14.999890327453612,
+							"x": -14.999890327453613,
 							"y": -15.000020027160645,
-							"z": -4.0
+							"z": -4.000999927520752
 						}
 					}
 				},
@@ -1740,13 +2087,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": -14.0, "y": -5.0, "z": 8.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -14,
+							"y": -5,
+							"z": 8.020000457763672
+						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.5, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 0.5,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1764,7 +2123,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -19.70758056640625,
 							"y": -5.345807075500488,
@@ -1797,20 +2160,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -0.01976704358638215
 						},
 						"position": {
 							"x": -15.999890327453612,
 							"y": -0.00002300000051036477,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1829,20 +2196,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -0.01976704358638215
 						},
 						"position": {
 							"x": -6.500038146972656,
 							"y": -9.999977111816406,
-							"z": 7.0
+							"z": 7
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.5, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 0.5,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1860,17 +2231,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -0.000060999998822808266,
 							"y": 3.9999539852142334,
-							"z": 4.0
+							"z": 4
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.5, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 0.5,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1889,20 +2268,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -0.01976704358638215
 						},
 						"position": {
 							"x": -9.999889373779297,
 							"y": -0.00002099999983329326,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1920,17 +2303,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
 						"position": {
 							"x": -16.999889373779297,
 							"y": -1.000022053718567,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1949,8 +2340,8 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -179.95076721097064
 						},
 						"position": {
@@ -1975,11 +2366,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
 						"position": {
 							"x": 4.9997172355651855,
 							"y": -15.002610206604004,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
@@ -1999,8 +2394,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -17.0, "y": 6.0, "z": 0.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -17,
+							"y": 6,
+							"z": 0
+						}
 					}
 				},
 				"m_eidParent": {
@@ -2019,17 +2422,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
 						"position": {
-							"x": -15.999990463256836,
-							"y": -16.0,
-							"z": 8.0
+							"x": -14.720000267028809,
+							"y": -15.999673843383789,
+							"z": 8.020007133483887
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.75, "y": 0.5, "z": 1.0 }
+					"value": {
+						"x": 1.75,
+						"y": 1.2000000476837158,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -2048,14 +2459,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -3.842110055207929e-12
 						},
 						"position": {
-							"x": -12.0,
+							"x": -12,
 							"y": 6.000059127807617,
-							"z": 4.0
+							"z": 4
 						}
 					}
 				},
@@ -2076,14 +2487,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -0.01976704358638215
 						},
 						"position": {
-							"x": -2.0,
+							"x": -2,
 							"y": -1.9999979734420776,
-							"z": 4.0
+							"z": 4
 						}
 					}
 				},
@@ -2093,7 +2504,11 @@
 					"postInit": true
 				}
 			},
-			"subsets": { "AudioEmitters": ["4893300960f4c138"] }
+			"subsets": {
+				"AudioEmitters": [
+					"4893300960f4c138"
+				]
+			}
 		},
 		"ebec21cd14446881": {
 			"parent": "5ed7bee1a177bf82",
@@ -2104,11 +2519,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
 						"position": {
-							"x": -14.999890327453612,
+							"x": -14.999890327453613,
 							"y": -11.000020027160645,
-							"z": -4.0
+							"z": -4.000999927520752
 						}
 					}
 				},
@@ -2129,14 +2548,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -3.842110055207929e-12
 						},
 						"position": {
 							"x": -4.999998092651367,
-							"y": 6.0,
-							"z": 4.0
+							"y": 6,
+							"z": 4
 						}
 					}
 				},
@@ -2156,11 +2575,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
 						"position": {
 							"x": -14.999890327453612,
 							"y": -3.000020980834961,
-							"z": -5.0
+							"z": -5
 						}
 					}
 				},
@@ -2181,20 +2604,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -3.842110055207929e-12
 						},
 						"position": {
-							"x": 3.670510068332078e-6,
+							"x": 0.000003670510068332078,
 							"y": -2.0000030994415283,
-							"z": -5.0
+							"z": -5
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.75, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -2213,8 +2640,8 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -89.99954163376506
 						},
 						"position": {
@@ -2226,7 +2653,11 @@
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.75, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 0.75,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -2244,11 +2675,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -12.999890327453612,
 							"y": -0.00002099999983329326,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
@@ -2268,11 +2703,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 180.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 180
+						},
 						"position": {
 							"x": 0.5,
 							"y": -12.800000190734863,
-							"z": 8.0
+							"z": 8
 						}
 					}
 				},
@@ -2293,16 +2732,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -0.01976704358638215
 						},
-						"position": { "x": -1.0, "y": -2.0, "z": 0.0 }
+						"position": {
+							"x": -1,
+							"y": -2,
+							"z": 0
+						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.5, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 0.5,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -2320,20 +2767,24 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
 						"position": {
 							"x": -1.9806790351867676,
 							"y": -13.000020027160645,
-							"z": 8.0
+							"z": 8.020000457763672
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
 					"value": {
-						"x": 1.0,
+						"x": 1,
 						"y": 0.8999999761581421,
-						"z": 1.0
+						"z": 1
 					}
 				},
 				"m_eidParent": {
@@ -2353,48 +2804,20 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": 4.1386868400210215e-10
 						},
 						"position": {
 							"x": 3.997929096221924,
 							"y": -6.001378059387207,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "0cb87eb73ea38733",
-					"postInit": true
-				}
-			}
-		},
-		"e555707ae335c996": {
-			"parent": "5ed7bee1a177bf82",
-			"name": "palace_ext_floor_concrete_4x4_a_57",
-			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_floor_concrete_4x4_a.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_floor_concrete_4x4_a.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
-						"position": {
-							"x": -15.999890327453612,
-							"y": -25.000019073486328,
-							"z": 4.0
-						}
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.5, "z": 1.0 }
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "5ed7bee1a177bf82",
 					"postInit": true
 				}
 			}
@@ -2409,11 +2832,15 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -0.027960337643270577
 						},
-						"position": { "x": -2.0, "y": -2.0, "z": 0.0 }
+						"position": {
+							"x": -2,
+							"y": -2,
+							"z": 0
+						}
 					}
 				},
 				"m_eidParent": {
@@ -2422,7 +2849,11 @@
 					"postInit": true
 				}
 			},
-			"subsets": { "AudioEmitters": ["4893300960f4c138"] }
+			"subsets": {
+				"AudioEmitters": [
+					"4893300960f4c138"
+				]
+			}
 		},
 		"c46fd1e84d37845f": {
 			"parent": "5ed7bee1a177bf82",
@@ -2434,11 +2865,15 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -0.01976704358638215
 						},
-						"position": { "x": -6.0, "y": -2.0, "z": 4.0 }
+						"position": {
+							"x": -6,
+							"y": -2,
+							"z": 4
+						}
 					}
 				},
 				"m_eidParent": {
@@ -2447,7 +2882,11 @@
 					"postInit": true
 				}
 			},
-			"subsets": { "AudioEmitters": ["4893300960f4c138"] }
+			"subsets": {
+				"AudioEmitters": [
+					"4893300960f4c138"
+				]
+			}
 		},
 		"a925c2a4b36d7235": {
 			"parent": "5ed7bee1a177bf82",
@@ -2458,11 +2897,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": -0.9997289776802064,
 							"y": -14.999970436096191,
-							"z": 4.0
+							"z": 4
 						}
 					}
 				},
@@ -2472,7 +2915,11 @@
 					"postInit": true
 				}
 			},
-			"subsets": { "AudioEmitters": ["4893300960f4c138"] }
+			"subsets": {
+				"AudioEmitters": [
+					"4893300960f4c138"
+				]
+			}
 		},
 		"b5a3d020cf91f586": {
 			"parent": "4893300960f4c138",
@@ -2484,14 +2931,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -3.842110055207929e-12
 						},
 						"position": {
 							"x": -4.999998092651367,
 							"y": 6.000044822692871,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
@@ -2511,13 +2958,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
-						"position": { "x": 0.25, "y": -1.75, "z": 8.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": 0.25,
+							"y": -1.75,
+							"z": 8
+						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -2536,14 +2995,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -3.842110055207929e-12
 						},
 						"position": {
 							"x": -8.99999713897705,
 							"y": 6.0000901222229,
-							"z": -1.0
+							"z": -1
 						}
 					}
 				},
@@ -2564,14 +3023,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": 179.99999999999616
 						},
 						"position": {
 							"x": -5.000003814697266,
-							"y": -4.818266916117864e-6,
-							"z": 0.0
+							"y": -0.000004818266916117864,
+							"z": 0
 						}
 					}
 				},
@@ -2591,11 +3050,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
 						"position": {
-							"x": -14.999890327453612,
+							"x": -14.999890327453613,
 							"y": -7.000016212463379,
-							"z": 4.0
+							"z": 3.999000072479248
 						}
 					}
 				},
@@ -2616,14 +3079,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -0.01976704358638215
 						},
 						"position": {
 							"x": -9.999889373779297,
 							"y": -2.000020980834961,
-							"z": -4.0
+							"z": -4
 						}
 					}
 				},
@@ -2633,7 +3096,11 @@
 					"postInit": true
 				}
 			},
-			"subsets": { "AudioEmitters": ["4893300960f4c138"] }
+			"subsets": {
+				"AudioEmitters": [
+					"4893300960f4c138"
+				]
+			}
 		},
 		"2aa0a7c0b41d7fda": {
 			"parent": "5ed7bee1a177bf82",
@@ -2644,17 +3111,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": 0.35006099939346313,
 							"y": -4.7930450439453125,
-							"z": 8.0
+							"z": 8
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -2672,11 +3147,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
 						"position": {
 							"x": 5.0020751953125,
 							"y": -5.998271942138672,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
@@ -2696,13 +3175,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
-						"position": { "x": 0.25, "y": -5.0, "z": 8.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": 0.25,
+							"y": -5,
+							"z": 8
+						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.8125, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 0.8125,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -2720,7 +3211,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": 1.5997730493545532,
 							"y": -12.82544994354248,
@@ -2730,7 +3225,11 @@
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.75, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 0.75,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -2749,14 +3248,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -3.842110055207929e-12
 						},
 						"position": {
-							"x": -16.0,
+							"x": -16,
 							"y": 5.999997138977051,
-							"z": 4.0
+							"z": 4
 						}
 					}
 				},
@@ -2776,11 +3275,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
 						"position": {
 							"x": -14.999360084533691,
 							"y": -10.99977970123291,
-							"z": -5.0
+							"z": -5
 						}
 					}
 				},
@@ -2801,20 +3304,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -89.99948433744505
 						},
 						"position": {
 							"x": -0.9998968839645386,
 							"y": 8.700383186340332,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.75, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -2831,11 +3338,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
 						"position": {
 							"x": -14.999890327453612,
 							"y": -19.000019073486328,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
@@ -2855,11 +3366,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
-							"x": 1.0,
+							"x": 1,
 							"y": 0.00034699999378062785,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
@@ -2879,41 +3394,17 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
 						"position": {
-							"x": -14.999899864196776,
+							"x": -14.999899864196777,
 							"y": -7.000022888183594,
-							"z": -4.0
+							"z": -4.000999927520752
 						}
 					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "5ed7bee1a177bf82",
-					"postInit": true
-				}
-			}
-		},
-		"c2268f5a744618c3": {
-			"parent": "5ed7bee1a177bf82",
-			"name": "palace_ext_floor_concrete_4x4_a_56",
-			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_floor_concrete_4x4_a.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_floor_concrete_4x4_a.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
-						"position": {
-							"x": -15.999890327453612,
-							"y": -21.000019073486328,
-							"z": 4.0
-						}
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.5, "z": 1.0 }
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -2932,14 +3423,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -3.842110055207929e-12
 						},
 						"position": {
-							"x": -13.0,
+							"x": -13,
 							"y": 5.999998092651367,
-							"z": 4.0
+							"z": 4
 						}
 					}
 				},
@@ -2959,7 +3450,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -19.760929107666016,
 							"y": -11.745220184326172,
@@ -2991,16 +3486,24 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
-						"position": { "x": -2.0, "y": -5.0, "z": 8.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": -2.075328826904297,
+							"y": -5.17409086227417,
+							"z": 8.020000457763672
+						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
 					"value": {
-						"x": 1.0,
+						"x": 1.100000023841858,
 						"y": 0.6000000238418579,
-						"z": 1.0
+						"z": 1
 					}
 				},
 				"m_eidParent": {
@@ -3019,11 +3522,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
 						"position": {
 							"x": -14.999890327453612,
 							"y": -7.0000200271606445,
-							"z": -5.0
+							"z": -5
 						}
 					}
 				},
@@ -3043,13 +3550,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": -20.0, "y": 5.0, "z": 4.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -20,
+							"y": 5,
+							"z": 4
+						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -3068,20 +3587,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -89.99180670372992
 						},
 						"position": {
 							"x": 2.353598117828369,
 							"y": -3.9994349479675297,
-							"z": 10.0
+							"z": 10
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.75, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 0.75,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -3099,17 +3622,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -11.99071979522705,
 							"y": -0.75,
-							"z": 8.0
+							"z": 8
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.5, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1.5,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -3127,20 +3658,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": 89.99999999999616
 						},
 						"position": {
 							"x": 0.24983349442481995,
 							"y": 0.17459669709205627,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.75, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 0.75,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -3157,17 +3692,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": -15.999970436096191,
-							"y": -6.0,
-							"z": 8.0
+							"y": -6,
+							"z": 8
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.25, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 0.25,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -3185,8 +3728,8 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": 179.91841078150856
 						},
 						"position": {
@@ -3213,20 +3756,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
-							"z": -0.027960337643270577
+							"x": 0,
+							"y": 0,
+							"z": -0.055952911904113965
 						},
 						"position": {
-							"x": -17.000019073486328,
-							"y": -15.999939918518066,
-							"z": 8.0
+							"x": -18.506362915039062,
+							"y": -16.0170841217041,
+							"z": 8
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -3244,14 +3791,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": 179.98023295641363
 						},
 						"position": {
 							"x": -12.999890327453612,
 							"y": -0.00002099999983329326,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
@@ -3270,13 +3817,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": 2.0, "y": 0.0, "z": 0.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 2,
+							"y": 0,
+							"z": 0
+						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -3294,17 +3853,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
 						"position": {
-							"x": -1.980633020401001,
-							"y": -16.999990463256836,
-							"z": 8.0
+							"x": -1.7317276000976562,
+							"y": -16.992067337036133,
+							"z": 8.020000457763672
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.5, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 0.5,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -3321,20 +3888,24 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": -0.9806939959526062,
 							"y": -16.999990463256836,
-							"z": 8.0
+							"z": 8
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
 					"value": {
-						"x": 1.0,
+						"x": 1,
 						"y": 0.3499999940395355,
-						"z": 1.0
+						"z": 1
 					}
 				},
 				"m_eidParent": {
@@ -3352,17 +3923,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
 						"position": {
 							"x": -15.999990463256836,
-							"y": -14.0,
-							"z": 8.0
+							"y": -14,
+							"z": 8
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -3379,17 +3958,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -12.000029563903809,
 							"y": 4.000010967254639,
-							"z": 4.0
+							"z": 4
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.5, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 0.5,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -3407,7 +3994,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -19.760929107666016,
 							"y": -5.32794189453125,
@@ -3439,7 +4030,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -11.964309692382812,
 							"y": -0.7072910070419312,
@@ -3449,7 +4044,11 @@
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -3467,8 +4066,8 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -179.99977081688252
 						},
 						"position": {
@@ -3493,11 +4092,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
 						"position": {
 							"x": -14.999899864196776,
 							"y": -7.000022888183594,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
@@ -3517,8 +4120,8 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": 90.00097402878981
 						},
 						"position": {
@@ -3530,7 +4133,11 @@
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.75, "y": 0.75, "z": 1.0 }
+					"value": {
+						"x": 0.75,
+						"y": 0.75,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -3547,17 +4154,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
 						"position": {
 							"x": -13.999939918518066,
-							"y": -9.0,
-							"z": 8.0
+							"y": -9,
+							"z": 8.020000457763672
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.5, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 0.5,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -3575,20 +4190,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": 1.7442589260181243e-9
 						},
 						"position": {
 							"x": -0.0000456563793704845,
 							"y": -1.5001709461212158,
-							"z": 1.0
+							"z": 1
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.5, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 0.5,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -3607,14 +4226,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": 89.99999999999616
 						},
 						"position": {
 							"x": -0.9999961256980896,
 							"y": -3.0000040531158447,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
@@ -3633,17 +4252,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
-							"x": -16.0,
+							"x": -16,
 							"y": 4.000094890594482,
-							"z": 4.0
+							"z": 4
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.5, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 0.5,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -3661,7 +4288,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -13.577320098876951,
 							"y": 5.847797870635986,
@@ -3693,11 +4324,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -4.497008800506592,
 							"y": 7.000243186950684,
-							"z": 4.0
+							"z": 4
 						}
 					}
 				},
@@ -3717,17 +4352,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
 						"position": {
 							"x": -14.999970436096191,
-							"y": -6.0,
-							"z": 0.0
+							"y": -6,
+							"z": 0
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.5, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 0.5,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -3744,11 +4387,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
 						"position": {
 							"x": -4.49652099609375,
 							"y": 12.503410339355469,
-							"z": 4.0
+							"z": 4
 						}
 					}
 				},
@@ -3756,8 +4403,8 @@
 					"type": "SVector3",
 					"value": {
 						"x": 1.3758399486541748,
-						"y": 1.0,
-						"z": 1.0
+						"y": 1,
+						"z": 1
 					}
 				},
 				"m_eidParent": {
@@ -3776,11 +4423,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": 5.0020751953125,
 							"y": -5.998271942138672,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
@@ -3800,11 +4451,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
 						"position": {
 							"x": -14.999890327453612,
 							"y": -15.000020027160645,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
@@ -3824,20 +4479,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -3.842110055207929e-12
 						},
 						"position": {
 							"x": -2.000005006790161,
-							"y": -3.974489118263591e-6,
-							"z": 0.0
+							"y": -0.000003974489118263591,
+							"z": 0
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -3854,13 +4513,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": 0.0, "y": 4.0, "z": 0.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 4,
+							"z": 0
+						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.5, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 0.5,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -3878,13 +4549,23 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
 					}
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["dc9a6975ad8c0bec"]
+					"value": [
+						"dc9a6975ad8c0bec"
+					]
 				},
 				"ConstantVector1D_01_Value_op": {
 					"type": "IRenderMaterialEntity.EModifierOperation",
@@ -3909,8 +4590,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -17.0, "y": 6.0, "z": -1.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -17,
+							"y": 6,
+							"z": -1
+						}
 					}
 				},
 				"m_eidParent": {
@@ -3929,17 +4618,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": -16.99968910217285,
-							"y": -10.0,
-							"z": 0.0
+							"y": -10,
+							"z": 0
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.5, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 0.5,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -3957,14 +4654,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": 90.00028647889033
 						},
 						"position": {
 							"x": 1.4999990463256836,
 							"y": -6.127349853515625,
-							"z": 8.0
+							"z": 8
 						}
 					}
 				},
@@ -3984,20 +4681,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -3.842110055207929e-12
 						},
 						"position": {
 							"x": -8.000027656555176,
 							"y": 4.000007152557373,
-							"z": 4.0
+							"z": 4
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.5, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 0.5,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -4016,14 +4717,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -3.842110055207929e-12
 						},
 						"position": {
 							"x": -12.999979972839355,
 							"y": 6.000042915344238,
-							"z": -1.0
+							"z": -1
 						}
 					}
 				},
@@ -4044,22 +4745,22 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -0.01976704358638215
 						},
 						"position": {
 							"x": -13.999890327453612,
 							"y": -2.0000178813934326,
-							"z": 4.0
+							"z": 4
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
 					"value": {
-						"x": 1.0,
-						"y": 1.0,
+						"x": 1,
+						"y": 1,
 						"z": 0.9990000128746032
 					}
 				},
@@ -4079,14 +4780,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": 89.99999999999616
 						},
 						"position": {
-							"x": -20.0,
+							"x": -20,
 							"y": 4.000002861022949,
-							"z": 4.0
+							"z": 4
 						}
 					}
 				},
@@ -4107,8 +4808,8 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -179.9507829362666
 						},
 						"position": {
@@ -4133,8 +4834,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -13.0, "y": 6.0, "z": -1.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -13,
+							"y": 6,
+							"z": -1
+						}
 					}
 				},
 				"m_eidParent": {
@@ -4153,13 +4862,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 180.0 },
-						"position": { "x": 3.0, "y": -15.0, "z": 0.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 180
+						},
+						"position": {
+							"x": 3,
+							"y": -15,
+							"z": 0
+						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -4177,13 +4898,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
-						"position": { "x": -4.0, "y": 10.0, "z": 0.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": -4,
+							"y": 10,
+							"z": 0
+						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -4201,7 +4934,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": 1.349931001663208,
 							"y": -13.000029563903809,
@@ -4211,7 +4948,11 @@
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.75, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 0.75,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -4228,13 +4969,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": -15.0, "y": -2.0, "z": 0.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -15,
+							"y": -2,
+							"z": 0
+						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.5, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 0.5,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -4251,17 +5004,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
 						"position": {
 							"x": 5.35549783706665,
 							"y": -3.999419927597046,
-							"z": 10.0
+							"z": 10
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.75, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 0.75,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -4280,11 +5041,15 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -90.02796033764326
 						},
-						"position": { "x": -123.0, "y": -163.0, "z": 57.0 }
+						"position": {
+							"x": -123,
+							"y": -163,
+							"z": 57
+						}
 					}
 				}
 			}
@@ -4298,11 +5063,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": 0.25000399351119995,
 							"y": -16.728530883789062,
-							"z": 8.0
+							"z": 8
 						}
 					}
 				},
@@ -4310,8 +5079,8 @@
 					"type": "SVector3",
 					"value": {
 						"x": 0.9320979714393616,
-						"y": 1.0,
-						"z": 1.0
+						"y": 1,
+						"z": 1
 					}
 				},
 				"m_eidParent": {
@@ -4329,17 +5098,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": -15.999990463256836,
-							"y": -10.0,
-							"z": 8.0
+							"y": -10,
+							"z": 8
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.25, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 0.25,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -4357,14 +5134,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": 90.00005729577937
 						},
 						"position": {
 							"x": 6.00380277633667,
 							"y": -0.998615026473999,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
@@ -4384,17 +5161,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
 						"position": {
-							"x": -15.999340057373049,
-							"y": -24.999780654907227,
-							"z": 8.0
+							"x": -17.280067443847656,
+							"y": -26.449254989624023,
+							"z": 8.020000457763672
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.5, "z": 1.0 }
+					"value": {
+						"x": 2,
+						"y": 2,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -4411,20 +5196,24 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -3.991213083267212,
 							"y": -2.0005040168762207,
-							"z": 8.0
+							"z": 8.020000457763672
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
 					"value": {
-						"x": 1.0,
+						"x": 1,
 						"y": 0.6000000238418579,
-						"z": 1.0
+						"z": 1
 					}
 				},
 				"m_eidParent": {
@@ -4442,8 +5231,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -4.0, "y": 7.0, "z": -1.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -4,
+							"y": 7,
+							"z": -1
+						}
 					}
 				},
 				"m_eidParent": {
@@ -4461,11 +5258,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": 4.999996185302734,
 							"y": 0.001728000002913177,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
@@ -4485,11 +5286,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": -4.496947765350342,
 							"y": 10.128809928894045,
-							"z": 4.0
+							"z": 4
 						}
 					}
 				},
@@ -4497,8 +5302,8 @@
 					"type": "SVector3",
 					"value": {
 						"x": 1.0428500175476074,
-						"y": 1.0,
-						"z": 1.0
+						"y": 1,
+						"z": 1
 					}
 				},
 				"m_eidParent": {
@@ -4516,13 +5321,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": -4.5, "y": -8.5, "z": 0.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -4.5,
+							"y": -8.5,
+							"z": 0
+						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -4540,11 +5357,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
 						"position": {
 							"x": -14.999329566955566,
-							"y": -10.999799728393556,
-							"z": 4.0
+							"y": -10.999799728393555,
+							"z": 3.999000072479248
 						}
 					}
 				},
@@ -4563,11 +5384,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
 						"position": {
-							"x": -14.999340057373049,
+							"x": -14.999340057373047,
 							"y": -14.99977970123291,
-							"z": 4.0
+							"z": 3.999000072479248
 						}
 					}
 				},
@@ -4586,13 +5411,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": 0.0, "y": 6.0, "z": 0.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 6,
+							"z": 0
+						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.5, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1.5,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -4609,11 +5446,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": -15.999919891357422,
 							"y": -2.000001907348633,
-							"z": 8.0
+							"z": 8
 						}
 					}
 				},
@@ -4621,8 +5462,8 @@
 					"type": "SVector3",
 					"value": {
 						"x": 0.3499999940395355,
-						"y": 1.0,
-						"z": 1.0
+						"y": 1,
+						"z": 1
 					}
 				},
 				"m_eidParent": {
@@ -4641,20 +5482,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -89.9995989299548
 						},
 						"position": {
 							"x": 0.2501600980758667,
 							"y": 7.754156112670898,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.75, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 0.75,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -4672,20 +5517,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -3.842110055207929e-12
 						},
 						"position": {
 							"x": -2.9999959468841553,
 							"y": -2.0000040531158447,
-							"z": -5.0
+							"z": -5
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.75, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -4702,13 +5551,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
-						"position": { "x": -4.0, "y": 11.0, "z": 0.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": -4,
+							"y": 11,
+							"z": 0
+						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -4725,7 +5586,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -13.613630294799805,
 							"y": 5.846305847167969,
@@ -4756,13 +5621,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": 0.5, "y": 6.0, "z": 4.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.5,
+							"y": 6,
+							"z": 4
+						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.25, "y": 1.5, "z": 1.0 }
+					"value": {
+						"x": 1.25,
+						"y": 1.5,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -4779,8 +5656,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
 					}
 				},
 				"ConstantVector1D_01_Value_op": {
@@ -4793,7 +5678,9 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["99038bd4a3f45f8c"],
+					"value": [
+						"99038bd4a3f45f8c"
+					],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -4812,11 +5699,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
 						"position": {
-							"x": -14.999890327453612,
+							"x": -14.999890327453613,
 							"y": -19.000019073486328,
-							"z": -4.0
+							"z": -4.000999927520752
 						}
 					}
 				},
@@ -4835,7 +5726,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -8.347648620605469,
 							"y": 5.8476409912109375,
@@ -4866,11 +5761,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
 						"position": {
 							"x": -14.999890327453612,
 							"y": -3.000020980834961,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
@@ -4890,14 +5789,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -3.842110055207929e-12
 						},
 						"position": {
 							"x": -7.999998092651367,
 							"y": 6.000013828277588,
-							"z": 4.0
+							"z": 4
 						}
 					}
 				},
@@ -4916,11 +5815,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": 1.5000009536743164,
-							"y": -9.0,
-							"z": 8.0
+							"y": -9,
+							"z": 8
 						}
 					}
 				},
@@ -4928,8 +5831,8 @@
 					"type": "SVector3",
 					"value": {
 						"x": 0.7250000238418579,
-						"y": 1.0,
-						"z": 1.0
+						"y": 1,
+						"z": 1
 					}
 				},
 				"m_eidParent": {
@@ -4948,14 +5851,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": 89.99999999999616
 						},
 						"position": {
 							"x": -0.9999644160270692,
 							"y": -7.000019073486328,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
@@ -4964,7 +5867,11 @@
 					"value": "5ed7bee1a177bf82"
 				}
 			},
-			"subsets": { "AudioEmitters": ["4893300960f4c138"] }
+			"subsets": {
+				"AudioEmitters": [
+					"4893300960f4c138"
+				]
+			}
 		},
 		"20e1e96e8d272802": {
 			"parent": "5ed7bee1a177bf82",
@@ -4975,17 +5882,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": -0.7256739735603333,
 							"y": -17.500009536743164,
-							"z": 8.0
+							"z": 8
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.9375, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 0.9375,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -5002,17 +5917,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -16.000030517578125,
 							"y": 3.999958038330078,
-							"z": 4.0
+							"z": 4
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.5, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 0.5,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -5030,20 +5953,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -3.842110055207929e-12
 						},
 						"position": {
 							"x": -4.999998092651367,
-							"y": 6.0,
-							"z": 4.0
+							"y": 6,
+							"z": 4
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.75, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 0.75,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -5060,17 +5987,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -0.4970090091228485,
 							"y": 6.000243186950684,
-							"z": 4.0
+							"z": 4
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.5, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1.5,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -5087,11 +6022,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": -16.999889373779297,
 							"y": -4.000022888183594,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
@@ -5111,14 +6050,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -3.842110055207929e-12
 						},
 						"position": {
 							"x": -8.99999713897705,
 							"y": 6.0000901222229,
-							"z": -1.0
+							"z": -1
 						}
 					}
 				},
@@ -5137,17 +6076,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
 						"position": {
 							"x": 0.8500080108642578,
 							"y": -13.000089645385742,
-							"z": 8.0
+							"z": 8
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.75, "y": 0.75, "z": 1.0 }
+					"value": {
+						"x": 0.75,
+						"y": 0.75,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -5164,17 +6111,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
 						"position": {
 							"x": -16.999889373779297,
 							"y": -5.000022888183594,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -5191,15 +6146,23 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
-						"position": { "x": -1.0, "y": -3.0, "z": 4.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": -1,
+							"y": -3,
+							"z": 4
+						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
 					"value": {
-						"x": 1.0,
-						"y": 1.0,
+						"x": 1,
+						"y": 1,
 						"z": 0.9990000128746032
 					}
 				},
@@ -5218,8 +6181,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -5.0, "y": 6.0, "z": -1.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -5,
+							"y": 6,
+							"z": -1
+						}
 					}
 				},
 				"m_eidParent": {
@@ -5237,17 +6208,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": -15.999340057373049,
 							"y": -20.99980926513672,
-							"z": 8.0
+							"z": 8
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.5, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 0.5,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -5265,22 +6244,22 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": 89.99999999999616
 						},
 						"position": {
 							"x": -1.0000070333480835,
-							"y": -17.0,
-							"z": 0.0
+							"y": -17,
+							"z": 0
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
 					"value": {
-						"x": 1.0,
-						"y": 1.0,
+						"x": 1,
+						"y": 1,
 						"z": 0.9990000128746032
 					}
 				},
@@ -5300,20 +6279,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -0.01976704358638215
 						},
 						"position": {
 							"x": -8.999996185302734,
 							"y": -1.999956011772156,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.5, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 0.5,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -5331,14 +6314,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -0.01976704358638215
 						},
 						"position": {
 							"x": -9.99990463256836,
-							"y": -2.0,
-							"z": 4.0
+							"y": -2,
+							"z": 4
 						}
 					}
 				},
@@ -5347,7 +6330,11 @@
 					"value": "5ed7bee1a177bf82"
 				}
 			},
-			"subsets": { "AudioEmitters": ["4893300960f4c138"] }
+			"subsets": {
+				"AudioEmitters": [
+					"4893300960f4c138"
+				]
+			}
 		},
 		"33499e7f28187f1b": {
 			"parent": "0cb87eb73ea38733",
@@ -5359,14 +6346,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -89.99994270673496
 						},
 						"position": {
 							"x": -1.0003420114517212,
 							"y": -0.9996541142463684,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
@@ -5386,17 +6373,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -0.4970090091228485,
 							"y": 4.000243186950684,
-							"z": 4.0
+							"z": 4
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.5, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 0.5,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -5413,11 +6408,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
-							"x": -1.0,
+							"x": -1,
 							"y": -4.999996185302734,
-							"z": 8.0
+							"z": 8
 						}
 					}
 				},
@@ -5426,7 +6425,7 @@
 					"value": {
 						"x": 1.100000023841858,
 						"y": 0.3499999940395355,
-						"z": 1.0
+						"z": 1
 					}
 				},
 				"m_eidParent": {
@@ -5444,17 +6443,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": -13.999329566955566,
 							"y": -19.999799728393555,
-							"z": 8.0
+							"z": 8
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.5, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 0.5,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -5471,7 +6478,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -8.34765625,
 							"y": 5.8476409912109375,
@@ -5502,7 +6513,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": 0.3506619930267334,
 							"y": -16.999069213867188,
@@ -5512,7 +6527,11 @@
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.9375, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 0.9375,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -5530,14 +6549,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -0.01976704358638215
 						},
 						"position": {
 							"x": -5.9999918937683105,
 							"y": -2.0000150203704834,
-							"z": -5.0
+							"z": -5
 						}
 					}
 				},
@@ -5556,19 +6575,23 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": -0.9997289776802064,
 							"y": -16.999990463256836,
-							"z": 4.0
+							"z": 4
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
 					"value": {
-						"x": 1.0,
-						"y": 1.0,
+						"x": 1,
+						"y": 1,
 						"z": 0.9990000128746032
 					}
 				},
@@ -5588,20 +6611,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -3.842110055207929e-12
 						},
 						"position": {
-							"x": -17.0,
+							"x": -17,
 							"y": 5.999996185302734,
-							"z": 4.0
+							"z": 4
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -5619,14 +6646,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": 179.98023295641363
 						},
 						"position": {
 							"x": -8.999950408935547,
-							"y": 0.0,
-							"z": 0.0
+							"y": 0,
+							"z": 0
 						}
 					}
 				},
@@ -5645,7 +6672,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": 0.0742269977927208,
 							"y": -0.7010350227355957,
@@ -5655,7 +6686,11 @@
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -5673,20 +6708,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": 179.99999999999616
 						},
 						"position": {
 							"x": -0.4999313056468963,
-							"y": 0.0,
+							"y": 0,
 							"z": -0.0010000000474974513
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.75, "y": 0.75, "z": 1.0 }
+					"value": {
+						"x": 0.75,
+						"y": 0.75,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -5704,14 +6743,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": 89.99999999999616
 						},
 						"position": {
 							"x": -0.9999175071716307,
-							"y": -11.0,
-							"z": 0.0
+							"y": -11,
+							"z": 0
 						}
 					}
 				},
@@ -5731,20 +6770,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": 1.7442589260181243e-9
 						},
 						"position": {
 							"x": -0.0000456563793704845,
 							"y": -1.5001709461212158,
-							"z": 1.0
+							"z": 1
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.5, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 0.5,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -5762,17 +6805,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": -11.999950408935549,
 							"y": -2.000030994415283,
-							"z": 8.0
+							"z": 8
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.699999988079071, "y": 2.0, "z": 1.0 }
+					"value": {
+						"x": 0.699999988079071,
+						"y": 2,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -5790,20 +6841,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -0.01976704358638215
 						},
 						"position": {
-							"x": -13.0,
+							"x": -13,
 							"y": -2.0000040531158447,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.5, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 0.5,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -5820,17 +6875,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -4.49652099609375,
 							"y": 12.501290321350098,
-							"z": 4.0
+							"z": 4
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -5847,17 +6910,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -8.000011444091797,
 							"y": 4.0000081062316895,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.5, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 0.5,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -5874,11 +6945,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -12.980620384216309,
 							"y": -0.0096859997138381,
-							"z": 22.0
+							"z": 22
 						}
 					}
 				},
@@ -5898,14 +6973,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -0.01976704358638215
 						},
 						"position": {
 							"x": -5.9999918937683105,
 							"y": -2.0000150203704834,
-							"z": -4.0
+							"z": -4
 						}
 					}
 				},
@@ -5914,7 +6989,11 @@
 					"value": "5ed7bee1a177bf82"
 				}
 			},
-			"subsets": { "AudioEmitters": ["4893300960f4c138"] }
+			"subsets": {
+				"AudioEmitters": [
+					"4893300960f4c138"
+				]
+			}
 		},
 		"96867116230e3a31": {
 			"parent": "5ed7bee1a177bf82",
@@ -5925,13 +7004,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
-						"position": { "x": -17.0, "y": -2.0, "z": 0.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": -17,
+							"y": -2,
+							"z": 0
+						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.5, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 0.5,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -5949,22 +7040,22 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -0.01976704358638215
 						},
 						"position": {
 							"x": -13.999890327453612,
 							"y": -2.000020980834961,
-							"z": -4.0
+							"z": -4
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
 					"value": {
-						"x": 1.0,
-						"y": 1.0,
+						"x": 1,
+						"y": 1,
 						"z": 0.9990000128746032
 					}
 				},
@@ -5984,8 +7075,8 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": 90.00099945033784
 						},
 						"position": {
@@ -5997,7 +7088,11 @@
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.75, "y": 0.75, "z": 1.0 }
+					"value": {
+						"x": 0.75,
+						"y": 0.75,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -6014,11 +7109,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
 						"position": {
 							"x": -14.999890327453612,
 							"y": -11.000020027160645,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
@@ -6038,18 +7137,21 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": 0.008193296270074707
 						},
 						"position": {
 							"x": -11.997030258178713,
 							"y": 4.004948139190674,
-							"z": 12.0
+							"z": 12
 						}
 					}
 				},
-				"Override": { "type": "bool", "value": true },
+				"Override": {
+					"type": "bool",
+					"value": true
+				},
 				"MaterialInstanceOverrideDest": {
 					"type": "ZRuntimeResourceID",
 					"value": {
@@ -6071,7 +7173,7 @@
 				},
 				"ConstantVector1D_06_Value": {
 					"type": "float32",
-					"value": 1.0
+					"value": 1
 				},
 				"ConstantVector1D_04_Value_op": {
 					"type": "IRenderMaterialEntity.EModifierOperation",
@@ -6079,7 +7181,7 @@
 				},
 				"ConstantVector1D_04_Value": {
 					"type": "float32",
-					"value": 0.0
+					"value": 0
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -6121,20 +7223,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -0.01976704358638215
 						},
 						"position": {
 							"x": -14.999890327453612,
 							"y": -0.75,
-							"z": 8.0
+							"z": 8
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -6151,17 +7257,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": -5.000003814697266,
 							"y": -2.000005006790161,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.5, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 0.5,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -6179,14 +7293,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": 89.99999999999616
 						},
 						"position": {
 							"x": -0.9999098777770996,
-							"y": -11.0,
-							"z": -4.0
+							"y": -11,
+							"z": -4
 						}
 					}
 				},
@@ -6205,13 +7319,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": 4.0, "y": 4.0, "z": 4.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 4,
+							"y": 4,
+							"z": 4
+						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.5, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 0.5,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -6229,20 +7355,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
-							"z": 1.7442589260181243e-9
+							"x": 0,
+							"y": 0,
+							"z": 0
 						},
 						"position": {
-							"x": -0.0000456563793704845,
-							"y": -1.5001709461212158,
-							"z": 1.0
+							"x": 0,
+							"y": -1.5,
+							"z": 1
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.5, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 0.5,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -6260,14 +7390,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -0.01976704358638215
 						},
 						"position": {
 							"x": -9.999889373779297,
 							"y": -2.000020980834961,
-							"z": -5.0
+							"z": -5
 						}
 					}
 				},
@@ -6287,20 +7417,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -3.842110055207929e-12
 						},
 						"position": {
 							"x": -4.000028133392334,
 							"y": 3.999916076660156,
-							"z": 4.0
+							"z": 4
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.5, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 0.5,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -6318,14 +7452,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -3.842110055207929e-12
 						},
 						"position": {
-							"x": -14.0,
+							"x": -14,
 							"y": 6.000042915344238,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
@@ -6344,17 +7478,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -4.00006103515625,
 							"y": 4.0000081062316895,
-							"z": 4.0
+							"z": 4
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.5, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 0.5,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -6372,8 +7514,8 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -90.00080214092414
 						},
 						"position": {
@@ -6383,7 +7525,10 @@
 						}
 					}
 				},
-				"m_fLODOffset": { "type": "float32", "value": 100.0 },
+				"m_fLODOffset": {
+					"type": "float32",
+					"value": 100
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "5ed7bee1a177bf82"
@@ -6399,8 +7544,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
-						"position": { "x": 9.5, "y": -4.5, "z": 0.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": 9.5,
+							"y": -4.5,
+							"z": 0
+						}
 					}
 				},
 				"m_eidParent": {
@@ -6419,14 +7572,30 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": 0.0, "y": -10.0, "z": 4.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.04845663943584655
+						},
+						"position": {
+							"x": 0.30779266357421875,
+							"y": -11.882200241088867,
+							"z": 4
+						}
 					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "1512388bd179b106",
 					"postInit": true
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.5,
+						"y": 1.5,
+						"z": 1
+					}
 				}
 			}
 		},
@@ -6439,11 +7608,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
 						"position": {
-							"x": -14.999890327453612,
+							"x": -14.999890327453613,
 							"y": -23.000019073486328,
-							"z": -4.0
+							"z": -4.000999927520752
 						}
 					}
 				},
@@ -6462,8 +7635,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": -18.0, "y": -5.5, "z": 12.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -18,
+							"y": -5.5,
+							"z": 12
+						}
 					}
 				},
 				"m_eidParent": {
@@ -6482,8 +7663,8 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -179.99977081688252
 						},
 						"position": {
@@ -6509,17 +7690,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -8.000045776367188,
 							"y": 3.999962091445923,
-							"z": 4.0
+							"z": 4
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.5, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 0.5,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -6536,17 +7725,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
-							"x": -15.156350135803224,
+							"x": -15.156350135803223,
 							"y": -0.7072449922561646,
-							"z": 7.999123096466064
+							"z": 8
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -6563,17 +7760,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": -8.99993896484375,
 							"y": -1.9999979734420776,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.5, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 0.5,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -6590,17 +7795,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
 						"position": {
 							"x": -15.999970436096191,
-							"y": -6.0,
-							"z": 8.0
+							"y": -6,
+							"z": 8
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -6617,7 +7830,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -19.760940551757812,
 							"y": -0.7466930150985718,
@@ -6648,11 +7865,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": -4.000000953674316,
-							"y": -2.0,
-							"z": 8.0
+							"y": -2,
+							"z": 8
 						}
 					}
 				},
@@ -6660,8 +7881,8 @@
 					"type": "SVector3",
 					"value": {
 						"x": 0.3499999940395355,
-						"y": 1.0,
-						"z": 1.0
+						"y": 1,
+						"z": 1
 					}
 				},
 				"m_eidParent": {
@@ -6680,20 +7901,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
-							"z": -89.99995894776137
+							"x": 0,
+							"y": 0,
+							"z": -89.99996926414873
 						},
 						"position": {
-							"x": -9.99997901916504,
-							"y": 2.0000500679016113,
-							"z": -4.0
+							"x": -9.264984130859375,
+							"y": 2.5981521606445312,
+							"z": -4
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.5, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 0.5,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -6710,9 +7935,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
-							"x": -19.0,
+							"x": -19,
 							"y": 5.999996185302734,
 							"z": 4.000999927520752
 						}
@@ -6733,13 +7962,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": -4.0, "y": 11.0, "z": -1.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -4,
+							"y": 11,
+							"z": -1
+						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -6756,17 +7997,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": 9.499954223632812,
 							"y": -6.50006103515625,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -6784,20 +8033,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -89.99180670372992
 						},
 						"position": {
 							"x": 2.3516910076141357,
 							"y": -7.999420166015625,
-							"z": 10.0
+							"z": 10
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.75, "y": 0.75, "z": 1.0 }
+					"value": {
+						"x": 0.75,
+						"y": 0.75,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -6815,20 +8068,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
-							"z": -0.027960337643270577
+							"x": 0,
+							"y": 0,
+							"z": -0.055952911904113965
 						},
 						"position": {
-							"x": -14.999990463256836,
-							"y": -15.999930381774902,
-							"z": 8.0
+							"x": -16.051284790039062,
+							"y": -16.020551681518555,
+							"z": 8.00100040435791
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1.2400000095367432,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -6845,11 +8102,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
 						"position": {
 							"x": -5.497008800506592,
 							"y": 6.000242233276367,
-							"z": 4.0
+							"z": 4
 						}
 					}
 				},
@@ -6869,20 +8130,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -89.99180670372992
 						},
 						"position": {
 							"x": 5.353600025177002,
 							"y": -7.999420166015625,
-							"z": 10.0
+							"z": 10
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.75, "y": 0.75, "z": 1.0 }
+					"value": {
+						"x": 0.75,
+						"y": 0.75,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -6899,20 +8164,24 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -7.991212844848633,
-							"y": -1.9985500574111936,
-							"z": 8.0
+							"y": -1.9985500574111938,
+							"z": 8.020000457763672
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
 					"value": {
-						"x": 1.0,
+						"x": 1,
 						"y": 0.6000000238418579,
-						"z": 1.0
+						"z": 1
 					}
 				},
 				"m_eidParent": {
@@ -6931,14 +8200,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": 179.99999999999616
 						},
 						"position": {
 							"x": -0.8499311804771423,
 							"y": 0.20040200650691983,
-							"z": 0.0
+							"z": 0
 						}
 					}
 				},
@@ -6958,8 +8227,8 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -45.01973163640614
 						},
 						"position": {
@@ -6984,13 +8253,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -3.0, "y": 12.0, "z": -1.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -3,
+							"y": 12,
+							"z": -1
+						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -7007,11 +8288,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -0.7500010132789612,
 							"y": -0.75,
-							"z": 8.0
+							"z": 8
 						}
 					}
 				},
@@ -7019,8 +8304,8 @@
 					"type": "SVector3",
 					"value": {
 						"x": 0.8500000238418579,
-						"y": 1.0,
-						"z": 1.0
+						"y": 1,
+						"z": 1
 					}
 				},
 				"m_eidParent": {
@@ -7038,20 +8323,24 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
 						"position": {
-							"x": -1.9809110164642336,
+							"x": -1.9809110164642334,
 							"y": -9.000022888183594,
-							"z": 8.0
+							"z": 8.020000457763672
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
 					"value": {
-						"x": 1.0,
+						"x": 1,
 						"y": 0.8999999761581421,
-						"z": 1.0
+						"z": 1
 					}
 				},
 				"m_eidParent": {
@@ -7076,20 +8365,24 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
-							"z": -89.99995894776137
+							"x": 0,
+							"y": 0,
+							"z": -89.99996926414873
 						},
 						"position": {
-							"x": -6.999934196472168,
-							"y": 1.9999849796295168,
-							"z": -2.0
+							"x": -6.276542663574219,
+							"y": 2.6137619018554688,
+							"z": -2
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.5, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 0.5,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -7106,11 +8399,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
 						"position": {
 							"x": -14.999329566955566,
 							"y": -18.99980926513672,
-							"z": 4.0
+							"z": 4
 						}
 					}
 				},
@@ -7129,17 +8426,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
 						"position": {
 							"x": -17.999990463256836,
-							"y": -17.0,
-							"z": 8.0
+							"y": -17,
+							"z": 8
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.5, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1.5,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -7157,14 +8462,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -0.01976704358638215
 						},
 						"position": {
 							"x": -13.999890327453612,
 							"y": -2.000020980834961,
-							"z": -5.0
+							"z": -5
 						}
 					}
 				},
@@ -7184,19 +8489,1914 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": 80.99999999999616
 						},
-						"position": { "x": -0.8, "y": -17.0, "z": -4.0 }
+						"position": {
+							"x": -0.8,
+							"y": -17,
+							"z": -4
+						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
 					"value": {
-						"x": 1.0,
-						"y": 1.0,
+						"x": 1,
+						"y": 1,
 						"z": 0.9990000128746032
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82"
+				}
+			}
+		},
+		"feed04f1772c9ffe": {
+			"parent": "62da04d0227ebcb9",
+			"name": "palace_ext_wall_4x4_b_07",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_wall_4x4_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_wall_4x4_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -14.9998779296875,
+							"y": -26.99458885192871,
+							"z": -4.000999927520752
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82"
+				}
+			}
+		},
+		"feedc5efd3f33e2d": {
+			"parent": "62da04d0227ebcb9",
+			"name": "palace_ext_wall_4x4_b_07",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_wall_4x4_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_wall_4x4_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -14.999890327453613,
+							"y": -23.000019073486328,
+							"z": -4.000999927520752
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82"
+				}
+			}
+		},
+		"feed569b3346ab29": {
+			"parent": "62da04d0227ebcb9",
+			"name": "palace_ext_wall_4x4_b_07",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_wall_4x4_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_wall_4x4_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -14.999862670898438,
+							"y": -30.991544723510742,
+							"z": -4.000999927520752
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82"
+				}
+			}
+		},
+		"feed2dd23e9705e6": {
+			"parent": "90b0cbd3c1189edc",
+			"name": "palace_ext_wall_4x4_b_17",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_wall_4x4_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_wall_4x4_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -14.999320983886719,
+							"y": -22.995851516723633,
+							"z": 3.999000072479248
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82"
+				}
+			}
+		},
+		"feed87d470567590": {
+			"parent": "90b0cbd3c1189edc",
+			"name": "palace_ext_wall_4x4_b_17",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_wall_4x4_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_wall_4x4_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -14.99932861328125,
+							"y": -26.965784072875977,
+							"z": 3.999000072479248
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82"
+				}
+			}
+		},
+		"feed133252b093d7": {
+			"parent": "90b0cbd3c1189edc",
+			"name": "palace_ext_wall_4x4_b_17",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_wall_4x4_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_wall_4x4_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -14.999481201171875,
+							"y": -30.94658088684082,
+							"z": 3.999000072479248
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82"
+				}
+			}
+		},
+		"feedeae09b86cc25": {
+			"parent": "90b0cbd3c1189edc",
+			"name": "palace_ext_wall_4x4_b_17",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_wall_4x4_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_wall_4x4_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -14.999329566955566,
+							"y": -18.99980926513672,
+							"z": 3.999000072479248
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82"
+				}
+			}
+		},
+		"feed36d3e81a5f8f": {
+			"parent": "84dd6e801aaccd75",
+			"name": "palace_ext_wall_4x4_b_06",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_wall_4x4_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_wall_4x4_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -14.9998779296875,
+							"y": -30.98600196838379,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82",
+					"postInit": true
+				}
+			}
+		},
+		"feeda1a8e7bb5b84": {
+			"parent": "84dd6e801aaccd75",
+			"name": "palace_ext_wall_4x4_b_06",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_wall_4x4_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_wall_4x4_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -14.999890327453612,
+							"y": -23.000019073486328,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82",
+					"postInit": true
+				}
+			}
+		},
+		"feed10c22ac2e0ed": {
+			"parent": "84dd6e801aaccd75",
+			"name": "palace_ext_wall_4x4_b_06",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_wall_4x4_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_wall_4x4_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -14.999885559082031,
+							"y": -26.992277145385742,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82",
+					"postInit": true
+				}
+			}
+		},
+		"feedf6d719c10247": {
+			"parent": "9cbc923f315e6b3f",
+			"name": "palace_ext_foundation_4x1_a_15",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_foundation_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_foundation_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -14.998860359191896,
+							"y": -14.99958038330078,
+							"z": -5
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82",
+					"postInit": true
+				}
+			}
+		},
+		"feedb5b0fb6654fc": {
+			"parent": "9cbc923f315e6b3f",
+			"name": "palace_ext_foundation_4x1_a_15",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_foundation_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_foundation_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -14.998908996582031,
+							"y": -26.945283889770508,
+							"z": -5
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82",
+					"postInit": true
+				}
+			}
+		},
+		"feed4dc6bceadf2a": {
+			"parent": "9cbc923f315e6b3f",
+			"name": "palace_ext_foundation_4x1_a_15",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_foundation_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_foundation_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -14.999000549316406,
+							"y": -18.976133346557617,
+							"z": -5
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82",
+					"postInit": true
+				}
+			}
+		},
+		"feedd337dd20b3be": {
+			"parent": "9cbc923f315e6b3f",
+			"name": "palace_ext_foundation_4x1_a_15",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_foundation_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_foundation_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -14.998992919921875,
+							"y": -30.92195701599121,
+							"z": -5
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82",
+					"postInit": true
+				}
+			}
+		},
+		"feed575010f423e8": {
+			"parent": "9cbc923f315e6b3f",
+			"name": "palace_ext_foundation_4x1_a_15",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_foundation_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_foundation_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -14.998802185058594,
+							"y": -22.969663619995117,
+							"z": -5
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82",
+					"postInit": true
+				}
+			}
+		},
+		"feedb7dae2df080b": {
+			"parent": "7d77f400f461f944",
+			"name": "palace_ext_floor_concrete_4x4_a_50",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_floor_concrete_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_floor_concrete_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -14.999970436096191,
+							"y": -6,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 0.5,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82"
+				}
+			}
+		},
+		"feed9a900a9de9ee": {
+			"parent": "7d77f400f461f944",
+			"name": "palace_ext_floor_concrete_4x4_a_50",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_floor_concrete_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_floor_concrete_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -14.999954223632812,
+							"y": -17.91608238220215,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 0.5,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82"
+				}
+			}
+		},
+		"feed92fbcfb7aee0": {
+			"parent": "7d77f400f461f944",
+			"name": "palace_ext_floor_concrete_4x4_a_50",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_floor_concrete_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_floor_concrete_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -14.999946594238281,
+							"y": -25.88624382019043,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 0.5,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82"
+				}
+			}
+		},
+		"feed2d9228b52e05": {
+			"parent": "7d77f400f461f944",
+			"name": "palace_ext_floor_concrete_4x4_a_50",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_floor_concrete_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_floor_concrete_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -14.999958038330078,
+							"y": -9.950490951538086,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 0.5,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82"
+				}
+			}
+		},
+		"feed4c920b13b292": {
+			"parent": "7d77f400f461f944",
+			"name": "palace_ext_floor_concrete_4x4_a_50",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_floor_concrete_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_floor_concrete_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -14.999954223632812,
+							"y": -13.941862106323242,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 0.5,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82"
+				}
+			}
+		},
+		"feed37f3f2197839": {
+			"parent": "7d77f400f461f944",
+			"name": "palace_ext_floor_concrete_4x4_a_50",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_floor_concrete_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_floor_concrete_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -14.999946594238281,
+							"y": -21.90285301208496,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 0.5,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82"
+				}
+			}
+		},
+		"feed198241c2c613": {
+			"parent": "7d77f400f461f944",
+			"name": "palace_ext_floor_concrete_4x4_a_50",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_floor_concrete_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_floor_concrete_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -14.99993896484375,
+							"y": -29.889616012573242,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 0.5,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82"
+				}
+			}
+		},
+		"feedfdf747b53dbf": {
+			"parent": "7d77f400f461f944",
+			"name": "palace_ext_floor_concrete_4x4_a_50",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_floor_concrete_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_floor_concrete_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -14.999970436096191,
+							"y": -6,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 0.5,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82"
+				}
+			}
+		},
+		"feeda77717064a89": {
+			"parent": "7d77f400f461f944",
+			"name": "palace_ext_floor_concrete_4x4_a_50",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_floor_concrete_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_floor_concrete_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -14.99993896484375,
+							"y": -33.869136810302734,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 0.5,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82"
+				}
+			}
+		},
+		"feede5cfae300307": {
+			"parent": "7d77f400f461f944",
+			"name": "palace_ext_floor_concrete_4x4_a_50",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_floor_concrete_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_floor_concrete_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -14.999970436096191,
+							"y": -6,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 0.5,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82"
+				}
+			}
+		},
+		"feed6a000a479a4b": {
+			"parent": "4c52396d2e579b8f",
+			"name": "palace_ext_balcony_trim_4_a_33",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balcony_trim_4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balcony_trim_4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -16.999893188476562,
+							"y": -12.96789836883545,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82"
+				}
+			}
+		},
+		"feed3d56be7209bc": {
+			"parent": "4c52396d2e579b8f",
+			"name": "palace_ext_balcony_trim_4_a_33",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balcony_trim_4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balcony_trim_4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -16.999889373779297,
+							"y": -8.980072975158691,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82"
+				}
+			}
+		},
+		"feedd8724eb25ff2": {
+			"parent": "4c52396d2e579b8f",
+			"name": "palace_ext_balcony_trim_4_a_33",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balcony_trim_4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balcony_trim_4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -16.999889373779297,
+							"y": -5.000022888183594,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82"
+				}
+			}
+		},
+		"feed98695bfaddd6": {
+			"parent": "4c52396d2e579b8f",
+			"name": "palace_ext_balcony_trim_4_a_33",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balcony_trim_4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balcony_trim_4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -16.99988555908203,
+							"y": -20.953767776489258,
+							"z": 0.00002014636993408203
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82"
+				}
+			}
+		},
+		"feed25ebe96443da": {
+			"parent": "4c52396d2e579b8f",
+			"name": "palace_ext_balcony_trim_4_a_33",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balcony_trim_4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balcony_trim_4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -16.999908447265625,
+							"y": -16.963315963745117,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82"
+				}
+			}
+		},
+		"feedb9238babd704": {
+			"parent": "4c52396d2e579b8f",
+			"name": "palace_ext_balcony_trim_4_a_33",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balcony_trim_4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balcony_trim_4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -16.999889373779297,
+							"y": -5.000022888183594,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82"
+				}
+			}
+		},
+		"feedaae059dab9ae": {
+			"parent": "4c52396d2e579b8f",
+			"name": "palace_ext_balcony_trim_4_a_33",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balcony_trim_4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balcony_trim_4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -16.99987030029297,
+							"y": -28.955854415893555,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82"
+				}
+			}
+		},
+		"feedef4155b593e7": {
+			"parent": "4c52396d2e579b8f",
+			"name": "palace_ext_balcony_trim_4_a_33",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balcony_trim_4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balcony_trim_4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -16.999889373779297,
+							"y": -5.000022888183594,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82"
+				}
+			}
+		},
+		"feeda73be14315d7": {
+			"parent": "4c52396d2e579b8f",
+			"name": "palace_ext_balcony_trim_4_a_33",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balcony_trim_4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balcony_trim_4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -16.9998779296875,
+							"y": -24.954267501831055,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82"
+				}
+			}
+		},
+		"feedb6f6427338dc": {
+			"parent": "4c52396d2e579b8f",
+			"name": "palace_ext_balcony_trim_4_a_33",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balcony_trim_4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balcony_trim_4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -16.99987030029297,
+							"y": -32.95346450805664,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82"
+				}
+			}
+		},
+		"feedac973cfb2391": {
+			"parent": "437c3b63009c4f62",
+			"name": "palace_ext_floor_concrete_4x4_a_67",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_floor_concrete_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_floor_concrete_4x4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -14.034019470214844,
+							"y": -12.95982551574707,
+							"z": 8.020007133483887
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.800000011920929,
+						"y": 0.5,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82"
+				}
+			}
+		},
+		"feed3a0e1dbfa516": {
+			"parent": "0d72f7532e97659d",
+			"name": "palace_ext_balcony_trim_4_a_41",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balcony_trim_4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balcony_trim_4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -19.503921508789062,
+							"y": -17.011064529418945,
+							"z": 8
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82"
+				}
+			}
+		},
+		"feed9c5dcf0a85b8": {
+			"parent": "0d72f7532e97659d",
+			"name": "palace_ext_balcony_trim_4_a_41",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balcony_trim_4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balcony_trim_4_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -19.50389862060547,
+							"y": -21.003557205200195,
+							"z": 8
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82"
+				}
+			}
+		},
+		"feedc7ab94e1146f": {
+			"parent": "77b2661704611655",
+			"name": "palace_ext_balustrade_railing_4x1_a_34",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balustrade_railing_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balustrade_railing_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": -16.999900817871094,
+							"y": -8.000020027160645,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82",
+					"postInit": true
+				}
+			}
+		},
+		"feed35322610634c": {
+			"parent": "77b2661704611655",
+			"name": "palace_ext_balustrade_railing_4x1_a_34",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balustrade_railing_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balustrade_railing_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": -16.999900817871094,
+							"y": -8.000020027160645,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82",
+					"postInit": true
+				}
+			}
+		},
+		"feed59f3825acdb9": {
+			"parent": "77b2661704611655",
+			"name": "palace_ext_balustrade_railing_4x1_a_34",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balustrade_railing_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balustrade_railing_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": -16.997901916503906,
+							"y": -27.903303146362305,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82",
+					"postInit": true
+				}
+			}
+		},
+		"feed2e0eb86bf4ab": {
+			"parent": "77b2661704611655",
+			"name": "palace_ext_balustrade_railing_4x1_a_34",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balustrade_railing_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balustrade_railing_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": -16.999893188476562,
+							"y": -12.007136344909668,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82",
+					"postInit": true
+				}
+			}
+		},
+		"feed452fb023d678": {
+			"parent": "77b2661704611655",
+			"name": "palace_ext_balustrade_railing_4x1_a_34",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balustrade_railing_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balustrade_railing_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": -16.999900817871094,
+							"y": -8.000020027160645,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82",
+					"postInit": true
+				}
+			}
+		},
+		"feed7dd03e753139": {
+			"parent": "77b2661704611655",
+			"name": "palace_ext_balustrade_railing_4x1_a_34",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balustrade_railing_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balustrade_railing_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": -16.997901916503906,
+							"y": -19.981901168823242,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82",
+					"postInit": true
+				}
+			}
+		},
+		"feedab5830e9e440": {
+			"parent": "77b2661704611655",
+			"name": "palace_ext_balustrade_railing_4x1_a_34",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balustrade_railing_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balustrade_railing_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": -16.999900817871094,
+							"y": -8.000020027160645,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82",
+					"postInit": true
+				}
+			}
+		},
+		"feed3a3b7e75fe26": {
+			"parent": "77b2661704611655",
+			"name": "palace_ext_balustrade_railing_4x1_a_34",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balustrade_railing_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balustrade_railing_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": -16.99987030029297,
+							"y": -15.978453636169434,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82",
+					"postInit": true
+				}
+			}
+		},
+		"feed7e9d3603563f": {
+			"parent": "77b2661704611655",
+			"name": "palace_ext_balustrade_railing_4x1_a_34",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balustrade_railing_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balustrade_railing_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": -16.99785614013672,
+							"y": -23.95268440246582,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82",
+					"postInit": true
+				}
+			}
+		},
+		"feedee1512591b37": {
+			"parent": "77b2661704611655",
+			"name": "palace_ext_balustrade_railing_4x1_a_34",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balustrade_railing_4x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balustrade_railing_4x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": -16.999900817871094,
+							"y": -8.000020027160645,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82",
+					"postInit": true
+				}
+			}
+		},
+		"feed1d06421197dd": {
+			"parent": "1ca533aab968dcf6",
+			"name": "palace_garden_railing_4m_b_08",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace_garden/palace_garden_a.template?/palace_garden_railing_4m_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace_garden/palace_garden_a.template?/palace_garden_railing_4m_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.99950481125568
+						},
+						"position": {
+							"x": -16.156322479248047,
+							"y": -6.023186206817627,
+							"z": 8.001797676086426
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.100000023841858,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82",
+					"postInit": true
+				}
+			}
+		},
+		"feedf8227adae16c": {
+			"parent": "1ca533aab968dcf6",
+			"name": "palace_garden_railing_4m_b_08",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace_garden/palace_garden_a.template?/palace_garden_railing_4m_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace_garden/palace_garden_a.template?/palace_garden_railing_4m_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.99950481125568
+						},
+						"position": {
+							"x": -16.156330108642578,
+							"y": -1.6557279825210571,
+							"z": 8.00100040435791
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.100000023841858,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82",
+					"postInit": true
+				}
+			}
+		},
+		"feedb06eb3fc372a": {
+			"parent": "1ca533aab968dcf6",
+			"name": "palace_garden_railing_4m_b_08",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace_garden/palace_garden_a.template?/palace_garden_railing_4m_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace_garden/palace_garden_a.template?/palace_garden_railing_4m_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.99950481125568
+						},
+						"position": {
+							"x": -19.611358642578125,
+							"y": -20.873281478881836,
+							"z": 8
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82",
+					"postInit": true
+				}
+			}
+		},
+		"feedfa07cf11e68c": {
+			"parent": "1ca533aab968dcf6",
+			"name": "palace_garden_railing_4m_b_08",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace_garden/palace_garden_a.template?/palace_garden_railing_4m_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace_garden/palace_garden_a.template?/palace_garden_railing_4m_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.99950481125568
+						},
+						"position": {
+							"x": -22.45499038696289,
+							"y": -6.0843305587768555,
+							"z": 7.957710266113281
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82",
+					"postInit": true
+				}
+			}
+		},
+		"feede03c6059e381": {
+			"parent": "1ca533aab968dcf6",
+			"name": "palace_garden_railing_4m_b_08",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace_garden/palace_garden_a.template?/palace_garden_railing_4m_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace_garden/palace_garden_a.template?/palace_garden_railing_4m_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.99950481125568
+						},
+						"position": {
+							"x": -19.54696273803711,
+							"y": -4.057847023010254,
+							"z": 7.948358535766602
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82",
+					"postInit": true
+				}
+			}
+		},
+		"feedd6ad5cb8cabc": {
+			"parent": "1ca533aab968dcf6",
+			"name": "palace_garden_railing_4m_b_08",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace_garden/palace_garden_a.template?/palace_garden_railing_4m_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace_garden/palace_garden_a.template?/palace_garden_railing_4m_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.99950481125568
+						},
+						"position": {
+							"x": -19.611312866210938,
+							"y": -16.891149520874023,
+							"z": 8.00100040435791
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82",
+					"postInit": true
+				}
+			}
+		},
+		"feed4b8612b639a9": {
+			"parent": "1ca533aab968dcf6",
+			"name": "palace_garden_railing_4m_b_08",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace_garden/palace_garden_a.template?/palace_garden_railing_4m_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace_garden/palace_garden_a.template?/palace_garden_railing_4m_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.99950481125568
+						},
+						"position": {
+							"x": -16.156295776367188,
+							"y": -10.41199016571045,
+							"z": 8
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.1299999952316284,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82",
+					"postInit": true
+				}
+			}
+		},
+		"feed7c5a750b6947": {
+			"parent": "1ca533aab968dcf6",
+			"name": "palace_garden_railing_4m_b_08",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace_garden/palace_garden_a.template?/palace_garden_railing_4m_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace_garden/palace_garden_a.template?/palace_garden_railing_4m_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.055952911904113965
+						},
+						"position": {
+							"x": -15.938156127929688,
+							"y": -15.901106834411621,
+							"z": 7.999324321746826
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8999999761581421,
+						"y": 0.8999999761581421,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82",
+					"postInit": true
+				}
+			}
+		},
+		"feedf031609c80f6": {
+			"parent": "ec3814ac8630ddc9",
+			"name": "palace_ext_balustrade_solid_corner_1x1_a_05",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balustrade_solid_corner_1x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balustrade_solid_corner_1x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 179.94404708809589
+						},
+						"position": {
+							"x": -20.6114501953125,
+							"y": -25.85194969177246,
+							"z": 8
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82"
+				}
+			}
+		},
+		"feedddbd1209d7c1": {
+			"parent": "ec3814ac8630ddc9",
+			"name": "palace_ext_balustrade_solid_corner_1x1_a_05",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balustrade_solid_corner_1x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balustrade_solid_corner_1x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.055952911904113965
+						},
+						"position": {
+							"x": -18.621742248535156,
+							"y": -15.911734580993652,
+							"z": 8
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed7bee1a177bf82"
+				}
+			}
+		},
+		"feede65ccb5a1e5f": {
+			"parent": "ec3814ac8630ddc9",
+			"name": "palace_ext_balustrade_solid_corner_1x1_a_05",
+			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balustrade_solid_corner_1x1_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_balustrade_solid_corner_1x1_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 179.94404708809589
+						},
+						"position": {
+							"x": -17.143157958984375,
+							"y": -15.89526653289795,
+							"z": 8
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
 					}
 				},
 				"m_eidParent": {
@@ -7206,11 +10406,21 @@
 			}
 		}
 	},
-	"propertyOverrides": [],
-	"overrideDeletes": [],
-	"pinConnectionOverrides": [],
-	"pinConnectionOverrideDeletes": [],
-	"externalScenes": [],
+	"propertyOverrides": [
+
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+
+	],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [
@@ -7535,6 +10745,10 @@
 			"flag": "5F"
 		}
 	],
-	"extraBlueprintDependencies": [],
-	"comments": []
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
 }

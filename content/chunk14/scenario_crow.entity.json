@@ -58730,6 +58730,41 @@
 					"fffffffffffffffe"
 				]
 			}
+		},
+		"feedf44470573051": {
+			"parent": "cafeaedace358e0e",
+			"name": "Hawk_Garden_Centre_A",
+			"factory": "005B889897B4798D",
+			"blueprint": "0073BEDCA8B8CA9C",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 13,
+							"y": -8,
+							"z": -12
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "3ac25f2657314528",
+						"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+					}
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
 		}
 	},
 	"propertyOverrides": [
