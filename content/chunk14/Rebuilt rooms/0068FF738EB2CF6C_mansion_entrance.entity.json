@@ -1057,20 +1057,20 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 0
+							"z": 135.00004105222013
 						},
 						"position": {
-							"x": -13,
-							"y": -21.322200775146484,
-							"z": 12.024999618530273
+							"x": -19.154769897460938,
+							"y": -18.712257385253906,
+							"z": 12.025135040283203
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
 					"value": {
-						"x": 0.5,
-						"y": 1,
+						"x": 0.4000000059604645,
+						"y": 2,
 						"z": 1
 					}
 				},
@@ -3431,9 +3431,9 @@
 							"z": 44.99999517032684
 						},
 						"position": {
-							"x": -11.143196105957031,
-							"y": -26.632991790771484,
-							"z": 12.025115966796875
+							"x": -10.923812866210938,
+							"y": -27.05489730834961,
+							"z": 12.025104522705078
 						}
 					}
 				},
@@ -3444,7 +3444,7 @@
 				"m_PrimitiveScale": {
 					"type": "SVector3",
 					"value": {
-						"x": 2,
+						"x": 1,
 						"y": 2,
 						"z": 1
 					}
@@ -8134,33 +8134,6 @@
 				}
 			}
 		},
-		"6e3d4f3d5a9431d4": {
-			"parent": "49b7b747f95deb3f",
-			"name": "palace_ext_floor_concrete_4x4_a_31",
-			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_floor_concrete_4x4_a.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_floor_concrete_4x4_a.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 44.99999758516352
-						},
-						"position": {
-							"x": -15.981548309326172,
-							"y": -21.806976318359375,
-							"z": 12.024847984313965
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "49b7b747f95deb3f"
-				}
-			}
-		},
 		"08e76c631212397c": {
 			"parent": "49b7b747f95deb3f",
 			"name": "palace_ext_balustrade_railing_4x1_a_09",
@@ -9294,19 +9267,19 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 0
+							"z": 44.99999517032684
 						},
 						"position": {
-							"x": -10.999990463256836,
-							"y": -17.32221031188965,
-							"z": 12.024999618530273
+							"x": -10.491168975830078,
+							"y": -21.375045776367188,
+							"z": 12.02492904663086
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
 					"value": {
-						"x": 1,
+						"x": 3,
 						"y": 1.5,
 						"z": 1
 					}
@@ -16391,7 +16364,7 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 44.99999517032684
+							"z": 45
 						},
 						"position": {
 							"x": -18.776241302490234,
