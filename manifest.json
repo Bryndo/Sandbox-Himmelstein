@@ -24,12 +24,34 @@
             "type": "entity",
             "partition": "hawk",
             "path": "[assembly:/_pro/scenes/missions/hawk/scene_crow.entity].entitytemplate"
+        },
+        {
+            "type": "entity",
+            "partition": "hawk",
+            "path": "[assembly:/_pro/scenes/missions/hawk/npcs_bryndo_day.brick].entitytype"
+        },
+        {
+            "type": "entity",
+            "partition": "hawk",
+            "path": "[assembly:/_pro/scenes/missions/hawk/npcs_bryndo.brick].entitytype"
+        },
+        {
+            "type": "entity",
+            "partition": "hawk",
+            "path": "[assembly:/_pro/scenes/missions/hawk/outfits_crow.brick].entitytype"
+        },
+        {
+            "type": "entity",
+            "partition": "hawk",
+            "path": "[assembly:/_pro/scenes/missions/hawk/scenario_raven.brick].entitytype"
         }
     ],
     "localisation": {
         "english": {
             "UI_CONTRACT_CROW_DESC": "We have finally found the final leader of the Keepers",
-            "UI_CONTRACT_CROW_TITLE": "The last Yardbird",
+            "UI_CONTRACT_CROW_TITLE": "Crow",
+            "UI_CONTRACT_RAVEN_TITLE": "Raven",
+            "UI_CONTRACT_RAVEN_DESC":"Raven desc",
             "UI_STARTING_LOCATION_CROW_CARPARK_NAME": "Hotel carpark",
             "UI_STARTING_LOCATION_CROW_CARPARK_DESC": "47 arrived at the hotel car park"
         }
@@ -473,9 +495,9 @@
             "Comment": "paris lamp"
         },
         {
-            "runtimeID": "00B58741EEE4DC0A",
+            "runtimeID": "00B5B61235BED220",
             "toChunk": 14,
-            "Comment": ""
+            "Comment": "llama sky"
         },
         {
             "runtimeID": "00B58741EEE4DC0A",

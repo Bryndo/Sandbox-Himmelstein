@@ -1,0 +1,1783 @@
+{
+	"tempHash": "0083040A5081ECF8",
+	"tbluHash": "007944C3CA4B446A",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scenario_Raven",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		},
+		"cafedd487da29282": {
+			"parent": "fffffffffffffffe",
+			"name": "Lighting",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe00022375dadc": {
+			"parent": "cafe69d241b6d83d",
+			"name": "Any npc died_Level 1",
+			"factory": "[modules:/zeventreceiverentity_void.class].pc_entitytype",
+			"blueprint": "[modules:/zeventreceiverentity_void.class].pc_entityblueprint",
+			"events": {
+				"EventReceived": { "SetTrue": ["cafe5b9baf071250"] }
+			}
+		},
+		"cafe5aef3164a6ba": {
+			"parent": "cafe69d241b6d83d",
+			"name": "AddSubstract",
+			"factory": "[modules:/zmathaddsubstract.class].pc_entitytype",
+			"blueprint": "[modules:/zmathaddsubstract.class].pc_entityblueprint"
+		},
+		"cafe86dedb83ffdd": {
+			"parent": "cafe69d241b6d83d",
+			"name": "fx_frostonscreen",
+			"factory": "[assembly:/_pro/effects/materials/misc/fx_frostonscreen.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/materials/misc/fx_frostonscreen.mi].pc_entityblueprint",
+			"properties": {
+				"Active": { "type": "bool", "value": true },
+				"Override": { "type": "bool", "value": true },
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/effects/textures/misc/frostonscreen.texture?/frozenscreen_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"FrozenIntensity_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"FrozenIntensity": { "type": "float32", "value": 0.0 },
+				"FrostOnScreenColor_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"FrostOnScreenColor": {
+					"type": "SColorRGB",
+					"value": "#79fcca"
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafec29e9daf4a50"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafea7d73b1bebd2": {
+			"parent": "cafe69d241b6d83d",
+			"name": "TimerConditional",
+			"factory": "[assembly:/_pro/design/logic.template?/timerconditional.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic.template?/timerconditional.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_nInterval": { "type": "int32", "value": 2000 },
+				"m_bResetOnLoad": { "type": "bool", "value": true },
+				"m_bResetWhenStopped": { "type": "bool", "value": true },
+				"m_pCondition": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe5b9baf071250",
+					"postInit": true
+				}
+			},
+			"events": {
+				"TimeOut": {
+					"SetFalse": ["cafe5b9baf071250"],
+					"SetTrue": ["cafe95664ac4d714"]
+				}
+			}
+		},
+		"cafe414724b0eeab": {
+			"parent": "cafe2fe442424ebb",
+			"name": "Light_CSM",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_DIRECTIONAL"
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 573.0609741210938,
+						"y": 359.9079895019531,
+						"z": 705.3460083007812
+					}
+				},
+				"m_bCastCSMShadows": { "type": "bool", "value": true },
+				"m_fDiffusePower": { "type": "float32", "value": 500.0 },
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_eRoomLightFlow": {
+					"type": "ILightEntity.ERoomLightFlow",
+					"value": "AUTOMATIC"
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 66.99322038825285,
+							"y": -0.6370844969737253,
+							"z": 141.1147380273028
+						},
+						"position": {
+							"x": 12.998140335083008,
+							"y": -251.5525054931641,
+							"z": -9.488112449645996
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC_OUTSIDE_CLIENT"
+				},
+				"m_fLightBleedingReduction": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"m_diffuseColor": {
+					"type": "SColorRGB",
+					"value": "#fcccac"
+				},
+				"m_vCSMCascadeRadii": {
+					"type": "SVector3",
+					"value": { "x": -1.0, "y": -1.0, "z": 15.0 }
+				},
+				"m_bForceVisible": { "type": "bool", "value": false },
+				"m_bPCCastShadows": { "type": "bool", "value": false },
+				"m_bCastOmniShadows": { "type": "bool", "value": false },
+				"m_bUseDynamicShadowMap": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bUseStaticShadowMap": { "type": "bool", "value": true },
+				"m_bHighShadowPriority": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCrowdCastShadows": { "type": "bool", "value": true },
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.0,
+						"y": 0.019999999552965164,
+						"z": 0.0
+					}
+				},
+				"m_bHQDynamicShadowMap": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bHQStaticShadowMap": { "type": "bool", "value": false },
+				"m_bEnableLightFade": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe1ba55fde8724": {
+			"parent": "cafe2fe442424ebb",
+			"name": "TimeOfDayConfig",
+			"factory": "[modules:/ztimeofdayconfig.class].pc_entitytype",
+			"blueprint": "[modules:/ztimeofdayconfig.class].pc_entityblueprint",
+			"properties": {
+				"m_fTimeOfDay": { "type": "float32", "value": 20.0 }
+			}
+		},
+		"cafec25c5d6c2414": {
+			"parent": "cafec47bde5c2224",
+			"name": "Poisoned",
+			"factory": "[modules:/zeventreceiverentity_void.class].pc_entitytype",
+			"blueprint": "[modules:/zeventreceiverentity_void.class].pc_entityblueprint",
+			"events": {
+				"EventReceived": {
+					"LowHealth": ["cafe72eb20102037"],
+					"Impact": ["cafe72eb20102037"]
+				}
+			}
+		},
+		"cafed51c7bab4bd7": {
+			"parent": "cafec47bde5c2224",
+			"name": "Briefing Interrupted",
+			"factory": "[modules:/zeventreceiverentity_void.class].pc_entitytype",
+			"blueprint": "[modules:/zeventreceiverentity_void.class].pc_entityblueprint",
+			"events": {
+				"EventReceived": { "Blinded": ["cafe72eb20102037"] }
+			}
+		},
+		"cafec426758aeced": {
+			"parent": "cafe69d241b6d83d",
+			"name": "TimerConditional 3",
+			"factory": "[assembly:/_pro/design/logic.template?/timerconditional.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic.template?/timerconditional.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_nInterval": { "type": "int32", "value": 500 },
+				"m_bResetOnLoad": { "type": "bool", "value": true },
+				"m_bResetWhenStopped": { "type": "bool", "value": true },
+				"m_pCondition": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe95664ac4d714",
+					"postInit": true
+				}
+			},
+			"events": { "TimeOut": { "SetTrue": ["cafe5b9baf071250"] } }
+		},
+		"cafe40233c2f18a4": {
+			"parent": "cafec47bde5c2224",
+			"name": "MiddleGrayCurve_Outdoor",
+			"factory": "[modules:/zmiddlegraycurveentity.class].pc_entitytype",
+			"blueprint": "[modules:/zmiddlegraycurveentity.class].pc_entityblueprint",
+			"properties": {
+				"m_Remap": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								-6.0, 0.010767234489321709, 0.0, 0.0, 0.0,
+								0.0, 0.000498406880069524,
+								0.010767234489321709
+							],
+							[
+								-5.917502403259277, 0.011265642009675505,
+								0.0, 0.0, 0.0, 0.0, 0.027012616395950317,
+								0.011265642009675505
+							],
+							[
+								-3.4582889080047607, 0.038278259336948395,
+								0.0, 0.0, 0.0, 0.0, 0.008435086347162724,
+								0.038278259336948395
+							],
+							[
+								-0.8059197068214417, 0.046713344752788544,
+								0.0, 0.0, 0.0, 0.0, 0.009239163249731064,
+								0.046713344752788544
+							],
+							[
+								-0.0027011604979634285,
+								0.05595250800251961, 0.0, 0.0, 0.0, 0.0,
+								0.020291034132242203, 0.05595250800251961
+							],
+							[
+								0.6989414095878601, 0.07624354213476181,
+								0.0, 0.0, 0.0, 0.0, 0.03726620972156525,
+								0.07624354213476181
+							],
+							[
+								1.3762341737747192, 0.11350975185632706,
+								0.0, 0.0, 0.0, 0.0, 0.052331652492284775,
+								0.11350975185632706
+							],
+							[
+								1.96935772895813, 0.16584140062332153, 0.0,
+								0.0, 0.0, 0.0, 0.09392078220844267,
+								0.16584140062332153
+							],
+							[
+								2.3872971534729004, 0.2597621977329254,
+								0.0, 0.0, 0.0, 0.0, 0.0, 0.2597621977329254
+							]
+						]
+					}
+				}
+			}
+		},
+		"cafe7e05fd96dff7": {
+			"parent": "cafec47bde5c2224",
+			"name": "MiddleGrayCurve_Indoor",
+			"factory": "[modules:/zmiddlegraycurveentity.class].pc_entitytype",
+			"blueprint": "[modules:/zmiddlegraycurveentity.class].pc_entityblueprint",
+			"properties": {
+				"m_Remap": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								-6.0, 0.010767234489321709, 0.0, 0.0, 0.0,
+								0.0, 0.000498406880069524,
+								0.010767234489321709
+							],
+							[
+								-5.917502403259277, 0.011265642009675505,
+								0.0, 0.0, 0.0, 0.0, 0.02049107849597931,
+								0.011265642009675505
+							],
+							[
+								-3.4582889080047607, 0.031756721436977386,
+								0.0, 0.0, 0.0, 0.0, 0.0107564777135849,
+								0.031756721436977386
+							],
+							[
+								-1.8051584959030151, 0.042513199150562286,
+								0.0, 0.0, 0.0, 0.0, 0.00807222444564104,
+								0.042513199150562286
+							],
+							[
+								-0.8059197068214417, 0.05058542266488075,
+								0.0, 0.0, 0.0, 0.0, 0.009464259259402752,
+								0.05058542266488075
+							],
+							[
+								-0.0027011604979634285,
+								0.06004968285560608, 0.0, 0.0, 0.0, 0.0,
+								0.021753480657935143, 0.06004968285560608
+							],
+							[
+								0.6989414095878601, 0.08180316537618637,
+								0.0, 0.0, 0.0, 0.0, 0.035800106823444366,
+								0.08180316537618637
+							],
+							[
+								1.3762341737747192, 0.11760326474905014,
+								0.0, 0.0, 0.0, 0.0, 0.08582642674446106,
+								0.11760326474905014
+							],
+							[
+								2.3872971534729004, 0.2034296989440918,
+								0.0, 0.0, 0.0, 0.0, 0.0, 0.2034296989440918
+							]
+						]
+					}
+				}
+			}
+		},
+		"cafe536946e415b6": {
+			"parent": "cafe69d241b6d83d",
+			"name": "WaveformGenerator",
+			"factory": "[modules:/zwaveformgeneratorentity.class].pc_entitytype",
+			"blueprint": "[modules:/zwaveformgeneratorentity.class].pc_entityblueprint",
+			"properties": {
+				"m_fFrequency": {
+					"type": "float32",
+					"value": 0.1599999964237213
+				},
+				"m_fScale": {
+					"type": "float32",
+					"value": 0.33000001311302185
+				},
+				"m_eCurveType": {
+					"type": "ZWaveformGeneratorEntity.ECurveType",
+					"value": "CURVE_TYPE_SINE"
+				},
+				"m_fOffset": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_bRunOnGameTime": { "type": "bool", "value": true }
+			},
+			"events": {
+				"Value": {
+					"FrozenIntensity": ["cafe86dedb83ffdd"],
+					"Value": ["cafe09a30a1d8ef5"]
+				},
+				"OnStopped": {
+					"Input": [
+						{
+							"ref": "cafe6ae40b5077c0",
+							"value": {
+								"type": "float32",
+								"value": 0.20000000298023224
+							}
+						}
+					]
+				}
+			}
+		},
+		"cafe57df67a44fa4": {
+			"parent": "cafe69d241b6d83d",
+			"name": "TimerConditional 2",
+			"factory": "[assembly:/_pro/design/logic.template?/timerconditional.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic.template?/timerconditional.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_nInterval": { "type": "int32", "value": 2000 },
+				"m_bResetOnLoad": { "type": "bool", "value": true },
+				"m_bResetWhenStopped": { "type": "bool", "value": true },
+				"m_pCondition": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe95664ac4d714",
+					"postInit": true
+				}
+			},
+			"events": {
+				"TimeOut": {
+					"SetFalse": ["cafe95664ac4d714", "cafe5b9baf071250"]
+				}
+			}
+		},
+		"cafe09a30a1d8ef5": {
+			"parent": "cafe69d241b6d83d",
+			"name": "FloatRangeComparator",
+			"factory": "[modules:/zfloatrangecomparatorentity.class].pc_entitytype",
+			"blueprint": "[modules:/zfloatrangecomparatorentity.class].pc_entityblueprint",
+			"properties": {
+				"m_fMinValue": {
+					"type": "float32",
+					"value": 0.20000000298023224
+				}
+			},
+			"events": { "WentBelowMin": { "Stop": ["cafe536946e415b6"] } }
+		},
+		"cafe203c73d70b67": {
+			"parent": "cafe69d241b6d83d",
+			"name": "Set BlackWeight",
+			"factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_set.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_set.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeb5051c9b9fbe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe6a24fb0a3902": {
+			"parent": "cafe2fe442424ebb",
+			"name": "Wind_Global",
+			"factory": "[modules:/zwindentity.class].pc_entitytype",
+			"blueprint": "[modules:/zwindentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 54.38703375302177
+						},
+						"position": {
+							"x": 115.69920349121094,
+							"y": -98.44921875,
+							"z": 51.24686050415039
+						}
+					}
+				},
+				"m_fStrength": { "type": "float32", "value": 4.0 },
+				"m_fStrengthAmplitude": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"m_bGlobal": { "type": "bool", "value": true },
+				"m_fAngularDeviationY": {
+					"type": "float32",
+					"value": 25.0
+				},
+				"m_fAngularDeviationZ": {
+					"type": "float32",
+					"value": 30.0
+				},
+				"m_fStrengthFrequency": {
+					"type": "float32",
+					"value": 0.7541999816894531
+				},
+				"m_fDirectionFrequency": {
+					"type": "float32",
+					"value": 0.3456000089645386
+				},
+				"m_fSpeedTreeStrength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe0e11b4d34d3b": {
+			"parent": "cafe69d241b6d83d",
+			"name": "EventChannelReceiver_ValueBool",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_valuebool.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_valuebool.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_bValue": { "type": "bool", "value": true },
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "cafecc31d0a881a3",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnFalse": {
+					"MakeVisible": ["cafec29e9daf4a50"],
+					"Start": ["cafe536946e415b6"]
+				},
+				"OnTrue": { "Stop": ["cafe536946e415b6"] }
+			}
+		},
+		"cafe2fe442424ebb": {
+			"parent": "cafedd487da29282",
+			"name": "GlobalLighting",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe95664ac4d714": {
+			"parent": "cafe69d241b6d83d",
+			"name": "ValueBool_Basic_02",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
+		},
+		"cafec29e9daf4a50": {
+			"parent": "cafe69d241b6d83d",
+			"name": "fx_plane_1m_flatman",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/effects/geometry/misc/fx_basic_shapes.wl2?/fx_plane_1m.prim].entitytype,[modules:/zdraworderentity.class].entitytype,[modules:/zblurbufferentity.class].entitytype,[modules:/zhm5collisionlayerentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zdraworderentity.class].entitytype,[modules:/zblurbufferentity.class].entitytype,[modules:/zhm5collisionlayerentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90.6692870634123,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": {
+							"x": -0.00013699999544769526,
+							"y": -0.0054790000431239605,
+							"z": 1.251615047454834
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_bIsPrivate": { "type": "bool", "value": true },
+				"m_eGlowType": {
+					"type": "ERenderGlowTypes",
+					"value": "ERENDERGLOWTYPE_EMISSIVE_UI_IGNORE_DEPTH"
+				},
+				"m_nDrawOrder": { "type": "uint8", "value": 3 },
+				"m_bBlurBufferEarly": { "type": "bool", "value": false },
+				"m_bBlurBufferPassive": { "type": "bool", "value": false },
+				"m_eLayer": {
+					"type": "ECollidableLayer",
+					"value": "eCollLayer_SHOT_ONLY_COLLISION"
+				},
+				"m_bVisible": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": null,
+					"postInit": true
+				}
+			},
+			"platformSpecificProperties": {
+				"VR": { "m_bVisible": { "type": "bool", "value": false } }
+			}
+		},
+		"cafeb5051c9b9fbe": {
+			"parent": "cafe69d241b6d83d",
+			"name": "BlackWeight",
+			"factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_entityproperty.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_entityproperty.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_sPropertyName": {
+					"type": "ZString",
+					"value": "BlackWeight"
+				},
+				"m_rEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe72eb20102037",
+					"postInit": true
+				}
+			}
+		},
+		"cafedff493058fa0": {
+			"parent": "cafe69d241b6d83d",
+			"name": "CurveEvaluator",
+			"factory": "[modules:/zcurveevaluator.class].pc_entitytype",
+			"blueprint": "[modules:/zcurveevaluator.class].pc_entityblueprint",
+			"properties": {
+				"m_Curve": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0.0, 0.0, 0.0, 0.0, -0.21460182964801788,
+								0.7146018147468567, 4.8090179775077144e-17,
+								0.0
+							],
+							[
+								0.1041666641831398, 0.5, 0.0, 0.0,
+								-0.21460182964801788, -0.07079632580280304,
+								0.7853981852531433, 0.5
+							],
+							[
+								0.2083333283662796, 1.0, 0.0, 0.0,
+								0.21460182964801788, -0.7146018147468567,
+								-4.8090179775077144e-17, 1.0
+							],
+							[
+								0.6041666865348816, 0.5, 0.0, 0.0,
+								0.21460182964801788, 0.07079632580280304,
+								-0.7853981852531433, 0.5
+							],
+							[
+								1.0, 0.0, 0.0, 0.0, -0.10534999519586564,
+								0.35080453753471375,
+								2.3607906735830818e-17, 0.0
+							],
+							[
+								1.1491228342056274, 0.2454545497894287,
+								0.0, 0.0, -0.10534999519586564,
+								-0.03475455939769745, 0.3855591118335724,
+								0.2454545497894287
+							],
+							[
+								1.2982456684112549, 0.4909090995788574,
+								0.0, 0.0, 0.0, 0.0, -0.48363634943962097,
+								0.4909090995788574
+							],
+							[
+								1.997807025909424, 0.007272727321833372,
+								0.0, 0.0, 0.0, 0.0, 0.0,
+								0.007272727321833372
+							]
+						]
+					}
+				}
+			}
+		},
+		"cafec2e65107e414": {
+			"parent": "cafe69d241b6d83d",
+			"name": "TokenID_VFX_BLACK",
+			"factory": "[modules:/ztokenidentity.class].pc_entitytype",
+			"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
+			"properties": {
+				"m_sName": { "type": "ZString", "value": "VFX_BLACK" }
+			}
+		},
+		"cafe2cb238a3d8ef": {
+			"parent": "cafe2fe442424ebb",
+			"name": "Sky_Sunset_v5_106a",
+			"factory": "[assembly:/_pro/environment/templates/backdrop/sky/sky_newseasons.template?/sky_sunset_v5_106a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/backdrop/sky/sky_newseasons.template?/sky_sunset_v5_106a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -49.00000089438635
+						},
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"ConstantVector1D_07_Value": {
+					"type": "float32",
+					"value": 5.0
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"ConstantVector1D_02_Value": {
+					"type": "float32",
+					"value": 0.800000011920929
+				},
+				"ConstantColorRGB_01_Value": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"m_bForceVisible": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafe94304a879652": {
+			"parent": "cafe69d241b6d83d",
+			"name": "WaveformGenerator 2",
+			"factory": "[modules:/zwaveformgeneratorentity.class].pc_entitytype",
+			"blueprint": "[modules:/zwaveformgeneratorentity.class].pc_entityblueprint",
+			"properties": {
+				"m_fFrequency": { "type": "float32", "value": 0.5 },
+				"m_fScale": { "type": "float32", "value": 2.0 },
+				"m_eCurveType": {
+					"type": "ZWaveformGeneratorEntity.ECurveType",
+					"value": "CURVE_TYPE_SAWTOOTH"
+				},
+				"m_fOffset": { "type": "float32", "value": 0.0 },
+				"m_bRunOnGameTime": { "type": "bool", "value": true },
+				"m_nLoopCount": { "type": "uint32", "value": 1 }
+			}
+		},
+		"cafe5a127dcd8674": {
+			"parent": "cafec47bde5c2224",
+			"name": "PostfilterParameters_Outdoor",
+			"factory": "[modules:/zrenderpostfilterparametersentity.class].pc_entitytype",
+			"blueprint": "[modules:/zrenderpostfilterparametersentity.class].pc_entityblueprint",
+			"properties": {
+				"m_bColorCorrectionEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bDistortionBarrelEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bHDRLensFlareEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bHDRGlareEnabled": { "type": "bool", "value": true },
+				"m_fHDRBrightPassThreshold": {
+					"type": "float32",
+					"value": 0.2199999988079071
+				},
+				"m_bNoiseEnabled": { "type": "bool", "value": true },
+				"m_fNoiseScale": { "type": "float32", "value": 0.5 },
+				"m_bSSAOEnabled": { "type": "bool", "value": true },
+				"m_fSSAOOcclusionRange": {
+					"type": "float32",
+					"value": 2.0
+				},
+				"m_bDepthOfFieldEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bFogEnabled": { "type": "bool", "value": false },
+				"m_fFogDensity": {
+					"type": "float32",
+					"value": 0.10999999940395357
+				},
+				"m_FogColor": { "type": "SColorRGB", "value": "#171c21" },
+				"m_bGaussianBlurEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fDepthOfFieldBlurriness": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"m_fHDRLensFlareAttenuation": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"m_fHDRBloomScale": { "type": "float32", "value": 1.0 },
+				"m_fDistortionBarrelScale": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"m_fNoiseIntensity": {
+					"type": "float32",
+					"value": 0.029999999329447743
+				},
+				"m_HDRLensFlareColorD": {
+					"type": "SColorRGB",
+					"value": "#665a4d"
+				},
+				"m_HDRLensFlareColorC": {
+					"type": "SColorRGB",
+					"value": "#cc9633"
+				},
+				"m_fVignetteMin": {
+					"type": "float32",
+					"value": 0.6000000238418579
+				},
+				"m_fDepthOfFieldFocusEnd": {
+					"type": "float32",
+					"value": 1000.0
+				},
+				"m_bFogGlobal": { "type": "bool", "value": false },
+				"m_fFogTurbulenceOpacity": {
+					"type": "float32",
+					"value": 0.800000011920929
+				},
+				"m_fDepthOfFieldFocalFadeFar": {
+					"type": "float32",
+					"value": 500.0
+				},
+				"m_bVignetteEnabled": { "type": "bool", "value": true },
+				"m_fVignetteStrength": {
+					"type": "float32",
+					"value": 0.6000000238418579
+				},
+				"m_VignetteColor": {
+					"type": "SColorRGB",
+					"value": "#000000"
+				},
+				"m_bSpatialBlurEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bRadialBlurEnabled": { "type": "bool", "value": false },
+				"m_fRadialBlurriness": { "type": "float32", "value": 1.0 },
+				"m_bDistortionWobbleEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bDistortionWobbleUseRealTime": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fDistortionWobbleScale": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"m_fGaussianBlurriness": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"m_vRadialBlurCenter": {
+					"type": "SVector2",
+					"value": { "x": 0.5, "y": 0.5 }
+				},
+				"m_fRadialBlurStart": { "type": "float32", "value": 0.0 },
+				"m_fRadialBlurFadeFactor": {
+					"type": "float32",
+					"value": 0.10999999940395357
+				},
+				"m_vSpatialBlurCenter": {
+					"type": "SVector3",
+					"value": { "x": 0.0, "y": 0.0, "z": 0.0 }
+				},
+				"m_fSpatialBlurStart": { "type": "float32", "value": 0.0 },
+				"m_fSpatialBlurFade": { "type": "float32", "value": 10.0 },
+				"m_fSpatialBlurriness": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"m_fDepthOfFieldFocusStart": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"m_fDepthOfFieldFocalFadeNear": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"m_vDistortionBarrel": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.2199999988079071,
+						"y": 0.05999999865889549
+					}
+				},
+				"m_bDistortionBarrelUseRealTime": {
+					"type": "bool",
+					"value": false
+				},
+				"m_vDistortionWobbleWaveLength": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.029999999329447743,
+						"y": 0.029999999329447743
+					}
+				},
+				"m_vDistortionWobbleSpeed": {
+					"type": "SVector2",
+					"value": { "x": 1.0, "y": 1.0 }
+				},
+				"m_vFogTurbulenceNearScale": {
+					"type": "SVector3",
+					"value": { "x": 10.0, "y": 10.0, "z": 10.0 }
+				},
+				"m_vFogTurbulenceVelocity": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.30000001192092896,
+						"y": 0.5,
+						"z": 0.10000000149011612
+					}
+				},
+				"m_fFogTurbulenceChaos": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"m_vHDRAdaptationSpeed": {
+					"type": "SVector2",
+					"value": { "x": 3.0, "y": 3.0 }
+				},
+				"m_HDRLensFlareColorA": {
+					"type": "SColorRGB",
+					"value": "#7fc8f0"
+				},
+				"m_vVignetteGradientLightColor": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"m_fVignetteGradientLightStrength": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"m_bDepthOfFieldUseNew": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fDepthOfFieldFocalDistance": {
+					"type": "float32",
+					"value": 10.0
+				},
+				"m_fDepthOfFieldAperture": {
+					"type": "float32",
+					"value": 3.0
+				},
+				"m_bDoubleVisionEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fDoubleVisionStrength": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"m_fDoubleVisionSpeed": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"m_fDoubleVisionEyeSeparation": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"m_fDoubleVisionSpeed1": {
+					"type": "float32",
+					"value": 147.0
+				},
+				"m_fDoubleVisionSpeed2": {
+					"type": "float32",
+					"value": 109.0
+				},
+				"m_fDoubleVisionScaleSpeed1": {
+					"type": "float32",
+					"value": 121.0
+				},
+				"m_fDoubleVisionScaleSpeed2": {
+					"type": "float32",
+					"value": 97.0
+				},
+				"m_fDoubleVisionMinScale": {
+					"type": "float32",
+					"value": 0.07000000029802322
+				},
+				"m_fDoubleVisionMaxScale": {
+					"type": "float32",
+					"value": 0.09000000357627869
+				},
+				"m_fDoubleVisionBlendSpeed": {
+					"type": "float32",
+					"value": 80.0
+				},
+				"m_fDoubleVisionBlendStrength": {
+					"type": "float32",
+					"value": 0.20000000298023224
+				},
+				"m_fDoubleVisionTrailStrength": {
+					"type": "float32",
+					"value": 0.05000000074505806
+				},
+				"m_fHDRBloomFalloff": { "type": "float32", "value": 1.5 },
+				"m_fHDRBrightPassMaxPercentage": {
+					"type": "float32",
+					"value": 90.0
+				},
+				"m_vHDRAdaptationMiddleGrayMinMax": {
+					"type": "SVector2",
+					"value": { "x": 0.10000000149011612, "y": 0.5 }
+				},
+				"m_nParameterId": { "type": "int32", "value": 0 },
+				"m_HDRAdaptionMiddleGrayCurveEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe40233c2f18a4"
+				},
+				"m_vHDRAdaptationLuminanceMinMax": {
+					"type": "SVector2",
+					"value": { "x": 0.10000000149011612, "y": 150.0 }
+				},
+				"m_vSSAOStrengthNearFar": {
+					"type": "SVector2",
+					"value": { "x": 0.0, "y": 15.0 }
+				},
+				"m_vSSAODistanceNearFar": {
+					"type": "SVector2",
+					"value": { "x": 0.0, "y": 15.0 }
+				},
+				"m_vSSAOScreenSpaceRadiusLimits": {
+					"type": "SVector2",
+					"value": { "x": 10.0, "y": 500.0 }
+				},
+				"m_fLensBlur": { "type": "float32", "value": 0.5 },
+				"m_eBlurQuality": {
+					"type": "ZRenderPostfilterParametersEntity.EDOFBlurType",
+					"value": "eLowRezLensBlurSoft"
+				},
+				"m_bForegroundBlur": { "type": "bool", "value": false },
+				"m_fLabsDofAnamorphic": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"m_fLabsDofSwirl": { "type": "float32", "value": 0.0 },
+				"m_eHDRGlareType": {
+					"type": "ZRenderPostfilterParametersEntity.EHDRGlareType",
+					"value": "eFilterSunnyCrossSpectral"
+				},
+				"m_fHDRStarScale": {
+					"type": "float32",
+					"value": 0.20000000298023224
+				},
+				"m_fHDRExposureMeteringSize": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"m_fASSAORadius": { "type": "float32", "value": 1.0 },
+				"ColorCorrectionTextureHDR": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/effects/textures/lut/cubelut/llama.cube](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"m_vHDRBloomMinFalloffDistanceMinMax": {
+					"type": "SVector2",
+					"value": { "x": -5.0, "y": 5.0 }
+				},
+				"m_fVignetteSharpenStrength": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"m_vASSAOFadeInRange": {
+					"type": "SVector2",
+					"value": { "x": -5.0, "y": 10.0 }
+				},
+				"m_fASSAOMultiplier": { "type": "float32", "value": 1.0 },
+				"m_bHDREnabled": { "type": "bool", "value": true }
+			}
+		},
+		"cafe47aafac8481a": {
+			"parent": "cafe2fe442424ebb",
+			"name": "GlobalLight",
+			"factory": "[modules:/zgloballightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgloballightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 77.42231750488281,
+							"y": -22.65983009338379,
+							"z": 55.446388244628906
+						}
+					}
+				},
+				"m_fGlobalLightFrontIntensity": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"m_fGlobalLightBackIntensity": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"m_GlobalLightBackColor": {
+					"type": "SColorRGB",
+					"value": "#dbe8ff"
+				},
+				"m_GlobalLightFrontColor": {
+					"type": "SColorRGB",
+					"value": "#dbe8ff"
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_fGlobalLightPhong": { "type": "float32", "value": 1.0 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafecc31d0a881a3": {
+			"parent": "cafe69d241b6d83d",
+			"name": "TokenID_VFX_DREAM",
+			"factory": "[modules:/ztokenidentity.class].pc_entitytype",
+			"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
+			"properties": {
+				"m_sName": { "type": "ZString", "value": "VFX_DREAM" }
+			}
+		},
+		"cafe28876cd0bbbe": {
+			"parent": "cafec47bde5c2224",
+			"name": "EventReceiver_void_Dance",
+			"factory": "[modules:/zeventreceiverentity_void.class].pc_entitytype",
+			"blueprint": "[modules:/zeventreceiverentity_void.class].pc_entityblueprint",
+			"events": {
+				"EventReceived": {
+					"DOFMediumBlendIn": ["cafe72eb20102037"]
+				}
+			}
+		},
+		"cafef8e4761a1259": {
+			"parent": "cafec47bde5c2224",
+			"name": "PostfilterParameters_Indoor",
+			"factory": "[modules:/zrenderpostfilterparametersentity.class].pc_entitytype",
+			"blueprint": "[modules:/zrenderpostfilterparametersentity.class].pc_entityblueprint",
+			"properties": {
+				"m_bColorCorrectionEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bDistortionBarrelEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bHDRLensFlareEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bHDRGlareEnabled": { "type": "bool", "value": true },
+				"m_fHDRBrightPassThreshold": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"m_bNoiseEnabled": { "type": "bool", "value": true },
+				"m_fNoiseScale": { "type": "float32", "value": 0.5 },
+				"m_bSSAOEnabled": { "type": "bool", "value": true },
+				"m_fSSAOOcclusionRange": {
+					"type": "float32",
+					"value": 2.0
+				},
+				"m_bDepthOfFieldEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bFogEnabled": { "type": "bool", "value": false },
+				"m_fFogDensity": {
+					"type": "float32",
+					"value": 0.10999999940395357
+				},
+				"m_FogColor": { "type": "SColorRGB", "value": "#171c21" },
+				"m_bGaussianBlurEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fDepthOfFieldBlurriness": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"m_fHDRLensFlareThresholdA": {
+					"type": "float32",
+					"value": 0.4699999988079071
+				},
+				"m_fHDRLensFlareAttenuation": {
+					"type": "float32",
+					"value": 0.20000000298023224
+				},
+				"m_fHDRBloomScale": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"m_fDistortionBarrelScale": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"m_fNoiseIntensity": {
+					"type": "float32",
+					"value": 0.029999999329447743
+				},
+				"m_fHDRLensFlareThresholdB": {
+					"type": "float32",
+					"value": 0.4300000071525574
+				},
+				"m_fHDRLensFlareThresholdC": {
+					"type": "float32",
+					"value": 0.024000000208616257
+				},
+				"m_fHDRLensFlareThresholdD": {
+					"type": "float32",
+					"value": 0.019999999552965164
+				},
+				"m_HDRLensFlareColorC": {
+					"type": "SColorRGB",
+					"value": "#4b82bd"
+				},
+				"m_fDepthOfFieldFocusEnd": {
+					"type": "float32",
+					"value": 50.0
+				},
+				"m_bFogGlobal": { "type": "bool", "value": false },
+				"m_fFogTurbulenceOpacity": {
+					"type": "float32",
+					"value": 0.800000011920929
+				},
+				"m_fDepthOfFieldFocalFadeFar": {
+					"type": "float32",
+					"value": 25.0
+				},
+				"m_bVignetteEnabled": { "type": "bool", "value": true },
+				"m_fVignetteStrength": {
+					"type": "float32",
+					"value": 0.6000000238418579
+				},
+				"m_VignetteColor": {
+					"type": "SColorRGB",
+					"value": "#000000"
+				},
+				"m_bSpatialBlurEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bRadialBlurEnabled": { "type": "bool", "value": false },
+				"m_fRadialBlurriness": { "type": "float32", "value": 1.0 },
+				"m_bDistortionWobbleEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bDistortionWobbleUseRealTime": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fDistortionWobbleScale": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"m_fGaussianBlurriness": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"m_vRadialBlurCenter": {
+					"type": "SVector2",
+					"value": { "x": 0.5, "y": 0.5 }
+				},
+				"m_fRadialBlurStart": { "type": "float32", "value": 0.0 },
+				"m_fRadialBlurFadeFactor": {
+					"type": "float32",
+					"value": 0.10999999940395357
+				},
+				"m_vSpatialBlurCenter": {
+					"type": "SVector3",
+					"value": { "x": 0.0, "y": 0.0, "z": 0.0 }
+				},
+				"m_fSpatialBlurStart": { "type": "float32", "value": 0.0 },
+				"m_fSpatialBlurFade": { "type": "float32", "value": 10.0 },
+				"m_fSpatialBlurriness": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"m_fDepthOfFieldFocusStart": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"m_fDepthOfFieldFocalFadeNear": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"m_vDistortionBarrel": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.2199999988079071,
+						"y": 0.05999999865889549
+					}
+				},
+				"m_bDistortionBarrelUseRealTime": {
+					"type": "bool",
+					"value": false
+				},
+				"m_vDistortionWobbleWaveLength": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.029999999329447743,
+						"y": 0.029999999329447743
+					}
+				},
+				"m_vDistortionWobbleSpeed": {
+					"type": "SVector2",
+					"value": { "x": 1.0, "y": 1.0 }
+				},
+				"m_vFogTurbulenceNearScale": {
+					"type": "SVector3",
+					"value": { "x": 10.0, "y": 10.0, "z": 10.0 }
+				},
+				"m_vFogTurbulenceVelocity": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.30000001192092896,
+						"y": 0.5,
+						"z": 0.10000000149011612
+					}
+				},
+				"m_fFogTurbulenceChaos": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"m_vHDRAdaptationSpeed": {
+					"type": "SVector2",
+					"value": { "x": 3.0, "y": 3.0 }
+				},
+				"m_HDRLensFlareColorA": {
+					"type": "SColorRGB",
+					"value": "#006dc7"
+				},
+				"m_HDRLensFlareColorB": {
+					"type": "SColorRGB",
+					"value": "#e68d6a"
+				},
+				"m_HDRLensFlareColorD": {
+					"type": "SColorRGB",
+					"value": "#b26034"
+				},
+				"m_vVignetteGradientLightColor": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"m_fVignetteGradientLightStrength": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"m_bDepthOfFieldUseNew": { "type": "bool", "value": true },
+				"m_fDepthOfFieldFocalDistance": {
+					"type": "float32",
+					"value": 10.0
+				},
+				"m_fDepthOfFieldAperture": {
+					"type": "float32",
+					"value": 3.0
+				},
+				"m_bDoubleVisionEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fDoubleVisionStrength": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"m_fDoubleVisionSpeed": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"m_fDoubleVisionEyeSeparation": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"m_fDoubleVisionSpeed1": {
+					"type": "float32",
+					"value": 147.0
+				},
+				"m_fDoubleVisionSpeed2": {
+					"type": "float32",
+					"value": 109.0
+				},
+				"m_fDoubleVisionScaleSpeed1": {
+					"type": "float32",
+					"value": 121.0
+				},
+				"m_fDoubleVisionScaleSpeed2": {
+					"type": "float32",
+					"value": 97.0
+				},
+				"m_fDoubleVisionMinScale": {
+					"type": "float32",
+					"value": 0.07000000029802322
+				},
+				"m_fDoubleVisionMaxScale": {
+					"type": "float32",
+					"value": 0.09000000357627869
+				},
+				"m_fDoubleVisionBlendSpeed": {
+					"type": "float32",
+					"value": 80.0
+				},
+				"m_fDoubleVisionBlendStrength": {
+					"type": "float32",
+					"value": 0.20000000298023224
+				},
+				"m_fDoubleVisionTrailStrength": {
+					"type": "float32",
+					"value": 0.05000000074505806
+				},
+				"m_fHDRBloomFalloff": { "type": "float32", "value": 2.0 },
+				"m_fHDRBrightPassMaxPercentage": {
+					"type": "float32",
+					"value": 90.0
+				},
+				"m_vHDRAdaptationMiddleGrayMinMax": {
+					"type": "SVector2",
+					"value": { "x": 0.10000000149011612, "y": 0.5 }
+				},
+				"m_nParameterId": { "type": "int32", "value": 1 },
+				"m_HDRAdaptionMiddleGrayCurveEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe7e05fd96dff7"
+				},
+				"m_vHDRAdaptationLuminanceMinMax": {
+					"type": "SVector2",
+					"value": { "x": 0.10000000149011612, "y": 100.0 }
+				},
+				"m_vSSAOStrengthNearFar": {
+					"type": "SVector2",
+					"value": { "x": 0.0, "y": 15.0 }
+				},
+				"m_vSSAODistanceNearFar": {
+					"type": "SVector2",
+					"value": { "x": 0.0, "y": 15.0 }
+				},
+				"m_vSSAOScreenSpaceRadiusLimits": {
+					"type": "SVector2",
+					"value": { "x": 10.0, "y": 500.0 }
+				},
+				"m_fLensBlur": {
+					"type": "float32",
+					"value": 0.4000000059604645
+				},
+				"m_eBlurQuality": {
+					"type": "ZRenderPostfilterParametersEntity.EDOFBlurType",
+					"value": "eLowRezLensBlurSoft"
+				},
+				"m_bForegroundBlur": { "type": "bool", "value": false },
+				"m_fLabsDofAnamorphic": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"m_fLabsDofSwirl": { "type": "float32", "value": 0.0 },
+				"m_eHDRGlareType": {
+					"type": "ZRenderPostfilterParametersEntity.EHDRGlareType",
+					"value": "eFilterSunnyCrossSpectral"
+				},
+				"m_fHDRStarScale": {
+					"type": "float32",
+					"value": 0.20000000298023224
+				},
+				"m_fHDRExposureMeteringSize": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"m_fASSAORadius": { "type": "float32", "value": 1.0 },
+				"ColorCorrectionTextureHDR": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/effects/textures/lut/cubelut/llama_soft.cube](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"m_vHDRBloomMinFalloffDistanceMinMax": {
+					"type": "SVector2",
+					"value": { "x": -5.0, "y": 5.0 }
+				},
+				"m_fVignetteSharpenStrength": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"m_vASSAOFadeInRange": {
+					"type": "SVector2",
+					"value": { "x": -5.0, "y": 10.0 }
+				},
+				"m_fASSAOMultiplier": { "type": "float32", "value": 1.0 },
+				"m_bHDREnabled": { "type": "bool", "value": true },
+				"m_fVignetteMin": {
+					"type": "float32",
+					"value": 0.6000000238418579
+				}
+			}
+		},
+		"cafe5b9baf071250": {
+			"parent": "cafe69d241b6d83d",
+			"name": "ValueBool_Basic_01",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"events": {
+				"OnFalse": {
+					"Input": [
+						{
+							"ref": "cafe6ae40b5077c0",
+							"value": {
+								"type": "float32",
+								"value": 0.20000000298023224
+							}
+						}
+					]
+				},
+				"OnTrue": {
+					"Input": [
+						{
+							"ref": "cafe6ae40b5077c0",
+							"value": {
+								"type": "float32",
+								"value": 1.100000023841858
+							}
+						}
+					]
+				}
+			}
+		},
+		"cafec47bde5c2224": {
+			"parent": "cafe2fe442424ebb",
+			"name": "Postfilters",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe6ae40b5077c0": {
+			"parent": "cafe69d241b6d83d",
+			"name": "SmoothOperator",
+			"factory": "[modules:/zsmoothoperator.class].pc_entitytype",
+			"blueprint": "[modules:/zsmoothoperator.class].pc_entityblueprint",
+			"properties": {
+				"m_fTransitionTime": { "type": "float32", "value": 1.0 }
+			},
+			"events": {
+				"Output": { "FrozenIntensity": ["cafe86dedb83ffdd"] }
+			}
+		},
+		"cafe69d241b6d83d": {
+			"parent": "cafec47bde5c2224",
+			"name": "Custom_7DeadlySins",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": null
+				},
+				"m_rEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe72eb20102037",
+					"postInit": true
+				}
+			},
+			"propertyAliases": {
+				"m_eidParent": [
+					{
+						"originalProperty": "m_eidParent",
+						"originalEntity": "cafec29e9daf4a50"
+					}
+				],
+				"m_rEntity": [
+					{
+						"originalProperty": "m_rEntity",
+						"originalEntity": "cafeb5051c9b9fbe"
+					}
+				]
+			}
+		},
+		"cafeca53268a38cc": {
+			"parent": "cafe2fe442424ebb",
+			"name": "RenderAtmosphericScattering",
+			"factory": "[modules:/zrenderatmosphericscatteringentity.class].pc_entitytype",
+			"blueprint": "[modules:/zrenderatmosphericscatteringentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 65.85529327392578,
+							"y": -67.98452758789062,
+							"z": 51.188621520996094
+						}
+					}
+				},
+				"m_fSunRadiusScale": { "type": "float32", "value": 2.5 },
+				"m_fSunIntensityScale": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"m_fHeightAboveSeaLevel": {
+					"type": "float32",
+					"value": 1000.0
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC"
+				},
+				"m_bForceVisible": { "type": "bool", "value": false },
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_bIsPrivate": { "type": "bool", "value": false },
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWorldScale": { "type": "float32", "value": 12.0 },
+				"m_fMieDepthScale": { "type": "float32", "value": 0.5 },
+				"m_fShadowedInscatterIntensity": {
+					"type": "float32",
+					"value": 3.0
+				},
+				"m_fMieAnisotropy": {
+					"type": "float32",
+					"value": 0.20000000298023224
+				},
+				"m_fInscatterIntensity": {
+					"type": "float32",
+					"value": 1.100000023841858
+				},
+				"m_fRayleighDepthScale": {
+					"type": "float32",
+					"value": 0.800000011920929
+				},
+				"m_MieColor": { "type": "SColorRGB", "value": "#fff49e" },
+				"m_fRayleighHeightScale": {
+					"type": "float32",
+					"value": 4000.0
+				},
+				"m_RayleighColor": {
+					"type": "SColorRGB",
+					"value": "#5496ff"
+				},
+				"m_fAmbientInscatterFraction": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"m_fMieHeightScale": {
+					"type": "float32",
+					"value": 2000.0
+				},
+				"m_vMieColor_LowQuality": {
+					"type": "SColorRGB",
+					"value": "#fff49e"
+				},
+				"m_vRayleighColor_LowQuality": {
+					"type": "SColorRGB",
+					"value": "#5496ff"
+				},
+				"m_fWorldScale_LowQuality": {
+					"type": "float32",
+					"value": 6.0
+				},
+				"m_bUseLowQualitySettings": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"platformSpecificProperties": {
+				"VR_PS4": {
+					"m_fWorldScale": { "type": "float32", "value": 6.0 }
+				}
+			}
+		},
+		"cafe7f1b1c576bad": {
+			"parent": "cafe69d241b6d83d",
+			"name": "Set black weight",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_float32.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_float32.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "cafec2e65107e414"
+				}
+			},
+			"events": { "EventReceived": { "In": ["cafea291e4963c20"] } }
+		},
+		"cafe72eb20102037": {
+			"parent": "cafec47bde5c2224",
+			"name": "FX_PF_PostfilterController",
+			"factory": "[assembly:/_pro/effects/templates/postfilters/fx_pf_postfiltercontroller.template?/fx_pf_postfiltercontroller.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/postfilters/fx_pf_postfiltercontroller.template?/fx_pf_postfiltercontroller.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"BlackWeight": { "type": "float32", "value": 0.0 },
+				"WhiteWeight": { "type": "float32", "value": 0.0 },
+				"m_bColorCorrectionHDR": { "type": "bool", "value": true },
+				"m_PostfilterParametersID": {
+					"type": "int32",
+					"value": 1
+				},
+				"BlackBlendInDuration": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"m_bDepthCull": { "type": "bool", "value": true },
+				"m_nMaxMirrors": { "type": "uint32", "value": 2 },
+				"m_bEnableCloth": { "type": "bool", "value": true }
+			},
+			"platformSpecificProperties": {
+				"VR_PS4": {
+					"m_bEnableCloth": { "type": "bool", "value": false }
+				},
+				"VR_PS4_PRO": {
+					"m_bEnableCloth": { "type": "bool", "value": true }
+				}
+			}
+		},
+		"cafea291e4963c20": {
+			"parent": "cafe69d241b6d83d",
+			"name": "Clamp",
+			"factory": "[modules:/zmathclamp.class].pc_entitytype",
+			"blueprint": "[modules:/zmathclamp.class].pc_entityblueprint",
+			"properties": {
+				"m_bUseHighLimit": { "type": "bool", "value": true },
+				"m_fHighClampLimit": { "type": "float32", "value": 1.0 },
+				"m_fHighClampReplace": { "type": "float32", "value": 1.0 }
+			},
+			"events": { "Out": { "SetValue": ["cafe203c73d70b67"] } }
+		},
+		"cafe30f662d6c164": {
+			"parent": "cafedd487da29282",
+			"name": "SkyLight",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 53.753299713134766,
+							"y": -83.1620864868164,
+							"z": 12.076979637145996
+						}
+					}
+				},
+				"m_fDiffusePower": { "type": "float32", "value": 15.0 },
+				"m_diffuseColor": {
+					"type": "SColorRGB",
+					"value": "#f2f7ff"
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_ENVIRONMENT"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe8d17c497678e": {
+			"parent": "cafedd487da29282",
+			"name": "BoxReflectionCache",
+			"factory": "[modules:/zboxreflectioncacheentity.class].pc_entitytype",
+			"blueprint": "[modules:/zboxreflectioncacheentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pBoxReflectionCache": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/boxreflections/_pro/scenes/missions/elegant/scenario_llama.boxc].pc_boxc",
+						"flag": "5F"
+					}
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [
+		{
+			"ref": "cafea25f08df0e4d",
+			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_crow.brick].pc_entitytype"
+		}
+	],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/hawk/scenario_crow.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
