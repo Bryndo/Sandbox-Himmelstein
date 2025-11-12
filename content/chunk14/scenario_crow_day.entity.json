@@ -1078,7 +1078,7 @@
 					"type": "float32",
 					"value": 0.800000011920929
 				},
-				"m_MieColor": { "type": "SColorRGB", "value": "#f9d8b3" },
+				"m_MieColor": { "type": "SColorRGB", "value": "#f9e5b3" },
 				"m_fRayleighHeightScale": {
 					"type": "float32",
 					"value": 4000.0
