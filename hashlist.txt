@@ -54,3 +54,6 @@
 
 00BBAD5226D86F5E.TEMP, [assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_wedding_area_a_modded.entitytemplate].pc_entitytype
 006922E9BC89AE18.TBLU, [assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_wedding_area_a_modded.entitytemplate].pc_entityblueprint
+
+008294A4A3467F9F.TEMP, [assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_palace_west_wing_a_modded.entitytemplate].pc_entitytype
+0067FE6EF1DD3AC7.TBLU, [assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_palace_west_wing_a_modded.entitytemplate].pc_entityblueprint
