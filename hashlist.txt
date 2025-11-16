@@ -51,3 +51,6 @@
 
 001B018957C1FD9F.TEMP, [assembly:/_pro/environment/geometry/levels/hawk/hawk_ground_a.wl2?/hawk_ground_palace_area_a_modded.prim].pc_entitytype
 00A1DAA4587B0194.TBLU, [assembly:/_pro/environment/geometry/levels/hawk/hawk_ground_a.wl2?/hawk_ground_palace_area_a_modded.prim].pc_entityblueprint
+
+00BBAD5226D86F5E.TEMP, [assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_wedding_area_a_modded.entitytemplate].pc_entitytype
+006922E9BC89AE18.TBLU, [assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_wedding_area_a_modded.entitytemplate].pc_entityblueprint

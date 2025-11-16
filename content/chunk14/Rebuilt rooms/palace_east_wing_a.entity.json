@@ -11068,7 +11068,7 @@
 			}
 		},
 		"feed826adc020a45": {
-			"parent": "feedd00f0725c23b",
+			"parent": "84dd6e801aaccd75",
 			"name": "palace_ext_wall_4x4_b_06",
 			"factory": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_wall_4x4_b.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/environment/templates/kits/palace/palace_a.template?/palace_ext_wall_4x4_b.entitytemplate].pc_entityblueprint",
@@ -11082,8 +11082,8 @@
 							"z": -0.055952911904113965
 						},
 						"position": {
-							"x": -19.838661193847656,
-							"y": -36.603397369384766,
+							"x": -20.973716735839844,
+							"y": -36.60335159301758,
 							"z": -4.000999927520752
 						}
 					}
@@ -11133,8 +11133,8 @@
 		"feed3edec2d3e484": {
 			"parent": "4893300960f4c138",
 			"name": "palace_garden_stairs_1m_a_21",
-			"factory": "[assembly:/_pro/environment/templates/kits/palace_garden/palace_garden_a.template?/palace_garden_stairs_1m_a.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/kits/palace_garden/palace_garden_a.template?/palace_garden_stairs_1m_a.entitytemplate].pc_entityblueprint",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
@@ -11154,7 +11154,7 @@
 				"m_PrimitiveScale": {
 					"type": "SVector3",
 					"value": {
-						"x": 0.5,
+						"x": 1,
 						"y": 1,
 						"z": 1
 					}
@@ -11163,6 +11163,14 @@
 					"type": "SEntityTemplateReference",
 					"value": "4893300960f4c138",
 					"postInit": true
+				},
+				"m_bRemovePhysics": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": {
+					"type": "bool",
+					"value": true
 				}
 			}
 		},
@@ -12106,15 +12114,23 @@
 							"z": -180
 						},
 						"position": {
-							"x": -2.9041595458984375,
-							"y": -6.326932907104492,
-							"z": 4.310052394866943
+							"x": -2.8747711181640625,
+							"y": -6.326939105987549,
+							"z": 4.125798225402832
 						}
 					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "feeda3540b4741cf"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1.2000000476837158
+					}
 				}
 			}
 		},
@@ -12284,9 +12300,9 @@
 							"z": -89.9999965849052
 						},
 						"position": {
-							"x": -12.7689208984375,
-							"y": -20.494062423706055,
-							"z": 3.043405294418335
+							"x": -12.750068664550781,
+							"y": -20.364152908325195,
+							"z": 3.043407917022705
 						}
 					}
 				},
