@@ -57,3 +57,6 @@
 
 008294A4A3467F9F.TEMP, [assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_palace_west_wing_a_modded.entitytemplate].pc_entitytype
 0067FE6EF1DD3AC7.TBLU, [assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_palace_west_wing_a_modded.entitytemplate].pc_entityblueprint
+
+0024DC58A8CCC33A.TEMP, [assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_palace_backside_a_modded.entitytemplate].pc_entitytype
+0067B0EAB1B6BC60.TBLU, [assembly:/_pro/environment/templates/levels/hawk/hawk_environment_areas_a.template?/hawk_palace_backside_a_modded.entitytemplate].pc_entityblueprint
