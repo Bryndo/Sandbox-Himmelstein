@@ -4,7 +4,7 @@
     "name": "Himmelstein freeroam",
     "description": "Adds a freeroam Himmelstein",
     "authors": [
-        "Bryn"
+        "The Bryx"
     ],
     "frameworkVersion": "2.33.26",
     "version": "0.5.0",
@@ -44,6 +44,16 @@
             "type": "entity",
             "partition": "hawk",
             "path": "[assembly:/_pro/scenes/missions/hawk/scenario_raven.brick].entitytype"
+        },
+        {
+            "type": "entity",
+            "partition": "hawk",
+            "path": "[assembly:/_pro/scenes/missions/hawk/npcs_bryndo_snow.brick].entitytype"
+        },
+        {
+            "type": "entity",
+            "partition": "hawk",
+            "path": "[assembly:/_pro/scenes/missions/hawk/scenario_penguin.brick].entitytype"
         }
     ],
     "localisation": {
@@ -52,6 +62,8 @@
             "UI_CONTRACT_CROW_TITLE": "Crow",
             "UI_CONTRACT_RAVEN_TITLE": "Raven",
             "UI_CONTRACT_RAVEN_DESC":"Raven desc",
+            "UI_CONTRACT_PENGUIN_TITLE":"Penguin",
+            "UI_CONTRACT_PENGUIN_DESC":"Penguin Desc",
             "UI_STARTING_LOCATION_CROW_CARPARK_NAME": "Hotel carpark",
             "UI_STARTING_LOCATION_CROW_CARPARK_DESC": "47 arrived at the hotel car park"
         }
@@ -505,9 +517,9 @@
             "Comment": "sapi billboard"
         },
         {
-            "runtimeID": "00B58741EEE4DC0A",
+            "runtimeID": "00464EE06E4AA17D",
             "toChunk": 14,
-            "Comment": ""
+            "Comment": "sky bulldog"
         },
         {
             "runtimeID": "00B58741EEE4DC0A",
