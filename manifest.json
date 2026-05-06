@@ -59,11 +59,11 @@
     "localisation": {
         "english": {
             "UI_CONTRACT_CROW_DESC": "We have finally found the final leader of the Keepers",
-            "UI_CONTRACT_CROW_TITLE": "Crow",
-            "UI_CONTRACT_RAVEN_TITLE": "Raven",
+            "UI_CONTRACT_CROW_TITLE": "Day",
+            "UI_CONTRACT_RAVEN_TITLE": "Morning",
             "UI_CONTRACT_RAVEN_DESC":"Raven desc",
             "UI_CONTRACT_PENGUIN_TITLE":"Penguin",
-            "UI_CONTRACT_PENGUIN_DESC":"Penguin Desc",
+            "UI_CONTRACT_PENGUIN_DESC":"Snow",
             "UI_STARTING_LOCATION_CROW_CARPARK_NAME": "Hotel carpark",
             "UI_STARTING_LOCATION_CROW_CARPARK_DESC": "47 arrived at the hotel car park"
         }
